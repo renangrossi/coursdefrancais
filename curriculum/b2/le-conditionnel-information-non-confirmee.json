@@ -210,6 +210,92 @@
           "explanation": "Jamais de conditionnel juste après si."
         }
       ]
+    },
+    {
+      "id": "b2cncx-reading",
+      "type": "reading-comprehension",
+      "title": "Lecture : Une Dépêche de Presse",
+      "passage": "<p>Selon des sources proches du dossier, l'entreprise aurait licencié une centaine d'employés ce mois-ci. La direction n'a pas encore confirmé cette information. Le nouveau contrat avec l'étranger serait signé la semaine prochaine, ce qui, d'après les analystes, pourrait sauver plusieurs emplois. Aucune déclaration officielle n'a été faite pour l'instant.</p>",
+      "items": [
+        {
+          "id": "b2cncxr1",
+          "prompt": "Qu'aurait fait l'entreprise selon des sources proches du dossier ?",
+          "options": [
+            "Licencié une centaine d'employés",
+            "Embauché cent employés",
+            "Fermé ses portes"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte le dit directement."
+        },
+        {
+          "id": "b2cncxr2",
+          "prompt": "La direction a-t-elle confirmé l'information ?",
+          "options": [
+            "Non, pas encore",
+            "Oui, totalement",
+            "Oui, en partie"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit : « n'a pas encore confirmé »."
+        },
+        {
+          "id": "b2cncxr3",
+          "prompt": "Quand le nouveau contrat serait-il signé ?",
+          "options": [
+            "La semaine prochaine",
+            "Ce soir",
+            "Dans un an"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte le dit directement."
+        },
+        {
+          "id": "b2cncxr4",
+          "prompt": "Une déclaration officielle a-t-elle été faite ?",
+          "options": [
+            "Non, aucune pour l'instant",
+            "Oui, ce matin",
+            "Oui, hier"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte se termine par cette phrase."
+        }
+      ]
+    },
+    {
+      "id": "b2cncx-order",
+      "type": "ordering",
+      "title": "Remets la Phrase en Ordre",
+      "items": [
+        {
+          "id": "b2cncxo1",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "L'entreprise",
+            "aurait",
+            "licencié",
+            "une",
+            "centaine",
+            "d'employés"
+          ],
+          "explanation": "Conditionnel passé, information non confirmée."
+        },
+        {
+          "id": "b2cncxo2",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Le",
+            "contrat",
+            "serait",
+            "signé",
+            "la",
+            "semaine",
+            "prochaine"
+          ],
+          "explanation": "Conditionnel présent passif, information non confirmée."
+        }
+      ]
     }
   ],
   "summary": [

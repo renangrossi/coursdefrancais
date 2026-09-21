@@ -210,6 +210,90 @@
           "explanation": "Sujet du verbe intéresser : ce qui."
         }
       ]
+    },
+    {
+      "id": "b2empx-reading",
+      "type": "reading-comprehension",
+      "title": "Lecture : Le Concours de Cuisine",
+      "passage": "<p>C'est Léo qui a remporté le concours de cuisine cette année. Ce qui a impressionné le jury, c'est l'originalité de son dessert. C'est surtout la présentation qu'ils ont saluée. Ce que Léo retient de cette expérience, c'est l'importance de la créativité.</p>",
+      "items": [
+        {
+          "id": "b2empxr1",
+          "prompt": "Qui a remporté le concours ?",
+          "options": [
+            "Léo",
+            "Le jury",
+            "Un autre candidat"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte le dit directement, avec c'est... qui."
+        },
+        {
+          "id": "b2empxr2",
+          "prompt": "Qu'est-ce qui a impressionné le jury ?",
+          "options": [
+            "L'originalité de son dessert",
+            "Le prix du plat",
+            "La rapidité de Léo"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte le dit directement, avec ce qui... c'est."
+        },
+        {
+          "id": "b2empxr3",
+          "prompt": "Qu'ont surtout salué les juges ?",
+          "options": [
+            "La présentation",
+            "Le goût",
+            "La rapidité"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte le dit directement, avec c'est... que."
+        },
+        {
+          "id": "b2empxr4",
+          "prompt": "Que retient Léo de cette expérience ?",
+          "options": [
+            "L'importance de la créativité",
+            "L'importance de la rapidité",
+            "Rien de particulier"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte se termine par cette phrase, avec ce que... c'est."
+        }
+      ]
+    },
+    {
+      "id": "b2empx-order",
+      "type": "ordering",
+      "title": "Remets la Phrase en Ordre",
+      "items": [
+        {
+          "id": "b2empxo1",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "C'est",
+            "Léo",
+            "qui",
+            "a",
+            "gagné"
+          ],
+          "explanation": "C'est... qui met en relief le sujet."
+        },
+        {
+          "id": "b2empxo2",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Ce",
+            "qui",
+            "compte,",
+            "c'est",
+            "la",
+            "créativité"
+          ],
+          "explanation": "Ce qui... c'est met en relief le sujet avec une emphase forte."
+        }
+      ]
     }
   ],
   "summary": [

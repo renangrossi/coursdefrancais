@@ -210,6 +210,94 @@
           "explanation": "À moins que impose le subjonctif."
         }
       ]
+    },
+    {
+      "id": "b2sbox-reading",
+      "type": "reading-comprehension",
+      "title": "Lecture : Un Projet Difficile",
+      "passage": "<p>Bien que le projet soit compliqué, l'équipe continue à y travailler. Le chef explique chaque étape pour que tout le monde comprenne. Ils termineront à temps, à moins qu'un problème imprévu ne survienne. Personne ne pense que le projet échoue, mais tous restent prudents avant que la présentation finale n'arrive.</p>",
+      "items": [
+        {
+          "id": "b2sboxr1",
+          "prompt": "Que fait l'équipe bien que le projet soit compliqué ?",
+          "options": [
+            "Elle continue à y travailler",
+            "Elle abandonne",
+            "Elle change de projet"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte le dit directement."
+        },
+        {
+          "id": "b2sboxr2",
+          "prompt": "Pourquoi le chef explique-t-il chaque étape ?",
+          "options": [
+            "Pour que tout le monde comprenne",
+            "Pour impressionner l'équipe",
+            "Parce qu'il s'ennuie"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte le dit directement."
+        },
+        {
+          "id": "b2sboxr3",
+          "prompt": "Dans quel cas l'équipe ne terminerait-elle pas à temps ?",
+          "options": [
+            "À moins qu'un problème imprévu ne survienne",
+            "Si le chef part",
+            "Si le projet est trop facile"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte le dit directement."
+        },
+        {
+          "id": "b2sboxr4",
+          "prompt": "Que pense l'équipe du risque d'échec ?",
+          "options": [
+            "Personne ne pense que le projet échoue",
+            "Tout le monde pense qu'il échouera",
+            "Le chef seul y croit"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte le dit directement."
+        }
+      ]
+    },
+    {
+      "id": "b2sbox-order",
+      "type": "ordering",
+      "title": "Remets la Phrase en Ordre",
+      "items": [
+        {
+          "id": "b2sboxo1",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Bien",
+            "que",
+            "ce",
+            "soit",
+            "compliqué",
+            "elle",
+            "continue"
+          ],
+          "explanation": "Bien que + subjonctif exprime la concession."
+        },
+        {
+          "id": "b2sboxo2",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Il",
+            "explique",
+            "pour",
+            "que",
+            "tout",
+            "le",
+            "monde",
+            "comprenne"
+          ],
+          "explanation": "Pour que + subjonctif exprime le but."
+        }
+      ]
     }
   ],
   "summary": [

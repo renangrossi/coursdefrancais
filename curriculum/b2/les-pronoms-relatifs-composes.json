@@ -210,6 +210,91 @@
           "explanation": "Qui est préféré pour une personne."
         }
       ]
+    },
+    {
+      "id": "b2rcx-reading",
+      "type": "reading-comprehension",
+      "title": "Lecture : Le Bureau de Sarah",
+      "passage": "<p>Sarah travaille dans une entreprise pour laquelle elle a beaucoup d'admiration. Le bureau dans lequel elle passe ses journées donne sur un joli parc. Les collègues avec lesquels elle déjeune sont devenus de vrais amis. C'est un projet auquel elle pense sans cesse : créer sa propre équipe l'année prochaine.</p>",
+      "items": [
+        {
+          "id": "b2rcxr1",
+          "prompt": "Que ressent Sarah pour son entreprise ?",
+          "options": [
+            "Beaucoup d'admiration",
+            "De l'indifférence",
+            "De la déception"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte le dit directement."
+        },
+        {
+          "id": "b2rcxr2",
+          "prompt": "Sur quoi donne son bureau ?",
+          "options": [
+            "Un joli parc",
+            "Une rue bruyante",
+            "Un parking"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte le dit directement."
+        },
+        {
+          "id": "b2rcxr3",
+          "prompt": "Que sont devenus ses collègues ?",
+          "options": [
+            "De vrais amis",
+            "Des rivaux",
+            "Des inconnus"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte le dit directement."
+        },
+        {
+          "id": "b2rcxr4",
+          "prompt": "À quel projet pense-t-elle sans cesse ?",
+          "options": [
+            "Créer sa propre équipe l'année prochaine",
+            "Changer d'entreprise",
+            "Déménager"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte se termine par cette phrase."
+        }
+      ]
+    },
+    {
+      "id": "b2rcx-order",
+      "type": "ordering",
+      "title": "Remets la Phrase en Ordre",
+      "items": [
+        {
+          "id": "b2rcxo1",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Le",
+            "bureau",
+            "dans",
+            "lequel",
+            "elle",
+            "travaille"
+          ],
+          "explanation": "Pronom relatif composé après une préposition de lieu."
+        },
+        {
+          "id": "b2rcxo2",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "C'est",
+            "un",
+            "projet",
+            "auquel",
+            "elle",
+            "pense"
+          ],
+          "explanation": "À + lequel se contracte en auquel."
+        }
+      ]
     }
   ],
   "summary": [

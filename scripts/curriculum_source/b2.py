@@ -805,3 +805,6 @@ EXTRA_EXERCISES = {
          ]},
     ],
 }
+
+for _lesson in LESSONS:
+    _lesson["exercises"].extend(EXTRA_EXERCISES.get(_lesson["id"], []))

@@ -210,6 +210,93 @@
           "explanation": "Partir se conjugue avec être."
         }
       ]
+    },
+    {
+      "id": "b2fax-reading",
+      "type": "reading-comprehension",
+      "title": "Lecture : Les Plans du Week-end",
+      "passage": "<p>Dès que nous aurons fini nos devoirs, nous irons au cinéma. Quand ma sœur sera rentrée, nous mangerons tous ensemble. Lorsque j'aurai terminé mon livre, je le prêterai à mon frère. Aussitôt que le film aura commencé, éteignez vos téléphones, s'il vous plaît.</p>",
+      "items": [
+        {
+          "id": "b2faxr1",
+          "prompt": "Que feront-ils dès qu'ils auront fini leurs devoirs ?",
+          "options": [
+            "Ils iront au cinéma",
+            "Ils dormiront",
+            "Ils partiront en voyage"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte le dit directement."
+        },
+        {
+          "id": "b2faxr2",
+          "prompt": "Quand mangeront-ils tous ensemble ?",
+          "options": [
+            "Quand la sœur sera rentrée",
+            "Demain matin",
+            "Après le film"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte le dit directement."
+        },
+        {
+          "id": "b2faxr3",
+          "prompt": "Que fera la personne de son livre ?",
+          "options": [
+            "Elle le prêtera à son frère",
+            "Elle le vendra",
+            "Elle le jettera"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte le dit directement."
+        },
+        {
+          "id": "b2faxr4",
+          "prompt": "Que faut-il faire aussitôt que le film aura commencé ?",
+          "options": [
+            "Éteindre son téléphone",
+            "Applaudir",
+            "Sortir de la salle"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte se termine par cette demande."
+        }
+      ]
+    },
+    {
+      "id": "b2fax-order",
+      "type": "ordering",
+      "title": "Remets la Phrase en Ordre",
+      "items": [
+        {
+          "id": "b2faxo1",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Dès",
+            "que",
+            "nous",
+            "aurons",
+            "fini,",
+            "nous",
+            "irons"
+          ],
+          "explanation": "Futur antérieur après dès que, futur simple dans la principale."
+        },
+        {
+          "id": "b2faxo2",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Quand",
+            "ma",
+            "sœur",
+            "sera",
+            "rentrée,",
+            "nous",
+            "mangerons"
+          ],
+          "explanation": "Futur antérieur (être) après quand pour l'action antérieure."
+        }
+      ]
     }
   ],
   "summary": [
