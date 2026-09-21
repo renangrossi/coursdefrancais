@@ -335,12 +335,53 @@
       ]
     },
     "C2": {
-      "overview": "Le niveau C2 sera le sommet de ce cours : il ne s'agira plus d'apprendre une nouvelle grammaire, mais d'affiner une maîtrise déjà quasi complète. Tu travailleras la syntaxe complexe et la subordination multiple, le registre littéraire et ses procédés stylistiques, les nuances lexicales et les faux amis les plus subtils, la richesse de la variation régionale du français dans toute la francophonie, la cohésion d'un discours étendu, la modalité et l'atténuation en registre formel, quelques structures archaïques ou littéraires que tout lecteur cultivé reconnaît, et la capacité à transformer délibérément ton registre selon la situation. À la fin de ce niveau, tu auras une maîtrise du français pratiquement indissociable de celle d'un locuteur natif cultivé, dans presque tous les contextes imaginables. Ce niveau arrive bientôt ; en attendant, commence par le niveau Pre-A1, déjà disponible.",
+      "overview": "Le niveau C2 est le sommet de ce cours : il ne s'agit plus d'apprendre une nouvelle grammaire, mais d'affiner une maîtrise déjà quasi complète. Tu travailleras la syntaxe complexe et la subordination multiple, le registre littéraire et ses procédés stylistiques, les nuances lexicales et les faux amis les plus subtils, la richesse de la variation régionale du français dans toute la francophonie, l'ironie et l'implicite, l'atténuation et la diplomatie dans le discours, les expressions idiomatiques avancées, l'analyse et la synthèse de documents complexes, la créativité lexicale, et la capacité à réécrire un même contenu dans n'importe quel registre. À la fin de ce niveau, tu auras une maîtrise du français pratiquement indissociable de celle d'un locuteur natif cultivé, dans presque tous les contextes imaginables.",
       "units": [
         {
           "id": "1",
           "title": "Grammaire C2",
-          "lessons": []
+          "lessons": [
+            {
+              "id": "c2-la-syntaxe-complexe-et-la-subordination-multiple",
+              "status": "published"
+            },
+            {
+              "id": "c2-le-registre-litteraire-et-les-procedes-stylistiques",
+              "status": "published"
+            },
+            {
+              "id": "c2-les-nuances-lexicales-et-les-faux-amis-avances",
+              "status": "published"
+            },
+            {
+              "id": "c2-la-variation-regionale-du-francais",
+              "status": "published"
+            },
+            {
+              "id": "c2-lironie-limplicite-et-les-sous-entendus",
+              "status": "published"
+            },
+            {
+              "id": "c2-lattenuation-et-la-diplomatie-dans-le-discours",
+              "status": "published"
+            },
+            {
+              "id": "c2-les-expressions-idiomatiques-avancees",
+              "status": "published"
+            },
+            {
+              "id": "c2-lanalyse-et-la-synthese-de-documents-complexes",
+              "status": "published"
+            },
+            {
+              "id": "c2-la-creativite-lexicale-neologismes-et-jeux-de-mots",
+              "status": "published"
+            },
+            {
+              "id": "c2-la-reecriture-stylistique-et-ladaptation-de-registre",
+              "status": "published"
+            }
+          ]
         }
       ]
     }

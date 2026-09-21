@@ -1,0 +1,303 @@
+{
+  "id": "c2-la-creativite-lexicale-neologismes-et-jeux-de-mots",
+  "level": "C2",
+  "unit": "1",
+  "order": 9,
+  "skill": "vocabulary",
+  "strand": "creativite-lexicale",
+  "title": "La Créativité Lexicale : Néologismes et Jeux de Mots",
+  "subtitle": "Reconnaître et former des néologismes par affixation, et comprendre les jeux de mots courants.",
+  "objectives": [
+    "Reconnaître les procédés productifs de formation de néologismes (préfixation, suffixation, mots-valises).",
+    "Comprendre un calembour ou un jeu de mots fondé sur l'homophonie ou la polysémie.",
+    "Créer soi-même un néologisme plausible à partir d'un procédé productif du français."
+  ],
+  "content": {
+    "intro": "Le français, comme toute langue vivante, crée sans cesse de nouveaux mots ; reconnaître les procédés qui les forment, et apprécier un bon jeu de mots, relève d'une maîtrise proche de celle d'un locuteur natif cultivé.",
+    "explanation": "<p>Les néologismes se forment le plus souvent par des procédés productifs et prévisibles : la <strong>préfixation</strong> (<em>télétravailler, hyperconnecté, ultraconnecté</em>), la <strong>suffixation</strong> (<em>-iser</em> : <em>fiabiliser, sécuriser</em> ; <em>-esque</em> : <em>kafkaïesque</em> ; <em>-phobe/-phile</em> : <em>technophobe, europhile</em>), et le <strong>mot-valise</strong>, qui fusionne deux mots existants en un seul (<em>franglais</em> = français + anglais, <em>courriel</em> = courrier + électronique, <em>infox</em> = information + intox). Ces procédés permettent, même sans connaître un néologisme précis, d'en deviner le sens probable à partir de ses composants.</p><p>Le <strong>calembour</strong> (jeu de mots) exploite l'homophonie (deux mots qui se prononcent pareil mais s'écrivent différemment : <em>le maire et la mer</em>) ou la polysémie (un même mot à deux sens : <em>Les poules du couvent couvent</em>, où <em>couvent</em> est à la fois un nom et le verbe <em>couver</em> conjugué). Apprécier un calembour demande de percevoir simultanément les deux sens ou les deux mots en jeu — une compétence purement réceptive, rarement nécessaire à l'écrit formel.</p>",
+    "rules": [
+      {
+        "heading": "a) Préfixation productive",
+        "body": "<ul><li><em>télé-, hyper-, ultra-</em> + verbe/adjectif : <em>télétravailler, hyperconnecté</em>.</li></ul>"
+      },
+      {
+        "heading": "b) Suffixation productive",
+        "body": "<ul><li><em>-iser</em> (verbe), <em>-esque</em> (adjectif), <em>-phobe/-phile</em> (attitude) : <em>sécuriser, kafkaïesque, technophobe</em>.</li></ul>"
+      },
+      {
+        "heading": "c) Le mot-valise",
+        "body": "<ul><li>Fusion de deux mots existants en un seul : <em>franglais, courriel, infox</em>.</li></ul>"
+      },
+      {
+        "heading": "d) Le calembour",
+        "body": "<ul><li>Jeu sur l'homophonie (<em>le maire/la mer</em>) ou la polysémie (un mot à deux sens dans la même phrase).</li></ul>"
+      }
+    ],
+    "examples": [
+      "Le télétravail s'est généralisé depuis quelques années.",
+      "Cette entreprise est particulièrement hyperconnectée à ses clients.",
+      "Il faut sécuriser ce système avant de le déployer.",
+      "Cette bureaucratie absurde a quelque chose de kafkaïesque.",
+      "Le courriel a largement remplacé la lettre papier dans les échanges professionnels.",
+      "Attention à l'infox qui circule sur les réseaux sociaux.",
+      "Les poules du couvent couvent, disait la vieille énigme."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Croire qu'un néologisme comme « hyperconnecté » est forcément incorrect ou fautif.",
+        "right": "Reconnaître qu'un néologisme formé par un procédé productif (préfixe hyper- + participe) est parfaitement légitime.",
+        "why": "Le français crée régulièrement des mots nouveaux par des procédés réguliers et reconnus."
+      },
+      {
+        "wrong": "Ne pas percevoir le double sens d'un calembour et le prendre au premier degré uniquement.",
+        "right": "Repérer les deux sens simultanés (homophonie ou polysémie) qui créent l'effet comique ou spirituel.",
+        "why": "Un calembour repose entièrement sur la perception du double sens ; sans elle, l'effet est perdu."
+      },
+      {
+        "wrong": "Confondre un mot-valise (fusion de deux mots) avec un simple mot composé (deux mots juxtaposés avec un trait d'union).",
+        "right": "Réserver mot-valise aux fusions qui tronquent et combinent des sons de deux mots (courriel), différent d'un composé classique (porte-monnaie).",
+        "why": "Ce sont deux procédés de formation distincts, même s'ils produisent tous deux des mots nouveaux."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "c2neo-mc",
+      "type": "multiple-choice",
+      "title": "Identifie le Procédé",
+      "items": [
+        {
+          "id": "c2neom1",
+          "prompt": "Comment se forme le mot « courriel » ?",
+          "options": [
+            "Par fusion (mot-valise) de courrier et électronique",
+            "Par simple préfixation",
+            "Par un emprunt direct à l'anglais"
+          ],
+          "answerIndex": 0,
+          "explanation": "C'est un mot-valise créé pour remplacer l'anglicisme e-mail."
+        },
+        {
+          "id": "c2neom2",
+          "prompt": "Quel suffixe forme un verbe à partir d'un adjectif comme « sécurisé » ?",
+          "options": [
+            "-iser (sécuriser)",
+            "-esque",
+            "-phile"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le suffixe -iser forme des verbes à partir d'adjectifs ou de noms."
+        },
+        {
+          "id": "c2neom3",
+          "prompt": "« Les poules du couvent couvent » joue sur quel procédé ?",
+          "options": [
+            "La polysémie/homographie d'un même mot",
+            "La préfixation",
+            "Le mot-valise"
+          ],
+          "answerIndex": 0,
+          "explanation": "Couvent est à la fois un nom et une forme verbale, d'où l'effet de calembour."
+        },
+        {
+          "id": "c2neom4",
+          "prompt": "Que signifie le suffixe « -phile » dans « europhile » ?",
+          "options": [
+            "Qui aime, qui est favorable à",
+            "Qui craint, qui rejette",
+            "Qui étudie scientifiquement"
+          ],
+          "answerIndex": 0,
+          "explanation": "-phile marque l'attirance ou la sympathie, à l'inverse de -phobe."
+        }
+      ]
+    },
+    {
+      "id": "c2neo-fill",
+      "type": "fill-blank",
+      "title": "Complète avec le Néologisme Approprié",
+      "items": [
+        {
+          "id": "c2neof1",
+          "prompt": "Le ___ s'est généralisé depuis la généralisation d'internet à haut débit.",
+          "answers": [
+            [
+              "télétravail"
+            ]
+          ],
+          "options": [
+            "télétravail",
+            "franglais",
+            "courriel"
+          ],
+          "explanation": "Préfixe télé- + travail, désignant le travail à distance."
+        },
+        {
+          "id": "c2neof2",
+          "prompt": "Cette fausse information très répandue est un exemple d'___.",
+          "answers": [
+            [
+              "infox"
+            ]
+          ],
+          "options": [
+            "infox",
+            "courriel",
+            "kafkaïesque"
+          ],
+          "explanation": "Infox est le mot-valise recommandé pour fake news."
+        },
+        {
+          "id": "c2neof3",
+          "prompt": "Une situation absurde et bureaucratique peut être qualifiée de ___.",
+          "answers": [
+            [
+              "kafkaïesque"
+            ]
+          ],
+          "options": [
+            "kafkaïesque",
+            "technophobe",
+            "hyperconnecté"
+          ],
+          "explanation": "Le suffixe -esque, associé au nom Kafka, forme cet adjectif."
+        },
+        {
+          "id": "c2neof4",
+          "prompt": "Une personne qui craint ou rejette la technologie est ___.",
+          "answers": [
+            [
+              "technophobe"
+            ]
+          ],
+          "options": [
+            "technophobe",
+            "technophile",
+            "technoesque"
+          ],
+          "explanation": "Le suffixe -phobe marque le rejet ou la crainte."
+        }
+      ]
+    },
+    {
+      "id": "c2neo-correction",
+      "type": "correction",
+      "title": "Corrige l'Analyse du Néologisme",
+      "items": [
+        {
+          "id": "c2neoc1",
+          "incorrect": "« Courriel » est un emprunt direct de l'anglais « e-mail ».",
+          "answer": [
+            "« Courriel » est un mot-valise français, fusion de courrier et électronique."
+          ],
+          "explanation": "C'est une création française destinée à remplacer l'anglicisme, pas un emprunt."
+        },
+        {
+          "id": "c2neoc2",
+          "incorrect": "« Hyperconnecté » est un mot incorrect qu'il faut éviter à l'écrit soigné.",
+          "answer": [
+            "« Hyperconnecté » est un néologisme légitime, formé par un procédé de préfixation productif."
+          ],
+          "explanation": "Les néologismes formés régulièrement sont parfaitement acceptés en français contemporain."
+        },
+        {
+          "id": "c2neoc3",
+          "incorrect": "Le calembour « les poules du couvent couvent » ne joue sur aucun double sens particulier.",
+          "answer": [
+            "Le calembour « les poules du couvent couvent » joue sur la polysémie/homographie du mot couvent (nom et verbe)."
+          ],
+          "explanation": "L'effet du calembour repose entièrement sur ce double sens perçu simultanément."
+        }
+      ]
+    },
+    {
+      "id": "c2neox-reading",
+      "type": "reading-comprehension",
+      "title": "Lecture : Le Langage de Demain",
+      "passage": "<p>Avec la généralisation du télétravail, de nouveaux mots hyperconnectés sont apparus : on parle désormais de « zoomer » une réunion ou d'être « visio-fatigué ». Certains dénoncent l'infox qui circule sur ces sujets, tandis que d'autres plaisantent : « Le télétravailleur, lui, ne travaille pas à l'œil ! », jouant sur la double lecture de cette expression.</p>",
+      "items": [
+        {
+          "id": "c2neoxr1",
+          "prompt": "Quel phénomène a favorisé l'apparition de nouveaux mots, selon le texte ?",
+          "options": [
+            "La généralisation du télétravail",
+            "Une réforme de l'orthographe",
+            "L'apparition d'une nouvelle langue"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte le dit directement en ouverture."
+        },
+        {
+          "id": "c2neoxr2",
+          "prompt": "Que dénoncent certains, selon le texte ?",
+          "options": [
+            "L'infox qui circule sur ces sujets",
+            "Le prix des ordinateurs",
+            "L'absence de télétravail"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte le précise directement."
+        },
+        {
+          "id": "c2neoxr3",
+          "prompt": "Sur quoi joue la plaisanterie finale du texte ?",
+          "options": [
+            "Une double lecture possible de l'expression",
+            "Une simple erreur de frappe",
+            "Un mot totalement inventé sans logique"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte le signale explicitement comme un jeu de mots."
+        },
+        {
+          "id": "c2neoxr4",
+          "prompt": "Que signifie « visio-fatigué », d'après sa formation ?",
+          "options": [
+            "Fatigué par les visioconférences (néologisme par composition)",
+            "Qui n'aime pas la vidéo",
+            "Qui travaille de nuit"
+          ],
+          "answerIndex": 0,
+          "explanation": "C'est un néologisme composé, formé sur le modèle de préfixation/composition du texte."
+        }
+      ]
+    },
+    {
+      "id": "c2neox-order",
+      "type": "ordering",
+      "title": "Remets la Phrase en Ordre",
+      "items": [
+        {
+          "id": "c2neoxo1",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "De",
+            "nouveaux",
+            "mots",
+            "hyperconnectés",
+            "sont",
+            "apparus"
+          ],
+          "explanation": "Néologisme formé par préfixation (hyper-)."
+        },
+        {
+          "id": "c2neoxo2",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "L'infox",
+            "circule",
+            "beaucoup",
+            "sur",
+            "internet"
+          ],
+          "explanation": "Mot-valise (information + intox) en position sujet."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Les néologismes se forment surtout par préfixation (hyper-, télé-), suffixation (-iser, -esque, -phobe/-phile) et mots-valises (courriel, infox).",
+    "Un mot-valise fusionne deux mots existants, contrairement à un simple mot composé juxtaposé.",
+    "Un calembour repose sur l'homophonie ou la polysémie, perçues simultanément par le lecteur ou l'auditeur."
+  ]
+}

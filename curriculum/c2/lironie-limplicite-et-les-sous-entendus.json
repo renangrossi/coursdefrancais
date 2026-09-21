@@ -1,0 +1,301 @@
+{
+  "id": "c2-lironie-limplicite-et-les-sous-entendus",
+  "level": "C2",
+  "unit": "1",
+  "order": 5,
+  "skill": "reading",
+  "strand": "implicite",
+  "title": "L'Ironie, l'Implicite et les Sous-entendus",
+  "subtitle": "Lire entre les lignes : litote, antiphrase ironique et sous-entendus culturels du français.",
+  "objectives": [
+    "Reconnaître l'ironie par antiphrase, où l'on dit le contraire de ce que l'on pense.",
+    "Identifier la litote, qui atténue pour mieux souligner.",
+    "Repérer les marqueurs de ton qui signalent qu'un énoncé ne doit pas être pris au premier degré."
+  ],
+  "content": {
+    "intro": "Une phrase française peut vouloir dire exactement le contraire de ce qu'elle affirme littéralement, ou suggérer beaucoup plus qu'elle ne dit : au niveau C2, savoir repérer ces effets devient aussi important que de comprendre le sens littéral.",
+    "explanation": "<p>L'<strong>ironie par antiphrase</strong> consiste à dire le contraire de ce que l'on pense, pour se moquer ou critiquer avec légèreté : <em>Quelle belle journée !</em>, dit sous une pluie battante. À l'écrit, elle se signale souvent par le contexte ou par des guillemets ironiques ; à l'oral, par l'intonation. La <strong>litote</strong> fait l'inverse : elle atténue volontairement une affirmation pour, paradoxalement, en renforcer l'effet — <em>Ce n'est pas mauvais</em> pour dire que c'est très bon, <em>Je ne te déteste pas</em> pour suggérer une réelle affection.</p><p>Le français cultive aussi les <strong>sous-entendus</strong> culturels, où l'on suggère sans jamais affirmer directement — une politesse qui évite la confrontation frontale : <em>Il serait peut-être temps de penser à partir</em> peut signifier, selon le ton, « je veux que tu partes maintenant ». Repérer ces sous-entendus demande d'être attentif au contexte, au ton et à ce qui n'est pas dit autant qu'à ce qui l'est.</p>",
+    "rules": [
+      {
+        "heading": "a) L'ironie par antiphrase",
+        "body": "<ul><li>Dire le contraire de ce qu'on pense, signalé par le contexte ou l'intonation : <em>Quelle belle journée !</em> sous la pluie.</li></ul>"
+      },
+      {
+        "heading": "b) La litote",
+        "body": "<ul><li>Atténuer pour renforcer : <em>ce n'est pas mauvais</em> = c'est très bon.</li></ul>"
+      },
+      {
+        "heading": "c) Les marqueurs de ton",
+        "body": "<ul><li>Guillemets ironiques à l'écrit, intonation particulière à l'oral, contexte contradictoire avec l'énoncé littéral.</li></ul>"
+      },
+      {
+        "heading": "d) Les sous-entendus culturels",
+        "body": "<ul><li>Suggérer sans affirmer, souvent par politesse ou pour éviter la confrontation directe.</li></ul>"
+      }
+    ],
+    "examples": [
+      "Quelle belle journée ! (dit sous une pluie battante)",
+      "Ce n'est pas mauvais du tout, ton gâteau.",
+      "Je ne te déteste pas, tu sais.",
+      "Il serait peut-être temps de penser à partir.",
+      "Ah, bravo, vraiment bien joué ! (à quelqu'un qui vient de faire une bêtise)",
+      "Ce n'est pas très malin, ce que tu as fait là.",
+      "Tu pourrais peut-être faire un effort, de temps en temps."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Prendre au premier degré « Quelle belle journée ! » dit sous la pluie.",
+        "right": "Reconnaître l'antiphrase ironique grâce à la contradiction évidente entre le contexte et l'énoncé.",
+        "why": "Le sens ironique s'oppose délibérément au sens littéral ; le contexte donne toujours la clé."
+      },
+      {
+        "wrong": "Croire que « ce n'est pas mauvais » signifie « c'est moyen ».",
+        "right": "Comprendre que la litote atténue pour renforcer : « ce n'est pas mauvais » signifie souvent « c'est très bon ».",
+        "why": "La litote fonctionne par understatement volontaire, pas par évaluation neutre."
+      },
+      {
+        "wrong": "Répondre littéralement à un sous-entendu poli sans percevoir le message réel.",
+        "right": "Repérer le sous-entendu (ex. « il serait temps de partir » = je veux que tu partes) et y répondre en conséquence.",
+        "why": "La politesse française préfère souvent suggérer plutôt qu'affirmer directement une demande délicate."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "c2iro-mc",
+      "type": "multiple-choice",
+      "title": "Identifie le Procédé Implicite",
+      "items": [
+        {
+          "id": "c2irom1",
+          "prompt": "« Quelle belle journée ! » dit sous une pluie battante illustre quel procédé ?",
+          "options": [
+            "L'ironie par antiphrase",
+            "La litote",
+            "Le sous-entendu poli"
+          ],
+          "answerIndex": 0,
+          "explanation": "On dit le contraire de ce qu'on pense, avec une intention moqueuse."
+        },
+        {
+          "id": "c2irom2",
+          "prompt": "Que signifie généralement « ce n'est pas mauvais » à propos d'un plat qu'on adore ?",
+          "options": [
+            "C'est très bon (litote)",
+            "C'est moyen, sans plus",
+            "C'est franchement mauvais"
+          ],
+          "answerIndex": 0,
+          "explanation": "La litote atténue pour renforcer l'effet positif."
+        },
+        {
+          "id": "c2irom3",
+          "prompt": "Que peut signifier « il serait peut-être temps de penser à partir » selon le ton employé ?",
+          "options": [
+            "Je veux que tu partes maintenant",
+            "Tu as encore beaucoup de temps",
+            "Rien de particulier"
+          ],
+          "answerIndex": 0,
+          "explanation": "C'est un sous-entendu poli qui évite la confrontation directe."
+        },
+        {
+          "id": "c2irom4",
+          "prompt": "Comment reconnaît-on souvent l'ironie à l'écrit ?",
+          "options": [
+            "Par une contradiction entre le contexte et l'énoncé, parfois des guillemets",
+            "Par l'emploi systématique du conditionnel",
+            "Par l'absence totale de ponctuation"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le contexte contradictoire est le principal indice écrit de l'ironie."
+        }
+      ]
+    },
+    {
+      "id": "c2iro-fill",
+      "type": "fill-blank",
+      "title": "Complète pour Créer l'Effet Voulu",
+      "items": [
+        {
+          "id": "c2irof1",
+          "prompt": "Face à un échec évident d'un collègue, dire ironiquement : « Ah, ___ joué ! »",
+          "answers": [
+            [
+              "bravo, vraiment bien"
+            ]
+          ],
+          "options": [
+            "bravo, vraiment bien",
+            "vraiment mal",
+            "quel dommage"
+          ],
+          "explanation": "L'antiphrase ironique félicite en apparence pour critiquer en réalité."
+        },
+        {
+          "id": "c2irof2",
+          "prompt": "Pour dire poliment qu'un plat est délicieux, par litote : « Ce n'est pas ___. »",
+          "answers": [
+            [
+              "mauvais"
+            ]
+          ],
+          "options": [
+            "mauvais",
+            "excellent",
+            "fade"
+          ],
+          "explanation": "La litote atténue le compliment pour, paradoxalement, le renforcer."
+        },
+        {
+          "id": "c2irof3",
+          "prompt": "Sous-entendre poliment qu'on veut que quelqu'un s'en aille : « Il serait peut-être temps de penser à ___. »",
+          "answers": [
+            [
+              "partir"
+            ]
+          ],
+          "options": [
+            "partir",
+            "rester",
+            "revenir"
+          ],
+          "explanation": "Cette formule suggère la demande sans l'affirmer directement."
+        },
+        {
+          "id": "c2irof4",
+          "prompt": "Par litote, dire qu'on aime beaucoup quelqu'un : « Je ne te ___ pas, tu sais. »",
+          "answers": [
+            [
+              "déteste"
+            ]
+          ],
+          "options": [
+            "déteste",
+            "aime",
+            "connais"
+          ],
+          "explanation": "La négation d'un sentiment fort suggère, par litote, une réelle affection."
+        }
+      ]
+    },
+    {
+      "id": "c2iro-correction",
+      "type": "correction",
+      "title": "Corrige l'Interprétation",
+      "items": [
+        {
+          "id": "c2iroc1",
+          "incorrect": "« Quelle belle journée ! » sous la pluie signifie que la personne trouve vraiment la journée magnifique.",
+          "answer": [
+            "« Quelle belle journée ! » sous la pluie est une antiphrase ironique : la personne trouve la journée désagréable."
+          ],
+          "explanation": "Le contexte (la pluie) contredit l'énoncé littéral, signalant l'ironie."
+        },
+        {
+          "id": "c2iroc2",
+          "incorrect": "« Ce n'est pas mauvais » à propos d'un plat qu'on adore signifie que le plat est simplement acceptable.",
+          "answer": [
+            "« Ce n'est pas mauvais » dans ce contexte signifie, par litote, que le plat est excellent."
+          ],
+          "explanation": "La litote renforce l'appréciation en l'atténuant en apparence."
+        },
+        {
+          "id": "c2iroc3",
+          "incorrect": "« Il serait peut-être temps de penser à partir » est une simple observation neutre sur l'heure.",
+          "answer": [
+            "« Il serait peut-être temps de penser à partir » est souvent un sous-entendu poli pour demander à quelqu'un de partir."
+          ],
+          "explanation": "Cette formule sert typiquement à suggérer une demande sans l'affirmer directement."
+        }
+      ]
+    },
+    {
+      "id": "c2irox-reading",
+      "type": "reading-comprehension",
+      "title": "Lecture : Une Réunion Tendue",
+      "passage": "<p>« Quelle présentation extraordinaire », lança-t-il, alors que la salle entière avait somnolé pendant une heure. « Ce n'est pas inintéressant », ajouta sa collègue, du bout des lèvres. Plus tard, le directeur glissa : « Il serait peut-être temps de repenser notre approche pour la prochaine fois. » Personne n'osa répondre directement, mais tout le monde avait compris.</p>",
+      "items": [
+        {
+          "id": "c2iroxr1",
+          "prompt": "Que suggère la phrase « Quelle présentation extraordinaire » ?",
+          "options": [
+            "Le contraire, par ironie : la présentation était ennuyeuse",
+            "Que la présentation était vraiment excellente",
+            "Que personne n'a d'avis"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le contexte (la salle qui somnole) contredit l'énoncé, signalant l'ironie."
+        },
+        {
+          "id": "c2iroxr2",
+          "prompt": "Que signifie « ce n'est pas inintéressant » dans ce contexte ?",
+          "options": [
+            "C'était plutôt ennuyeux, dit par litote polie",
+            "C'était passionnant",
+            "La collègue n'a pas d'opinion"
+          ],
+          "answerIndex": 0,
+          "explanation": "La double négation atténuée suggère un jugement plutôt négatif."
+        },
+        {
+          "id": "c2iroxr3",
+          "prompt": "Que sous-entend le directeur avec sa remarque sur « repenser notre approche » ?",
+          "options": [
+            "Que la présentation n'a pas convaincu et doit changer",
+            "Qu'il faut refaire exactement la même chose",
+            "Qu'il n'y aura pas de prochaine fois"
+          ],
+          "answerIndex": 0,
+          "explanation": "C'est un sous-entendu poli critiquant indirectement la présentation."
+        },
+        {
+          "id": "c2iroxr4",
+          "prompt": "Comment réagit la salle à cette remarque ?",
+          "options": [
+            "Personne ne répond directement, mais tous comprennent",
+            "Tout le monde proteste vivement",
+            "Personne n'a rien compris"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte le dit dans sa dernière phrase."
+        }
+      ]
+    },
+    {
+      "id": "c2irox-order",
+      "type": "ordering",
+      "title": "Remets la Phrase en Ordre",
+      "items": [
+        {
+          "id": "c2iroxo1",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Quelle",
+            "présentation",
+            "extraordinaire,",
+            "lança-t-il"
+          ],
+          "explanation": "Antiphrase ironique, dite avec un ton contraire au sens littéral."
+        },
+        {
+          "id": "c2iroxo2",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Ce",
+            "n'est",
+            "pas",
+            "inintéressant,",
+            "ajouta-t-elle"
+          ],
+          "explanation": "Litote polie atténuant une critique."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "L'ironie par antiphrase dit le contraire de ce qu'on pense ; le contexte révèle toujours la contradiction.",
+    "La litote atténue une affirmation pour, paradoxalement, en renforcer l'effet.",
+    "Les sous-entendus culturels suggèrent une demande ou un jugement sans l'affirmer directement, souvent par politesse."
+  ]
+}

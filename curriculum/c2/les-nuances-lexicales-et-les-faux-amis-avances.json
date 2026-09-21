@@ -1,0 +1,304 @@
+{
+  "id": "c2-les-nuances-lexicales-et-les-faux-amis-avances",
+  "level": "C2",
+  "unit": "1",
+  "order": 3,
+  "skill": "vocabulary",
+  "strand": "faux-amis-avances",
+  "title": "Les Nuances Lexicales et les Faux Amis Avancés",
+  "subtitle": "Éviter les pièges anglais-français les plus subtils et choisir le mot juste parmi des synonymes proches.",
+  "objectives": [
+    "Identifier les faux amis anglais-français avancés qui piègent même des locuteurs très avancés.",
+    "Distinguer des synonymes proches selon leur nuance exacte d'intensité ou de registre.",
+    "Choisir, dans un contexte donné, le mot le plus précis parmi plusieurs quasi-synonymes."
+  ],
+  "content": {
+    "intro": "Aux niveaux avancés, l'anglais continue de tendre des pièges lexicaux discrets, et le vocabulaire français lui-même regorge de synonymes qui ne sont jamais totalement interchangeables.",
+    "explanation": "<p>Certains <strong>faux amis</strong> anglais-français survivent même chez des locuteurs très avancés parce qu'ils se ressemblent à s'y méprendre tout en ayant un sens différent : <em>actuellement</em> signifie « en ce moment », pas « actually » (qui se traduit par <em>en fait</em>) ; <em>assister à</em> signifie « être présent à » (attend), pas « aider » (qui se dit <em>aider</em> ou <em>assister quelqu'un</em> dans un sens plus restreint) ; <em>éventuellement</em> signifie « peut-être, le cas échéant », pas « eventually » (qui se traduit par <em>finalement</em>) ; <em>sensible</em> signifie « émotif, facilement touché », pas « sensible » au sens de raisonnable (qui se dit <em>raisonnable</em> ou <em>sensé</em>).</p><p>Le français distingue aussi des nuances fines entre synonymes proches : <em>petit</em> (neutre), <em>menu</em> (petit et délicat), <em>minime</em> (négligeable en importance, pas en taille physique) ; <em>grand</em> (neutre), <em>vaste</em> (grande étendue, souvent spatiale), <em>immense</em> (extrême, hyperbolique). Choisir entre ces mots, c'est ajuster précisément l'intensité et le registre d'une phrase.</p>",
+    "rules": [
+      {
+        "heading": "a) Actuellement / éventuellement",
+        "body": "<ul><li><em>Actuellement</em> = en ce moment (jamais « actually », qui se dit <em>en fait</em>). <em>Éventuellement</em> = peut-être (jamais « eventually », qui se dit <em>finalement</em>).</li></ul>"
+      },
+      {
+        "heading": "b) Assister / sensible",
+        "body": "<ul><li><em>Assister à</em> = être présent (jamais « assist » au sens d'aider). <em>Sensible</em> = émotif (jamais « sensible » au sens de raisonnable, qui se dit <em>sensé</em>).</li></ul>"
+      },
+      {
+        "heading": "c) Petit / menu / minime",
+        "body": "<ul><li>Nuances de taille et d'importance : petit (neutre), menu (petit et délicat), minime (négligeable en importance).</li></ul>"
+      },
+      {
+        "heading": "d) Grand / vaste / immense",
+        "body": "<ul><li>Nuances d'intensité : grand (neutre), vaste (grande étendue), immense (extrême, hyperbolique).</li></ul>"
+      }
+    ],
+    "examples": [
+      "Actuellement, je travaille sur un nouveau projet.",
+      "En fait, ce n'était pas du tout ce que je pensais.",
+      "J'ai assisté à la conférence hier soir.",
+      "Nous partirons éventuellement en vacances en juillet, si le budget le permet.",
+      "Il a fini par accepter le poste, mais après de longues hésitations.",
+      "Elle est très sensible : la moindre critique la blesse.",
+      "C'est une décision tout à fait sensée, réfléchie et raisonnable."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Actuellement, il travaille sur ce dossier depuis trois heures et il vient de le finir.",
+        "right": "En fait, il travaille sur ce dossier depuis trois heures et il vient de le finir.",
+        "why": "Le sens visé ici est « actually » (en fait), pas « actuellement » (en ce moment), qui créerait un contresens temporel."
+      },
+      {
+        "wrong": "Je vais assister mon collègue à porter ces cartons.",
+        "right": "Je vais aider mon collègue à porter ces cartons.",
+        "why": "Assister au sens d'aider physiquement est un anglicisme ; aider est le mot juste ici."
+      },
+      {
+        "wrong": "C'est une remarque très sensible, bien pensée.",
+        "right": "C'est une remarque très sensée, bien pensée.",
+        "why": "Sensé (raisonnable) et sensible (émotif) sont deux mots distincts, souvent confondus par calque de l'anglais sensible."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "c2fam-mc",
+      "type": "multiple-choice",
+      "title": "Choisis le Sens Correct",
+      "items": [
+        {
+          "id": "c2famm1",
+          "prompt": "Que signifie « actuellement » en français ?",
+          "options": [
+            "En ce moment",
+            "En fait (actually)",
+            "Finalement (eventually)"
+          ],
+          "answerIndex": 0,
+          "explanation": "C'est un faux ami classique de « actually »."
+        },
+        {
+          "id": "c2famm2",
+          "prompt": "Que signifie « éventuellement » en français ?",
+          "options": [
+            "Peut-être, le cas échéant",
+            "Finalement, après un délai",
+            "Immédiatement"
+          ],
+          "answerIndex": 0,
+          "explanation": "Faux ami de « eventually », qui se traduit par finalement."
+        },
+        {
+          "id": "c2famm3",
+          "prompt": "Que signifie « assister à une réunion » ?",
+          "options": [
+            "Être présent à cette réunion",
+            "Aider à organiser cette réunion",
+            "Annuler cette réunion"
+          ],
+          "answerIndex": 0,
+          "explanation": "Assister à = être présent, jamais aider au sens anglais."
+        },
+        {
+          "id": "c2famm4",
+          "prompt": "Quel mot signifie « raisonnable » et non « émotif » ?",
+          "options": [
+            "Sensé",
+            "Sensible",
+            "Sensitif"
+          ],
+          "answerIndex": 0,
+          "explanation": "Sensé (raisonnable) se distingue de sensible (émotif)."
+        }
+      ]
+    },
+    {
+      "id": "c2fam-fill",
+      "type": "fill-blank",
+      "title": "Choisis le Mot Juste",
+      "items": [
+        {
+          "id": "c2famf1",
+          "prompt": "___, je travaille sur un nouveau projet passionnant.",
+          "answers": [
+            [
+              "Actuellement"
+            ]
+          ],
+          "options": [
+            "Actuellement",
+            "Éventuellement",
+            "Finalement"
+          ],
+          "explanation": "En ce moment se dit actuellement en français."
+        },
+        {
+          "id": "c2famf2",
+          "prompt": "___, ce n'était pas du tout ce que je pensais au départ.",
+          "answers": [
+            [
+              "En fait"
+            ]
+          ],
+          "options": [
+            "En fait",
+            "Actuellement",
+            "Éventuellement"
+          ],
+          "explanation": "« Actually » se traduit par en fait, jamais actuellement."
+        },
+        {
+          "id": "c2famf3",
+          "prompt": "Cette erreur est ___ ; elle ne change rien au résultat final.",
+          "answers": [
+            [
+              "minime"
+            ]
+          ],
+          "options": [
+            "minime",
+            "menue",
+            "petite"
+          ],
+          "explanation": "Minime insiste sur la négligeabilité en importance, pas la taille physique."
+        },
+        {
+          "id": "c2famf4",
+          "prompt": "C'est une région d'une étendue ___, presque sans limites visibles.",
+          "answers": [
+            [
+              "immense"
+            ]
+          ],
+          "options": [
+            "immense",
+            "menue",
+            "minime"
+          ],
+          "explanation": "Immense exprime une intensité extrême, hyperbolique."
+        }
+      ]
+    },
+    {
+      "id": "c2fam-correction",
+      "type": "correction",
+      "title": "Corrige le Faux Ami",
+      "items": [
+        {
+          "id": "c2famc1",
+          "incorrect": "Actuellement, il a fini par accepter le poste après de longues hésitations.",
+          "answer": [
+            "Finalement, il a fini par accepter le poste après de longues hésitations."
+          ],
+          "explanation": "« Eventually » se traduit par finalement, pas actuellement."
+        },
+        {
+          "id": "c2famc2",
+          "incorrect": "Je vais assister mon ami à déménager ce week-end.",
+          "answer": [
+            "Je vais aider mon ami à déménager ce week-end."
+          ],
+          "explanation": "Assister au sens d'aider physiquement est un calque de l'anglais."
+        },
+        {
+          "id": "c2famc3",
+          "incorrect": "C'est une décision très sensible et réfléchie.",
+          "answer": [
+            "C'est une décision très sensée et réfléchie."
+          ],
+          "explanation": "Sensé (raisonnable) est le mot juste ici, pas sensible (émotif)."
+        }
+      ]
+    },
+    {
+      "id": "c2famx-reading",
+      "type": "reading-comprehension",
+      "title": "Lecture : Un Malentendu de Traduction",
+      "passage": "<p>Le traducteur avait écrit « actuellement » pour rendre « actually », créant un contresens complet. En fait, l'auteur voulait dire qu'il n'était pas du tout d'accord. De même, « éventuellement » avait remplacé « eventually », alors qu'il fallait écrire « finalement ». Ces erreurs, bien que minimes en apparence, changeaient totalement le sens du passage.</p>",
+      "items": [
+        {
+          "id": "c2famxr1",
+          "prompt": "Pourquoi y avait-il un contresens dans la traduction ?",
+          "options": [
+            "« Actuellement » a été confondu avec « actually »",
+            "Le traducteur ne connaissait pas le français",
+            "Le texte original était mal écrit"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte l'explique directement en ouverture."
+        },
+        {
+          "id": "c2famxr2",
+          "prompt": "Que voulait réellement dire l'auteur, selon le texte ?",
+          "options": [
+            "Qu'il n'était pas du tout d'accord",
+            "Qu'il était tout à fait d'accord",
+            "Qu'il n'avait pas d'opinion"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte le précise avec « en fait »."
+        },
+        {
+          "id": "c2famxr3",
+          "prompt": "Par quel mot fallait-il remplacer « éventuellement » ?",
+          "options": [
+            "Finalement",
+            "Peut-être",
+            "Immédiatement"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte le dit directement."
+        },
+        {
+          "id": "c2famxr4",
+          "prompt": "Comment le texte qualifie-t-il ces erreurs ?",
+          "options": [
+            "Minimes en apparence, mais changeant totalement le sens",
+            "Sans aucune importance",
+            "Impossibles à corriger"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte se termine sur ce constat nuancé."
+        }
+      ]
+    },
+    {
+      "id": "c2famx-order",
+      "type": "ordering",
+      "title": "Remets la Phrase en Ordre",
+      "items": [
+        {
+          "id": "c2famxo1",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "En",
+            "fait,",
+            "il",
+            "n'était",
+            "pas",
+            "d'accord"
+          ],
+          "explanation": "En fait traduit correctement actually, en tête de phrase."
+        },
+        {
+          "id": "c2famxo2",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Il",
+            "fallait",
+            "écrire",
+            "finalement,",
+            "pas",
+            "éventuellement"
+          ],
+          "explanation": "Finalement traduit eventually ; éventuellement signifie autre chose."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Actuellement (= en ce moment) et éventuellement (= peut-être) restent des faux amis fréquents même à un niveau avancé.",
+    "Assister à (= être présent) et sensé (= raisonnable, à ne pas confondre avec sensible) piègent aussi les locuteurs expérimentés.",
+    "Des synonymes proches comme petit/menu/minime ou grand/vaste/immense expriment des nuances précises d'intensité et de registre."
+  ]
+}

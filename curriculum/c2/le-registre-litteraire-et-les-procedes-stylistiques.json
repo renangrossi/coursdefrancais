@@ -1,0 +1,306 @@
+{
+  "id": "c2-le-registre-litteraire-et-les-procedes-stylistiques",
+  "level": "C2",
+  "unit": "1",
+  "order": 2,
+  "skill": "reading",
+  "strand": "style-litteraire",
+  "title": "Le Registre Littéraire et les Procédés Stylistiques",
+  "subtitle": "Reconnaître le passé simple à la lecture et identifier les principaux procédés stylistiques du français littéraire.",
+  "objectives": [
+    "Reconnaître le passé simple à la lecture, y compris ses formes irrégulières les plus fréquentes.",
+    "Identifier les procédés stylistiques courants : métaphore, anaphore, antithèse, gradation.",
+    "Apprécier l'effet recherché par un procédé stylistique dans un texte littéraire donné."
+  ],
+  "content": {
+    "intro": "Le passé simple et les grandes figures de style appartiennent à un registre que l'on ne produit presque jamais à l'oral, mais qu'un lecteur de niveau C2 doit reconnaître sans effort dans un roman, un article de fond ou un discours soigné.",
+    "explanation": "<p>Le <strong>passé simple</strong> exprime, comme le passé composé, une action ponctuelle et achevée, mais réservée à l'écrit narratif (roman, biographie, récit historique) : <em>il parla, elle finit, ils vinrent, nous eûmes</em>. Sa 3e personne du singulier suffit généralement à le reconnaître : <em>-a</em> pour les verbes en -er (<em>il parla</em>), <em>-it</em> pour beaucoup d'autres (<em>il finit, il prit</em>), <em>-ut</em> pour certains irréguliers (<em>il eut, il put, il voulut</em>), <em>-int</em> pour venir/tenir (<em>il vint, il tint</em>).</p><p>Parmi les procédés stylistiques les plus fréquents : la <strong>métaphore</strong> (comparaison implicite, sans <em>comme</em> : <em>le temps est un voleur</em>), l'<strong>anaphore</strong> (répétition d'un mot ou d'une structure en tête de plusieurs phrases ou vers, pour créer un effet d'insistance), l'<strong>antithèse</strong> (rapprochement de deux idées opposées dans une même phrase, pour souligner un contraste), et la <strong>gradation</strong> (une suite de termes de force croissante ou décroissante). Reconnaître ces procédés, c'est comprendre non seulement ce qu'un texte dit, mais l'effet qu'il vise à produire.</p>",
+    "rules": [
+      {
+        "heading": "a) Le passé simple : reconnaissance, pas production",
+        "body": "<ul><li>Réservé à l'écrit narratif ; jamais à l'oral, où le passé composé le remplace toujours.</li></ul>"
+      },
+      {
+        "heading": "b) Terminaisons de la 3e personne du singulier",
+        "body": "<ul><li><em>-a</em> (verbes en -er), <em>-it</em> (finir, prendre...), <em>-ut</em> (avoir, pouvoir, vouloir...), <em>-int</em> (venir, tenir).</li></ul>"
+      },
+      {
+        "heading": "c) Métaphore et anaphore",
+        "body": "<ul><li>Métaphore : comparaison implicite sans outil comparatif. Anaphore : répétition en tête de phrase ou de vers pour l'insistance.</li></ul>"
+      },
+      {
+        "heading": "d) Antithèse et gradation",
+        "body": "<ul><li>Antithèse : deux idées opposées rapprochées. Gradation : termes de force croissante ou décroissante.</li></ul>"
+      }
+    ],
+    "examples": [
+      "Il ouvrit la porte et s'arrêta net.",
+      "Elle vint le voir un matin d'hiver et ne repartit jamais.",
+      "Le temps est un voleur qui ne rend jamais rien.",
+      "Je me souviens de ce jour, je me souviens de sa voix, je me souviens de tout.",
+      "Il était riche de mots et pauvre de silences.",
+      "Il hésita, puis douta, puis renonça tout à fait.",
+      "Ils eurent peur, puis ils comprirent, et enfin ils partirent."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Employer le passé simple dans une conversation courante.",
+        "right": "Réserver le passé simple à l'écrit narratif et employer le passé composé à l'oral.",
+        "why": "Le passé simple a disparu de l'oral depuis longtemps ; l'y employer sonnerait affecté."
+      },
+      {
+        "wrong": "Confondre « il parla » (passé simple) avec « il parlât » (subjonctif imparfait).",
+        "right": "Distinguer les deux par contexte et par l'absence/présence d'un accent circonflexe à la 3e personne dans d'autres verbes.",
+        "why": "Les deux formes littéraires se ressemblent mais n'appartiennent pas au même mode."
+      },
+      {
+        "wrong": "Appeler « métaphore » toute comparaison, y compris celles avec « comme ».",
+        "right": "Réserver métaphore aux comparaisons implicites, et comparaison à celles avec un outil comparatif explicite (comme, tel que).",
+        "why": "La distinction technique importe pour analyser précisément un texte littéraire."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "c2sty-mc",
+      "type": "multiple-choice",
+      "title": "Identifie le Procédé ou la Forme",
+      "items": [
+        {
+          "id": "c2stym1",
+          "prompt": "« Il vint, il vit, il vainquit » illustre quel procédé ?",
+          "options": [
+            "La gradation par répétition de structure (proche de l'anaphore)",
+            "L'antithèse",
+            "La litote"
+          ],
+          "answerIndex": 0,
+          "explanation": "La répétition de la structure sujet-verbe crée un effet de gradation rythmique."
+        },
+        {
+          "id": "c2stym2",
+          "prompt": "« Le temps est un voleur » est un exemple de quel procédé ?",
+          "options": [
+            "Une métaphore",
+            "Une comparaison explicite",
+            "Une antithèse"
+          ],
+          "answerIndex": 0,
+          "explanation": "Aucun outil comparatif (comme) n'est employé : c'est une métaphore."
+        },
+        {
+          "id": "c2stym3",
+          "prompt": "Quelle terminaison signale souvent un passé simple à la 3e personne du singulier pour un verbe comme venir ?",
+          "options": [
+            "-int (il vint)",
+            "-a (il vena)",
+            "-ait (il venait)"
+          ],
+          "answerIndex": 0,
+          "explanation": "Venir et tenir ont un passé simple en -int à la 3e personne du singulier."
+        },
+        {
+          "id": "c2stym4",
+          "prompt": "« Il était riche de mots et pauvre de silences » illustre quel procédé ?",
+          "options": [
+            "L'antithèse",
+            "L'anaphore",
+            "La gradation"
+          ],
+          "answerIndex": 0,
+          "explanation": "Riche et pauvre sont deux idées opposées rapprochées dans la même phrase."
+        }
+      ]
+    },
+    {
+      "id": "c2sty-fill",
+      "type": "fill-blank",
+      "title": "Reconnais la Forme au Passé Simple",
+      "instructions": "Complète avec la forme correcte au passé simple.",
+      "items": [
+        {
+          "id": "c2styf1",
+          "prompt": "Il ouvrit la porte et ___ (s'arrêter) net.",
+          "answers": [
+            [
+              "s'arrêta"
+            ]
+          ],
+          "options": [
+            "s'arrêta",
+            "s'arrêtait",
+            "s'est arrêté"
+          ],
+          "explanation": "Passé simple des verbes en -er : radical + a."
+        },
+        {
+          "id": "c2styf2",
+          "prompt": "Elle ___ (prendre) son sac et partit sans un mot.",
+          "answers": [
+            [
+              "prit"
+            ]
+          ],
+          "options": [
+            "prit",
+            "prenait",
+            "a pris"
+          ],
+          "explanation": "Prendre a un passé simple en -it à la 3e personne du singulier."
+        },
+        {
+          "id": "c2styf3",
+          "prompt": "Ils ___ (avoir) peur, puis ils comprirent.",
+          "answers": [
+            [
+              "eurent"
+            ]
+          ],
+          "options": [
+            "eurent",
+            "avaient",
+            "ont eu"
+          ],
+          "explanation": "Avoir a un passé simple irrégulier : il eut, ils eurent."
+        },
+        {
+          "id": "c2styf4",
+          "prompt": "Nous ___ (vouloir) partir avant la nuit.",
+          "answers": [
+            [
+              "voulûmes"
+            ]
+          ],
+          "options": [
+            "voulûmes",
+            "voulions",
+            "avons voulu"
+          ],
+          "explanation": "Vouloir a un passé simple en -us : je voulus, nous voulûmes."
+        }
+      ]
+    },
+    {
+      "id": "c2sty-correction",
+      "type": "correction",
+      "title": "Identifie et Corrige",
+      "instructions": "Chaque phrase confond deux procédés ou deux formes ; corrige l'erreur d'analyse.",
+      "items": [
+        {
+          "id": "c2styc1",
+          "incorrect": "« Le temps est un voleur » est une comparaison car il y a le mot « comme ».",
+          "answer": [
+            "« Le temps est un voleur » est une métaphore, car aucun outil comparatif n'est employé."
+          ],
+          "explanation": "Il n'y a pas de « comme » dans cette phrase : c'est une métaphore, pas une comparaison."
+        },
+        {
+          "id": "c2styc2",
+          "incorrect": "« Il parlât » est la forme du passé simple de parler.",
+          "answer": [
+            "« Il parla » est la forme du passé simple de parler ; « il parlât » est le subjonctif imparfait."
+          ],
+          "explanation": "L'accent circonflexe distingue le subjonctif imparfait du passé simple."
+        },
+        {
+          "id": "c2styc3",
+          "incorrect": "« Riche de mots et pauvre de silences » est un exemple d'anaphore.",
+          "answer": [
+            "« Riche de mots et pauvre de silences » est un exemple d'antithèse."
+          ],
+          "explanation": "Ce sont deux idées opposées rapprochées, non une répétition en tête de phrase."
+        }
+      ]
+    },
+    {
+      "id": "c2styx-reading",
+      "type": "reading-comprehension",
+      "title": "Lecture : Un Extrait Narratif",
+      "passage": "<p>Il ouvrit la porte, hésita, puis entra. Le temps, ce voleur impitoyable, avait tout changé : les murs, autrefois blancs, autrefois vivants, autrefois pleins de voix, n'étaient plus que silence et poussière. Il eut soudain envie de partir, mais il resta.</p>",
+      "items": [
+        {
+          "id": "c2styxr1",
+          "prompt": "À quel temps le texte est-il principalement écrit ?",
+          "options": [
+            "Le passé simple",
+            "Le présent",
+            "L'imparfait seul"
+          ],
+          "answerIndex": 0,
+          "explanation": "« ouvrit, hésita, entra, eut, resta » sont des formes de passé simple."
+        },
+        {
+          "id": "c2styxr2",
+          "prompt": "Quel procédé illustre « le temps, ce voleur impitoyable » ?",
+          "options": [
+            "Une métaphore",
+            "Une litote",
+            "Une antithèse"
+          ],
+          "answerIndex": 0,
+          "explanation": "C'est une comparaison implicite, sans outil comparatif."
+        },
+        {
+          "id": "c2styxr3",
+          "prompt": "Quel procédé illustre la répétition de « autrefois » ?",
+          "options": [
+            "Une anaphore",
+            "Un mot-valise",
+            "Un calembour"
+          ],
+          "answerIndex": 0,
+          "explanation": "La répétition en tête de plusieurs segments crée un effet d'insistance."
+        },
+        {
+          "id": "c2styxr4",
+          "prompt": "Que fait le personnage à la fin de l'extrait ?",
+          "options": [
+            "Il reste, malgré son envie de partir",
+            "Il part immédiatement",
+            "Il s'endort"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte se termine sur cette décision contradictoire avec son envie."
+        }
+      ]
+    },
+    {
+      "id": "c2styx-order",
+      "type": "ordering",
+      "title": "Remets la Phrase en Ordre",
+      "items": [
+        {
+          "id": "c2styxo1",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Il",
+            "ouvrit",
+            "la",
+            "porte,",
+            "hésita,",
+            "puis",
+            "entra"
+          ],
+          "explanation": "Trois verbes au passé simple en succession, effet de gradation narrative."
+        },
+        {
+          "id": "c2styxo2",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Le",
+            "temps",
+            "avait",
+            "tout",
+            "changé"
+          ],
+          "explanation": "Structure simple sujet-verbe-complément, plus-que-parfait."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Le passé simple s'utilise seulement à l'écrit narratif ; on le reconnaît surtout à sa 3e personne du singulier.",
+    "La métaphore (comparaison implicite), l'anaphore (répétition), l'antithèse (opposition) et la gradation (progression) sont les procédés stylistiques les plus fréquents.",
+    "Reconnaître un procédé, c'est comprendre l'effet qu'un texte cherche à produire, au-delà du simple sens littéral."
+  ]
+}
