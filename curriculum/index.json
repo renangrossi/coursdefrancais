@@ -284,12 +284,53 @@
       ]
     },
     "C1": {
-      "overview": "Au niveau C1, l'étudiant maîtrise déjà le subjonctif de base et les structures principales du français ; il affinera ici les nuances fines du mode subjonctif, découvrira des connecteurs avancés et la nominalisation propre au registre académique et professionnel pour construire un discours cohérent, et explorera avec respect la richesse dialectale de la francophonie — du français de Belgique et de Suisse au français québécois et aux français d'Afrique — ainsi que les procédés d'atténuation, de politesse et d'ironie qui distinguent un locuteur vraiment aisé. Ce niveau arrive bientôt ; en attendant, commence par le niveau Pre-A1, déjà disponible.",
+      "overview": "Le niveau C1 quitte le terrain de la grammaire nouvelle pour entrer dans celui de la nuance et du registre : reconnaître le subjonctif imparfait et plus-que-parfait de la littérature classique, maîtriser les quatre types de phrases conditionnelles complexes, affiner l'emploi du subjonctif selon le degré de certitude, construire des mises en relief littéraires, écrire dans un style académique nominalisé et impersonnel, rapporter un discours avec toute la concordance des temps, employer des locutions prépositives soutenues, organiser un texte argumentatif cohérent, distinguer les registres à l'écrit, et exprimer la restriction et l'exception avec précision. À la fin de ce niveau, tu liras et écriras un français proche du natif, dans n'importe quel registre.",
       "units": [
         {
           "id": "1",
           "title": "Grammaire C1",
-          "lessons": []
+          "lessons": [
+            {
+              "id": "c1-le-subjonctif-imparfait-et-plus-que-parfait",
+              "status": "published"
+            },
+            {
+              "id": "c1-les-quatre-types-de-phrases-conditionnelles-complexes",
+              "status": "published"
+            },
+            {
+              "id": "c1-les-nuances-du-subjonctif",
+              "status": "published"
+            },
+            {
+              "id": "c1-les-constructions-emphatiques-avancees",
+              "status": "published"
+            },
+            {
+              "id": "c1-la-nominalisation-et-le-style-academique",
+              "status": "published"
+            },
+            {
+              "id": "c1-le-discours-rapporte-et-la-concordance-des-temps-avancee",
+              "status": "published"
+            },
+            {
+              "id": "c1-les-locutions-prepositives-nuancees",
+              "status": "published"
+            },
+            {
+              "id": "c1-la-cohesion-et-la-progression-thematique",
+              "status": "published"
+            },
+            {
+              "id": "c1-les-registres-et-la-variation-stylistique",
+              "status": "published"
+            },
+            {
+              "id": "c1-lexpression-de-la-restriction-et-de-lexception",
+              "status": "published"
+            }
+          ]
         }
       ]
     },

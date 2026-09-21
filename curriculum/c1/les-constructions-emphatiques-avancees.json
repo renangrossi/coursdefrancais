@@ -1,0 +1,304 @@
+{
+  "id": "c1-les-constructions-emphatiques-avancees",
+  "level": "C1",
+  "unit": "1",
+  "order": 4,
+  "skill": "grammar",
+  "strand": "emphase-avancee",
+  "title": "Les Constructions Emphatiques et de Mise en Relief Avancées",
+  "subtitle": "Au-delà de c'est... qui/que : l'inversion littéraire et la dislocation pour un style percutant.",
+  "objectives": [
+    "Construire une inversion du sujet à valeur stylistique dans une proposition non interrogative.",
+    "Utiliser la dislocation (reprise pronominale) pour mettre en avant un élément de la phrase.",
+    "Combiner ces procédés avec les tournures c'est... qui/que déjà connues, pour un style plus littéraire."
+  ],
+  "content": {
+    "intro": "Au niveau C1, la mise en relief dépasse c'est... qui/que : le français littéraire dispose de procédés supplémentaires — l'inversion stylistique et la dislocation — pour souligner un élément ou créer un effet de style.",
+    "explanation": "<p>L'<strong>inversion stylistique</strong> place le sujet après le verbe dans une phrase déclarative, souvent après un complément en tête de phrase, pour un effet littéraire : <em>Ainsi parlait le vieux sage</em>, <em>Peut-être viendra-t-il demain</em> (après <em>peut-être</em> en tête de phrase, l'inversion est même obligatoire à l'écrit soutenu). La <strong>dislocation</strong> détache un élément en tête ou en fin de phrase et le reprend par un pronom, pour le mettre en valeur à l'oral comme à l'écrit : <em>Ce livre, je l'ai adoré</em>, <em>Je l'ai adoré, ce livre.</em></p><p>Ces procédés se combinent avec les tournures déjà connues (<em>c'est... qui/que, ce qui/ce que... c'est</em>) pour construire un style riche et nuancé, typique de la presse d'opinion, de l'essai et de la littérature : <em>C'est précisément ce détail, et lui seul, qui a tout changé.</em></p>",
+    "rules": [
+      {
+        "heading": "a) Inversion après un adverbe en tête de phrase",
+        "body": "<ul><li><em>peut-être, sans doute, aussi</em> (« c'est pourquoi ») en tête → inversion : <em>Peut-être a-t-il raison.</em></li></ul>"
+      },
+      {
+        "heading": "b) Inversion littéraire narrative",
+        "body": "<ul><li>Effet de style après un complément : <em>Ainsi commença son aventure.</em></li></ul>"
+      },
+      {
+        "heading": "c) Dislocation à gauche",
+        "body": "<ul><li>Élément détaché en tête, repris par un pronom : <em>Ce livre, je l'ai adoré.</em></li></ul>"
+      },
+      {
+        "heading": "d) Dislocation à droite",
+        "body": "<ul><li>Élément détaché en fin de phrase, annoncé par un pronom : <em>Je l'ai adoré, ce livre.</em></li></ul>"
+      }
+    ],
+    "examples": [
+      "Peut-être viendra-t-il demain.",
+      "Sans doute a-t-elle raison.",
+      "Ainsi commença cette longue aventure.",
+      "Ce projet, nous y croyons vraiment.",
+      "Je ne lui fais plus confiance, à cet homme.",
+      "C'est précisément ce détail qui a tout changé.",
+      "Aussi décida-t-il de partir sur-le-champ."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Peut-être il viendra demain.",
+        "right": "Peut-être viendra-t-il demain.",
+        "why": "Peut-être en tête de phrase déclarative impose l'inversion du sujet à l'écrit soutenu."
+      },
+      {
+        "wrong": "Aussi il décida de partir (avec aussi signifiant « c'est pourquoi »).",
+        "right": "Aussi décida-t-il de partir.",
+        "why": "Aussi en tête de phrase, avec le sens de conséquence, impose aussi l'inversion."
+      },
+      {
+        "wrong": "Ce livre je l'ai adoré (sans virgule ni pause).",
+        "right": "Ce livre, je l'ai adoré.",
+        "why": "La dislocation détache l'élément en tête par une virgule, marquant une pause à l'oral."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "c1emp-fill",
+      "type": "fill-blank",
+      "title": "Complète avec l'Inversion Stylistique",
+      "instructions": "Réordonne mentalement et choisis la forme correcte.",
+      "items": [
+        {
+          "id": "c1empf1",
+          "prompt": "Peut-être ___ (avoir)-t-il raison.",
+          "answers": [
+            [
+              "a"
+            ]
+          ],
+          "options": [
+            "a",
+            "il a",
+            "aura"
+          ],
+          "explanation": "Peut-être en tête impose l'inversion : peut-être a-t-il raison."
+        },
+        {
+          "id": "c1empf2",
+          "prompt": "Sans doute ___ (être)-elle en retard.",
+          "answers": [
+            [
+              "est"
+            ]
+          ],
+          "options": [
+            "est",
+            "elle est",
+            "serait"
+          ],
+          "explanation": "Sans doute en tête impose l'inversion."
+        },
+        {
+          "id": "c1empf3",
+          "prompt": "Ce projet, nous y ___ (croire) vraiment.",
+          "answers": [
+            [
+              "croyons"
+            ]
+          ],
+          "options": [
+            "croyons",
+            "croyions",
+            "croirons"
+          ],
+          "explanation": "Dislocation à gauche, reprise par y, verbe au présent."
+        },
+        {
+          "id": "c1empf4",
+          "prompt": "Aussi ___ (décider)-t-il de partir sur-le-champ.",
+          "answers": [
+            [
+              "décida"
+            ]
+          ],
+          "options": [
+            "décida",
+            "il décida",
+            "décidait"
+          ],
+          "explanation": "Aussi (= c'est pourquoi) en tête impose l'inversion, ici au passé simple littéraire."
+        }
+      ]
+    },
+    {
+      "id": "c1emp-mc",
+      "type": "multiple-choice",
+      "title": "Les Constructions Emphatiques Avancées",
+      "items": [
+        {
+          "id": "c1empm1",
+          "prompt": "Quel adverbe en tête de phrase impose l'inversion du sujet à l'écrit soutenu ?",
+          "options": [
+            "peut-être",
+            "souvent",
+            "maintenant"
+          ],
+          "answerIndex": 0,
+          "explanation": "Peut-être, sans doute et aussi (= c'est pourquoi) imposent cette inversion."
+        },
+        {
+          "id": "c1empm2",
+          "prompt": "Qu'est-ce que la dislocation à gauche ?",
+          "options": [
+            "un élément détaché en tête, repris par un pronom",
+            "une inversion du sujet",
+            "une négation renforcée"
+          ],
+          "answerIndex": 0,
+          "explanation": "C'est la définition de la dislocation à gauche."
+        },
+        {
+          "id": "c1empm3",
+          "prompt": "Dans « Je l'ai adoré, ce livre », quel est le procédé ?",
+          "options": [
+            "la dislocation à droite",
+            "l'inversion stylistique",
+            "le subjonctif"
+          ],
+          "answerIndex": 0,
+          "explanation": "L'élément est détaché en fin de phrase."
+        },
+        {
+          "id": "c1empm4",
+          "prompt": "Dans quels contextes ces procédés sont-ils fréquents ?",
+          "options": [
+            "la presse d'opinion, l'essai, la littérature",
+            "les SMS uniquement",
+            "les formulaires administratifs"
+          ],
+          "answerIndex": 0,
+          "explanation": "Ce sont des procédés de style écrit soigné."
+        }
+      ]
+    },
+    {
+      "id": "c1emp-ordering",
+      "type": "ordering",
+      "title": "Remets la Phrase en Ordre",
+      "items": [
+        {
+          "id": "c1empo1",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Peut-être",
+            "a-t-il",
+            "raison"
+          ],
+          "explanation": "Inversion obligatoire après peut-être en tête de phrase."
+        },
+        {
+          "id": "c1empo2",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Ce",
+            "livre,",
+            "je",
+            "l'ai",
+            "adoré"
+          ],
+          "explanation": "Dislocation à gauche : élément détaché repris par le pronom l'."
+        }
+      ]
+    },
+    {
+      "id": "c1empx-reading",
+      "type": "reading-comprehension",
+      "title": "Lecture : Un Tournant Inattendu",
+      "passage": "<p>Peut-être aurait-il pu éviter cette erreur. Sans doute regrette-t-il aujourd'hui sa décision. Ce projet, il y a consacré des années entières. Aussi décida-t-il, un beau matin, de tout recommencer à zéro. C'est précisément ce courage-là qui a fini par payer.</p>",
+      "items": [
+        {
+          "id": "c1empxr1",
+          "prompt": "Qu'aurait-il peut-être pu faire ?",
+          "options": [
+            "Éviter cette erreur",
+            "Gagner plus d'argent",
+            "Partir plus tôt"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte le dit directement, avec inversion après peut-être."
+        },
+        {
+          "id": "c1empxr2",
+          "prompt": "À quoi a-t-il consacré des années entières ?",
+          "options": [
+            "À ce projet",
+            "À ses études",
+            "À sa famille"
+          ],
+          "answerIndex": 0,
+          "explanation": "Dislocation à gauche : « ce projet, il y a consacré... »."
+        },
+        {
+          "id": "c1empxr3",
+          "prompt": "Que décida-t-il un beau matin ?",
+          "options": [
+            "De tout recommencer à zéro",
+            "D'abandonner",
+            "De vendre son entreprise"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte le dit directement, avec inversion après aussi."
+        },
+        {
+          "id": "c1empxr4",
+          "prompt": "Qu'est-ce qui a fini par payer, selon le texte ?",
+          "options": [
+            "Ce courage-là",
+            "La chance",
+            "L'argent"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte se termine par cette mise en relief avec c'est... qui."
+        }
+      ]
+    },
+    {
+      "id": "c1empx-order",
+      "type": "ordering",
+      "title": "Remets la Phrase en Ordre",
+      "items": [
+        {
+          "id": "c1empxo1",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Sans",
+            "doute",
+            "regrette-t-il",
+            "sa",
+            "décision"
+          ],
+          "explanation": "Inversion après sans doute en tête de phrase."
+        },
+        {
+          "id": "c1empxo2",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Ce",
+            "projet,",
+            "il",
+            "y",
+            "a",
+            "consacré",
+            "des",
+            "années"
+          ],
+          "explanation": "Dislocation à gauche, reprise par y."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Peut-être, sans doute et aussi (= c'est pourquoi) en tête de phrase imposent l'inversion du sujet à l'écrit soutenu.",
+    "La dislocation détache un élément (à gauche ou à droite) et le reprend par un pronom pour le mettre en valeur.",
+    "Ces procédés se combinent avec c'est... qui/que pour un style riche, typique de l'essai et de la presse d'opinion."
+  ]
+}

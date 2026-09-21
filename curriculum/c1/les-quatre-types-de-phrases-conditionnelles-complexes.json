@@ -1,0 +1,323 @@
+{
+  "id": "c1-les-quatre-types-de-phrases-conditionnelles-complexes",
+  "level": "C1",
+  "unit": "1",
+  "order": 2,
+  "skill": "grammar",
+  "strand": "conditionnelles-complexes",
+  "title": "Les Quatre Types de Phrases Conditionnelles Complexes",
+  "subtitle": "Réel, potentiel, irréel du passé, et hypothèse mixte : le système complet de si en français.",
+  "objectives": [
+    "Distinguer les quatre combinaisons de temps possibles après si.",
+    "Reconnaître l'hypothèse mixte, où la cause est passée et la conséquence présente.",
+    "Éviter les mélanges de temps interdits après si (jamais de conditionnel juste après si)."
+  ],
+  "content": {
+    "intro": "Le système conditionnel français, déjà vu en partie aux niveaux précédents, se complète ici avec un quatrième cas : l'hypothèse à temps mixtes, essentielle pour exprimer des liens complexes entre passé et présent.",
+    "explanation": "<p>Le <strong>réel</strong> (si + présent → présent/futur/impératif) exprime une condition réalisable : <em>Si tu viens, nous mangerons ensemble.</em> Le <strong>potentiel</strong> (si + imparfait → conditionnel présent) exprime une hypothèse présente ou future non réalisée : <em>Si j'avais le temps, je viendrais.</em> L'<strong>irréel du passé</strong> (si + plus-que-parfait → conditionnel passé) exprime une hypothèse passée, définitivement non réalisée : <em>Si j'avais su, je serais venu.</em></p><p>Le quatrième cas, l'<strong>hypothèse mixte</strong>, combine si + plus-que-parfait avec un conditionnel <strong>présent</strong> (et non passé) dans la principale, quand la cause est passée mais la conséquence porte sur le présent : <em>Si j'avais réussi mon examen l'an dernier, je serais médecin aujourd'hui</em> — l'échec est passé, mais la conséquence (ne pas être médecin) dure encore aujourd'hui. Dans tous les cas, la règle absolue reste : <strong>jamais de conditionnel juste après si</strong>.</p>",
+    "rules": [
+      {
+        "heading": "a) Réel",
+        "body": "<ul><li>Si + présent → présent, futur ou impératif : <em>Si tu peux, appelle-moi.</em></li></ul>"
+      },
+      {
+        "heading": "b) Potentiel",
+        "body": "<ul><li>Si + imparfait → conditionnel présent : <em>Si j'avais le temps, je viendrais.</em></li></ul>"
+      },
+      {
+        "heading": "c) Irréel du passé",
+        "body": "<ul><li>Si + plus-que-parfait → conditionnel passé : <em>Si j'avais su, je serais venu.</em></li></ul>"
+      },
+      {
+        "heading": "d) Hypothèse mixte",
+        "body": "<ul><li>Si + plus-que-parfait → conditionnel <strong>présent</strong>, quand la conséquence porte sur le présent : <em>Si j'avais économisé, j'aurais assez d'argent aujourd'hui.</em></li></ul>"
+      }
+    ],
+    "examples": [
+      "Si tu viens ce soir, nous mangerons ensemble.",
+      "Si j'avais le temps, je voyagerais davantage.",
+      "Si elle avait étudié, elle aurait réussi son examen.",
+      "Si nous avions déménagé plus tôt, nous vivrions déjà dans notre nouvelle maison.",
+      "Si j'avais pris cette décision à l'époque, ma vie serait différente aujourd'hui.",
+      "S'il fait beau demain, nous irons à la plage.",
+      "Si tu avais écouté mes conseils, tu ne serais pas dans cette situation maintenant."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Si j'aurais su, je serais venu.",
+        "right": "Si j'avais su, je serais venu.",
+        "why": "On n'emploie jamais le conditionnel directement après si ; c'est le plus-que-parfait qui s'impose ici."
+      },
+      {
+        "wrong": "Si j'avais économisé, j'aurais eu assez d'argent aujourd'hui (pour une conséquence présente).",
+        "right": "Si j'avais économisé, j'aurais assez d'argent aujourd'hui.",
+        "why": "Une conséquence portant sur le présent demande le conditionnel présent, pas le conditionnel passé — c'est l'hypothèse mixte."
+      },
+      {
+        "wrong": "Si tu viendrais ce soir, nous mangerions ensemble.",
+        "right": "Si tu viens ce soir, nous mangerons ensemble.",
+        "why": "Une condition réalisable (réel) se construit avec si + présent, jamais avec un conditionnel dans la subordonnée."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "c1cond-fill",
+      "type": "fill-blank",
+      "title": "Complète la Phrase Conditionnelle",
+      "instructions": "Écris la forme correcte du verbe entre parenthèses.",
+      "items": [
+        {
+          "id": "c1condf1",
+          "prompt": "Si j'avais économisé, j'___ (avoir) assez d'argent aujourd'hui.",
+          "answers": [
+            [
+              "aurais"
+            ]
+          ],
+          "options": [
+            "aurais",
+            "aurai",
+            "aurais eu"
+          ],
+          "explanation": "Hypothèse mixte : cause passée, conséquence présente → conditionnel présent."
+        },
+        {
+          "id": "c1condf2",
+          "prompt": "Si elle avait étudié, elle ___ (réussir) son examen.",
+          "answers": [
+            [
+              "aurait réussi"
+            ]
+          ],
+          "options": [
+            "aurait réussi",
+            "réussirait",
+            "réussira"
+          ],
+          "explanation": "Irréel du passé : cause et conséquence passées → conditionnel passé."
+        },
+        {
+          "id": "c1condf3",
+          "prompt": "Si tu ___ (venir), nous mangerons ensemble.",
+          "answers": [
+            [
+              "viens"
+            ]
+          ],
+          "options": [
+            "viens",
+            "viendrais",
+            "viendras"
+          ],
+          "explanation": "Réel : si + présent."
+        },
+        {
+          "id": "c1condf4",
+          "prompt": "Si j'avais le temps, je ___ (voyager) davantage.",
+          "answers": [
+            [
+              "voyagerais"
+            ]
+          ],
+          "options": [
+            "voyagerais",
+            "voyage",
+            "aurais voyagé"
+          ],
+          "explanation": "Potentiel : si + imparfait → conditionnel présent."
+        }
+      ]
+    },
+    {
+      "id": "c1cond-mc",
+      "type": "multiple-choice",
+      "title": "Les Quatre Types de Conditionnelles",
+      "items": [
+        {
+          "id": "c1condm1",
+          "prompt": "Quel temps suit toujours si dans une hypothèse mixte (cause passée, conséquence présente) ?",
+          "options": [
+            "le plus-que-parfait",
+            "l'imparfait",
+            "le conditionnel"
+          ],
+          "answerIndex": 0,
+          "explanation": "La subordonnée reste au plus-que-parfait ; c'est la principale qui change de temps."
+        },
+        {
+          "id": "c1condm2",
+          "prompt": "Quel temps de la principale distingue l'hypothèse mixte de l'irréel du passé classique ?",
+          "options": [
+            "le conditionnel présent au lieu du conditionnel passé",
+            "le futur au lieu du présent",
+            "le subjonctif au lieu de l'indicatif"
+          ],
+          "answerIndex": 0,
+          "explanation": "C'est la seule différence entre les deux structures."
+        },
+        {
+          "id": "c1condm3",
+          "prompt": "Quel temps ne peut jamais suivre si directement ?",
+          "options": [
+            "le conditionnel",
+            "le présent",
+            "le plus-que-parfait"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le conditionnel n'apparaît jamais dans la subordonnée introduite par si."
+        },
+        {
+          "id": "c1condm4",
+          "prompt": "Quelle combinaison correspond au type « potentiel » ?",
+          "options": [
+            "si + imparfait → conditionnel présent",
+            "si + présent → futur",
+            "si + plus-que-parfait → conditionnel passé"
+          ],
+          "answerIndex": 0,
+          "explanation": "C'est la définition du potentiel."
+        }
+      ]
+    },
+    {
+      "id": "c1cond-ordering",
+      "type": "ordering",
+      "title": "Remets la Phrase en Ordre",
+      "items": [
+        {
+          "id": "c1condo1",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Si",
+            "j'avais",
+            "su,",
+            "je",
+            "serais",
+            "venu"
+          ],
+          "explanation": "Irréel du passé : si + plus-que-parfait → conditionnel passé."
+        },
+        {
+          "id": "c1condo2",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Si",
+            "j'avais",
+            "économisé,",
+            "j'aurais",
+            "de",
+            "l'argent",
+            "aujourd'hui"
+          ],
+          "explanation": "Hypothèse mixte : cause passée, conséquence présente."
+        },
+        {
+          "id": "c1condo3",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Si",
+            "tu",
+            "viens,",
+            "nous",
+            "mangerons",
+            "ensemble"
+          ],
+          "explanation": "Réel : si + présent → futur."
+        }
+      ]
+    },
+    {
+      "id": "c1condx-reading",
+      "type": "reading-comprehension",
+      "title": "Lecture : Regrets et Projets",
+      "passage": "<p>Si j'avais choisi médecine, je travaillerais aujourd'hui dans un hôpital. Si j'avais économisé davantage pendant mes études, j'aurais moins de dettes maintenant. Si tout se passe bien demain, je signerai le contrat. Et si j'avais su plus tôt que ce poste existait, j'aurais postulé sans hésiter.</p>",
+      "items": [
+        {
+          "id": "c1condxr1",
+          "prompt": "Où la personne travaillerait-elle si elle avait choisi médecine ?",
+          "options": [
+            "Dans un hôpital",
+            "Dans une école",
+            "Dans une usine"
+          ],
+          "answerIndex": 0,
+          "explanation": "C'est une hypothèse mixte : cause passée, conséquence présente."
+        },
+        {
+          "id": "c1condxr2",
+          "prompt": "Qu'aurait-elle de moins si elle avait économisé davantage ?",
+          "options": [
+            "Des dettes",
+            "Des amis",
+            "Du temps libre"
+          ],
+          "answerIndex": 0,
+          "explanation": "Autre hypothèse mixte du texte."
+        },
+        {
+          "id": "c1condxr3",
+          "prompt": "Que fera-t-elle si tout se passe bien demain ?",
+          "options": [
+            "Elle signera le contrat",
+            "Elle partira en voyage",
+            "Elle changera de métier"
+          ],
+          "answerIndex": 0,
+          "explanation": "C'est le type réel : si + présent → futur."
+        },
+        {
+          "id": "c1condxr4",
+          "prompt": "Qu'aurait-elle fait si elle avait su plus tôt pour le poste ?",
+          "options": [
+            "Elle aurait postulé",
+            "Elle aurait déménagé",
+            "Elle aurait refusé"
+          ],
+          "answerIndex": 0,
+          "explanation": "C'est l'irréel du passé : plus-que-parfait → conditionnel passé."
+        }
+      ]
+    },
+    {
+      "id": "c1condx-order",
+      "type": "ordering",
+      "title": "Remets la Phrase en Ordre",
+      "items": [
+        {
+          "id": "c1condxo1",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Si",
+            "j'avais",
+            "choisi",
+            "médecine,",
+            "je",
+            "travaillerais",
+            "aujourd'hui"
+          ],
+          "explanation": "Hypothèse mixte : cause passée, conséquence présente."
+        },
+        {
+          "id": "c1condxo2",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Si",
+            "tout",
+            "se",
+            "passe",
+            "bien,",
+            "je",
+            "signerai"
+          ],
+          "explanation": "Réel : si + présent → futur."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Le réel (si + présent), le potentiel (si + imparfait → conditionnel présent) et l'irréel du passé (si + plus-que-parfait → conditionnel passé) forment le système de base.",
+    "L'hypothèse mixte combine si + plus-que-parfait avec un conditionnel présent quand la conséquence porte sur le présent.",
+    "Dans tous les cas, le conditionnel n'apparaît jamais directement après si."
+  ]
+}

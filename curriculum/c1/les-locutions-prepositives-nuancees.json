@@ -1,0 +1,307 @@
+{
+  "id": "c1-les-locutions-prepositives-nuancees",
+  "level": "C1",
+  "unit": "1",
+  "order": 7,
+  "skill": "vocabulary",
+  "strand": "locutions-prepositives",
+  "title": "Les Locutions Prépositives Nuancées",
+  "subtitle": "Malgré, en dépit de, au sein de, à l'égard de : les expressions prépositives du registre soutenu et leurs nuances précises.",
+  "objectives": [
+    "Employer malgré/en dépit de pour la concession, avec la nuance de registre entre les deux.",
+    "Employer au sein de, à l'égard de, en vertu de, au regard de dans leur sens précis.",
+    "Choisir la locution prépositive adaptée au sens exact voulu, sans les confondre."
+  ],
+  "content": {
+    "intro": "Le français soutenu dispose d'un vaste répertoire de locutions prépositives qui remplacent des prépositions simples pour un effet plus précis ou plus formel — les maîtriser distingue un niveau C1 d'un niveau B2.",
+    "explanation": "<p><strong>Malgré</strong> et <strong>en dépit de</strong> expriment tous deux la concession (« malgré la pluie » = « en dépit de la pluie »), mais <em>en dépit de</em> est plus soutenu et littéraire que <em>malgré</em>, qui reste d'usage courant. <strong>Au sein de</strong> signifie « à l'intérieur de » un groupe ou une organisation (<em>au sein de l'entreprise</em>), plus formel que <em>dans</em>. <strong>À l'égard de</strong> signifie « envers » (<em>une attitude bienveillante à l'égard des nouveaux employés</em>).</p><p><strong>En vertu de</strong> introduit un fondement légal ou logique (<em>en vertu de la loi</em>), tandis que <strong>au regard de</strong> introduit un point de comparaison ou un critère d'évaluation (<em>au regard des résultats obtenus</em>). Ces locutions, fréquentes dans la presse, les rapports et les discours officiels, permettent de nuancer précisément un rapport de cause, de comparaison ou d'attitude.</p>",
+    "rules": [
+      {
+        "heading": "a) Concession",
+        "body": "<ul><li><em>malgré</em> (courant) et <em>en dépit de</em> (plus soutenu) — même sens.</li></ul>"
+      },
+      {
+        "heading": "b) Appartenance à un groupe",
+        "body": "<ul><li><em>au sein de</em> — plus formel que « dans ».</li></ul>"
+      },
+      {
+        "heading": "c) Attitude envers quelqu'un",
+        "body": "<ul><li><em>à l'égard de</em> — équivaut à « envers ».</li></ul>"
+      },
+      {
+        "heading": "d) Fondement et comparaison",
+        "body": "<ul><li><em>en vertu de</em> (fondement légal/logique) ; <em>au regard de</em> (point de comparaison).</li></ul>"
+      }
+    ],
+    "examples": [
+      "Malgré la pluie, le match a eu lieu.",
+      "En dépit de nombreuses difficultés, l'équipe a atteint son objectif.",
+      "Des tensions existent au sein de l'entreprise depuis quelques mois.",
+      "Il a toujours montré de la bienveillance à l'égard de ses collègues.",
+      "En vertu de la nouvelle loi, cette pratique est désormais interdite.",
+      "Au regard des résultats obtenus, la stratégie semble efficace.",
+      "Au sein de la famille, chacun jouait un rôle précis."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "En vertu des résultats obtenus, la stratégie semble efficace.",
+        "right": "Au regard des résultats obtenus, la stratégie semble efficace.",
+        "why": "Au regard de introduit un critère d'évaluation ; en vertu de introduit un fondement légal ou logique, pas un critère de comparaison."
+      },
+      {
+        "wrong": "Il a montré de la bienveillance au sein de ses collègues.",
+        "right": "Il a montré de la bienveillance à l'égard de ses collègues.",
+        "why": "À l'égard de exprime une attitude envers quelqu'un ; au sein de exprime l'appartenance à un groupe."
+      },
+      {
+        "wrong": "Des tensions existent à l'égard de l'entreprise depuis quelques mois (pour dire « à l'intérieur de »).",
+        "right": "Des tensions existent au sein de l'entreprise depuis quelques mois.",
+        "why": "Au sein de exprime l'intériorité à un groupe, pas une attitude envers quelque chose."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "c1loc-fill",
+      "type": "fill-blank",
+      "title": "Choisis la Locution Prépositive Correcte",
+      "items": [
+        {
+          "id": "c1locf1",
+          "prompt": "___ la pluie, le match a eu lieu.",
+          "answers": [
+            [
+              "Malgré"
+            ]
+          ],
+          "options": [
+            "Malgré",
+            "Au sein de",
+            "En vertu de"
+          ],
+          "explanation": "Malgré exprime la concession."
+        },
+        {
+          "id": "c1locf2",
+          "prompt": "Des tensions existent ___ l'entreprise depuis quelques mois.",
+          "answers": [
+            [
+              "au sein de"
+            ]
+          ],
+          "options": [
+            "au sein de",
+            "à l'égard de",
+            "au regard de"
+          ],
+          "explanation": "Au sein de exprime l'intériorité à un groupe."
+        },
+        {
+          "id": "c1locf3",
+          "prompt": "Il a toujours montré de la bienveillance ___ ses collègues.",
+          "answers": [
+            [
+              "à l'égard de"
+            ]
+          ],
+          "options": [
+            "à l'égard de",
+            "en vertu de",
+            "au sein de"
+          ],
+          "explanation": "À l'égard de exprime une attitude envers quelqu'un."
+        },
+        {
+          "id": "c1locf4",
+          "prompt": "___ la nouvelle loi, cette pratique est interdite.",
+          "answers": [
+            [
+              "En vertu de"
+            ]
+          ],
+          "options": [
+            "En vertu de",
+            "Au regard de",
+            "Malgré"
+          ],
+          "explanation": "En vertu de introduit un fondement légal."
+        }
+      ]
+    },
+    {
+      "id": "c1loc-mc",
+      "type": "multiple-choice",
+      "title": "Les Locutions Prépositives",
+      "items": [
+        {
+          "id": "c1locm1",
+          "prompt": "Quelle locution est la plus soutenue pour exprimer la concession ?",
+          "options": [
+            "en dépit de",
+            "malgré",
+            "au sein de"
+          ],
+          "answerIndex": 0,
+          "explanation": "En dépit de est plus littéraire que malgré, courant."
+        },
+        {
+          "id": "c1locm2",
+          "prompt": "Que signifie au sein de ?",
+          "options": [
+            "à l'intérieur d'un groupe",
+            "envers quelqu'un",
+            "en comparaison de"
+          ],
+          "answerIndex": 0,
+          "explanation": "C'est un équivalent formel de « dans »."
+        },
+        {
+          "id": "c1locm3",
+          "prompt": "Que signifie au regard de ?",
+          "options": [
+            "en fonction d'un critère de comparaison",
+            "à l'intérieur de",
+            "par fondement légal"
+          ],
+          "answerIndex": 0,
+          "explanation": "Au regard de introduit un point de comparaison ou d'évaluation."
+        },
+        {
+          "id": "c1locm4",
+          "prompt": "Que signifie en vertu de ?",
+          "options": [
+            "en fonction d'un fondement légal ou logique",
+            "envers quelqu'un",
+            "malgré quelque chose"
+          ],
+          "answerIndex": 0,
+          "explanation": "C'est le sens précis de en vertu de."
+        }
+      ]
+    },
+    {
+      "id": "c1loc-correction",
+      "type": "correction",
+      "title": "Corrige les Erreurs",
+      "items": [
+        {
+          "id": "c1locc1",
+          "incorrect": "En vertu des résultats obtenus, la stratégie semble efficace.",
+          "answer": [
+            "Au regard des résultats obtenus, la stratégie semble efficace."
+          ],
+          "explanation": "Au regard de introduit un critère de comparaison, pas un fondement légal."
+        },
+        {
+          "id": "c1locc2",
+          "incorrect": "Il a montré de la bienveillance au sein de ses collègues.",
+          "answer": [
+            "Il a montré de la bienveillance à l'égard de ses collègues."
+          ],
+          "explanation": "À l'égard de exprime une attitude envers quelqu'un."
+        },
+        {
+          "id": "c1locc3",
+          "incorrect": "Des tensions existent à l'égard de l'entreprise.",
+          "answer": [
+            "Des tensions existent au sein de l'entreprise."
+          ],
+          "explanation": "Au sein de exprime l'intériorité à un groupe."
+        }
+      ]
+    },
+    {
+      "id": "c1locx-reading",
+      "type": "reading-comprehension",
+      "title": "Lecture : Un Bilan d'Entreprise",
+      "passage": "<p>En dépit de la crise économique, l'entreprise a maintenu ses effectifs. Des inquiétudes subsistent au sein de la direction quant à l'avenir du secteur. La politique de recrutement reste bienveillante à l'égard des jeunes diplômés. En vertu du nouvel accord signé, les salaires seront revalorisés. Au regard des résultats de l'année, la stratégie semble porter ses fruits.</p>",
+      "items": [
+        {
+          "id": "c1locxr1",
+          "prompt": "Qu'a fait l'entreprise en dépit de la crise ?",
+          "options": [
+            "Elle a maintenu ses effectifs",
+            "Elle a licencié",
+            "Elle a fermé"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte le dit directement."
+        },
+        {
+          "id": "c1locxr2",
+          "prompt": "Où subsistent des inquiétudes ?",
+          "options": [
+            "Au sein de la direction",
+            "Chez les clients",
+            "À l'étranger"
+          ],
+          "answerIndex": 0,
+          "explanation": "Au sein de exprime l'intériorité à un groupe."
+        },
+        {
+          "id": "c1locxr3",
+          "prompt": "Envers qui la politique de recrutement reste-t-elle bienveillante ?",
+          "options": [
+            "Les jeunes diplômés",
+            "Les actionnaires",
+            "Les concurrents"
+          ],
+          "answerIndex": 0,
+          "explanation": "À l'égard de exprime une attitude envers quelqu'un."
+        },
+        {
+          "id": "c1locxr4",
+          "prompt": "Que se passera-t-il en vertu du nouvel accord ?",
+          "options": [
+            "Les salaires seront revalorisés",
+            "Les horaires changeront",
+            "L'entreprise déménagera"
+          ],
+          "answerIndex": 0,
+          "explanation": "En vertu de introduit le fondement légal de cette mesure."
+        }
+      ]
+    },
+    {
+      "id": "c1locx-order",
+      "type": "ordering",
+      "title": "Remets la Phrase en Ordre",
+      "items": [
+        {
+          "id": "c1locxo1",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "En",
+            "dépit",
+            "de",
+            "la",
+            "crise,",
+            "elle",
+            "résiste"
+          ],
+          "explanation": "En dépit de exprime la concession, registre soutenu."
+        },
+        {
+          "id": "c1locxo2",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Au",
+            "sein",
+            "de",
+            "la",
+            "direction,",
+            "des",
+            "doutes",
+            "subsistent"
+          ],
+          "explanation": "Au sein de exprime l'intériorité à un groupe."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Malgré (courant) et en dépit de (soutenu) expriment tous deux la concession.",
+    "Au sein de exprime l'appartenance à un groupe, à l'égard de une attitude envers quelqu'un.",
+    "En vertu de introduit un fondement légal ou logique, au regard de un critère de comparaison."
+  ]
+}

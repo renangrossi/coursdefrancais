@@ -1,0 +1,303 @@
+{
+  "id": "c1-la-nominalisation-et-le-style-academique",
+  "level": "C1",
+  "unit": "1",
+  "order": 5,
+  "skill": "writing",
+  "strand": "style-academique",
+  "title": "La Nominalisation et le Style Académique",
+  "subtitle": "Écrire dans un registre impersonnel et nominalisé, celui des rapports, mémoires et articles académiques.",
+  "objectives": [
+    "Construire des phrases impersonnelles pour effacer la présence du locuteur.",
+    "Enchaîner des idées avec les connecteurs propres à l'écrit académique.",
+    "Combiner nominalisation, passif et constructions impersonnelles pour un style objectif et condensé."
+  ],
+  "content": {
+    "intro": "Le style académique français vise l'objectivité : il évite autant que possible le « je », préfère les tournures impersonnelles et nominalisées, et enchaîne ses idées avec des connecteurs précis.",
+    "explanation": "<p>Pour éviter le <strong>« je »</strong>, l'écrit académique utilise des constructions <strong>impersonnelles</strong> (<em>il convient de, il importe de, il s'agit de</em>) et le <strong>passif</strong> ou le <strong>pronominal de sens passif</strong> : <em>Cette hypothèse sera examinée</em> plutôt que <em>Nous examinerons cette hypothèse</em> ; <em>Ce phénomène s'explique par…</em> plutôt que <em>On explique ce phénomène par…</em>. La nominalisation (déjà vue au niveau B2) reste l'outil central de ce style : <em>l'analyse des données révèle</em> plutôt que <em>quand on analyse les données, on voit</em>.</p><p>Les connecteurs académiques structurent le raisonnement avec précision : <em>dans un premier temps / dans un second temps</em> pour organiser, <em>il convient de noter que</em> pour introduire une nuance, <em>ce constat amène à s'interroger sur</em> pour enchaîner une nouvelle question, <em>il ressort de cette analyse que</em> pour conclure.</p>",
+    "rules": [
+      {
+        "heading": "a) Construction impersonnelle",
+        "body": "<ul><li><em>il convient de, il importe de, il s'agit de</em> — évitent le sujet « je ».</li></ul>"
+      },
+      {
+        "heading": "b) Passif et pronominal de sens passif",
+        "body": "<ul><li><em>être examiné(e)</em> ou <em>s'expliquer par</em> — effacent l'agent.</li></ul>"
+      },
+      {
+        "heading": "c) Nominalisation condensée",
+        "body": "<ul><li><em>l'analyse révèle</em> plutôt qu'une phrase verbale avec « quand on analyse ».</li></ul>"
+      },
+      {
+        "heading": "d) Connecteurs académiques",
+        "body": "<ul><li><em>dans un premier temps, il convient de noter que, il ressort de cette analyse que</em>.</li></ul>"
+      }
+    ],
+    "examples": [
+      "Il convient d'examiner cette hypothèse avec prudence.",
+      "Cette question sera traitée dans la deuxième partie.",
+      "Ce phénomène s'explique par plusieurs facteurs convergents.",
+      "L'analyse des données révèle une tendance nette.",
+      "Dans un premier temps, il s'agit de définir les termes du débat.",
+      "Il ressort de cette étude que les résultats confirment l'hypothèse initiale.",
+      "Ce constat amène à s'interroger sur les causes profondes du phénomène."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Je pense que cette hypothèse est vraie (dans un mémoire académique).",
+        "right": "Il apparaît que cette hypothèse se vérifie.",
+        "why": "L'écrit académique évite le « je » et préfère une formulation impersonnelle ou nominalisée."
+      },
+      {
+        "wrong": "Quand on analyse les données, on voit une tendance.",
+        "right": "L'analyse des données révèle une tendance.",
+        "why": "La nominalisation condense la phrase verbale en une construction plus formelle et impersonnelle."
+      },
+      {
+        "wrong": "On va traiter cette question dans la deuxième partie.",
+        "right": "Cette question sera traitée dans la deuxième partie.",
+        "why": "Le passif efface l'agent (« on ») et convient mieux au registre académique."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "c1acad-fill",
+      "type": "fill-blank",
+      "title": "Reformule au Style Académique",
+      "instructions": "Choisis la formulation la plus académique.",
+      "items": [
+        {
+          "id": "c1acadf1",
+          "prompt": "« On va traiter cette question » se reformule : « Cette question ___ traitée. »",
+          "answers": [
+            [
+              "sera"
+            ]
+          ],
+          "options": [
+            "sera",
+            "va être",
+            "serait"
+          ],
+          "explanation": "Le passif au futur convient au style académique."
+        },
+        {
+          "id": "c1acadf2",
+          "prompt": "« Quand on analyse les données, on voit une tendance » se reformule : « ___ des données révèle une tendance. »",
+          "answers": [
+            [
+              "L'analyse"
+            ]
+          ],
+          "options": [
+            "L'analyse",
+            "Analyser",
+            "En analysant"
+          ],
+          "explanation": "La nominalisation condense la phrase verbale."
+        },
+        {
+          "id": "c1acadf3",
+          "prompt": "« Je pense qu'il faut examiner cette hypothèse » se reformule : « Il ___ d'examiner cette hypothèse. »",
+          "answers": [
+            [
+              "convient"
+            ]
+          ],
+          "options": [
+            "convient",
+            "pense",
+            "faut"
+          ],
+          "explanation": "Il convient de est une tournure impersonnelle typique du style académique."
+        },
+        {
+          "id": "c1acadf4",
+          "prompt": "« Ça s'explique par plusieurs facteurs » se reformule : « Ce phénomène ___ par plusieurs facteurs. »",
+          "answers": [
+            [
+              "s'explique"
+            ]
+          ],
+          "options": [
+            "s'explique",
+            "s'expliquerait",
+            "explique"
+          ],
+          "explanation": "Le pronominal de sens passif efface l'agent."
+        }
+      ]
+    },
+    {
+      "id": "c1acad-mc",
+      "type": "multiple-choice",
+      "title": "Le Style Académique",
+      "items": [
+        {
+          "id": "c1acadm1",
+          "prompt": "Que cherche à effacer le style académique ?",
+          "options": [
+            "la présence explicite du locuteur (le « je »)",
+            "toute forme de subjonctif",
+            "les accords grammaticaux"
+          ],
+          "answerIndex": 0,
+          "explanation": "L'objectivité passe par l'effacement du locuteur."
+        },
+        {
+          "id": "c1acadm2",
+          "prompt": "Quelle construction remplace souvent « on » ou « je » à l'écrit académique ?",
+          "options": [
+            "le passif ou le pronominal de sens passif",
+            "l'impératif",
+            "le futur simple seul"
+          ],
+          "answerIndex": 0,
+          "explanation": "Ces constructions effacent l'agent de l'action."
+        },
+        {
+          "id": "c1acadm3",
+          "prompt": "Quel outil grammatical condense une phrase verbale en style plus formel ?",
+          "options": [
+            "la nominalisation",
+            "la négation",
+            "l'interrogation"
+          ],
+          "answerIndex": 0,
+          "explanation": "C'est l'outil central du style académique."
+        },
+        {
+          "id": "c1acadm4",
+          "prompt": "Que signale un connecteur comme « il ressort de cette analyse que » ?",
+          "options": [
+            "une conclusion tirée d'une analyse",
+            "une simple opinion personnelle",
+            "une hypothèse non vérifiée"
+          ],
+          "answerIndex": 0,
+          "explanation": "C'est un connecteur de conclusion typique de l'écrit académique."
+        }
+      ]
+    },
+    {
+      "id": "c1acad-correction",
+      "type": "correction",
+      "title": "Corrige le Registre",
+      "items": [
+        {
+          "id": "c1acadc1",
+          "incorrect": "Je pense que cette hypothèse est vraie (dans un mémoire).",
+          "answer": [
+            "Il apparaît que cette hypothèse se vérifie."
+          ],
+          "explanation": "L'écrit académique évite le « je »."
+        },
+        {
+          "id": "c1acadc2",
+          "incorrect": "On va traiter cette question dans la deuxième partie.",
+          "answer": [
+            "Cette question sera traitée dans la deuxième partie."
+          ],
+          "explanation": "Le passif convient mieux au style académique."
+        },
+        {
+          "id": "c1acadc3",
+          "incorrect": "Quand on analyse les données, on voit une tendance nette.",
+          "answer": [
+            "L'analyse des données révèle une tendance nette."
+          ],
+          "explanation": "La nominalisation condense la phrase."
+        }
+      ]
+    },
+    {
+      "id": "c1acadx-reading",
+      "type": "reading-comprehension",
+      "title": "Lecture : Extrait d'un Rapport",
+      "passage": "<p>Il convient d'examiner cette question avec attention. L'analyse des données recueillies révèle une tendance préoccupante. Ce phénomène s'explique par une conjonction de facteurs économiques et sociaux. Dans un premier temps, il s'agit de définir précisément le cadre de cette étude. Il ressort de cette analyse que des mesures correctives sont nécessaires.</p>",
+      "items": [
+        {
+          "id": "c1acadxr1",
+          "prompt": "Que révèle l'analyse des données ?",
+          "options": [
+            "Une tendance préoccupante",
+            "Une amélioration constante",
+            "Aucun résultat clair"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte le dit directement."
+        },
+        {
+          "id": "c1acadxr2",
+          "prompt": "Par quoi s'explique ce phénomène ?",
+          "options": [
+            "Une conjonction de facteurs économiques et sociaux",
+            "Le hasard",
+            "Une erreur de calcul"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte le précise avec le pronominal de sens passif."
+        },
+        {
+          "id": "c1acadxr3",
+          "prompt": "Que s'agit-il de faire dans un premier temps ?",
+          "options": [
+            "Définir le cadre de l'étude",
+            "Publier les résultats",
+            "Interroger le public"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte le dit directement."
+        },
+        {
+          "id": "c1acadxr4",
+          "prompt": "Que ressort-il de cette analyse ?",
+          "options": [
+            "Des mesures correctives sont nécessaires",
+            "Aucune action n'est requise",
+            "Le sujet est clos"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte se termine sur cette conclusion."
+        }
+      ]
+    },
+    {
+      "id": "c1acadx-order",
+      "type": "ordering",
+      "title": "Remets la Phrase en Ordre",
+      "items": [
+        {
+          "id": "c1acadxo1",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "L'analyse",
+            "révèle",
+            "une",
+            "tendance",
+            "préoccupante"
+          ],
+          "explanation": "Nominalisation en tête de phrase, style académique."
+        },
+        {
+          "id": "c1acadxo2",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Il",
+            "convient",
+            "d'examiner",
+            "cette",
+            "question"
+          ],
+          "explanation": "Construction impersonnelle typique du style académique."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "L'écrit académique évite le « je » avec des constructions impersonnelles (il convient de) et le passif ou le pronominal de sens passif.",
+    "La nominalisation condense une phrase verbale en expression nominale plus formelle.",
+    "Des connecteurs précis (dans un premier temps, il ressort que) structurent le raisonnement académique."
+  ]
+}

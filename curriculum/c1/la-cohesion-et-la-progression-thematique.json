@@ -1,0 +1,304 @@
+{
+  "id": "c1-la-cohesion-et-la-progression-thematique",
+  "level": "C1",
+  "unit": "1",
+  "order": 8,
+  "skill": "writing",
+  "strand": "cohesion-textuelle",
+  "title": "La Cohésion et la Progression Thématique dans un Texte Argumentatif",
+  "subtitle": "Construire un texte fluide qui progresse sans répétition, par reprise lexicale, pronominale et synonymique.",
+  "objectives": [
+    "Comprendre la progression thème/rhème d'un texte cohérent.",
+    "Éviter la répétition lexicale par la reprise pronominale et la synonymie.",
+    "Organiser un paragraphe argumentatif autour d'une idée qui progresse logiquement."
+  ],
+  "content": {
+    "intro": "Un texte bien écrit ne s'improvise pas phrase par phrase : chaque phrase reprend une information déjà connue (le thème) pour introduire une information nouvelle (le rhème), créant ainsi une progression logique et fluide.",
+    "explanation": "<p>La <strong>progression thématique</strong> décrit comment l'information circule d'une phrase à l'autre : le <strong>thème</strong> est ce dont on parle (connu), le <strong>rhème</strong> est ce qu'on en dit (nouveau). Dans une progression simple, le rhème d'une phrase devient le thème de la suivante : <em>Le réchauffement climatique menace les écosystèmes. Ces écosystèmes, déjà fragilisés, peinent à s'adapter.</em></p><p>Pour éviter de répéter le même mot, le français utilise la <strong>reprise pronominale</strong> (<em>il, elle, celui-ci, ce dernier</em>), la <strong>reprise lexicale par synonyme</strong> (<em>le réchauffement → ce phénomène → cette évolution</em>), et la reprise par un <strong>terme générique</strong> (<em>le chêne → cet arbre</em>). Une bonne cohésion textuelle enchaîne aussi les idées avec des connecteurs adaptés, évitant les ruptures logiques entre les paragraphes.</p>",
+    "rules": [
+      {
+        "heading": "a) Thème et rhème",
+        "body": "<ul><li>Le thème (connu) précède le rhème (nouveau) ; le rhème d'une phrase devient souvent le thème de la suivante.</li></ul>"
+      },
+      {
+        "heading": "b) Reprise pronominale",
+        "body": "<ul><li><em>il, elle, celui-ci, ce dernier</em> — évitent de répéter le nom.</li></ul>"
+      },
+      {
+        "heading": "c) Reprise par synonyme ou terme générique",
+        "body": "<ul><li><em>le réchauffement → ce phénomène ; le chêne → cet arbre</em>.</li></ul>"
+      },
+      {
+        "heading": "d) Connecteurs de cohésion",
+        "body": "<ul><li>Enchaînent les idées sans rupture logique entre les phrases et les paragraphes.</li></ul>"
+      }
+    ],
+    "examples": [
+      "Le réchauffement climatique menace les écosystèmes. Ces derniers peinent déjà à s'adapter.",
+      "L'auteur aborde ensuite un second argument, plus personnel celui-là.",
+      "Cette réforme divise l'opinion. Ce phénomène s'observe dans tous les pays voisins.",
+      "Le chêne est un arbre majestueux. Cet arbre peut vivre plusieurs siècles.",
+      "L'entreprise a annoncé son plan. Ce dernier prévoit une restructuration complète.",
+      "Ces deux hypothèses semblent contradictoires ; pourtant, elles se complètent.",
+      "Le sujet mérite d'être approfondi ; c'est précisément l'objet de cette étude."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Le réchauffement climatique menace les écosystèmes. Le réchauffement climatique s'accélère chaque année.",
+        "right": "Le réchauffement climatique menace les écosystèmes. Ce phénomène s'accélère chaque année.",
+        "why": "Répéter le même groupe nominal alourdit le texte ; une reprise par synonyme ou pronom crée une meilleure cohésion."
+      },
+      {
+        "wrong": "Écrire un paragraphe où chaque phrase introduit une idée sans lien avec la précédente.",
+        "right": "Faire en sorte que le rhème d'une phrase devienne le thème de la phrase suivante.",
+        "why": "Sans progression thématique claire, le texte perd en cohérence et devient difficile à suivre."
+      },
+      {
+        "wrong": "Utiliser toujours le même pronom il/elle même quand le référent devient ambigu.",
+        "right": "Utiliser ce dernier/celui-ci quand plusieurs référents possibles créent une ambiguïté.",
+        "why": "Ce dernier lève l'ambiguïté en désignant clairement le référent le plus proche."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "c1coh-fill",
+      "type": "fill-blank",
+      "title": "Complète avec la Reprise Correcte",
+      "instructions": "Choisis la reprise qui évite la répétition.",
+      "items": [
+        {
+          "id": "c1cohf1",
+          "prompt": "Le réchauffement climatique menace les écosystèmes. ___ phénomène s'accélère chaque année.",
+          "answers": [
+            [
+              "Ce"
+            ]
+          ],
+          "options": [
+            "Ce",
+            "Le",
+            "Un"
+          ],
+          "explanation": "Ce phénomène reprend le réchauffement climatique par synonymie."
+        },
+        {
+          "id": "c1cohf2",
+          "prompt": "L'entreprise a annoncé son plan. ___ dernier prévoit une restructuration.",
+          "answers": [
+            [
+              "Ce"
+            ]
+          ],
+          "options": [
+            "Ce",
+            "Le",
+            "Un"
+          ],
+          "explanation": "Ce dernier reprend le plan pour éviter l'ambiguïté."
+        },
+        {
+          "id": "c1cohf3",
+          "prompt": "Le chêne est un arbre majestueux. Cet ___ peut vivre plusieurs siècles.",
+          "answers": [
+            [
+              "arbre"
+            ]
+          ],
+          "options": [
+            "arbre",
+            "chêne",
+            "bois"
+          ],
+          "explanation": "Reprise par terme générique."
+        },
+        {
+          "id": "c1cohf4",
+          "prompt": "Dans une progression thématique simple, le ___ d'une phrase devient le thème de la suivante.",
+          "answers": [
+            [
+              "rhème"
+            ]
+          ],
+          "options": [
+            "rhème",
+            "verbe",
+            "sujet"
+          ],
+          "explanation": "C'est la définition de la progression thématique simple."
+        }
+      ]
+    },
+    {
+      "id": "c1coh-mc",
+      "type": "multiple-choice",
+      "title": "La Cohésion Textuelle",
+      "items": [
+        {
+          "id": "c1cohm1",
+          "prompt": "Qu'est-ce que le thème d'une phrase ?",
+          "options": [
+            "ce dont on parle, l'information connue",
+            "l'information nouvelle",
+            "le verbe principal"
+          ],
+          "answerIndex": 0,
+          "explanation": "C'est la définition du thème, par opposition au rhème."
+        },
+        {
+          "id": "c1cohm2",
+          "prompt": "Pourquoi éviter de répéter le même mot dans un texte cohérent ?",
+          "options": [
+            "cela alourdit le style, mieux vaut varier avec pronoms/synonymes",
+            "c'est une règle sans justification",
+            "cela change le sens du texte"
+          ],
+          "answerIndex": 0,
+          "explanation": "La variation améliore la fluidité et la cohésion."
+        },
+        {
+          "id": "c1cohm3",
+          "prompt": "Que reprend « ce dernier » dans un texte ?",
+          "options": [
+            "le référent le plus proche, pour lever une ambiguïté",
+            "toujours le sujet de la première phrase",
+            "rien, c'est une expression vide"
+          ],
+          "answerIndex": 0,
+          "explanation": "Ce dernier désigne le référent le plus récent."
+        },
+        {
+          "id": "c1cohm4",
+          "prompt": "Qu'est-ce qu'une progression thématique simple ?",
+          "options": [
+            "le rhème d'une phrase devient le thème de la suivante",
+            "chaque phrase a un thème différent",
+            "il n'y a pas de thème du tout"
+          ],
+          "answerIndex": 0,
+          "explanation": "C'est le type de progression le plus courant en français."
+        }
+      ]
+    },
+    {
+      "id": "c1coh-ordering",
+      "type": "ordering",
+      "title": "Remets la Phrase en Ordre",
+      "items": [
+        {
+          "id": "c1coho1",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Ce",
+            "phénomène",
+            "s'accélère",
+            "chaque",
+            "année"
+          ],
+          "explanation": "Reprise par synonyme du thème précédent."
+        },
+        {
+          "id": "c1coho2",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Ce",
+            "dernier",
+            "prévoit",
+            "une",
+            "restructuration"
+          ],
+          "explanation": "Ce dernier reprend le référent le plus proche sans ambiguïté."
+        }
+      ]
+    },
+    {
+      "id": "c1cohx-reading",
+      "type": "reading-comprehension",
+      "title": "Lecture : Un Paragraphe Bien Construit",
+      "passage": "<p>La désertification menace de vastes régions du globe. Ce phénomène, déjà bien documenté, s'aggrave chaque année sous l'effet du réchauffement climatique. Ce dernier accélère l'évaporation des sols, rendant l'agriculture de plus en plus difficile. Cette situation pousse de nombreuses populations à migrer vers des zones plus fertiles.</p>",
+      "items": [
+        {
+          "id": "c1cohxr1",
+          "prompt": "Que menace la désertification ?",
+          "options": [
+            "De vastes régions du globe",
+            "Uniquement les océans",
+            "Les grandes villes"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte le dit directement."
+        },
+        {
+          "id": "c1cohxr2",
+          "prompt": "Comment le texte reprend-il « la désertification » dans la deuxième phrase ?",
+          "options": [
+            "Par « ce phénomène »",
+            "En la répétant",
+            "Il ne la reprend pas"
+          ],
+          "answerIndex": 0,
+          "explanation": "C'est une reprise par synonyme pour éviter la répétition."
+        },
+        {
+          "id": "c1cohxr3",
+          "prompt": "Que reprend « ce dernier » dans le texte ?",
+          "options": [
+            "Le réchauffement climatique",
+            "La désertification",
+            "L'agriculture"
+          ],
+          "answerIndex": 0,
+          "explanation": "Ce dernier désigne le référent le plus proche, le réchauffement climatique."
+        },
+        {
+          "id": "c1cohxr4",
+          "prompt": "Quelle est la conséquence finale décrite par le texte ?",
+          "options": [
+            "Des populations migrent vers des zones plus fertiles",
+            "L'agriculture s'améliore",
+            "Le climat se stabilise"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte se termine sur cette conséquence."
+        }
+      ]
+    },
+    {
+      "id": "c1cohx-order",
+      "type": "ordering",
+      "title": "Remets la Phrase en Ordre",
+      "items": [
+        {
+          "id": "c1cohxo1",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Ce",
+            "phénomène",
+            "s'aggrave",
+            "chaque",
+            "année"
+          ],
+          "explanation": "Reprise par synonyme du thème précédent."
+        },
+        {
+          "id": "c1cohxo2",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Ce",
+            "dernier",
+            "accélère",
+            "l'évaporation",
+            "des",
+            "sols"
+          ],
+          "explanation": "Ce dernier reprend le référent le plus proche."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "La progression thématique fait circuler l'information : le rhème (nouveau) d'une phrase devient souvent le thème (connu) de la suivante.",
+    "La reprise pronominale (celui-ci, ce dernier), lexicale par synonyme ou par terme générique évite la répétition.",
+    "Une bonne cohésion textuelle enchaîne les idées sans rupture logique, à l'intérieur d'un paragraphe comme entre les paragraphes."
+  ]
+}

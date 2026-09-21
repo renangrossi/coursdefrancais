@@ -1,0 +1,303 @@
+{
+  "id": "c1-lexpression-de-la-restriction-et-de-lexception",
+  "level": "C1",
+  "unit": "1",
+  "order": 10,
+  "skill": "grammar",
+  "strand": "restriction-exception",
+  "title": "L'Expression de la Restriction et de l'Exception",
+  "subtitle": "Ne... que, sauf, hormis, excepté, à moins que : dire ce qui limite une affirmation, avec précision.",
+  "objectives": [
+    "Employer ne... que pour exprimer une restriction équivalente à seulement.",
+    "Distinguer sauf, hormis et excepté, proches en sens mais différents en registre.",
+    "Employer à moins que + subjonctif et sous réserve de + nom pour poser une condition restrictive."
+  ],
+  "content": {
+    "intro": "Exprimer une restriction ou une exception avec précision — ce qui limite une règle générale, ou ce qui y échappe — est une marque de maîtrise fine du français, avec plusieurs outils aux nuances de registre différentes.",
+    "explanation": "<p><strong>Ne... que</strong> exprime une restriction équivalente à « seulement » : <em>Je n'ai que deux heures devant moi</em> (= seulement deux heures). <strong>Sauf</strong>, <strong>hormis</strong> et <strong>excepté</strong> introduisent une exception à une règle générale ; ils sont proches en sens, mais <em>sauf</em> est d'usage courant, tandis que <em>hormis</em> et <em>excepté</em> sont plus soutenus et plus fréquents à l'écrit : <em>Tout le monde est venu, sauf/hormis/excepté Marc.</em></p><p><strong>À moins que</strong> + subjonctif pose une condition restrictive qui empêcherait la réalisation de l'action principale : <em>Nous partirons à moins qu'il ne pleuve.</em> <strong>Sous réserve de</strong> + nom introduit une condition formelle, fréquente dans les contrats et les annonces officielles : <em>Le projet sera validé, sous réserve de l'accord du conseil.</em></p>",
+    "rules": [
+      {
+        "heading": "a) Ne... que",
+        "body": "<ul><li>Équivaut à « seulement » : <em>Il ne reste que trois places.</em></li></ul>"
+      },
+      {
+        "heading": "b) Sauf / hormis / excepté",
+        "body": "<ul><li>Introduisent une exception ; sauf est courant, hormis et excepté plus soutenus.</li></ul>"
+      },
+      {
+        "heading": "c) À moins que + subjonctif",
+        "body": "<ul><li>Condition restrictive qui empêcherait l'action principale : <em>à moins qu'il ne pleuve</em>.</li></ul>"
+      },
+      {
+        "heading": "d) Sous réserve de + nom",
+        "body": "<ul><li>Condition formelle, fréquente en contexte officiel/contractuel.</li></ul>"
+      }
+    ],
+    "examples": [
+      "Je n'ai que deux heures devant moi ce matin.",
+      "Tout le monde est venu, sauf Marc, qui était malade.",
+      "Hormis quelques détails, le rapport est complet.",
+      "Excepté le prix, cette offre est parfaite.",
+      "Nous partirons à moins qu'il ne pleuve.",
+      "Le projet sera validé, sous réserve de l'accord du conseil.",
+      "Il ne reste que trois places pour la conférence de demain."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Je n'ai pas que deux heures devant moi (pour dire « seulement deux heures »).",
+        "right": "Je n'ai que deux heures devant moi.",
+        "why": "Ne... que est déjà une restriction complète (= seulement) ; ajouter pas la transforme en négation d'une négation, un contresens."
+      },
+      {
+        "wrong": "Nous partirons à moins qu'il pleut.",
+        "right": "Nous partirons à moins qu'il ne pleuve.",
+        "why": "À moins que impose le subjonctif, ici avec le ne explétif (facultatif mais fréquent à l'écrit soutenu)."
+      },
+      {
+        "wrong": "Le projet sera validé, sous réserve que le conseil accepte (mélange de sous réserve de + nom et sous réserve que + phrase).",
+        "right": "Le projet sera validé, sous réserve de l'accord du conseil. / Le projet sera validé, sous réserve que le conseil accepte.",
+        "why": "Sous réserve de se construit avec un nom, sous réserve que avec une proposition — les deux existent, mais ne se mélangent pas dans une même construction."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "c1rest-fill",
+      "type": "fill-blank",
+      "title": "Complète avec l'Expression de Restriction",
+      "items": [
+        {
+          "id": "c1restf1",
+          "prompt": "Je ___ que deux heures devant moi.",
+          "answers": [
+            [
+              "n'ai"
+            ]
+          ],
+          "options": [
+            "n'ai",
+            "n'ai pas",
+            "ai"
+          ],
+          "explanation": "Ne... que exprime la restriction, sans pas."
+        },
+        {
+          "id": "c1restf2",
+          "prompt": "Tout le monde est venu, ___ Marc, qui était malade.",
+          "answers": [
+            [
+              "sauf"
+            ]
+          ],
+          "options": [
+            "sauf",
+            "à moins que",
+            "sous réserve de"
+          ],
+          "explanation": "Sauf introduit une exception, ici en registre courant."
+        },
+        {
+          "id": "c1restf3",
+          "prompt": "Nous partirons à moins qu'il ne ___ (pleuvoir).",
+          "answers": [
+            [
+              "pleuve"
+            ]
+          ],
+          "options": [
+            "pleuve",
+            "pleut",
+            "pleuvra"
+          ],
+          "explanation": "À moins que impose le subjonctif."
+        },
+        {
+          "id": "c1restf4",
+          "prompt": "Le projet sera validé, sous réserve ___ l'accord du conseil.",
+          "answers": [
+            [
+              "de"
+            ]
+          ],
+          "options": [
+            "de",
+            "que",
+            "à"
+          ],
+          "explanation": "Sous réserve de se construit avec un nom."
+        }
+      ]
+    },
+    {
+      "id": "c1rest-mc",
+      "type": "multiple-choice",
+      "title": "La Restriction et l'Exception",
+      "items": [
+        {
+          "id": "c1restm1",
+          "prompt": "À quoi équivaut ne... que ?",
+          "options": [
+            "seulement",
+            "jamais",
+            "toujours"
+          ],
+          "answerIndex": 0,
+          "explanation": "C'est une restriction équivalente à seulement."
+        },
+        {
+          "id": "c1restm2",
+          "prompt": "Quel mot d'exception est le plus courant à l'oral ?",
+          "options": [
+            "sauf",
+            "hormis",
+            "excepté"
+          ],
+          "answerIndex": 0,
+          "explanation": "Sauf est d'usage courant ; hormis et excepté sont plus soutenus."
+        },
+        {
+          "id": "c1restm3",
+          "prompt": "Quelle construction suit à moins que ?",
+          "options": [
+            "le subjonctif",
+            "l'indicatif",
+            "le conditionnel"
+          ],
+          "answerIndex": 0,
+          "explanation": "À moins que impose toujours le subjonctif."
+        },
+        {
+          "id": "c1restm4",
+          "prompt": "Avec quoi se construit sous réserve de ?",
+          "options": [
+            "un nom",
+            "une proposition avec que",
+            "un verbe à l'infinitif seul"
+          ],
+          "answerIndex": 0,
+          "explanation": "Sous réserve de est suivi d'un groupe nominal."
+        }
+      ]
+    },
+    {
+      "id": "c1rest-correction",
+      "type": "correction",
+      "title": "Corrige les Erreurs",
+      "items": [
+        {
+          "id": "c1restc1",
+          "incorrect": "Je n'ai pas que deux heures devant moi.",
+          "answer": [
+            "Je n'ai que deux heures devant moi."
+          ],
+          "explanation": "Ne... que est déjà une restriction complète, sans pas."
+        },
+        {
+          "id": "c1restc2",
+          "incorrect": "Nous partirons à moins qu'il pleut.",
+          "answer": [
+            "Nous partirons à moins qu'il ne pleuve."
+          ],
+          "explanation": "À moins que impose le subjonctif."
+        },
+        {
+          "id": "c1restc3",
+          "incorrect": "Le projet sera validé, sous réserve l'accord du conseil.",
+          "answer": [
+            "Le projet sera validé, sous réserve de l'accord du conseil."
+          ],
+          "explanation": "Sous réserve de exige la préposition de devant le nom."
+        }
+      ]
+    },
+    {
+      "id": "c1restx-reading",
+      "type": "reading-comprehension",
+      "title": "Lecture : Les Conditions de l'Offre",
+      "passage": "<p>Cette offre est valable pour tous les clients, sauf ceux ayant déjà bénéficié d'une remise cette année. Il ne reste que quelques places disponibles. L'inscription sera validée, sous réserve du paiement intégral avant vendredi. Hormis les frais de dossier, aucun coût supplémentaire ne sera demandé, à moins que le client ne modifie sa réservation.</p>",
+      "items": [
+        {
+          "id": "c1restxr1",
+          "prompt": "Qui est exclu de cette offre ?",
+          "options": [
+            "Ceux ayant déjà bénéficié d'une remise cette année",
+            "Les nouveaux clients",
+            "Personne"
+          ],
+          "answerIndex": 0,
+          "explanation": "Sauf introduit cette exception."
+        },
+        {
+          "id": "c1restxr2",
+          "prompt": "Combien de places restent-ils, selon le texte ?",
+          "options": [
+            "Seulement quelques-unes",
+            "Beaucoup",
+            "Aucune"
+          ],
+          "answerIndex": 0,
+          "explanation": "Ne... que exprime la restriction, équivalent à seulement."
+        },
+        {
+          "id": "c1restxr3",
+          "prompt": "Sous quelle condition l'inscription sera-t-elle validée ?",
+          "options": [
+            "Le paiement intégral avant vendredi",
+            "L'accord d'un parent",
+            "Un examen médical"
+          ],
+          "answerIndex": 0,
+          "explanation": "Sous réserve de introduit cette condition formelle."
+        },
+        {
+          "id": "c1restxr4",
+          "prompt": "Dans quel cas un coût supplémentaire pourrait-il être demandé ?",
+          "options": [
+            "Si le client modifie sa réservation",
+            "Jamais",
+            "Toujours"
+          ],
+          "answerIndex": 0,
+          "explanation": "À moins que introduit cette exception au subjonctif."
+        }
+      ]
+    },
+    {
+      "id": "c1restx-order",
+      "type": "ordering",
+      "title": "Remets la Phrase en Ordre",
+      "items": [
+        {
+          "id": "c1restxo1",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Il",
+            "ne",
+            "reste",
+            "que",
+            "quelques",
+            "places"
+          ],
+          "explanation": "Ne... que exprime la restriction."
+        },
+        {
+          "id": "c1restxo2",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Sous",
+            "réserve",
+            "du",
+            "paiement",
+            "intégral"
+          ],
+          "explanation": "Sous réserve de + nom, condition formelle."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Ne... que équivaut à seulement ; sauf/hormis/excepté introduisent une exception, du plus courant (sauf) au plus soutenu (hormis, excepté).",
+    "À moins que impose le subjonctif pour poser une condition restrictive à l'action principale.",
+    "Sous réserve de + nom introduit une condition formelle, fréquente en contexte officiel et contractuel."
+  ]
+}
