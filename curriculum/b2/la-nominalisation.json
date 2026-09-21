@@ -210,6 +210,90 @@
           "explanation": "Nominalisation correcte : possibilité."
         }
       ]
+    },
+    {
+      "id": "b2nomx-reading",
+      "type": "reading-comprehension",
+      "title": "Lecture : Un Rapport Officiel",
+      "passage": "<p>La décision du conseil municipal a surpris de nombreux habitants. L'annonce du projet de rénovation a été faite ce matin. Le développement du quartier est prévu sur cinq ans. La possibilité d'un financement européen reste à confirmer, mais la faiblesse du budget actuel inquiète déjà les élus.</p>",
+      "items": [
+        {
+          "id": "b2nomxr1",
+          "prompt": "Qu'est-ce qui a surpris de nombreux habitants ?",
+          "options": [
+            "La décision du conseil municipal",
+            "Une élection",
+            "Un incendie"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte le dit directement."
+        },
+        {
+          "id": "b2nomxr2",
+          "prompt": "Quand l'annonce a-t-elle été faite ?",
+          "options": [
+            "Ce matin",
+            "Hier soir",
+            "La semaine dernière"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte le dit directement."
+        },
+        {
+          "id": "b2nomxr3",
+          "prompt": "Sur combien d'années le développement est-il prévu ?",
+          "options": [
+            "Cinq ans",
+            "Un an",
+            "Dix ans"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte le dit directement."
+        },
+        {
+          "id": "b2nomxr4",
+          "prompt": "Qu'est-ce qui inquiète les élus ?",
+          "options": [
+            "La faiblesse du budget actuel",
+            "Le nombre d'habitants",
+            "La météo"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte se termine par cette phrase."
+        }
+      ]
+    },
+    {
+      "id": "b2nomx-order",
+      "type": "ordering",
+      "title": "Remets la Phrase en Ordre",
+      "items": [
+        {
+          "id": "b2nomxo1",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "La",
+            "décision",
+            "a",
+            "surpris",
+            "les",
+            "habitants"
+          ],
+          "explanation": "Nominalisation du verbe décider."
+        },
+        {
+          "id": "b2nomxo2",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "La",
+            "possibilité",
+            "reste",
+            "à",
+            "confirmer"
+          ],
+          "explanation": "Nominalisation de l'adjectif possible."
+        }
+      ]
     }
   ],
   "summary": [

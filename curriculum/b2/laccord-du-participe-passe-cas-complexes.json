@@ -210,6 +210,90 @@
           "explanation": "Se = COI ici, les mains est le COD postposé : pas d'accord."
         }
       ]
+    },
+    {
+      "id": "b2accx-reading",
+      "type": "reading-comprehension",
+      "title": "Lecture : Une Matinée Chargée",
+      "passage": "<p>Ce matin, Léa s'est levée tôt. Elle s'est lavé les mains avant de préparer le petit-déjeuner. Les tartines qu'elle a préparées ont plu à toute la famille. Ensuite, elle s'est brossé les dents et s'est habillée rapidement avant de partir au travail.</p>",
+      "items": [
+        {
+          "id": "b2accxr1",
+          "prompt": "Que fait Léa juste après s'être levée ?",
+          "options": [
+            "Elle se lave les mains",
+            "Elle part au travail",
+            "Elle appelle une amie"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte suit cet ordre."
+        },
+        {
+          "id": "b2accxr2",
+          "prompt": "Qu'a-t-elle préparé pour la famille ?",
+          "options": [
+            "Des tartines",
+            "Un gâteau",
+            "Une soupe"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte le dit directement."
+        },
+        {
+          "id": "b2accxr3",
+          "prompt": "Pourquoi « préparées » s'accorde-t-il au féminin pluriel ?",
+          "options": [
+            "Le COD que (les tartines) précède le verbe",
+            "Léa est féminin",
+            "C'est une règle sans raison"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le pronom relatif que, représentant les tartines, précède le verbe."
+        },
+        {
+          "id": "b2accxr4",
+          "prompt": "Pourquoi « brossé » ne s'accorde-t-il pas dans « elle s'est brossé les dents » ?",
+          "options": [
+            "Se est un COI ici, les dents est le COD postposé",
+            "C'est une erreur du texte",
+            "Brossé ne s'accorde jamais"
+          ],
+          "answerIndex": 0,
+          "explanation": "Les dents est le COD placé après le verbe ; se est le COI."
+        }
+      ]
+    },
+    {
+      "id": "b2accx-order",
+      "type": "ordering",
+      "title": "Remets la Phrase en Ordre",
+      "items": [
+        {
+          "id": "b2accxo1",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Léa",
+            "s'est",
+            "levée",
+            "tôt",
+            "ce",
+            "matin"
+          ],
+          "explanation": "Se = COD ici : accord avec le sujet féminin."
+        },
+        {
+          "id": "b2accxo2",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Elle",
+            "s'est",
+            "lavé",
+            "les",
+            "mains"
+          ],
+          "explanation": "Se = COI ici, les mains est le COD postposé : pas d'accord."
+        }
+      ]
     }
   ],
   "summary": [

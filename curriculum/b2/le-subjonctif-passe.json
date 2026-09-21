@@ -210,6 +210,92 @@
           "explanation": "Accord avec le sujet féminin."
         }
       ]
+    },
+    {
+      "id": "b2sbpx-reading",
+      "type": "reading-comprehension",
+      "title": "Lecture : Une Bonne Nouvelle",
+      "passage": "<p>Marc vient d'apprendre que sa sœur a eu son diplôme. Il est très content qu'elle ait réussi, surtout qu'elle ait travaillé si dur toute l'année. Il doute seulement qu'elle ait eu le temps de fêter ça, tant elle était fatiguée après l'examen. Il espère qu'elle se soit reposée depuis.</p>",
+      "items": [
+        {
+          "id": "b2sbpxr1",
+          "prompt": "Qu'a appris Marc ?",
+          "options": [
+            "Que sa sœur a eu son diplôme",
+            "Que sa sœur a échoué",
+            "Que sa sœur part en voyage"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte le dit directement."
+        },
+        {
+          "id": "b2sbpxr2",
+          "prompt": "Pourquoi est-il particulièrement content ?",
+          "options": [
+            "Parce qu'elle a travaillé dur toute l'année",
+            "Parce qu'il a eu son diplôme aussi",
+            "Parce qu'elle part en vacances"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit : « surtout qu'elle ait travaillé si dur »."
+        },
+        {
+          "id": "b2sbpxr3",
+          "prompt": "De quoi doute-t-il ?",
+          "options": [
+            "Qu'elle ait eu le temps de fêter ça",
+            "Qu'elle ait réussi",
+            "Qu'elle soit sa sœur"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte le dit directement."
+        },
+        {
+          "id": "b2sbpxr4",
+          "prompt": "Qu'espère-t-il ?",
+          "options": [
+            "Qu'elle se soit reposée depuis",
+            "Qu'elle recommence l'examen",
+            "Qu'elle change d'études"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte se termine par cette phrase."
+        }
+      ]
+    },
+    {
+      "id": "b2sbpx-order",
+      "type": "ordering",
+      "title": "Remets la Phrase en Ordre",
+      "items": [
+        {
+          "id": "b2sbpxo1",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Il",
+            "est",
+            "content",
+            "qu'elle",
+            "ait",
+            "réussi"
+          ],
+          "explanation": "Subjonctif passé après une émotion, action antérieure."
+        },
+        {
+          "id": "b2sbpxo2",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Il",
+            "doute",
+            "qu'elle",
+            "ait",
+            "eu",
+            "le",
+            "temps"
+          ],
+          "explanation": "Subjonctif passé après le doute."
+        }
+      ]
     }
   ],
   "summary": [

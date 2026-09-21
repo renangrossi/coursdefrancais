@@ -210,6 +210,92 @@
           "explanation": "La métaphore ne contient pas de mot de comparaison."
         }
       ]
+    },
+    {
+      "id": "b2regx-reading",
+      "type": "reading-comprehension",
+      "title": "Lecture : Deux Messages, Deux Registres",
+      "passage": "<p>Dans un message à son ami, Paul écrit : « Salut, j'sais pas si je viens ce soir, j'suis crevé. » Dans sa lettre de motivation, il écrit : « Je vous prie de bien vouloir considérer ma candidature avec la plus grande attention. » Le contraste entre les deux textes illustre à quel point le registre change selon la situation et le destinataire.</p>",
+      "items": [
+        {
+          "id": "b2regxr1",
+          "prompt": "Quel registre utilise Paul avec son ami ?",
+          "options": [
+            "Familier",
+            "Soutenu",
+            "Administratif"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte le dit directement (chute du ne, vocabulaire relâché)."
+        },
+        {
+          "id": "b2regxr2",
+          "prompt": "Que signifie « j'suis crevé » ?",
+          "options": [
+            "Je suis très fatigué",
+            "Je suis content",
+            "Je suis en retard"
+          ],
+          "answerIndex": 0,
+          "explanation": "Crevé est un mot familier pour fatigué."
+        },
+        {
+          "id": "b2regxr3",
+          "prompt": "Quel registre utilise Paul dans sa lettre de motivation ?",
+          "options": [
+            "Soutenu",
+            "Familier",
+            "Vulgaire"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte le dit directement."
+        },
+        {
+          "id": "b2regxr4",
+          "prompt": "Que montre le contraste entre les deux textes ?",
+          "options": [
+            "Que le registre change selon la situation",
+            "Que Paul écrit toujours pareil",
+            "Que Paul ne sait pas écrire"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte se termine par cette conclusion."
+        }
+      ]
+    },
+    {
+      "id": "b2regx-order",
+      "type": "ordering",
+      "title": "Remets la Phrase en Ordre",
+      "items": [
+        {
+          "id": "b2regxo1",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Je",
+            "ne",
+            "sais",
+            "pas",
+            "si",
+            "je",
+            "viens"
+          ],
+          "explanation": "Version au registre courant, avec le ne."
+        },
+        {
+          "id": "b2regxo2",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Que",
+            "pensez-vous",
+            "de",
+            "ce",
+            "projet",
+            "?"
+          ],
+          "explanation": "Inversion du sujet, registre soutenu."
+        }
+      ]
     }
   ],
   "summary": [
