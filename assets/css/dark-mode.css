@@ -1,9 +1,9 @@
 /* =======================================================================
-   MODO OSCURO
-   Se activa vía [data-theme="dark"] en <html>, controlado por main.js y
-   guardado en localStorage. Azul profundo / rojo de España / celeste de
-   Argentina, nunca negro puro — dentro de la misma paleta académica que
-   el tema claro.
+   MODE SOMBRE
+   Activé via [data-theme="dark"] sur <html>, piloté par main.js et
+   conservé dans localStorage. Bleu roi profond / rouge gueules / or —
+   jamais de noir pur — dans la même palette héraldique médiévale
+   française que le thème clair.
    ======================================================================= */
 
 html[data-theme="dark"] {
@@ -13,7 +13,10 @@ html[data-theme="dark"] {
   --color-surface: #101c33;
   --color-surface-raised: #16233d;
   --color-border: #2c3f5e;
-  --color-border-strong: var(--color-red);
+  /* Or plutôt que rouge pour les bordures/filets d'accent — cohérent
+     avec le thème clair, et l'or se détache magnifiquement sur un fond
+     bleu nuit (le contraste héraldique classique or-sur-azur). */
+  --color-border-strong: var(--color-gold);
 
   --color-text: #f1f4f9;
   --color-text-muted: #b7c2d6;
@@ -24,7 +27,9 @@ html[data-theme="dark"] {
   --color-primary-strong: #08101e;
   --color-accent: #e2555c;
   --color-accent-strong: #ef8189;
-  --color-secondary-accent: #7ec2f0;
+  /* Or plutôt que bleu clair pour le second accent (ex. badge--audio) —
+     cohérent avec le rôle --color-secondary-accent du thème clair. */
+  --color-secondary-accent: var(--gold-500);
   --color-gold: var(--gold-500);
   --color-red: #d1454c;
   --color-red-dim: #a6363c;

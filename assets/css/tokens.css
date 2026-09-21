@@ -1,36 +1,41 @@
 /* =======================================================================
-   TOKENS DE DISEÑO
-   Renan el Profesor — Academia de Español
-   Fuente única de verdad para color, tipografía, espaciado y movimiento.
-   El resto de las hojas de estilo deben leer estas variables en vez de
-   valores fijos, para que todo el sistema de diseño se pueda ajustar
-   desde aquí.
+   JETONS DE DESIGN
+   Renan le Professeur — Académie de Français
+   Source unique de vérité pour la couleur, la typographie, l'espacement
+   et le mouvement. Le reste des feuilles de style doit lire ces
+   variables plutôt que des valeurs fixes, pour que tout le système de
+   design puisse être ajusté depuis ce seul fichier.
 
-   Esta es la hoja hermana de tokens.css del curso de inglés y del curso
-   de italiano: los *nombres* de los tokens (navy/burgundy/forest/gold/
-   parchment/ink) se mantienen como vocabulario interno estable — solo
-   cambia qué *rol* usa cada uno, para que components.css, layout.css,
-   dark-mode.css y search.css no necesiten cambios estructurales. Lee
-   cada variable por su rol (primary/accent/secondary-accent/ornament),
-   no por el nombre histórico de su familia de color.
+   Cette feuille est la sœur de tokens.css du cours d'anglais, du cours
+   d'italien et du cours d'espagnol : les *noms* des jetons (navy/
+   burgundy/forest/gold/parchment/ink) restent un vocabulaire interne
+   stable — seul le *rôle* que joue chacun change, pour que
+   components.css, layout.css, dark-mode.css et search.css n'aient pas
+   besoin de modifications structurelles. Lis chaque variable par son
+   rôle (primary/accent/secondary-accent/ornament), pas par le nom
+   historique de sa famille de couleur.
 
-   Paleta actual: identidad de la selección española de fútbol — rojo
-   predominante, azul marino como color complementario, dorado en el
-   texto y los detalles que van sobre las áreas rojas. Esto es un cambio
-   deliberado de roles respecto a versiones anteriores de este archivo,
-   que tenían el azul como color principal y el rojo como acento: ahora
-   --color-primary/-strong usan la familia burgundy (antes navy), y
-   --color-accent/-strong usan la familia navy (antes burgundy). Los
-   valores hexadecimales de cada familia de color no cambiaron, solo su
-   rol — ver el bloque "Roles semánticos" más abajo.
+   Palette actuelle : identité héraldique de la France médiévale —
+   "d'azur semé de fleurs de lis d'or", les armes des rois de France.
+   Le bleu roi (famille navy) est la couleur principale — bandeaux
+   d'en-tête/pied de page, page-header de chaque leçon, hero, boutons
+   primaires. L'or (famille gold) reste la couleur des ornements et du
+   texte sur fond sombre — fleurs de lis, filets dorés, bordures de
+   carte. Le rouge profond (famille burgundy) sert d'encre de
+   rubrication pour les liens et petits accents interactifs, comme dans
+   un manuscrit enluminé. Le rouge vif (cotto-red, désormais plus proche
+   d'un rouge gueules profond) reste réservé aux filets structurels
+   (règles, séparateurs, fioritures de focus), distinct du rouge
+   d'accent. Parchemin/ivoire pour le fond, encre pour le texte —
+   inchangés, déjà parfaitement dans l'esprit manuscrit médiéval.
    ======================================================================= */
 
 :root {
-  /* ---- Paleta de marca --------------------------------------------------
-     Familias de color en bruto; ver el bloque de roles más abajo para
-     saber cuál desempeña cada papel en la paleta actual (rojo como
-     color principal, azul marino como acento, dorado como texto sobre
-     las áreas rojas y como detalle/ornamento). */
+  /* ---- Palette de marque -------------------------------------------------
+     Familles de couleur brutes ; voir le bloc de rôles plus bas pour
+     savoir quel rôle joue chacune dans la palette actuelle (bleu roi
+     comme couleur principale, rouge profond comme accent, or comme
+     ornement/texte sur fond sombre). */
   --navy-900: #123a5e;
   --navy-800: #154c78;
   --navy-700: #1c5c8f;
@@ -47,12 +52,13 @@
   --gold-500: #d6a021;
   --gold-300: #f0cb72;
 
-  /* Rojo de bandera vivo — para acentos estructurales (líneas de regla,
-     divisores, florituras de foco) distinto del rojo de marca usado en
-     botones/enlaces/eyebrows, igual que el "cotto" del curso de
-     italiano cumplía ese mismo rol. */
-  --cotto-red: #c1272d;
-  --cotto-red-dim: #931b20;
+  /* Rouge gueules profond — pour les accents structurels (filets de
+     règle, séparateurs, fioritures de focus) distinct du rouge
+     d'accent utilisé pour les liens/icônes/badges. Assombri par
+     rapport à un rouge de drapeau vif vers un rouge héraldique plus
+     sourd, plus proche de l'Oriflamme que d'un maillot de sport. */
+  --cotto-red: #9c1c28;
+  --cotto-red-dim: #6e131c;
 
   --walnut-800: #2a2118;
   --walnut-600: #4a3a2c;
@@ -66,29 +72,40 @@
   --ink-700: #3a352e;
   --ink-500: #6b6459;
 
-  /* ---- Roles semánticos de color (tema claro, por defecto) -------------
-     Los componentes deben leer estos roles, no la paleta cruda de
-     arriba, para que dark-mode.css pueda redirigirlos con seguridad. */
+  /* ---- Rôles sémantiques de couleur (thème clair, par défaut) ----------
+     Les composants doivent lire ces rôles, pas la palette brute
+     ci-dessus, pour que dark-mode.css puisse les rediriger en toute
+     sécurité. */
   --color-bg: #ffffff;
   --color-surface: var(--parchment-100);
   --color-surface-raised: #ffffff;
   --color-border: var(--parchment-300);
-  --color-border-strong: var(--cotto-red);
+  /* Bordures/filets d'accent en or plutôt qu'en rouge — bordures de
+     carte au survol, filets de séparation, fioritures de focus : l'or
+     gravé sur parchemin est la signature visuelle la plus reconnaissable
+     de ce thème (--border-gold porte déjà ce nom plus bas). */
+  --color-border-strong: var(--gold-600);
 
   --color-text: var(--ink-900);
   --color-text-muted: var(--ink-500);
-  /* Texto/detalles sobre las áreas de --color-primary(-strong) — ahora
-     rojas — pasan a dorado, en vez del blanco/marfil de antes. */
+  /* Texte/détails sur les zones en --color-primary(-strong) — désormais
+     bleu roi — passent à l'or, comme une fleur de lis dorée sur champ
+     d'azur. */
   --color-text-on-dark: var(--gold-300);
   --color-text-on-dark-muted: var(--gold-500);
 
-  /* Rojo como color principal (antes azul), azul marino como acento
-     (antes rojo) — identidad de la selección española de fútbol. */
-  --color-primary: var(--burgundy-600);
-  --color-primary-strong: var(--burgundy-700);
-  --color-accent: var(--navy-800);
-  --color-accent-strong: var(--navy-900);
-  --color-secondary-accent: var(--burgundy-500);
+  /* Bleu roi comme couleur principale (bandeaux d'en-tête/pied de page,
+     page-header de chaque leçon, hero, boutons primaires) — l'azur du
+     blason royal français. Rouge profond comme accent (liens, icônes,
+     badges, chiffres mis en avant) — une encre de rubrication sur
+     parchemin, comme dans un manuscrit enluminé. */
+  --color-primary: var(--navy-800);
+  --color-primary-strong: var(--navy-900);
+  --color-accent: var(--burgundy-600);
+  --color-accent-strong: var(--burgundy-700);
+  /* Or comme second accent (ex. badge--audio) — élève l'or à un rôle
+     structurel, pas seulement décoratif. */
+  --color-secondary-accent: var(--gold-500);
   --color-gold: var(--gold-600);
   --color-red: var(--cotto-red);
   --color-red-dim: var(--cotto-red-dim);
@@ -96,23 +113,23 @@
   --color-focus-ring: var(--gold-600);
   --color-unavailable: var(--ink-500);
 
-  /* Indica al navegador que esta página tiene una interfaz clara
-     explícita, para que los controles nativos (barras de desplazamiento
-     y, junto con los colores explícitos de select/option en base.css,
-     los menús desplegables <select>) se rendericen con un tema claro en
-     vez de adivinar según el sistema operativo. El modo oscuro redirige
-     esto a "dark" en dark-mode.css. */
+  /* Indique au navigateur que cette page a une interface claire
+     explicite, pour que les contrôles natifs (barres de défilement et,
+     avec les couleurs explicites de select/option dans base.css, les
+     menus déroulants <select>) s'affichent avec un thème clair plutôt
+     que de deviner selon le système d'exploitation. Le mode sombre
+     redirige ceci vers "dark" dans dark-mode.css. */
   color-scheme: light;
 
-  /* Colores de retroalimentación dedicados para los ejercicios —
-     ajustados para visibilidad en tintes bajos, independientes de los
-     colores de acento de marca. */
+  /* Couleurs de retour dédiées pour les exercices — ajustées pour la
+     visibilité sur teintes claires, indépendantes des couleurs
+     d'accent de la marque. */
   --color-success: #1f7a4d;
   --color-success-bg: #e2f4ea;
   --color-danger: #b3222b;
   --color-danger-bg: #fbe8e9;
 
-  /* ---- Tipografía ---------------------------------------------------- */
+  /* ---- Typographie ----------------------------------------------------- */
   --font-display: "Fraunces", "Iowan Old Style", "Palatino Linotype", Georgia, serif;
   --font-body: "Source Sans 3", "Segoe UI", Helvetica, Arial, sans-serif;
   --font-mono: "IBM Plex Mono", "Courier New", monospace;
@@ -132,7 +149,7 @@
   --tracking-wide: 0.06em;
   --tracking-wider: 0.14em;
 
-  /* ---- Escala de espaciado (ritmo de 8px) ---------------------------- */
+  /* ---- Échelle d'espacement (rythme de 8px) ----------------------------- */
   --space-3xs: 0.25rem;
   --space-2xs: 0.5rem;
   --space-xs:  0.75rem;
@@ -146,9 +163,9 @@
   --content-max: 76rem;
   --content-narrow: 46rem;
 
-  /* ---- Radios, bordes, sombra -----------------------------------------
-     Deliberadamente pequeños y algo cuadrados — sensación de placa
-     grabada en vez de una app de consumo suave. */
+  /* ---- Rayons, bordures, ombre -------------------------------------------
+     Délibérément petits et un peu carrés — l'impression d'une plaque
+     gravée plutôt que d'une application grand public toute douce. */
   --radius-sm: 3px;
   --radius-md: 6px;
   --radius-lg: 10px;
@@ -161,23 +178,23 @@
   --shadow-lg: 0 18px 45px -18px rgba(20, 40, 70, 0.38);
   --shadow-inset-rule: inset 0 1px 0 rgba(255, 255, 255, 0.4);
 
-  /* ---- Movimiento -------------------------------------------------------
-     Corto y discreto por defecto; ver base.css para reduced-motion. */
+  /* ---- Mouvement ---------------------------------------------------------
+     Court et discret par défaut ; voir base.css pour reduced-motion. */
   --ease-standard: cubic-bezier(0.4, 0, 0.2, 1);
   --duration-fast: 150ms;
   --duration-base: 240ms;
   --duration-slow: 420ms;
 
   --header-height: 84px;
-  /* Altura de la barra .level-toc pegajosa (presente en páginas de
-     nivel, hub y "ponte a prueba"), usada junto con --header-height
-     para calcular el desplazamiento total de scroll de abajo. */
+  /* Hauteur de la barre .level-toc collante (présente sur les pages de
+     niveau, de hub et de "teste-toi"), utilisée avec --header-height
+     pour calculer le décalage de défilement total ci-dessous. */
   --toc-height: 72px;
   --sticky-offset: calc(var(--header-height) + var(--toc-height) + var(--space-sm));
 }
 
-/* Cabecera más angosta en pantallas pequeñas mantiene correcta la
-   matemática del scroll-offset */
+/* En-tête plus étroit sur petits écrans conserve juste le calcul du
+   décalage de défilement */
 @media (max-width: 640px) {
   :root {
     --header-height: 68px;

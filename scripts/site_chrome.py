@@ -29,14 +29,32 @@ LEVELS = [
     ("C2", "Maîtrise", "c2"),
 ]
 
+# Fleur de lis — le brand mark et le motif décoratif de stars-row utilisent
+# tous deux ce même emblème (construit à partir de formes symétriques
+# simples : un pétale central en amande, deux pétales latéraux en volute
+# mutuellement en miroir, un bandeau et une hampe) plutôt qu'un tracé
+# hérité de bibliothèque d'icônes, pour rester lisible même minuscule
+# (13px dans stars-row).
 BRAND_MARK_SVG = (
     '<svg class="brand__mark" viewBox="0 0 40 40" aria-hidden="true">'
     '<circle cx="20" cy="20" r="18.4" fill="none" stroke="currentColor" stroke-width="1.6"/>'
-    '<path d="M13 27c1.6-6.4 3.2-11.6 7-15.8 3.8 4.2 5.4 9.4 7 15.8-2.3-1.7-4.7-2.5-7-2.5s-4.7.8-7 2.5Z" fill="currentColor"/>'
+    '<path d="M20,3 C25,8 26,15 20,20 C14,15 15,8 20,3 Z" fill="currentColor"/>'
+    '<path d="M22,9 C30,7 36,13 33,20 C31,24 25,24 22,20 Z" fill="currentColor"/>'
+    '<path d="M18,9 C10,7 4,13 7,20 C9,24 15,24 18,20 Z" fill="currentColor"/>'
+    '<rect x="13" y="22" width="14" height="4" rx="2" fill="currentColor"/>'
+    '<path d="M18.5,26 L21.5,26 L20.8,34 L19.2,34 Z" fill="currentColor"/>'
     "</svg>"
 )
 
-STAR = '<svg class="stars-row__star" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21Z"/></svg>'
+STAR = (
+    '<svg class="stars-row__star" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">'
+    '<path d="M12,1.8 C15,4.8 15.6,9 12,12 C8.4,9 9,4.8 12,1.8 Z"/>'
+    '<path d="M13.2,5.4 C18,4.2 21.6,7.8 19.8,12 C18.6,14.4 15,14.4 13.2,12 Z"/>'
+    '<path d="M10.8,5.4 C6,4.2 2.4,7.8 4.2,12 C5.4,14.4 9,14.4 10.8,12 Z"/>'
+    '<rect x="7.8" y="13.2" width="8.4" height="2.4" rx="1.2"/>'
+    '<path d="M11.1,15.6 L12.9,15.6 L12.5,20.4 L11.5,20.4 Z"/>'
+    "</svg>"
+)
 STARS_ROW = f'<div class="stars-row stars-row--onlight" aria-hidden="true">{STAR * 11}</div>'
 STARS_ROW_GOLD = f'<div class="stars-row stars-row--gold" aria-hidden="true">{STAR * 11}</div>'
 CHECK_SVG = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 5 5L20 7"/></svg>'
