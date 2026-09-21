@@ -1,0 +1,220 @@
+{
+  "id": "b2-le-conditionnel-information-non-confirmee",
+  "level": "B2",
+  "unit": "1",
+  "order": 4,
+  "skill": "grammar",
+  "strand": "conditionnel-non-confirme",
+  "title": "Le Conditionnel pour une Information Non Confirmée",
+  "subtitle": "Comment le français utilise le conditionnel dans la presse pour signaler une information qui n'est pas encore certaine.",
+  "objectives": [
+    "Reconnaître l'usage journalistique du conditionnel pour une information non confirmée.",
+    "Distinguer cet usage du conditionnel de politesse et du conditionnel hypothétique déjà connus.",
+    "Reformuler une information certaine (indicatif) en information non confirmée (conditionnel)."
+  ],
+  "content": {
+    "intro": "Dans la presse et les communiqués officiels, le conditionnel a un troisième emploi, différent de la politesse ou de l'hypothèse : il signale qu'une information circule sans être encore vérifiée.",
+    "explanation": "<p>Au lieu d'affirmer un fait avec l'indicatif, un journaliste utilise le <strong>conditionnel</strong> pour présenter une information dont la source n'est pas garantie : <em>Le ministre aurait démissionné ce matin</em> (on ne l'affirme pas comme un fait certain, seulement rapporté). C'est un usage très fréquent dans les titres de presse, les dépêches et les communiqués de police.</p><p>Cet emploi est distinct des deux autres usages du conditionnel déjà connus : la politesse (<em>je voudrais</em>) et l'hypothèse (<em>si j'avais le temps, je viendrais</em>). Ici, il n'y a ni condition ni politesse : seulement une réserve sur la véracité de l'information, souvent renforcée par <em>selon, d'après</em>.</p>",
+    "rules": [
+      {
+        "heading": "a) Usage journalistique",
+        "body": "<ul><li>Conditionnel présent ou passé pour une information non confirmée : <em>Il y aurait eu un accident.</em></li></ul>"
+      },
+      {
+        "heading": "b) Marqueurs fréquents",
+        "body": "<ul><li><em>selon, d'après, il semblerait que</em> accompagnent souvent cet emploi.</li></ul>"
+      },
+      {
+        "heading": "c) Distinction",
+        "body": "<ul><li>Différent du conditionnel de politesse et du conditionnel hypothétique : ici, aucune condition n'est exprimée.</li></ul>"
+      },
+      {
+        "heading": "d) Contexte",
+        "body": "<ul><li>Très fréquent en presse écrite, à la radio et dans les communiqués officiels.</li></ul>"
+      }
+    ],
+    "examples": [
+      "Le ministre aurait démissionné ce matin.",
+      "Il y aurait eu un accident sur l'autoroute.",
+      "Selon des sources proches du dossier, l'accord serait signé demain.",
+      "Le nombre de victimes serait plus élevé que prévu.",
+      "L'entreprise aurait licencié cent employés, d'après nos informations.",
+      "Il semblerait que la réunion ait été annulée.",
+      "Les négociations auraient repris hier soir."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Le ministre a démissionné ce matin (information non vérifiée).",
+        "right": "Le ministre aurait démissionné ce matin.",
+        "why": "Une information non confirmée s'annonce au conditionnel, pas à l'indicatif."
+      },
+      {
+        "wrong": "Il y aura eu un accident sur l'autoroute.",
+        "right": "Il y aurait eu un accident sur l'autoroute.",
+        "why": "C'est le conditionnel, pas le futur antérieur, qui marque l'information non confirmée."
+      },
+      {
+        "wrong": "Si l'accord serait signé, ce serait une bonne nouvelle (usage journalistique confondu avec l'hypothèse).",
+        "right": "Si l'accord est signé, ce sera une bonne nouvelle.",
+        "why": "Après si, on n'utilise jamais le conditionnel ; cette phrase est une hypothèse réelle, pas une information non confirmée."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b2cnc-fill",
+      "type": "fill-blank",
+      "title": "Complète avec le Conditionnel Journalistique",
+      "instructions": "Écris la forme correcte du verbe entre parenthèses.",
+      "items": [
+        {
+          "id": "b2cncf1",
+          "prompt": "Le ministre ___ (démissionner) ce matin, selon nos informations.",
+          "answers": [
+            [
+              "aurait démissionné"
+            ]
+          ],
+          "options": [
+            "aurait démissionné",
+            "a démissionné",
+            "démissionnerait"
+          ],
+          "explanation": "Information non confirmée : conditionnel passé."
+        },
+        {
+          "id": "b2cncf2",
+          "prompt": "Il y ___ (avoir) un accident sur l'autoroute.",
+          "answers": [
+            [
+              "aurait eu"
+            ]
+          ],
+          "options": [
+            "aurait eu",
+            "aura eu",
+            "a eu"
+          ],
+          "explanation": "Conditionnel passé pour une information non vérifiée."
+        },
+        {
+          "id": "b2cncf3",
+          "prompt": "L'accord ___ (être) signé demain, d'après des sources proches.",
+          "answers": [
+            [
+              "serait"
+            ]
+          ],
+          "options": [
+            "serait",
+            "sera",
+            "est"
+          ],
+          "explanation": "Conditionnel présent pour une information rapportée."
+        },
+        {
+          "id": "b2cncf4",
+          "prompt": "Les négociations ___ (reprendre) hier soir.",
+          "answers": [
+            [
+              "auraient repris"
+            ]
+          ],
+          "options": [
+            "auraient repris",
+            "ont repris",
+            "reprendraient"
+          ],
+          "explanation": "Conditionnel passé, information rapportée au passé."
+        }
+      ]
+    },
+    {
+      "id": "b2cnc-mc",
+      "type": "multiple-choice",
+      "title": "Le Conditionnel Journalistique",
+      "items": [
+        {
+          "id": "b2cncm1",
+          "prompt": "Pourquoi la presse utilise-t-elle le conditionnel ?",
+          "options": [
+            "pour signaler une information non confirmée",
+            "par politesse",
+            "pour exprimer une hypothèse"
+          ],
+          "answerIndex": 0,
+          "explanation": "C'est l'usage journalistique du conditionnel."
+        },
+        {
+          "id": "b2cncm2",
+          "prompt": "Quels mots accompagnent souvent cet emploi ?",
+          "options": [
+            "selon, d'après",
+            "si, à condition que",
+            "bien que, quoique"
+          ],
+          "answerIndex": 0,
+          "explanation": "Ces marqueurs signalent la source de l'information."
+        },
+        {
+          "id": "b2cncm3",
+          "prompt": "Cet emploi du conditionnel exprime-t-il une condition ?",
+          "options": [
+            "non, aucune condition",
+            "oui, toujours",
+            "seulement au passé"
+          ],
+          "answerIndex": 0,
+          "explanation": "Il n'y a ni condition ni politesse, seulement une réserve sur la véracité."
+        },
+        {
+          "id": "b2cncm4",
+          "prompt": "Où rencontre-t-on le plus souvent cet emploi ?",
+          "options": [
+            "dans la presse et les communiqués officiels",
+            "dans les recettes de cuisine",
+            "dans les lettres d'amour"
+          ],
+          "answerIndex": 0,
+          "explanation": "C'est un usage typique du style journalistique."
+        }
+      ]
+    },
+    {
+      "id": "b2cnc-correction",
+      "type": "correction",
+      "title": "Corrige les Erreurs",
+      "items": [
+        {
+          "id": "b2cncc1",
+          "incorrect": "Le ministre a démissionné ce matin (information non vérifiée).",
+          "answer": [
+            "Le ministre aurait démissionné ce matin."
+          ],
+          "explanation": "Information non confirmée : conditionnel."
+        },
+        {
+          "id": "b2cncc2",
+          "incorrect": "Il y aura eu un accident sur l'autoroute.",
+          "answer": [
+            "Il y aurait eu un accident sur l'autoroute."
+          ],
+          "explanation": "Le conditionnel marque l'information non confirmée, pas le futur antérieur."
+        },
+        {
+          "id": "b2cncc3",
+          "incorrect": "Si l'accord serait signé, ce serait une bonne nouvelle.",
+          "answer": [
+            "Si l'accord est signé, ce sera une bonne nouvelle."
+          ],
+          "explanation": "Jamais de conditionnel juste après si."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Le conditionnel signale, dans la presse et les communiqués officiels, une information non encore confirmée.",
+    "Il est souvent accompagné de selon, d'après, il semblerait que.",
+    "Cet emploi est distinct du conditionnel de politesse et du conditionnel hypothétique après si."
+  ]
+}

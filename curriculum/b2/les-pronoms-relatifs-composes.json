@@ -1,0 +1,220 @@
+{
+  "id": "b2-les-pronoms-relatifs-composes",
+  "level": "B2",
+  "unit": "1",
+  "order": 3,
+  "skill": "grammar",
+  "strand": "relatifs-composes",
+  "title": "Les Pronoms Relatifs Composés",
+  "subtitle": "Lequel, auquel, duquel : les pronoms relatifs utilisés après une préposition.",
+  "objectives": [
+    "Utiliser lequel/laquelle/lesquels/lesquelles après une préposition.",
+    "Contracter lequel avec à et de (auquel, duquel) et leurs formes plurielles.",
+    "Distinguer l'emploi des relatifs composés de celui de qui, que, où, dont vus au niveau B1."
+  ],
+  "content": {
+    "intro": "Après une préposition autre que de, le français n'utilise pas qui pour les choses : il faut un pronom relatif composé, qui s'accorde en genre et en nombre avec son antécédent.",
+    "explanation": "<p><strong>Lequel, laquelle, lesquels, lesquelles</strong> remplacent un nom (généralement une chose) après une préposition : <em>le stylo avec lequel j'écris, la raison pour laquelle il est parti</em>. Avec <em>à</em>, ils se contractent : <em>à + lequel → auquel, à + lesquels → auxquels, à + lesquelles → auxquelles</em> (laquelle ne se contracte pas : <em>à laquelle</em>).</p><p>Avec <em>de</em>, ils se contractent aussi : <em>de + lequel → duquel, de + lesquels → desquels, de + lesquelles → desquelles</em> (laquelle ne se contracte pas : <em>de laquelle</em>). Pour une <strong>personne</strong> après une préposition, on préfère généralement <em>qui</em> : <em>la personne à qui je parle</em>, plutôt que <em>à laquelle</em>, sauf après <em>parmi</em> et <em>entre</em>, où lequel reste obligatoire même pour des personnes.</p>",
+    "rules": [
+      {
+        "heading": "a) Forme de base",
+        "body": "<ul><li><em>lequel, laquelle, lesquels, lesquelles</em>, accordés avec l'antécédent.</li></ul>"
+      },
+      {
+        "heading": "b) Contraction avec à",
+        "body": "<ul><li><em>auquel, à laquelle, auxquels, auxquelles</em>.</li></ul>"
+      },
+      {
+        "heading": "c) Contraction avec de",
+        "body": "<ul><li><em>duquel, de laquelle, desquels, desquelles</em>.</li></ul>"
+      },
+      {
+        "heading": "d) Personnes",
+        "body": "<ul><li>On préfère <em>qui</em> pour les personnes après une préposition simple : <em>l'ami à qui j'écris</em>.</li></ul>"
+      }
+    ],
+    "examples": [
+      "Le stylo avec lequel j'écris est cassé.",
+      "La raison pour laquelle il est parti reste inconnue.",
+      "Le projet auquel je pense est ambitieux.",
+      "La ville dans laquelle j'habite est petite.",
+      "Les amis parmi lesquels je vis sont formidables.",
+      "L'entreprise pour laquelle elle travaille est jeune.",
+      "L'ami à qui j'écris habite loin."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Le projet à lequel je pense est ambitieux.",
+        "right": "Le projet auquel je pense est ambitieux.",
+        "why": "À + lequel se contracte obligatoirement en auquel."
+      },
+      {
+        "wrong": "La ville dans lequel j'habite est petite.",
+        "right": "La ville dans laquelle j'habite est petite.",
+        "why": "Laquelle s'accorde au féminin avec ville."
+      },
+      {
+        "wrong": "L'ami auquel j'écris habite loin.",
+        "right": "L'ami à qui j'écris habite loin.",
+        "why": "Pour une personne après une préposition simple, on préfère qui à lequel."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b2rc-fill",
+      "type": "fill-blank",
+      "title": "Complète avec le Pronom Relatif Composé",
+      "instructions": "Choisis la forme correcte.",
+      "items": [
+        {
+          "id": "b2rcf1",
+          "prompt": "Le projet ___ je pense est ambitieux.",
+          "answers": [
+            [
+              "auquel"
+            ]
+          ],
+          "options": [
+            "auquel",
+            "à lequel",
+            "duquel"
+          ],
+          "explanation": "À + lequel se contracte en auquel."
+        },
+        {
+          "id": "b2rcf2",
+          "prompt": "La ville dans ___ j'habite est petite.",
+          "answers": [
+            [
+              "laquelle"
+            ]
+          ],
+          "options": [
+            "laquelle",
+            "lequel",
+            "lesquelles"
+          ],
+          "explanation": "Laquelle s'accorde au féminin avec ville."
+        },
+        {
+          "id": "b2rcf3",
+          "prompt": "Les amis parmi ___ je vis sont formidables.",
+          "answers": [
+            [
+              "lesquels"
+            ]
+          ],
+          "options": [
+            "lesquels",
+            "qui",
+            "dont"
+          ],
+          "explanation": "Après parmi, on utilise lesquels même pour des personnes."
+        },
+        {
+          "id": "b2rcf4",
+          "prompt": "L'ami à ___ j'écris habite loin.",
+          "answers": [
+            [
+              "qui"
+            ]
+          ],
+          "options": [
+            "qui",
+            "auquel",
+            "lequel"
+          ],
+          "explanation": "Pour une personne après une préposition simple, on préfère qui."
+        }
+      ]
+    },
+    {
+      "id": "b2rc-mc",
+      "type": "multiple-choice",
+      "title": "Les Pronoms Relatifs Composés",
+      "items": [
+        {
+          "id": "b2rcm1",
+          "prompt": "Comment se contracte à + lequel ?",
+          "options": [
+            "auquel",
+            "alequel",
+            "à lequel"
+          ],
+          "answerIndex": 0,
+          "explanation": "La contraction obligatoire donne auquel."
+        },
+        {
+          "id": "b2rcm2",
+          "prompt": "Comment se contracte de + lesquels ?",
+          "options": [
+            "desquels",
+            "de lesquels",
+            "duxquels"
+          ],
+          "answerIndex": 0,
+          "explanation": "La contraction obligatoire donne desquels."
+        },
+        {
+          "id": "b2rcm3",
+          "prompt": "Laquelle se contracte-t-elle avec à ?",
+          "options": [
+            "non, elle reste à laquelle",
+            "oui, en alaquelle",
+            "oui, en auquelle"
+          ],
+          "answerIndex": 0,
+          "explanation": "Laquelle ne se contracte jamais."
+        },
+        {
+          "id": "b2rcm4",
+          "prompt": "Quel pronom préfère-t-on pour une personne après une préposition simple ?",
+          "options": [
+            "qui",
+            "lequel",
+            "dont"
+          ],
+          "answerIndex": 0,
+          "explanation": "Qui est préféré pour les personnes, sauf après parmi/entre."
+        }
+      ]
+    },
+    {
+      "id": "b2rc-correction",
+      "type": "correction",
+      "title": "Corrige les Erreurs",
+      "items": [
+        {
+          "id": "b2rcc1",
+          "incorrect": "Le projet à lequel je pense est ambitieux.",
+          "answer": [
+            "Le projet auquel je pense est ambitieux."
+          ],
+          "explanation": "Contraction obligatoire : auquel."
+        },
+        {
+          "id": "b2rcc2",
+          "incorrect": "La ville dans lequel j'habite est petite.",
+          "answer": [
+            "La ville dans laquelle j'habite est petite."
+          ],
+          "explanation": "Accord au féminin avec ville."
+        },
+        {
+          "id": "b2rcc3",
+          "incorrect": "L'ami auquel j'écris habite loin.",
+          "answer": [
+            "L'ami à qui j'écris habite loin."
+          ],
+          "explanation": "Qui est préféré pour une personne."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Lequel/laquelle/lesquels/lesquelles remplacent un nom après une préposition.",
+    "Ils se contractent avec à (auquel, auxquels, auxquelles) et avec de (duquel, desquels, desquelles), sauf laquelle.",
+    "Pour une personne après une préposition simple, on préfère qui à lequel, sauf après parmi/entre."
+  ]
+}

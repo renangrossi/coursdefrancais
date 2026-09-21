@@ -1,0 +1,220 @@
+{
+  "id": "b2-la-nominalisation",
+  "level": "B2",
+  "unit": "1",
+  "order": 5,
+  "skill": "grammar",
+  "strand": "nominalisation",
+  "title": "La Nominalisation",
+  "subtitle": "Comment transformer un verbe ou un adjectif en nom, pour un style plus formel et plus condensé.",
+  "objectives": [
+    "Former des noms à partir de verbes fréquents à l'aide des suffixes les plus courants.",
+    "Former des noms à partir d'adjectifs fréquents.",
+    "Reformuler une phrase verbale en phrase nominale pour un registre plus soutenu."
+  ],
+  "content": {
+    "intro": "L'écrit formel français préfère souvent une construction nominale à une construction verbale — un style plus condensé et plus abstrait, fréquent dans la presse, les rapports et les textes administratifs.",
+    "explanation": "<p>La <strong>nominalisation</strong> transforme un verbe en nom, le plus souvent avec les suffixes <em>-tion/-sion</em> (<em>décider → la décision, informer → l'information</em>), <em>-ment</em> (<em>changer → le changement</em>), <em>-age</em> (<em>arrêter → l'arrêtage</em>, rare) ou une forme propre à mémoriser (<em>arriver → l'arrivée, choisir → le choix</em>). Elle transforme aussi des <strong>adjectifs</strong> en noms, avec <em>-té/-ité</em> (<em>possible → la possibilité, réel → la réalité</em>) ou <em>-esse</em> (<em>faible → la faiblesse</em>).</p><p>La nominalisation permet de condenser une phrase verbale en une expression plus courte et plus formelle : <em>Le gouvernement a décidé d'augmenter les impôts</em> devient <em>La décision du gouvernement d'augmenter les impôts…</em>. Ce procédé est très fréquent dans les titres de presse et les rapports officiels.</p>",
+    "rules": [
+      {
+        "heading": "a) Suffixe -tion/-sion",
+        "body": "<ul><li><em>décider → la décision, informer → l'information, produire → la production</em>.</li></ul>"
+      },
+      {
+        "heading": "b) Suffixe -ment",
+        "body": "<ul><li><em>changer → le changement, développer → le développement</em>.</li></ul>"
+      },
+      {
+        "heading": "c) Formes à mémoriser",
+        "body": "<ul><li><em>arriver → l'arrivée, choisir → le choix, partir → le départ</em>.</li></ul>"
+      },
+      {
+        "heading": "d) Adjectifs → noms",
+        "body": "<ul><li><em>-té/-ité : possible → la possibilité</em>. <em>-esse : faible → la faiblesse</em>.</li></ul>"
+      }
+    ],
+    "examples": [
+      "La décision du gouvernement a surpris tout le monde.",
+      "L'information a été diffusée ce matin.",
+      "Le changement climatique inquiète les scientifiques.",
+      "Son arrivée a été retardée par la neige.",
+      "La possibilité d'un accord reste ouverte.",
+      "Le développement de la ville s'accélère.",
+      "La faiblesse de l'économie explique cette crise."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "La décidement du gouvernement a surpris tout le monde.",
+        "right": "La décision du gouvernement a surpris tout le monde.",
+        "why": "Décider se nominalise en décision, pas en décidement."
+      },
+      {
+        "wrong": "Son arrivement a été retardé.",
+        "right": "Son arrivée a été retardée.",
+        "why": "Arriver se nominalise en arrivée, une forme irrégulière à mémoriser."
+      },
+      {
+        "wrong": "La possibleté d'un accord reste ouverte.",
+        "right": "La possibilité d'un accord reste ouverte.",
+        "why": "Possible se nominalise en possibilité, avec le suffixe -ité."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b2nom-fill",
+      "type": "fill-blank",
+      "title": "Nominalise le Verbe ou l'Adjectif",
+      "instructions": "Écris la forme nominale correcte.",
+      "items": [
+        {
+          "id": "b2nomf1",
+          "prompt": "décider → la ___",
+          "answers": [
+            [
+              "décision"
+            ]
+          ],
+          "options": [
+            "décision",
+            "décidement",
+            "décidage"
+          ],
+          "explanation": "Décider se nominalise en décision."
+        },
+        {
+          "id": "b2nomf2",
+          "prompt": "arriver → l'___",
+          "answers": [
+            [
+              "arrivée"
+            ]
+          ],
+          "options": [
+            "arrivée",
+            "arrivement",
+            "arrivation"
+          ],
+          "explanation": "Arriver se nominalise en arrivée, forme irrégulière."
+        },
+        {
+          "id": "b2nomf3",
+          "prompt": "possible → la ___",
+          "answers": [
+            [
+              "possibilité"
+            ]
+          ],
+          "options": [
+            "possibilité",
+            "possibleté",
+            "possibilage"
+          ],
+          "explanation": "Possible se nominalise en possibilité."
+        },
+        {
+          "id": "b2nomf4",
+          "prompt": "changer → le ___",
+          "answers": [
+            [
+              "changement"
+            ]
+          ],
+          "options": [
+            "changement",
+            "changision",
+            "changerie"
+          ],
+          "explanation": "Changer se nominalise en changement."
+        }
+      ]
+    },
+    {
+      "id": "b2nom-mc",
+      "type": "multiple-choice",
+      "title": "La Nominalisation",
+      "items": [
+        {
+          "id": "b2nomm1",
+          "prompt": "Quel suffixe transforme souvent un verbe en nom ?",
+          "options": [
+            "-tion/-sion",
+            "-ard",
+            "-ette"
+          ],
+          "answerIndex": 0,
+          "explanation": "C'est le suffixe le plus productif pour la nominalisation verbale."
+        },
+        {
+          "id": "b2nomm2",
+          "prompt": "Comment se nominalise choisir ?",
+          "options": [
+            "le choix",
+            "le choisement",
+            "la choisition"
+          ],
+          "answerIndex": 0,
+          "explanation": "Choisir a une nominalisation irrégulière : le choix."
+        },
+        {
+          "id": "b2nomm3",
+          "prompt": "Quel suffixe transforme souvent un adjectif en nom ?",
+          "options": [
+            "-té/-ité",
+            "-eur",
+            "-oir"
+          ],
+          "answerIndex": 0,
+          "explanation": "C'est le suffixe le plus courant pour cette transformation."
+        },
+        {
+          "id": "b2nomm4",
+          "prompt": "Pourquoi utilise-t-on la nominalisation à l'écrit formel ?",
+          "options": [
+            "pour un style plus condensé et abstrait",
+            "pour simplifier le vocabulaire",
+            "pour éviter les accords"
+          ],
+          "answerIndex": 0,
+          "explanation": "C'est un procédé stylistique propre au registre formel."
+        }
+      ]
+    },
+    {
+      "id": "b2nom-correction",
+      "type": "correction",
+      "title": "Corrige les Erreurs",
+      "items": [
+        {
+          "id": "b2nomc1",
+          "incorrect": "La décidement du gouvernement a surpris tout le monde.",
+          "answer": [
+            "La décision du gouvernement a surpris tout le monde."
+          ],
+          "explanation": "Nominalisation correcte : décision."
+        },
+        {
+          "id": "b2nomc2",
+          "incorrect": "Son arrivement a été retardé.",
+          "answer": [
+            "Son arrivée a été retardée."
+          ],
+          "explanation": "Nominalisation irrégulière : arrivée."
+        },
+        {
+          "id": "b2nomc3",
+          "incorrect": "La possibleté d'un accord reste ouverte.",
+          "answer": [
+            "La possibilité d'un accord reste ouverte."
+          ],
+          "explanation": "Nominalisation correcte : possibilité."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "La nominalisation transforme un verbe (souvent -tion/-sion, -ment) ou un adjectif (-té/-ité, -esse) en nom.",
+    "Certaines formes sont irrégulières à mémoriser : arriver → l'arrivée, choisir → le choix.",
+    "Ce procédé condense une phrase verbale en expression nominale, fréquent en presse et à l'écrit formel."
+  ]
+}

@@ -1,0 +1,220 @@
+{
+  "id": "b2-le-registre-soutenu-et-familier",
+  "level": "B2",
+  "unit": "1",
+  "order": 6,
+  "skill": "vocabulary",
+  "strand": "registres",
+  "title": "Le Registre Soutenu, le Registre Familier et les Figures de Style",
+  "subtitle": "Reconnaître et adapter son niveau de langue selon la situation, du familier au soutenu.",
+  "objectives": [
+    "Distinguer le vocabulaire et les structures du registre familier, courant et soutenu.",
+    "Reconnaître l'inversion du sujet dans les questions au registre soutenu.",
+    "Identifier les figures de style les plus courantes : métaphore, comparaison, hyperbole."
+  ],
+  "content": {
+    "intro": "Un même message peut se dire très différemment selon la situation : entre amis, on simplifie et on relâche la grammaire ; à l'écrit formel ou devant un public, on choisit des structures plus soignées.",
+    "explanation": "<p>Le <strong>registre familier</strong> (oral, entre proches) laisse souvent tomber le <em>ne</em> de la négation (<em>je sais pas</em> pour <em>je ne sais pas</em>) et utilise un vocabulaire relâché (<em>bouffer, un mec, un truc</em>). Le <strong>registre courant</strong> est le français standard, celui qu'on apprend en cours. Le <strong>registre soutenu</strong> (écrit formel, discours) utilise un vocabulaire plus précis, des phrases plus longues, et l'<strong>inversion du sujet</strong> dans les questions (<em>Que pensez-vous ?</em> plutôt que <em>Qu'est-ce que vous pensez ?</em>).</p><p>Les <strong>figures de style</strong> enrichissent l'expression : la <strong>métaphore</strong> compare sans mot de comparaison (<em>le temps est un voleur</em>), la <strong>comparaison</strong> utilise <em>comme</em> ou <em>tel que</em> (<em>rapide comme l'éclair</em>), et l'<strong>hyperbole</strong> exagère volontairement (<em>je meurs de faim, il pleut des cordes</em>).</p>",
+    "rules": [
+      {
+        "heading": "a) Registre familier",
+        "body": "<ul><li>Chute du ne, vocabulaire relâché : <em>je sais pas, un mec, un truc</em>.</li></ul>"
+      },
+      {
+        "heading": "b) Registre soutenu",
+        "body": "<ul><li>Inversion du sujet dans les questions : <em>Que pensez-vous de ce projet ?</em></li></ul>"
+      },
+      {
+        "heading": "c) Métaphore et comparaison",
+        "body": "<ul><li>Métaphore : sans mot de comparaison. Comparaison : avec comme/tel que.</li></ul>"
+      },
+      {
+        "heading": "d) Hyperbole",
+        "body": "<ul><li>Exagération volontaire : <em>je meurs de faim, il pleut des cordes</em>.</li></ul>"
+      }
+    ],
+    "examples": [
+      "Je sais pas si je viendrai. (familier)",
+      "Je ne sais pas si je viendrai. (courant)",
+      "Que pensez-vous de cette proposition ? (soutenu)",
+      "Le temps est un voleur silencieux. (métaphore)",
+      "Elle court comme le vent. (comparaison)",
+      "J'ai une faim de loup ! (hyperbole)",
+      "Un mec sympa m'a filé un coup de main. (familier)"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Utiliser « je sais pas » dans une lettre officielle.",
+        "right": "Utiliser « je ne sais pas » ou une formulation soutenue.",
+        "why": "Le registre familier est réservé à l'oral entre proches, jamais à l'écrit formel."
+      },
+      {
+        "wrong": "Qu'est-ce que vous pensez ? (dans un discours officiel)",
+        "right": "Que pensez-vous ? (avec inversion, registre soutenu)",
+        "why": "Le registre soutenu privilégie l'inversion du sujet dans les questions."
+      },
+      {
+        "wrong": "Confondre métaphore et comparaison.",
+        "right": "La métaphore ne contient pas de mot de comparaison ; la comparaison en contient un (comme, tel que).",
+        "why": "C'est la présence ou l'absence du mot de comparaison qui distingue les deux figures."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b2reg-fill",
+      "type": "fill-blank",
+      "title": "Identifie le Registre ou la Figure",
+      "instructions": "Choisis la réponse correcte.",
+      "items": [
+        {
+          "id": "b2regf1",
+          "prompt": "« Je sais pas » appartient au registre ___.",
+          "answers": [
+            [
+              "familier"
+            ]
+          ],
+          "options": [
+            "familier",
+            "soutenu",
+            "courant"
+          ],
+          "explanation": "La chute du ne est typique du registre familier oral."
+        },
+        {
+          "id": "b2regf2",
+          "prompt": "« Que pensez-vous ? » appartient au registre ___.",
+          "answers": [
+            [
+              "soutenu"
+            ]
+          ],
+          "options": [
+            "soutenu",
+            "familier",
+            "courant"
+          ],
+          "explanation": "L'inversion du sujet est typique du registre soutenu."
+        },
+        {
+          "id": "b2regf3",
+          "prompt": "« Le temps est un voleur » est une ___.",
+          "answers": [
+            [
+              "métaphore"
+            ]
+          ],
+          "options": [
+            "métaphore",
+            "comparaison",
+            "hyperbole"
+          ],
+          "explanation": "Aucun mot de comparaison : c'est une métaphore."
+        },
+        {
+          "id": "b2regf4",
+          "prompt": "« Rapide comme l'éclair » est une ___.",
+          "answers": [
+            [
+              "comparaison"
+            ]
+          ],
+          "options": [
+            "comparaison",
+            "métaphore",
+            "hyperbole"
+          ],
+          "explanation": "Le mot comme introduit une comparaison."
+        }
+      ]
+    },
+    {
+      "id": "b2reg-mc",
+      "type": "multiple-choice",
+      "title": "Registres et Figures de Style",
+      "items": [
+        {
+          "id": "b2regm1",
+          "prompt": "Que perd souvent la négation au registre familier ?",
+          "options": [
+            "le ne",
+            "le pas",
+            "le verbe"
+          ],
+          "answerIndex": 0,
+          "explanation": "« Je sais pas » pour « je ne sais pas »."
+        },
+        {
+          "id": "b2regm2",
+          "prompt": "Qu'est-ce qui caractérise une question au registre soutenu ?",
+          "options": [
+            "l'inversion du sujet",
+            "l'usage de est-ce que",
+            "l'intonation seule"
+          ],
+          "answerIndex": 0,
+          "explanation": "L'inversion est typique du registre soutenu."
+        },
+        {
+          "id": "b2regm3",
+          "prompt": "Quelle figure de style exagère volontairement ?",
+          "options": [
+            "l'hyperbole",
+            "la métaphore",
+            "la comparaison"
+          ],
+          "answerIndex": 0,
+          "explanation": "L'hyperbole exagère pour marquer l'effet."
+        },
+        {
+          "id": "b2regm4",
+          "prompt": "Quelle figure compare sans mot de comparaison ?",
+          "options": [
+            "la métaphore",
+            "la comparaison",
+            "l'hyperbole"
+          ],
+          "answerIndex": 0,
+          "explanation": "La métaphore fait une comparaison implicite."
+        }
+      ]
+    },
+    {
+      "id": "b2reg-correction",
+      "type": "correction",
+      "title": "Corrige le Registre",
+      "items": [
+        {
+          "id": "b2regc1",
+          "incorrect": "Je sais pas (dans une lettre formelle).",
+          "answer": [
+            "Je ne sais pas."
+          ],
+          "explanation": "Le registre familier est réservé à l'oral entre proches."
+        },
+        {
+          "id": "b2regc2",
+          "incorrect": "Qu'est-ce que vous pensez ? (dans un discours officiel)",
+          "answer": [
+            "Que pensez-vous ?"
+          ],
+          "explanation": "Le registre soutenu privilégie l'inversion."
+        },
+        {
+          "id": "b2regc3",
+          "incorrect": "Le temps est comme un voleur (pour désigner une métaphore).",
+          "answer": [
+            "Le temps est un voleur."
+          ],
+          "explanation": "La métaphore ne contient pas de mot de comparaison."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Le registre familier relâche la grammaire (chute du ne) et le vocabulaire ; le registre soutenu privilégie l'inversion du sujet et un vocabulaire précis.",
+    "La métaphore compare sans mot de comparaison, la comparaison utilise comme/tel que, l'hyperbole exagère volontairement.",
+    "Adapter son registre à la situation est une compétence essentielle du niveau B2."
+  ]
+}

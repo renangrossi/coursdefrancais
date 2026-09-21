@@ -1,0 +1,220 @@
+{
+  "id": "b2-les-connecteurs-argumentatifs-avances",
+  "level": "B2",
+  "unit": "1",
+  "order": 7,
+  "skill": "writing",
+  "strand": "connecteurs-avances",
+  "title": "Les Connecteurs Argumentatifs Avancés",
+  "subtitle": "Structurer une argumentation écrite avec d'une part/d'autre part, en revanche, néanmoins, par conséquent.",
+  "objectives": [
+    "Structurer une argumentation en deux temps avec d'une part/d'autre part.",
+    "Nuancer une opposition avec en revanche, néanmoins, cependant.",
+    "Enchaîner une conséquence avec par conséquent, en outre, ceci dit."
+  ],
+  "content": {
+    "intro": "Un texte argumentatif bien construit ne s'appuie pas seulement sur des idées solides, mais aussi sur des connecteurs qui organisent clairement leur enchaînement pour le lecteur.",
+    "explanation": "<p>Pour présenter deux aspects d'une même question, le français utilise <strong>d'une part… d'autre part</strong> : <em>D'une part, ce projet coûte cher ; d'autre part, il crée des emplois.</em> Pour marquer une opposition nuancée, on utilise <strong>en revanche, néanmoins, cependant</strong> (plus soutenus que <em>mais</em>) : <em>Le projet est coûteux ; néanmoins, il reste rentable à long terme.</em></p><p>Pour enchaîner une conséquence à l'écrit formel, on utilise <strong>par conséquent, de ce fait</strong> ; pour ajouter un argument supplémentaire, <strong>en outre, de plus</strong> ; et pour conclure ou nuancer en fin de paragraphe, <strong>ceci dit, cela étant</strong> introduit une réserve après une affirmation.</p>",
+    "rules": [
+      {
+        "heading": "a) Structuration en deux temps",
+        "body": "<ul><li><em>d'une part… d'autre part</em>.</li></ul>"
+      },
+      {
+        "heading": "b) Opposition nuancée",
+        "body": "<ul><li><em>en revanche, néanmoins, cependant</em> — plus soutenus que mais.</li></ul>"
+      },
+      {
+        "heading": "c) Conséquence et ajout",
+        "body": "<ul><li><em>par conséquent, de ce fait</em> (conséquence) ; <em>en outre, de plus</em> (ajout).</li></ul>"
+      },
+      {
+        "heading": "d) Réserve finale",
+        "body": "<ul><li><em>ceci dit, cela étant</em> — nuance une affirmation précédente.</li></ul>"
+      }
+    ],
+    "examples": [
+      "D'une part, ce projet coûte cher ; d'autre part, il crée des emplois.",
+      "Le projet est coûteux ; néanmoins, il reste rentable à long terme.",
+      "Il pleut ; par conséquent, la sortie est annulée.",
+      "Ce candidat est compétent ; en outre, il parle trois langues.",
+      "Le prix a augmenté ; en revanche, la qualité s'est améliorée.",
+      "Ceci dit, il reste des points à clarifier.",
+      "De ce fait, nous avons dû reporter la réunion."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "D'une part, ce projet coûte cher. Et d'autre part, il crée des emplois (répété sans lien).",
+        "right": "D'une part, ce projet coûte cher ; d'autre part, il crée des emplois.",
+        "why": "D'une part appelle toujours d'autre part dans la même argumentation, formant une paire liée."
+      },
+      {
+        "wrong": "Il pleut ; néanmoins, la sortie est annulée.",
+        "right": "Il pleut ; par conséquent, la sortie est annulée.",
+        "why": "Néanmoins marque une opposition, pas une conséquence : ici il faut par conséquent."
+      },
+      {
+        "wrong": "Le projet est coûteux ; par conséquent, il reste rentable.",
+        "right": "Le projet est coûteux ; néanmoins, il reste rentable.",
+        "why": "Il y a une opposition (coûteux mais rentable), pas une conséquence logique directe."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b2con-fill",
+      "type": "fill-blank",
+      "title": "Complète avec le Bon Connecteur",
+      "instructions": "Choisis le connecteur qui convient.",
+      "items": [
+        {
+          "id": "b2conf1",
+          "prompt": "Il pleut ; ___, la sortie est annulée.",
+          "answers": [
+            [
+              "par conséquent"
+            ]
+          ],
+          "options": [
+            "par conséquent",
+            "néanmoins",
+            "d'une part"
+          ],
+          "explanation": "C'est une conséquence logique."
+        },
+        {
+          "id": "b2conf2",
+          "prompt": "Le projet est coûteux ; ___, il reste rentable.",
+          "answers": [
+            [
+              "néanmoins"
+            ]
+          ],
+          "options": [
+            "néanmoins",
+            "par conséquent",
+            "en outre"
+          ],
+          "explanation": "C'est une opposition nuancée."
+        },
+        {
+          "id": "b2conf3",
+          "prompt": "___, ce projet coûte cher ; d'autre part, il crée des emplois.",
+          "answers": [
+            [
+              "D'une part"
+            ]
+          ],
+          "options": [
+            "D'une part",
+            "En revanche",
+            "Ceci dit"
+          ],
+          "explanation": "D'une part appelle d'autre part."
+        },
+        {
+          "id": "b2conf4",
+          "prompt": "Ce candidat est compétent ; ___, il parle trois langues.",
+          "answers": [
+            [
+              "en outre"
+            ]
+          ],
+          "options": [
+            "en outre",
+            "cependant",
+            "par conséquent"
+          ],
+          "explanation": "C'est un argument supplémentaire, pas une opposition."
+        }
+      ]
+    },
+    {
+      "id": "b2con-mc",
+      "type": "multiple-choice",
+      "title": "Les Connecteurs Argumentatifs",
+      "items": [
+        {
+          "id": "b2conm1",
+          "prompt": "Quel connecteur appelle toujours d'autre part ?",
+          "options": [
+            "d'une part",
+            "en outre",
+            "néanmoins"
+          ],
+          "answerIndex": 0,
+          "explanation": "Ils forment toujours une paire liée."
+        },
+        {
+          "id": "b2conm2",
+          "prompt": "Quel connecteur marque une conséquence à l'écrit formel ?",
+          "options": [
+            "par conséquent",
+            "en revanche",
+            "d'une part"
+          ],
+          "answerIndex": 0,
+          "explanation": "Par conséquent introduit une conséquence logique."
+        },
+        {
+          "id": "b2conm3",
+          "prompt": "Quel connecteur introduit une réserve après une affirmation ?",
+          "options": [
+            "ceci dit",
+            "en outre",
+            "par conséquent"
+          ],
+          "answerIndex": 0,
+          "explanation": "Ceci dit nuance ce qui vient d'être dit."
+        },
+        {
+          "id": "b2conm4",
+          "prompt": "Quel connecteur ajoute un argument supplémentaire ?",
+          "options": [
+            "en outre",
+            "néanmoins",
+            "par conséquent"
+          ],
+          "answerIndex": 0,
+          "explanation": "En outre/de plus ajoutent un argument."
+        }
+      ]
+    },
+    {
+      "id": "b2con-correction",
+      "type": "correction",
+      "title": "Corrige les Erreurs",
+      "items": [
+        {
+          "id": "b2conc1",
+          "incorrect": "Il pleut ; néanmoins, la sortie est annulée.",
+          "answer": [
+            "Il pleut ; par conséquent, la sortie est annulée."
+          ],
+          "explanation": "C'est une conséquence, pas une opposition."
+        },
+        {
+          "id": "b2conc2",
+          "incorrect": "Le projet est coûteux ; par conséquent, il reste rentable.",
+          "answer": [
+            "Le projet est coûteux ; néanmoins, il reste rentable."
+          ],
+          "explanation": "C'est une opposition, pas une conséquence."
+        },
+        {
+          "id": "b2conc3",
+          "incorrect": "D'une part, ce projet coûte cher. Et d'autre part, il crée des emplois.",
+          "answer": [
+            "D'une part, ce projet coûte cher ; d'autre part, il crée des emplois."
+          ],
+          "explanation": "Les deux membres forment une seule phrase liée."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "D'une part… d'autre part structure une argumentation en deux temps liés.",
+    "En revanche, néanmoins, cependant marquent une opposition nuancée ; par conséquent, de ce fait marquent une conséquence.",
+    "En outre/de plus ajoutent un argument ; ceci dit/cela étant introduisent une réserve finale."
+  ]
+}
