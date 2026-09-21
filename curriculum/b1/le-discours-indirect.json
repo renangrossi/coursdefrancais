@@ -1,0 +1,306 @@
+{
+  "id": "b1-le-discours-indirect",
+  "level": "B1",
+  "unit": "1",
+  "order": 5,
+  "skill": "grammar",
+  "strand": "discours-indirect",
+  "title": "Le Discours Indirect",
+  "subtitle": "Comment rapporter les paroles de quelqu'un, au présent et au passé, avec les changements de temps nécessaires.",
+  "objectives": [
+    "Transformer une phrase au discours direct en discours indirect au présent.",
+    "Appliquer les changements de temps nécessaires quand le verbe introducteur est au passé.",
+    "Adapter les pronoms et les expressions de temps/lieu au discours indirect."
+  ],
+  "content": {
+    "intro": "Rapporter les paroles de quelqu'un sans les citer directement demande d'ajuster la structure, les pronoms, et parfois le temps du verbe — un ensemble de règles logiques une fois qu'on en comprend le principe.",
+    "explanation": "<p>Au discours indirect, on rapporte les paroles de quelqu'un avec un verbe introducteur (<em>dire, demander, expliquer, répondre</em>) suivi de <em>que</em> (déclaration) ou d'un mot interrogatif : <em>« Je suis fatigué », dit-il → Il dit qu'il est fatigué.</em> Si le verbe introducteur est au <strong>présent</strong>, le temps du verbe rapporté ne change pas.</p><p>Si le verbe introducteur est au <strong>passé</strong>, on applique un décalage temporel (la « concordance des temps ») : le présent devient imparfait, le passé composé devient plus-que-parfait, le futur simple devient conditionnel présent : <em>« Je viendrai », a-t-il dit → Il a dit qu'il viendrait.</em> Les indicateurs de temps/lieu changent aussi (<em>aujourd'hui → ce jour-là, demain → le lendemain</em>).</p>",
+    "rules": [
+      {
+        "heading": "a) Verbe introducteur au présent",
+        "body": "<ul><li>Aucun changement de temps : <em>Il dit qu'il est fatigué.</em></li></ul>"
+      },
+      {
+        "heading": "b) Verbe introducteur au passé",
+        "body": "<ul><li>présent→imparfait, passé composé→plus-que-parfait, futur simple→conditionnel présent.</li></ul>"
+      },
+      {
+        "heading": "c) Questions",
+        "body": "<ul><li><em>est-ce que → si ; qu'est-ce que → ce que</em> ; les mots interrogatifs (où, quand, pourquoi) restent identiques.</li></ul>"
+      },
+      {
+        "heading": "d) Temps et lieu",
+        "body": "<ul><li><em>aujourd'hui→ce jour-là, demain→le lendemain, hier→la veille</em>.</li></ul>"
+      }
+    ],
+    "examples": [
+      "« Je suis fatigué », dit-il. → Il dit qu'il est fatigué.",
+      "« Je viendrai demain », a-t-il dit. → Il a dit qu'il viendrait le lendemain.",
+      "« Où habites-tu ? », a-t-elle demandé. → Elle a demandé où j'habitais.",
+      "« Est-ce que tu viens ? », a-t-il demandé. → Il a demandé si je venais.",
+      "« J'ai fini », a-t-elle dit. → Elle a dit qu'elle avait fini.",
+      "Il m'a expliqué qu'il ne pouvait pas venir.",
+      "Elle a répondu qu'elle était d'accord."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Il a dit qu'il vient demain.",
+        "right": "Il a dit qu'il viendrait le lendemain.",
+        "why": "Verbe introducteur au passé : le futur devient conditionnel présent, et demain devient le lendemain."
+      },
+      {
+        "wrong": "Elle a demandé si je viens.",
+        "right": "Elle a demandé si je venais.",
+        "why": "Concordance des temps : le présent devient imparfait après un verbe introducteur au passé."
+      },
+      {
+        "wrong": "Il a demandé qu'est-ce que je voulais.",
+        "right": "Il a demandé ce que je voulais.",
+        "why": "Qu'est-ce que devient ce que au discours indirect."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b1dis-fill",
+      "type": "fill-blank",
+      "title": "Passe au Discours Indirect",
+      "instructions": "Complète avec la forme correcte au discours indirect.",
+      "items": [
+        {
+          "id": "b1disf1",
+          "prompt": "« Je suis fatigué », dit-il. → Il dit qu'il ___ fatigué.",
+          "answers": [
+            [
+              "est"
+            ]
+          ],
+          "options": [
+            "est",
+            "était",
+            "soit"
+          ],
+          "explanation": "Verbe introducteur au présent : aucun changement de temps."
+        },
+        {
+          "id": "b1disf2",
+          "prompt": "« Je viendrai demain », a-t-il dit. → Il a dit qu'il ___ le lendemain.",
+          "answers": [
+            [
+              "viendrait"
+            ]
+          ],
+          "options": [
+            "viendrait",
+            "viendra",
+            "venait"
+          ],
+          "explanation": "Futur simple → conditionnel présent après un verbe introducteur au passé."
+        },
+        {
+          "id": "b1disf3",
+          "prompt": "« J'ai fini », a-t-elle dit. → Elle a dit qu'elle ___ fini.",
+          "answers": [
+            [
+              "avait"
+            ]
+          ],
+          "options": [
+            "avait",
+            "a",
+            "aurait"
+          ],
+          "explanation": "Passé composé → plus-que-parfait après un verbe introducteur au passé."
+        },
+        {
+          "id": "b1disf4",
+          "prompt": "« Est-ce que tu viens ? », a-t-il demandé. → Il a demandé ___ je venais.",
+          "answers": [
+            [
+              "si"
+            ]
+          ],
+          "options": [
+            "si",
+            "que",
+            "est-ce que"
+          ],
+          "explanation": "Est-ce que devient si au discours indirect."
+        }
+      ]
+    },
+    {
+      "id": "b1dis-mc",
+      "type": "multiple-choice",
+      "title": "Le Discours Indirect",
+      "items": [
+        {
+          "id": "b1dism1",
+          "prompt": "Que devient le futur simple après un verbe introducteur au passé ?",
+          "options": [
+            "le conditionnel présent",
+            "l'imparfait",
+            "le subjonctif"
+          ],
+          "answerIndex": 0,
+          "explanation": "C'est le décalage propre à la concordance des temps."
+        },
+        {
+          "id": "b1dism2",
+          "prompt": "Que devient « qu'est-ce que » au discours indirect ?",
+          "options": [
+            "ce que",
+            "que",
+            "dont"
+          ],
+          "answerIndex": 0,
+          "explanation": "Qu'est-ce que devient ce que."
+        },
+        {
+          "id": "b1dism3",
+          "prompt": "Que devient « demain » quand le verbe introducteur est au passé ?",
+          "options": [
+            "le lendemain",
+            "hier",
+            "aujourd'hui"
+          ],
+          "answerIndex": 0,
+          "explanation": "Les repères temporels changent selon le contexte."
+        },
+        {
+          "id": "b1dism4",
+          "prompt": "Si le verbe introducteur est au présent, le temps du verbe rapporté...",
+          "options": [
+            "ne change pas",
+            "change toujours",
+            "devient toujours le subjonctif"
+          ],
+          "answerIndex": 0,
+          "explanation": "Seul un verbe introducteur au passé déclenche un changement de temps."
+        }
+      ]
+    },
+    {
+      "id": "b1dis-correction",
+      "type": "correction",
+      "title": "Corrige les Erreurs",
+      "items": [
+        {
+          "id": "b1disc1",
+          "incorrect": "Il a dit qu'il vient demain.",
+          "answer": [
+            "Il a dit qu'il viendrait le lendemain."
+          ],
+          "explanation": "Futur → conditionnel présent, demain → le lendemain."
+        },
+        {
+          "id": "b1disc2",
+          "incorrect": "Elle a demandé si je viens.",
+          "answer": [
+            "Elle a demandé si je venais."
+          ],
+          "explanation": "Présent → imparfait après un verbe introducteur au passé."
+        },
+        {
+          "id": "b1disc3",
+          "incorrect": "Il a demandé qu'est-ce que je voulais.",
+          "answer": [
+            "Il a demandé ce que je voulais."
+          ],
+          "explanation": "Qu'est-ce que devient ce que."
+        }
+      ]
+    },
+    {
+      "id": "b1disx-reading",
+      "type": "reading-comprehension",
+      "title": "Lecture : Paul Est Malade",
+      "passage": "<p>Paul a dit qu'il était malade et qu'il ne pouvait pas venir au bureau. Il a expliqué qu'il avait de la fièvre depuis la veille. Sa collègue lui a demandé s'il avait vu un médecin. Il a répondu qu'il irait le lendemain.</p>",
+      "items": [
+        {
+          "id": "b1disxr1",
+          "prompt": "Qu'a dit Paul ?",
+          "options": [
+            "Qu'il était malade",
+            "Qu'il était en vacances",
+            "Qu'il avait déménagé"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit : « Paul a dit qu'il était malade »."
+        },
+        {
+          "id": "b1disxr2",
+          "prompt": "Depuis quand avait-il de la fièvre ?",
+          "options": [
+            "Depuis la veille",
+            "Depuis une semaine",
+            "Depuis le matin même"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit : « il avait de la fièvre depuis la veille »."
+        },
+        {
+          "id": "b1disxr3",
+          "prompt": "Que lui a demandé sa collègue ?",
+          "options": [
+            "S'il avait vu un médecin",
+            "S'il voulait démissionner",
+            "S'il avait mangé"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte le dit directement."
+        },
+        {
+          "id": "b1disxr4",
+          "prompt": "Qu'a-t-il répondu ?",
+          "options": [
+            "Qu'il irait le lendemain",
+            "Qu'il n'irait jamais",
+            "Qu'il était déjà allé chez le médecin"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte se termine ainsi."
+        }
+      ]
+    },
+    {
+      "id": "b1disx-order",
+      "type": "ordering",
+      "title": "Remets la Phrase en Ordre",
+      "items": [
+        {
+          "id": "b1disxo1",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Il",
+            "a",
+            "dit",
+            "qu'il",
+            "était",
+            "malade"
+          ],
+          "explanation": "Concordance des temps : présent → imparfait."
+        },
+        {
+          "id": "b1disxo2",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Il",
+            "a",
+            "répondu",
+            "qu'il",
+            "irait",
+            "le",
+            "lendemain"
+          ],
+          "explanation": "Futur → conditionnel présent au discours indirect passé."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Le discours indirect rapporte des paroles avec un verbe introducteur + que ou un mot interrogatif.",
+    "Si ce verbe est au passé, on applique la concordance des temps (présent→imparfait, passé composé→plus-que-parfait, futur→conditionnel).",
+    "Les expressions de temps et de lieu changent aussi selon le contexte (demain→le lendemain, ici→là)."
+  ]
+}

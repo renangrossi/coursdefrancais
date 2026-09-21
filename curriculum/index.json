@@ -174,12 +174,61 @@
       ]
     },
     "B1": {
-      "overview": "Le niveau B1 approfondira les nuances du passé (passé composé face à imparfait, et le plus-que-parfait pour ce qui précède un autre passé), ajoutera le futur antérieur et le conditionnel, et fera le grand saut vers le mode subjonctif — le mode du doute, du souhait et de l'émotion, qui dominera une grande partie des niveaux suivants. Tu verras aussi l'impératif négatif, les pronoms combinés, la différence entre pour et par, les propositions relatives, et les principaux connecteurs du discours. À la fin de ce niveau, tu pourras utiliser le français de façon autonome pour le travail, les études et les voyages, et tu commenceras à sonner beaucoup plus naturel et moins « traduit ». Ce niveau arrive bientôt ; en attendant, commence par le niveau Pre-A1, déjà disponible.",
+      "overview": "Le niveau B1 approfondit les nuances du passé avec le plus-que-parfait et le conditionnel passé, puis fait le grand saut vers le subjonctif présent — le mode du doute, de la volonté et de l'émotion — et sa confrontation avec l'indicatif. Tu apprendras aussi à rapporter les paroles de quelqu'un au discours indirect, à utiliser les pronoms relatifs (qui, que, où, dont), la voix passive, les principaux connecteurs logiques, le gérondif et le participe présent, les doubles pronoms, l'expression de l'hypothèse avec si, et les verbes suivis de à ou de devant un infinitif. À la fin de ce niveau, tu pourras utiliser le français de façon plus autonome, nuancer tes propos, raconter et rapporter des événements complexes, et construire des phrases beaucoup plus proches de celles d'un locuteur natif.",
       "units": [
         {
           "id": "1",
           "title": "Grammaire B1",
-          "lessons": []
+          "lessons": [
+            {
+              "id": "b1-le-plus-que-parfait",
+              "status": "published"
+            },
+            {
+              "id": "b1-le-conditionnel-passe",
+              "status": "published"
+            },
+            {
+              "id": "b1-le-subjonctif-present-formation",
+              "status": "published"
+            },
+            {
+              "id": "b1-subjonctif-vs-indicatif",
+              "status": "published"
+            },
+            {
+              "id": "b1-le-discours-indirect",
+              "status": "published"
+            },
+            {
+              "id": "b1-les-pronoms-relatifs",
+              "status": "published"
+            },
+            {
+              "id": "b1-la-voix-passive",
+              "status": "published"
+            },
+            {
+              "id": "b1-les-connecteurs-logiques",
+              "status": "published"
+            },
+            {
+              "id": "b1-le-gerondif-et-le-participe-present",
+              "status": "published"
+            },
+            {
+              "id": "b1-les-doubles-pronoms",
+              "status": "published"
+            },
+            {
+              "id": "b1-lexpression-de-lhypothese-avec-si",
+              "status": "published"
+            },
+            {
+              "id": "b1-les-verbes-suivis-de-a-ou-de-infinitif",
+              "status": "published"
+            }
+          ]
         }
       ]
     },

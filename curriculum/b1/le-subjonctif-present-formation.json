@@ -1,0 +1,308 @@
+{
+  "id": "b1-le-subjonctif-present-formation",
+  "level": "B1",
+  "unit": "1",
+  "order": 3,
+  "skill": "grammar",
+  "strand": "subjonctif-formation",
+  "title": "Le Subjonctif Présent — Formation et Déclencheurs de Base",
+  "subtitle": "Comment former le subjonctif présent, et les expressions de base qui l'imposent après que.",
+  "objectives": [
+    "Former le subjonctif présent régulier à partir du radical de ils au présent.",
+    "Conjuguer les subjonctifs irréguliers les plus fréquents (être, avoir, aller, faire, pouvoir, vouloir, savoir).",
+    "Reconnaître les déclencheurs de base qui imposent le subjonctif (il faut que, vouloir que, souhaiter que)."
+  ],
+  "content": {
+    "intro": "Le subjonctif est le mode qui exprime ce qui n'est pas un fait certain — une volonté, une obligation, un souhait — et il commence toujours après que.",
+    "explanation": "<p>Pour la majorité des verbes, le subjonctif présent se forme à partir du radical de la 3ᵉ personne du pluriel (<em>ils</em>) au présent de l'indicatif, en retirant <em>-ent</em>, puis en ajoutant les terminaisons <strong>-e, -es, -e, -ions, -iez, -ent</strong> : <em>ils parlent → que je parle</em> ; <em>ils finissent → que je finisse</em>.</p><p>Certains verbes très fréquents ont un subjonctif irrégulier à mémoriser : <em>être → que je sois, avoir → que j'aie, aller → que j'aille, faire → que je fasse, pouvoir → que je puisse, vouloir → que je veuille, savoir → que je sache</em>. Le subjonctif s'emploie après <em>que</em>, déclenché par des expressions d'obligation (<em>il faut que</em>) ou de volonté (<em>je veux que, je souhaite que</em>).</p>",
+    "rules": [
+      {
+        "heading": "a) Formation régulière",
+        "body": "<ul><li>Radical de ils au présent (sans -ent) + -e/-es/-e/-ions/-iez/-ent.</li></ul>"
+      },
+      {
+        "heading": "b) Irréguliers fréquents",
+        "body": "<ul><li><em>être → sois, avoir → aie, aller → aille, faire → fasse</em>.</li><li><em>pouvoir → puisse, vouloir → veuille, savoir → sache</em>.</li></ul>"
+      },
+      {
+        "heading": "c) Déclencheurs de base",
+        "body": "<ul><li><em>il faut que, il est nécessaire que, vouloir que, souhaiter que, aimer que</em>.</li></ul>"
+      },
+      {
+        "heading": "d) Toujours après que",
+        "body": "<ul><li>Le subjonctif n'est jamais employé seul, sans que.</li></ul>"
+      }
+    ],
+    "examples": [
+      "Il faut que tu finisses ce travail aujourd'hui.",
+      "Je veux que vous soyez à l'heure.",
+      "Elle souhaite que nous fassions attention.",
+      "Il faut que j'aille chez le médecin.",
+      "Mes parents veulent que je sache nager.",
+      "Il est nécessaire que tu aies ton passeport.",
+      "Nous voulons que vous puissiez venir."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Il faut que tu finis ce travail.",
+        "right": "Il faut que tu finisses ce travail.",
+        "why": "Après il faut que, on utilise le subjonctif, pas l'indicatif."
+      },
+      {
+        "wrong": "Je veux que tu es content.",
+        "right": "Je veux que tu sois content.",
+        "why": "Être a un subjonctif irrégulier : que tu sois."
+      },
+      {
+        "wrong": "Il faut que je vais au marché.",
+        "right": "Il faut que j'aille au marché.",
+        "why": "Aller a un subjonctif irrégulier : que j'aille, pas la forme de l'indicatif."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b1sbf-fill",
+      "type": "fill-blank",
+      "title": "Conjugue au Subjonctif Présent",
+      "instructions": "Écris la forme correcte du verbe entre parenthèses.",
+      "items": [
+        {
+          "id": "b1sbff1",
+          "prompt": "Il faut que tu ___ (finir) ce travail.",
+          "answers": [
+            [
+              "finisses"
+            ]
+          ],
+          "options": [
+            "finisses",
+            "finis",
+            "finiras"
+          ],
+          "explanation": "Il faut que impose le subjonctif : que tu finisses."
+        },
+        {
+          "id": "b1sbff2",
+          "prompt": "Je veux que vous ___ (être) à l'heure.",
+          "answers": [
+            [
+              "soyez"
+            ]
+          ],
+          "options": [
+            "soyez",
+            "êtes",
+            "serez"
+          ],
+          "explanation": "Être a un subjonctif irrégulier : que vous soyez."
+        },
+        {
+          "id": "b1sbff3",
+          "prompt": "Il faut que j'___ (aller) chez le médecin.",
+          "answers": [
+            [
+              "aille"
+            ]
+          ],
+          "options": [
+            "aille",
+            "vais",
+            "irai"
+          ],
+          "explanation": "Aller a un subjonctif irrégulier : que j'aille."
+        },
+        {
+          "id": "b1sbff4",
+          "prompt": "Mes parents veulent que je ___ (savoir) nager.",
+          "answers": [
+            [
+              "sache"
+            ]
+          ],
+          "options": [
+            "sache",
+            "sais",
+            "saurai"
+          ],
+          "explanation": "Savoir a un subjonctif irrégulier : que je sache."
+        }
+      ]
+    },
+    {
+      "id": "b1sbf-mc",
+      "type": "multiple-choice",
+      "title": "Le Subjonctif Présent",
+      "items": [
+        {
+          "id": "b1sbfm1",
+          "prompt": "À partir de quel radical forme-t-on le subjonctif présent régulier ?",
+          "options": [
+            "le radical de ils au présent",
+            "l'infinitif",
+            "le radical de je au présent"
+          ],
+          "answerIndex": 0,
+          "explanation": "On retire -ent du radical de ils au présent."
+        },
+        {
+          "id": "b1sbfm2",
+          "prompt": "Quel est le subjonctif de être pour je ?",
+          "options": [
+            "que je sois",
+            "que je suis",
+            "que je serai"
+          ],
+          "answerIndex": 0,
+          "explanation": "Être a un subjonctif irrégulier : que je sois."
+        },
+        {
+          "id": "b1sbfm3",
+          "prompt": "Quelle expression déclenche le subjonctif ?",
+          "options": [
+            "il faut que",
+            "je pense que (affirmatif)",
+            "je sais que"
+          ],
+          "answerIndex": 0,
+          "explanation": "Il faut que exprime une obligation, déclencheur classique du subjonctif."
+        },
+        {
+          "id": "b1sbfm4",
+          "prompt": "Le subjonctif peut-il s'employer sans que ?",
+          "options": [
+            "non, jamais",
+            "oui, toujours",
+            "seulement à l'écrit"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le subjonctif est toujours introduit par que."
+        }
+      ]
+    },
+    {
+      "id": "b1sbf-correction",
+      "type": "correction",
+      "title": "Corrige les Erreurs",
+      "items": [
+        {
+          "id": "b1sbfc1",
+          "incorrect": "Il faut que tu finis ce travail.",
+          "answer": [
+            "Il faut que tu finisses ce travail."
+          ],
+          "explanation": "Il faut que impose le subjonctif."
+        },
+        {
+          "id": "b1sbfc2",
+          "incorrect": "Je veux que tu es content.",
+          "answer": [
+            "Je veux que tu sois content."
+          ],
+          "explanation": "Être a un subjonctif irrégulier : sois."
+        },
+        {
+          "id": "b1sbfc3",
+          "incorrect": "Il faut que je vais au marché.",
+          "answer": [
+            "Il faut que j'aille au marché."
+          ],
+          "explanation": "Aller a un subjonctif irrégulier : aille."
+        }
+      ]
+    },
+    {
+      "id": "b1sbfx-reading",
+      "type": "reading-comprehension",
+      "title": "Lecture : Les Consignes du Professeur",
+      "passage": "<p>Le professeur dit : « Il faut que vous finissiez vos exercices avant vendredi. Je veux que tout le monde soit prêt pour l'examen. Il faut aussi que chacun sache les verbes irréguliers. » Les étudiants promettent de faire de leur mieux.</p>",
+      "items": [
+        {
+          "id": "b1sbfxr1",
+          "prompt": "Que faut-il finir avant vendredi ?",
+          "options": [
+            "Les exercices",
+            "Le livre",
+            "Le projet"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit : « il faut que vous finissiez vos exercices »."
+        },
+        {
+          "id": "b1sbfxr2",
+          "prompt": "Que veut le professeur pour l'examen ?",
+          "options": [
+            "Que tout le monde soit prêt",
+            "Que personne ne vienne",
+            "Que l'examen soit reporté"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte le dit directement."
+        },
+        {
+          "id": "b1sbfxr3",
+          "prompt": "Que faut-il savoir ?",
+          "options": [
+            "Les verbes irréguliers",
+            "Le vocabulaire de la cuisine",
+            "L'histoire de France"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit : « il faut aussi que chacun sache les verbes irréguliers »."
+        },
+        {
+          "id": "b1sbfxr4",
+          "prompt": "Que promettent les étudiants ?",
+          "options": [
+            "De faire de leur mieux",
+            "De ne rien faire",
+            "De changer de classe"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte se termine ainsi."
+        }
+      ]
+    },
+    {
+      "id": "b1sbfx-order",
+      "type": "ordering",
+      "title": "Remets la Phrase en Ordre",
+      "items": [
+        {
+          "id": "b1sbfxo1",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Il",
+            "faut",
+            "que",
+            "vous",
+            "finissiez",
+            "vos",
+            "exercices"
+          ],
+          "explanation": "Subjonctif après il faut que."
+        },
+        {
+          "id": "b1sbfxo2",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Je",
+            "veux",
+            "que",
+            "tout",
+            "le",
+            "monde",
+            "soit",
+            "prêt"
+          ],
+          "explanation": "Subjonctif irrégulier de être après vouloir que."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Le subjonctif présent régulier se forme à partir du radical de ils au présent + -e/-es/-e/-ions/-iez/-ent.",
+    "Des verbes fréquents ont un subjonctif irrégulier à mémoriser : être, avoir, aller, faire, pouvoir, vouloir, savoir.",
+    "Il est déclenché par des expressions d'obligation ou de volonté suivies de que : il faut que, je veux que."
+  ]
+}

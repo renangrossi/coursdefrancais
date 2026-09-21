@@ -1,0 +1,305 @@
+{
+  "id": "b1-subjonctif-vs-indicatif",
+  "level": "B1",
+  "unit": "1",
+  "order": 4,
+  "skill": "grammar",
+  "strand": "subjonctif-indicatif",
+  "title": "Subjonctif vs. Indicatif",
+  "subtitle": "Quand utiliser le subjonctif (doute, émotion, volonté) et quand utiliser l'indicatif (certitude).",
+  "objectives": [
+    "Distinguer les expressions qui déclenchent l'indicatif de celles qui déclenchent le subjonctif.",
+    "Employer le subjonctif après le doute, l'émotion et la volonté.",
+    "Employer l'indicatif après la certitude et les verbes déclaratifs à la forme affirmative."
+  ],
+  "content": {
+    "intro": "Après que, le verbe qui suit peut être à l'indicatif ou au subjonctif selon le sens du verbe principal — un choix qui structure une grande partie de la grammaire avancée du français.",
+    "explanation": "<p>On utilise l'<strong>indicatif</strong> après les verbes qui expriment la certitude ou une déclaration à la forme affirmative : <em>je pense que, je crois que, je sais que, il est certain que</em> + indicatif (<em>Je pense qu'il a raison</em>). Ces mêmes verbes, à la forme négative ou interrogative, basculent souvent au subjonctif, car la certitude disparaît : <em>Je ne pense pas qu'il ait raison.</em></p><p>On utilise le <strong>subjonctif</strong> après les verbes ou expressions de doute (<em>je doute que</em>), d'émotion (<em>je suis content que, j'ai peur que</em>) et de volonté (<em>je veux que</em>), parce qu'ils présentent l'action comme non certaine, souhaitée ou ressentie, jamais comme un fait objectif.</p>",
+    "rules": [
+      {
+        "heading": "a) Indicatif",
+        "body": "<ul><li>Certitude/déclaration affirmative : <em>je pense que, je sais que, il est vrai que</em> + indicatif.</li></ul>"
+      },
+      {
+        "heading": "b) Subjonctif — doute",
+        "body": "<ul><li><em>je doute que, il est possible que</em> + subjonctif.</li></ul>"
+      },
+      {
+        "heading": "c) Subjonctif — émotion",
+        "body": "<ul><li><em>je suis content que, j'ai peur que, c'est dommage que</em> + subjonctif.</li></ul>"
+      },
+      {
+        "heading": "d) Attention",
+        "body": "<ul><li>Penser/croire à la forme négative ou interrogative basculent souvent au subjonctif.</li></ul>"
+      }
+    ],
+    "examples": [
+      "Je pense qu'il a raison.",
+      "Je ne pense pas qu'il ait raison.",
+      "Je doute qu'elle vienne ce soir.",
+      "Je suis content que tu sois là.",
+      "Il est certain qu'elle réussira.",
+      "Il est possible qu'il pleuve demain.",
+      "J'ai peur que nous soyons en retard."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Je pense qu'il ait raison.",
+        "right": "Je pense qu'il a raison.",
+        "why": "Penser que à la forme affirmative exprime la certitude : indicatif, pas subjonctif."
+      },
+      {
+        "wrong": "Je suis content que tu es là.",
+        "right": "Je suis content que tu sois là.",
+        "why": "Une émotion déclenche toujours le subjonctif."
+      },
+      {
+        "wrong": "Il est certain qu'elle vienne.",
+        "right": "Il est certain qu'elle viendra.",
+        "why": "Il est certain que exprime une certitude : indicatif."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b1svi-fill",
+      "type": "fill-blank",
+      "title": "Subjonctif ou Indicatif ?",
+      "instructions": "Écris la forme correcte du verbe entre parenthèses.",
+      "items": [
+        {
+          "id": "b1svif1",
+          "prompt": "Je pense qu'il ___ (avoir) raison.",
+          "answers": [
+            [
+              "a"
+            ]
+          ],
+          "options": [
+            "a",
+            "ait",
+            "aura"
+          ],
+          "explanation": "Penser que affirmatif : indicatif."
+        },
+        {
+          "id": "b1svif2",
+          "prompt": "Je doute qu'elle ___ (venir) ce soir.",
+          "answers": [
+            [
+              "vienne"
+            ]
+          ],
+          "options": [
+            "vienne",
+            "vient",
+            "viendra"
+          ],
+          "explanation": "Le doute déclenche le subjonctif."
+        },
+        {
+          "id": "b1svif3",
+          "prompt": "Je suis content que tu ___ (être) là.",
+          "answers": [
+            [
+              "sois"
+            ]
+          ],
+          "options": [
+            "sois",
+            "es",
+            "seras"
+          ],
+          "explanation": "Une émotion déclenche le subjonctif."
+        },
+        {
+          "id": "b1svif4",
+          "prompt": "Il est certain qu'elle ___ (réussir).",
+          "answers": [
+            [
+              "réussira"
+            ]
+          ],
+          "options": [
+            "réussira",
+            "réussisse",
+            "réussit"
+          ],
+          "explanation": "Il est certain que : indicatif (futur ici)."
+        }
+      ]
+    },
+    {
+      "id": "b1svi-mc",
+      "type": "multiple-choice",
+      "title": "Subjonctif vs. Indicatif",
+      "items": [
+        {
+          "id": "b1svim1",
+          "prompt": "Quel mode suit « je pense que » à la forme affirmative ?",
+          "options": [
+            "l'indicatif",
+            "le subjonctif",
+            "l'impératif"
+          ],
+          "answerIndex": 0,
+          "explanation": "La certitude déclenche l'indicatif."
+        },
+        {
+          "id": "b1svim2",
+          "prompt": "Quel mode suit une expression d'émotion (je suis content que) ?",
+          "options": [
+            "le subjonctif",
+            "l'indicatif",
+            "le conditionnel"
+          ],
+          "answerIndex": 0,
+          "explanation": "L'émotion déclenche toujours le subjonctif."
+        },
+        {
+          "id": "b1svim3",
+          "prompt": "Que se passe-t-il souvent avec « je ne pense pas que » ?",
+          "options": [
+            "le verbe passe au subjonctif",
+            "rien ne change",
+            "le verbe passe à l'impératif"
+          ],
+          "answerIndex": 0,
+          "explanation": "La négation fait souvent disparaître la certitude."
+        },
+        {
+          "id": "b1svim4",
+          "prompt": "Quel mode suit « il est certain que » ?",
+          "options": [
+            "l'indicatif",
+            "le subjonctif",
+            "le futur uniquement"
+          ],
+          "answerIndex": 0,
+          "explanation": "La certitude déclenche l'indicatif."
+        }
+      ]
+    },
+    {
+      "id": "b1svi-correction",
+      "type": "correction",
+      "title": "Corrige les Erreurs",
+      "items": [
+        {
+          "id": "b1svic1",
+          "incorrect": "Je pense qu'il ait raison.",
+          "answer": [
+            "Je pense qu'il a raison."
+          ],
+          "explanation": "Penser que affirmatif : indicatif."
+        },
+        {
+          "id": "b1svic2",
+          "incorrect": "Je suis content que tu es là.",
+          "answer": [
+            "Je suis content que tu sois là."
+          ],
+          "explanation": "L'émotion déclenche le subjonctif."
+        },
+        {
+          "id": "b1svic3",
+          "incorrect": "Il est certain qu'elle vienne.",
+          "answer": [
+            "Il est certain qu'elle viendra."
+          ],
+          "explanation": "La certitude déclenche l'indicatif."
+        }
+      ]
+    },
+    {
+      "id": "b1svix-reading",
+      "type": "reading-comprehension",
+      "title": "Lecture : Avant le Match",
+      "passage": "<p>Marc pense que son équipe va gagner le match. Mais son ami doute qu'elle réussisse, car les joueurs sont fatigués. Marc est content que le match ait lieu ce soir. Il est certain que ce sera un bon spectacle.</p>",
+      "items": [
+        {
+          "id": "b1svixr1",
+          "prompt": "Que pense Marc de son équipe ?",
+          "options": [
+            "Qu'elle va gagner",
+            "Qu'elle va perdre",
+            "Qu'elle ne jouera pas"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit : « Marc pense que son équipe va gagner »."
+        },
+        {
+          "id": "b1svixr2",
+          "prompt": "De quoi doute son ami ?",
+          "options": [
+            "Qu'elle réussisse",
+            "Qu'elle soit fatiguée",
+            "Que le match ait lieu"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit : « son ami doute qu'elle réussisse »."
+        },
+        {
+          "id": "b1svixr3",
+          "prompt": "De quoi Marc est-il content ?",
+          "options": [
+            "Que le match ait lieu ce soir",
+            "Que les joueurs soient fatigués",
+            "Que le match soit annulé"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte le dit directement."
+        },
+        {
+          "id": "b1svixr4",
+          "prompt": "De quoi est-il certain ?",
+          "options": [
+            "Que ce sera un bon spectacle",
+            "Que son équipe perdra",
+            "Que le match sera annulé"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte se termine ainsi."
+        }
+      ]
+    },
+    {
+      "id": "b1svix-order",
+      "type": "ordering",
+      "title": "Remets la Phrase en Ordre",
+      "items": [
+        {
+          "id": "b1svixo1",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Marc",
+            "pense",
+            "que",
+            "son",
+            "équipe",
+            "va",
+            "gagner"
+          ],
+          "explanation": "Indicatif après penser que affirmatif."
+        },
+        {
+          "id": "b1svixo2",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Son",
+            "ami",
+            "doute",
+            "qu'elle",
+            "réussisse"
+          ],
+          "explanation": "Subjonctif après douter que."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "L'indicatif suit les expressions de certitude et les verbes déclaratifs affirmatifs (je pense que, je sais que).",
+    "Le subjonctif suit le doute, l'émotion et la volonté (je doute que, je suis content que, je veux que).",
+    "À la forme négative ou interrogative, penser/croire basculent souvent vers le subjonctif."
+  ]
+}

@@ -1,0 +1,307 @@
+{
+  "id": "b1-les-pronoms-relatifs",
+  "level": "B1",
+  "unit": "1",
+  "order": 6,
+  "skill": "grammar",
+  "strand": "pronoms-relatifs",
+  "title": "Les Pronoms Relatifs",
+  "subtitle": "Qui, que, où et dont pour relier deux phrases sans répéter un nom déjà mentionné.",
+  "objectives": [
+    "Utiliser qui pour remplacer un sujet et que pour remplacer un complément d'objet direct.",
+    "Utiliser où pour un complément de lieu ou de temps.",
+    "Utiliser dont pour un complément introduit par de."
+  ],
+  "content": {
+    "intro": "Les pronoms relatifs relient deux phrases en évitant de répéter un nom déjà mentionné — une construction indispensable pour des phrases plus fluides et plus naturelles.",
+    "explanation": "<p><strong>Qui</strong> remplace le sujet de la proposition relative (jamais suivi d'une élision) : <em>J'ai un ami qui habite à Paris.</em> <strong>Que</strong> remplace le complément d'objet direct (s'élide en qu' devant une voyelle) : <em>Le livre que je lis est passionnant.</em></p><p><strong>Où</strong> remplace un complément de lieu ou de temps : <em>La ville où j'habite est petite. Le jour où je suis né…</em> <strong>Dont</strong> remplace un complément introduit par <em>de</em> (parler de, avoir besoin de) : <em>Le livre dont je parle est excellent.</em></p>",
+    "rules": [
+      {
+        "heading": "a) Qui",
+        "body": "<ul><li>Remplace le sujet, jamais suivi d'élision : <em>L'homme qui parle est mon voisin.</em></li></ul>"
+      },
+      {
+        "heading": "b) Que",
+        "body": "<ul><li>Remplace le COD, s'élide devant une voyelle : <em>Le film que j'ai vu était bon.</em></li></ul>"
+      },
+      {
+        "heading": "c) Où",
+        "body": "<ul><li>Lieu ou temps : <em>La maison où je suis né.</em></li></ul>"
+      },
+      {
+        "heading": "d) Dont",
+        "body": "<ul><li>Complément introduit par de : <em>Le sujet dont on parle m'intéresse.</em></li></ul>"
+      }
+    ],
+    "examples": [
+      "J'ai un ami qui habite à Paris.",
+      "Le livre que je lis est passionnant.",
+      "La ville où j'habite est petite.",
+      "Le livre dont je parle est excellent.",
+      "C'est la femme qui m'a aidé hier.",
+      "Voici la maison où j'ai grandi.",
+      "C'est un sujet dont j'ai besoin de parler."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "J'ai un ami que habite à Paris.",
+        "right": "J'ai un ami qui habite à Paris.",
+        "why": "Le sujet de la relative se remplace par qui, pas que."
+      },
+      {
+        "wrong": "Le livre qui je lis est passionnant.",
+        "right": "Le livre que je lis est passionnant.",
+        "why": "Le complément d'objet direct se remplace par que, pas qui."
+      },
+      {
+        "wrong": "Le livre que je parle est excellent.",
+        "right": "Le livre dont je parle est excellent.",
+        "why": "Parler de demande dont, pas que, car de introduit son complément."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b1rel-fill",
+      "type": "fill-blank",
+      "title": "Complète avec le Bon Pronom Relatif",
+      "instructions": "Choisis qui, que, où ou dont.",
+      "items": [
+        {
+          "id": "b1relf1",
+          "prompt": "J'ai un ami ___ habite à Paris.",
+          "answers": [
+            [
+              "qui"
+            ]
+          ],
+          "options": [
+            "qui",
+            "que",
+            "dont"
+          ],
+          "explanation": "Sujet de la relative : qui."
+        },
+        {
+          "id": "b1relf2",
+          "prompt": "Le livre ___ je lis est passionnant.",
+          "answers": [
+            [
+              "que"
+            ]
+          ],
+          "options": [
+            "que",
+            "qui",
+            "où"
+          ],
+          "explanation": "Complément d'objet direct : que."
+        },
+        {
+          "id": "b1relf3",
+          "prompt": "La ville ___ j'habite est petite.",
+          "answers": [
+            [
+              "où"
+            ]
+          ],
+          "options": [
+            "où",
+            "que",
+            "dont"
+          ],
+          "explanation": "Complément de lieu : où."
+        },
+        {
+          "id": "b1relf4",
+          "prompt": "Le livre ___ je parle est excellent.",
+          "answers": [
+            [
+              "dont"
+            ]
+          ],
+          "options": [
+            "dont",
+            "que",
+            "qui"
+          ],
+          "explanation": "Parler de → dont."
+        }
+      ]
+    },
+    {
+      "id": "b1rel-mc",
+      "type": "multiple-choice",
+      "title": "Les Pronoms Relatifs",
+      "items": [
+        {
+          "id": "b1relm1",
+          "prompt": "Quel pronom relatif remplace le sujet ?",
+          "options": [
+            "qui",
+            "que",
+            "dont"
+          ],
+          "answerIndex": 0,
+          "explanation": "Qui remplace toujours le sujet."
+        },
+        {
+          "id": "b1relm2",
+          "prompt": "Quel pronom relatif remplace un complément introduit par de ?",
+          "options": [
+            "dont",
+            "que",
+            "où"
+          ],
+          "answerIndex": 0,
+          "explanation": "Dont remplace un complément en de."
+        },
+        {
+          "id": "b1relm3",
+          "prompt": "Quel pronom relatif utilise-t-on pour un lieu ?",
+          "options": [
+            "où",
+            "qui",
+            "que"
+          ],
+          "answerIndex": 0,
+          "explanation": "Où marque le lieu ou le temps."
+        },
+        {
+          "id": "b1relm4",
+          "prompt": "Que remplace le pronom relatif que ?",
+          "options": [
+            "le complément d'objet direct",
+            "le sujet",
+            "un complément en de"
+          ],
+          "answerIndex": 0,
+          "explanation": "Que remplace toujours le COD."
+        }
+      ]
+    },
+    {
+      "id": "b1rel-correction",
+      "type": "correction",
+      "title": "Corrige les Erreurs",
+      "items": [
+        {
+          "id": "b1relc1",
+          "incorrect": "J'ai un ami que habite à Paris.",
+          "answer": [
+            "J'ai un ami qui habite à Paris."
+          ],
+          "explanation": "Le sujet se remplace par qui."
+        },
+        {
+          "id": "b1relc2",
+          "incorrect": "Le livre qui je lis est passionnant.",
+          "answer": [
+            "Le livre que je lis est passionnant."
+          ],
+          "explanation": "Le COD se remplace par que."
+        },
+        {
+          "id": "b1relc3",
+          "incorrect": "Le livre que je parle est excellent.",
+          "answer": [
+            "Le livre dont je parle est excellent."
+          ],
+          "explanation": "Parler de demande dont."
+        }
+      ]
+    },
+    {
+      "id": "b1relx-reading",
+      "type": "reading-comprehension",
+      "title": "Lecture : Un Collègue Polyglotte",
+      "passage": "<p>J'ai un collègue qui parle quatre langues. Le projet que nous préparons est très important. Le bureau où je travaille est au troisième étage. C'est un sujet dont nous parlons souvent en réunion.</p>",
+      "items": [
+        {
+          "id": "b1relxr1",
+          "prompt": "Combien de langues parle le collègue ?",
+          "options": [
+            "Quatre",
+            "Deux",
+            "Trois"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit : « qui parle quatre langues »."
+        },
+        {
+          "id": "b1relxr2",
+          "prompt": "Comment est le projet qu'ils préparent ?",
+          "options": [
+            "Très important",
+            "Sans intérêt",
+            "Presque terminé"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte le dit directement."
+        },
+        {
+          "id": "b1relxr3",
+          "prompt": "Où est le bureau ?",
+          "options": [
+            "Au troisième étage",
+            "Au rez-de-chaussée",
+            "Au dernier étage"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit : « au troisième étage »."
+        },
+        {
+          "id": "b1relxr4",
+          "prompt": "De quoi parlent-ils souvent en réunion ?",
+          "options": [
+            "D'un sujet important",
+            "De la météo",
+            "De leurs vacances"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte se termine par « un sujet dont nous parlons souvent »."
+        }
+      ]
+    },
+    {
+      "id": "b1relx-order",
+      "type": "ordering",
+      "title": "Remets la Phrase en Ordre",
+      "items": [
+        {
+          "id": "b1relxo1",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "J'ai",
+            "un",
+            "collègue",
+            "qui",
+            "parle",
+            "quatre",
+            "langues"
+          ],
+          "explanation": "Qui remplace le sujet."
+        },
+        {
+          "id": "b1relxo2",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Le",
+            "projet",
+            "que",
+            "nous",
+            "préparons",
+            "est",
+            "important"
+          ],
+          "explanation": "Que remplace le complément d'objet direct."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Qui remplace le sujet, que remplace le complément d'objet direct.",
+    "Où remplace un complément de lieu ou de temps.",
+    "Dont remplace un complément introduit par de."
+  ]
+}
