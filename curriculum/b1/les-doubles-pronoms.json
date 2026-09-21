@@ -1,0 +1,309 @@
+{
+  "id": "b1-les-doubles-pronoms",
+  "level": "B1",
+  "unit": "1",
+  "order": 10,
+  "skill": "grammar",
+  "strand": "doubles-pronoms",
+  "title": "Les Doubles Pronoms",
+  "subtitle": "Comment combiner un pronom COD et un pronom COI dans le bon ordre, au présent, au passé composé et à l'impératif.",
+  "objectives": [
+    "Combiner un pronom COD et un pronom COI dans la même phrase.",
+    "Appliquer le bon ordre des pronoms selon leur type et leur personne.",
+    "Placer correctement les doubles pronoms au passé composé et à l'impératif affirmatif."
+  ],
+  "content": {
+    "intro": "Quand une phrase contient à la fois un complément d'objet direct et un complément d'objet indirect, les deux pronoms se combinent devant le verbe, dans un ordre précis à mémoriser.",
+    "explanation": "<p>Quand on combine un pronom COD et un pronom COI, l'ordre dépend de leur personne : <strong>me/te/nous/vous</strong> se placent toujours avant <strong>le/la/les</strong> (<em>Il me le donne</em>), mais <strong>le/la/les</strong> se placent avant <strong>lui/leur</strong> (<em>Je le lui donne</em>). Les deux pronoms se placent ensemble avant le verbe conjugué, ou avant l'auxiliaire au passé composé : <em>Il me l'a donné.</em></p><p>À l'impératif affirmatif, les pronoms suivent le verbe et sont reliés par un trait d'union, dans l'ordre COD puis COI : <em>Donne-le-moi !</em> (et <em>me</em> devient <em>moi</em> en position finale). À l'impératif négatif, l'ordre habituel revient devant le verbe : <em>Ne me le donne pas.</em></p>",
+    "rules": [
+      {
+        "heading": "a) me/te/nous/vous + le/la/les",
+        "body": "<ul><li>Jamais l'inverse : <em>Il me le donne</em>, pas « il le me donne ».</li></ul>"
+      },
+      {
+        "heading": "b) le/la/les + lui/leur",
+        "body": "<ul><li>Jamais l'inverse : <em>Je le lui donne</em>, pas « je lui le donne ».</li></ul>"
+      },
+      {
+        "heading": "c) Passé composé",
+        "body": "<ul><li>Les deux pronoms se placent ensemble avant l'auxiliaire : <em>Il me l'a donné.</em></li></ul>"
+      },
+      {
+        "heading": "d) Impératif affirmatif",
+        "body": "<ul><li>Verbe + trait d'union + COD + COI (me→moi, te→toi) : <em>Donne-le-moi !</em> Négatif : ordre normal avant le verbe.</li></ul>"
+      }
+    ],
+    "examples": [
+      "Il me le donne.",
+      "Je le lui donne.",
+      "Elle nous les envoie.",
+      "Tu me l'as dit hier.",
+      "Donne-le-moi, s'il te plaît !",
+      "Ne me le donne pas.",
+      "Nous le leur avons expliqué."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Il le me donne.",
+        "right": "Il me le donne.",
+        "why": "Me/te/nous/vous se placent toujours avant le/la/les."
+      },
+      {
+        "wrong": "Je lui le donne.",
+        "right": "Je le lui donne.",
+        "why": "Le/la/les se placent avant lui/leur."
+      },
+      {
+        "wrong": "Donne-moi-le.",
+        "right": "Donne-le-moi.",
+        "why": "À l'impératif affirmatif, l'ordre est COD puis COI : le avant moi."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b1dbp-fill",
+      "type": "fill-blank",
+      "title": "Combine les Doubles Pronoms",
+      "instructions": "Récris la partie de phrase avec les deux pronoms dans le bon ordre.",
+      "items": [
+        {
+          "id": "b1dbpf1",
+          "prompt": "Il ___ donne. (me + le)",
+          "answers": [
+            [
+              "me le"
+            ]
+          ],
+          "options": [
+            "me le",
+            "le me",
+            "me lui"
+          ],
+          "explanation": "Me se place avant le."
+        },
+        {
+          "id": "b1dbpf2",
+          "prompt": "Je ___ donne. (le + lui)",
+          "answers": [
+            [
+              "le lui"
+            ]
+          ],
+          "options": [
+            "le lui",
+            "lui le",
+            "le leur"
+          ],
+          "explanation": "Le se place avant lui."
+        },
+        {
+          "id": "b1dbpf3",
+          "prompt": "Tu ___ as dit hier. (me + l')",
+          "answers": [
+            [
+              "me l'"
+            ]
+          ],
+          "options": [
+            "me l'",
+            "l'me",
+            "le me"
+          ],
+          "explanation": "Me se place avant l'."
+        },
+        {
+          "id": "b1dbpf4",
+          "prompt": "___, s'il te plaît ! (donne + le + moi, impératif)",
+          "answers": [
+            [
+              "Donne-le-moi"
+            ]
+          ],
+          "options": [
+            "Donne-le-moi",
+            "Donne-moi-le",
+            "Me le donne"
+          ],
+          "explanation": "À l'impératif affirmatif : verbe + COD + COI."
+        }
+      ]
+    },
+    {
+      "id": "b1dbp-mc",
+      "type": "multiple-choice",
+      "title": "Les Doubles Pronoms",
+      "items": [
+        {
+          "id": "b1dbpm1",
+          "prompt": "Quel ordre suivent me/te/nous/vous et le/la/les ensemble ?",
+          "options": [
+            "me/te/nous/vous avant le/la/les",
+            "le/la/les avant me/te/nous/vous",
+            "cela dépend du verbe"
+          ],
+          "answerIndex": 0,
+          "explanation": "C'est l'ordre fixe des doubles pronoms."
+        },
+        {
+          "id": "b1dbpm2",
+          "prompt": "Quel ordre suivent le/la/les et lui/leur ensemble ?",
+          "options": [
+            "le/la/les avant lui/leur",
+            "lui/leur avant le/la/les",
+            "cela dépend du temps"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le/la/les précèdent toujours lui/leur."
+        },
+        {
+          "id": "b1dbpm3",
+          "prompt": "Où se placent les doubles pronoms à l'impératif affirmatif ?",
+          "options": [
+            "après le verbe, avec des traits d'union",
+            "avant le verbe",
+            "au milieu du verbe"
+          ],
+          "answerIndex": 0,
+          "explanation": "L'impératif affirmatif place les pronoms après le verbe."
+        },
+        {
+          "id": "b1dbpm4",
+          "prompt": "Que devient me en position finale à l'impératif affirmatif ?",
+          "options": [
+            "moi",
+            "me",
+            "m'"
+          ],
+          "answerIndex": 0,
+          "explanation": "Me devient moi en fin de mot à l'impératif affirmatif."
+        }
+      ]
+    },
+    {
+      "id": "b1dbp-correction",
+      "type": "correction",
+      "title": "Corrige les Erreurs",
+      "items": [
+        {
+          "id": "b1dbpc1",
+          "incorrect": "Il le me donne.",
+          "answer": [
+            "Il me le donne."
+          ],
+          "explanation": "Me se place avant le."
+        },
+        {
+          "id": "b1dbpc2",
+          "incorrect": "Je lui le donne.",
+          "answer": [
+            "Je le lui donne."
+          ],
+          "explanation": "Le se place avant lui."
+        },
+        {
+          "id": "b1dbpc3",
+          "incorrect": "Donne-moi-le.",
+          "answer": [
+            "Donne-le-moi."
+          ],
+          "explanation": "L'ordre à l'impératif affirmatif est COD puis COI."
+        }
+      ]
+    },
+    {
+      "id": "b1dbpx-reading",
+      "type": "reading-comprehension",
+      "title": "Lecture : Le Livre Rendu",
+      "passage": "<p>Marie a demandé son livre à Paul. Il le lui a rendu tout de suite. Ensuite, elle lui a redonné son stylo : elle le lui a redonné avec un sourire. « Donne-le-moi », avait-elle dit au début, en riant.</p>",
+      "items": [
+        {
+          "id": "b1dbpxr1",
+          "prompt": "Qu'a fait Paul avec le livre ?",
+          "options": [
+            "Il l'a rendu tout de suite",
+            "Il l'a gardé",
+            "Il l'a perdu"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit : « Il le lui a rendu tout de suite »."
+        },
+        {
+          "id": "b1dbpxr2",
+          "prompt": "Qu'a fait Marie avec le stylo ?",
+          "options": [
+            "Elle l'a redonné",
+            "Elle l'a jeté",
+            "Elle l'a gardé"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte le dit directement."
+        },
+        {
+          "id": "b1dbpxr3",
+          "prompt": "Comment l'a-t-elle redonné ?",
+          "options": [
+            "Avec un sourire",
+            "En colère",
+            "Sans un mot"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit : « avec un sourire »."
+        },
+        {
+          "id": "b1dbpxr4",
+          "prompt": "Qu'avait-elle dit au début ?",
+          "options": [
+            "« Donne-le-moi »",
+            "« Garde-le »",
+            "« Je n'en veux pas »"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte se termine ainsi."
+        }
+      ]
+    },
+    {
+      "id": "b1dbpx-order",
+      "type": "ordering",
+      "title": "Remets la Phrase en Ordre",
+      "items": [
+        {
+          "id": "b1dbpxo1",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Il",
+            "le",
+            "lui",
+            "a",
+            "rendu",
+            "tout",
+            "de",
+            "suite"
+          ],
+          "explanation": "Doubles pronoms : COD avant COI."
+        },
+        {
+          "id": "b1dbpxo2",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Elle",
+            "le",
+            "lui",
+            "a",
+            "redonné",
+            "avec",
+            "un",
+            "sourire"
+          ],
+          "explanation": "Doubles pronoms au passé composé."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Me/te/nous/vous se placent avant le/la/les ; le/la/les se placent avant lui/leur.",
+    "Les deux pronoms se placent ensemble avant le verbe conjugué, ou avant l'auxiliaire au passé composé.",
+    "À l'impératif affirmatif, l'ordre est verbe + COD + COI, relié par des traits d'union (me devient moi)."
+  ]
+}

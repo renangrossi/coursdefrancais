@@ -145,7 +145,56 @@
       "title": "Les Prépositions avec les Pays et les Villes"
     }
   ],
-  "b1": [],
+  "b1": [
+    {
+      "slug": "le-plus-que-parfait",
+      "title": "Le Plus-que-parfait"
+    },
+    {
+      "slug": "le-conditionnel-passe",
+      "title": "Le Conditionnel Passé"
+    },
+    {
+      "slug": "le-subjonctif-present-formation",
+      "title": "Le Subjonctif Présent — Formation et Déclencheurs de Base"
+    },
+    {
+      "slug": "subjonctif-vs-indicatif",
+      "title": "Subjonctif vs. Indicatif"
+    },
+    {
+      "slug": "le-discours-indirect",
+      "title": "Le Discours Indirect"
+    },
+    {
+      "slug": "les-pronoms-relatifs",
+      "title": "Les Pronoms Relatifs"
+    },
+    {
+      "slug": "la-voix-passive",
+      "title": "La Voix Passive"
+    },
+    {
+      "slug": "les-connecteurs-logiques",
+      "title": "Les Connecteurs Logiques"
+    },
+    {
+      "slug": "le-gerondif-et-le-participe-present",
+      "title": "Le Gérondif et le Participe Présent"
+    },
+    {
+      "slug": "les-doubles-pronoms",
+      "title": "Les Doubles Pronoms"
+    },
+    {
+      "slug": "lexpression-de-lhypothese-avec-si",
+      "title": "L'Expression de l'Hypothèse avec Si"
+    },
+    {
+      "slug": "les-verbes-suivis-de-a-ou-de-infinitif",
+      "title": "Les Verbes Suivis de à ou de + Infinitif"
+    }
+  ],
   "b2": [],
   "c1": [],
   "c2": []

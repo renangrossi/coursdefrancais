@@ -1,0 +1,306 @@
+{
+  "id": "b1-les-verbes-suivis-de-a-ou-de-infinitif",
+  "level": "B1",
+  "unit": "1",
+  "order": 12,
+  "skill": "grammar",
+  "strand": "verbes-a-de-infinitif",
+  "title": "Les Verbes Suivis de à ou de + Infinitif",
+  "subtitle": "Commencer à, décider de, ou l'infinitif direct : trois constructions à mémoriser verbe par verbe.",
+  "objectives": [
+    "Reconnaître les verbes qui se construisent avec à + infinitif.",
+    "Reconnaître les verbes qui se construisent avec de + infinitif.",
+    "Distinguer ces verbes des verbes qui se construisent avec l'infinitif direct, sans préposition."
+  ],
+  "content": {
+    "intro": "Beaucoup de verbes français se combinent avec un deuxième verbe à l'infinitif, mais pas toujours de la même façon — certains demandent à, d'autres de, et d'autres aucune préposition du tout.",
+    "explanation": "<p>Certains verbes très fréquents se construisent avec <strong>à</strong> + infinitif : <em>commencer à, réussir à, apprendre à, aider à, continuer à</em> : <em>Elle commence à comprendre.</em> D'autres se construisent avec <strong>de</strong> + infinitif : <em>décider de, essayer de, arrêter de, finir de, oublier de, avoir peur de</em> : <em>J'ai décidé de partir.</em></p><p>D'autres verbes très courants (souvent des verbes de modalité) prennent l'infinitif directement, sans aucune préposition : <em>vouloir, pouvoir, devoir, aimer, préférer, détester</em> : <em>Je veux partir. Il peut venir.</em> Il n'existe pas de règle générale pour prédire quelle préposition un verbe utilise : c'est un point de vocabulaire à mémoriser verbe par verbe.</p>",
+    "rules": [
+      {
+        "heading": "a) Verbes + à + infinitif",
+        "body": "<ul><li><em>commencer à, réussir à, apprendre à, aider à, continuer à</em>.</li></ul>"
+      },
+      {
+        "heading": "b) Verbes + de + infinitif",
+        "body": "<ul><li><em>décider de, essayer de, arrêter de, finir de, oublier de, avoir peur de</em>.</li></ul>"
+      },
+      {
+        "heading": "c) Infinitif direct",
+        "body": "<ul><li><em>vouloir, pouvoir, devoir, aimer, préférer, détester</em> — sans préposition.</li></ul>"
+      },
+      {
+        "heading": "d) Pas de règle générale",
+        "body": "<ul><li>Chaque verbe se mémorise avec sa propre construction.</li></ul>"
+      }
+    ],
+    "examples": [
+      "Elle commence à comprendre le français.",
+      "J'ai décidé de partir plus tôt.",
+      "Il a réussi à finir à temps.",
+      "Nous essayons de trouver une solution.",
+      "Tu veux venir avec nous ?",
+      "Ils ont arrêté de fumer.",
+      "Elle apprend à conduire."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Elle commence de comprendre.",
+        "right": "Elle commence à comprendre.",
+        "why": "Commencer se construit avec à, pas de."
+      },
+      {
+        "wrong": "J'ai décidé à partir.",
+        "right": "J'ai décidé de partir.",
+        "why": "Décider se construit avec de, pas à."
+      },
+      {
+        "wrong": "Je veux à partir.",
+        "right": "Je veux partir.",
+        "why": "Vouloir prend l'infinitif directement, sans préposition."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b1vsi-fill",
+      "type": "fill-blank",
+      "title": "Complète avec la Bonne Préposition",
+      "instructions": "Choisis à, de, ou aucune préposition.",
+      "items": [
+        {
+          "id": "b1vsif1",
+          "prompt": "Elle commence ___ comprendre le français.",
+          "answers": [
+            [
+              "à"
+            ]
+          ],
+          "options": [
+            "à",
+            "de",
+            "(rien)"
+          ],
+          "explanation": "Commencer à + infinitif."
+        },
+        {
+          "id": "b1vsif2",
+          "prompt": "J'ai décidé ___ partir plus tôt.",
+          "answers": [
+            [
+              "de"
+            ]
+          ],
+          "options": [
+            "de",
+            "à",
+            "(rien)"
+          ],
+          "explanation": "Décider de + infinitif."
+        },
+        {
+          "id": "b1vsif3",
+          "prompt": "Ils ont arrêté ___ fumer.",
+          "answers": [
+            [
+              "de"
+            ]
+          ],
+          "options": [
+            "de",
+            "à",
+            "(rien)"
+          ],
+          "explanation": "Arrêter de + infinitif."
+        },
+        {
+          "id": "b1vsif4",
+          "prompt": "Elle apprend ___ conduire.",
+          "answers": [
+            [
+              "à"
+            ]
+          ],
+          "options": [
+            "à",
+            "de",
+            "(rien)"
+          ],
+          "explanation": "Apprendre à + infinitif."
+        }
+      ]
+    },
+    {
+      "id": "b1vsi-mc",
+      "type": "multiple-choice",
+      "title": "Les Verbes et Leur Préposition",
+      "items": [
+        {
+          "id": "b1vsim1",
+          "prompt": "Quelle préposition suit « commencer » devant un infinitif ?",
+          "options": [
+            "à",
+            "de",
+            "aucune"
+          ],
+          "answerIndex": 0,
+          "explanation": "Commencer à + infinitif."
+        },
+        {
+          "id": "b1vsim2",
+          "prompt": "Quelle préposition suit « décider » devant un infinitif ?",
+          "options": [
+            "de",
+            "à",
+            "aucune"
+          ],
+          "answerIndex": 0,
+          "explanation": "Décider de + infinitif."
+        },
+        {
+          "id": "b1vsim3",
+          "prompt": "Quelle préposition suit « vouloir » devant un infinitif ?",
+          "options": [
+            "aucune, infinitif direct",
+            "à",
+            "de"
+          ],
+          "answerIndex": 0,
+          "explanation": "Vouloir prend l'infinitif direct."
+        },
+        {
+          "id": "b1vsim4",
+          "prompt": "Existe-t-il une règle générale pour prédire à ou de ?",
+          "options": [
+            "non, cela se mémorise verbe par verbe",
+            "oui, toujours à",
+            "oui, toujours de"
+          ],
+          "answerIndex": 0,
+          "explanation": "Chaque verbe a sa propre construction à mémoriser."
+        }
+      ]
+    },
+    {
+      "id": "b1vsi-correction",
+      "type": "correction",
+      "title": "Corrige les Erreurs",
+      "items": [
+        {
+          "id": "b1vsic1",
+          "incorrect": "Elle commence de comprendre.",
+          "answer": [
+            "Elle commence à comprendre."
+          ],
+          "explanation": "Commencer se construit avec à."
+        },
+        {
+          "id": "b1vsic2",
+          "incorrect": "J'ai décidé à partir.",
+          "answer": [
+            "J'ai décidé de partir."
+          ],
+          "explanation": "Décider se construit avec de."
+        },
+        {
+          "id": "b1vsic3",
+          "incorrect": "Je veux à partir.",
+          "answer": [
+            "Je veux partir."
+          ],
+          "explanation": "Vouloir prend l'infinitif direct."
+        }
+      ]
+    },
+    {
+      "id": "b1vsix-reading",
+      "type": "reading-comprehension",
+      "title": "Lecture : Emma Apprend le Piano",
+      "passage": "<p>Emma a décidé d'apprendre le piano. Elle a commencé à prendre des cours le mois dernier. Elle essaie de pratiquer chaque jour. Elle espère réussir à jouer un morceau entier bientôt.</p>",
+      "items": [
+        {
+          "id": "b1vsixr1",
+          "prompt": "Qu'a décidé Emma ?",
+          "options": [
+            "D'apprendre le piano",
+            "D'arrêter la musique",
+            "D'apprendre la guitare"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit : « Emma a décidé d'apprendre le piano »."
+        },
+        {
+          "id": "b1vsixr2",
+          "prompt": "Quand a-t-elle commencé les cours ?",
+          "options": [
+            "Le mois dernier",
+            "Il y a un an",
+            "Hier"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte le dit directement."
+        },
+        {
+          "id": "b1vsixr3",
+          "prompt": "Que fait-elle chaque jour ?",
+          "options": [
+            "Elle essaie de pratiquer",
+            "Elle regarde des vidéos",
+            "Elle ne fait rien"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit : « Elle essaie de pratiquer chaque jour »."
+        },
+        {
+          "id": "b1vsixr4",
+          "prompt": "Qu'espère-t-elle bientôt ?",
+          "options": [
+            "Réussir à jouer un morceau entier",
+            "Arrêter le piano",
+            "Changer d'instrument"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte se termine ainsi."
+        }
+      ]
+    },
+    {
+      "id": "b1vsix-order",
+      "type": "ordering",
+      "title": "Remets la Phrase en Ordre",
+      "items": [
+        {
+          "id": "b1vsixo1",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Elle",
+            "a",
+            "commencé",
+            "à",
+            "prendre",
+            "des",
+            "cours"
+          ],
+          "explanation": "Commencer à + infinitif."
+        },
+        {
+          "id": "b1vsixo2",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Elle",
+            "essaie",
+            "de",
+            "pratiquer",
+            "chaque",
+            "jour"
+          ],
+          "explanation": "Essayer de + infinitif."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Certains verbes prennent à + infinitif (commencer à, réussir à, apprendre à).",
+    "D'autres prennent de + infinitif (décider de, essayer de, arrêter de).",
+    "D'autres prennent l'infinitif directement, sans préposition (vouloir, pouvoir, devoir, aimer) ; il n'y a pas de règle générale, chaque verbe se mémorise."
+  ]
+}

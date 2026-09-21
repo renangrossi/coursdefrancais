@@ -1,0 +1,304 @@
+{
+  "id": "b1-le-conditionnel-passe",
+  "level": "B1",
+  "unit": "1",
+  "order": 2,
+  "skill": "grammar",
+  "strand": "conditionnel-passe",
+  "title": "Le Conditionnel Passé",
+  "subtitle": "Comment former le conditionnel passé, pour exprimer un regret ou une hypothèse non réalisée dans le passé.",
+  "objectives": [
+    "Former le conditionnel passé avec le conditionnel présent de avoir/être + participe passé.",
+    "Exprimer un regret avec j'aurais dû / je n'aurais pas dû + infinitif.",
+    "Distinguer le conditionnel passé du plus-que-parfait par leur sens."
+  ],
+  "content": {
+    "intro": "Le conditionnel passé sert à parler de ce qui aurait pu se passer mais qui ne s'est pas produit — le regret, le reproche, l'hypothèse manquée.",
+    "explanation": "<p>Le conditionnel passé se forme avec le <strong>conditionnel présent</strong> de <em>avoir</em> ou <em>être</em> + le participe passé, avec les mêmes règles d'auxiliaire et d'accord que le passé composé : <em>j'aurais aimé, elle serait partie, nous nous serions levés</em>.</p><p>Il exprime un regret ou un reproche à propos du passé (<em>j'aurais dû l'appeler</em>), une action qui aurait eu lieu sous une condition non réalisée (<em>si j'avais su, je serais venu</em>), ou une information non confirmée dans un contexte journalistique.</p>",
+    "rules": [
+      {
+        "heading": "a) Formation",
+        "body": "<ul><li>Conditionnel présent de avoir/être + participe passé.</li></ul>"
+      },
+      {
+        "heading": "b) Regret ou reproche",
+        "body": "<ul><li><em>j'aurais dû</em> + infinitif — regret d'une action non faite.</li><li><em>je n'aurais pas dû</em> + infinitif — regret d'une action faite.</li></ul>"
+      },
+      {
+        "heading": "c) Hypothèse non réalisée",
+        "body": "<ul><li><em>si</em> + plus-que-parfait, conditionnel passé — <em>Si j'avais su, je serais venu.</em></li></ul>"
+      },
+      {
+        "heading": "d) Information non confirmée",
+        "body": "<ul><li>Style journalistique : <em>Le président aurait démissionné</em> (information non confirmée).</li></ul>"
+      }
+    ],
+    "examples": [
+      "J'aurais dû t'appeler hier soir.",
+      "Elle ne serait pas venue si elle avait su.",
+      "Si j'avais su, je serais venu plus tôt.",
+      "Nous aurions aimé visiter ce musée.",
+      "Ils se seraient perdus sans le plan.",
+      "Tu n'aurais pas dû dire ça.",
+      "Le vol aurait été annulé, selon la radio."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "J'aurais du t'appeler.",
+        "right": "J'aurais dû t'appeler.",
+        "why": "Dû prend un accent circonflexe pour se distinguer de du (article/préposition contractée)."
+      },
+      {
+        "wrong": "Si j'avais su, je viendrais.",
+        "right": "Si j'avais su, je serais venu.",
+        "why": "Après si + plus-que-parfait, on utilise le conditionnel passé, pas le conditionnel présent."
+      },
+      {
+        "wrong": "Elle aurait partie plus tôt.",
+        "right": "Elle serait partie plus tôt.",
+        "why": "Partir se conjugue avec être, même au conditionnel passé."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b1cpa-fill",
+      "type": "fill-blank",
+      "title": "Conjugue au Conditionnel Passé",
+      "instructions": "Écris la forme correcte du verbe entre parenthèses.",
+      "items": [
+        {
+          "id": "b1cpaf1",
+          "prompt": "Je ___ (devoir) t'appeler hier soir.",
+          "answers": [
+            [
+              "aurais dû"
+            ]
+          ],
+          "options": [
+            "aurais dû",
+            "avais dû",
+            "aurai dû"
+          ],
+          "explanation": "Regret : j'aurais dû + infinitif."
+        },
+        {
+          "id": "b1cpaf2",
+          "prompt": "Si j'avais su, je ___ (venir) plus tôt.",
+          "answers": [
+            [
+              "serais venu"
+            ]
+          ],
+          "options": [
+            "serais venu",
+            "aurais venu",
+            "viendrais"
+          ],
+          "explanation": "Venir se conjugue avec être."
+        },
+        {
+          "id": "b1cpaf3",
+          "prompt": "Nous ___ (aimer) visiter ce musée.",
+          "answers": [
+            [
+              "aurions aimé"
+            ]
+          ],
+          "options": [
+            "aurions aimé",
+            "aurions aimer",
+            "avions aimé"
+          ],
+          "explanation": "Conditionnel présent de avoir + participe passé."
+        },
+        {
+          "id": "b1cpaf4",
+          "prompt": "Ils ___ (se perdre) sans le plan.",
+          "answers": [
+            [
+              "se seraient perdus"
+            ]
+          ],
+          "options": [
+            "se seraient perdus",
+            "se auraient perdus",
+            "s'étaient perdus"
+          ],
+          "explanation": "Pronominal → toujours être."
+        }
+      ]
+    },
+    {
+      "id": "b1cpa-mc",
+      "type": "multiple-choice",
+      "title": "Le Conditionnel Passé",
+      "items": [
+        {
+          "id": "b1cpam1",
+          "prompt": "Comment forme-t-on le conditionnel passé ?",
+          "options": [
+            "conditionnel présent de avoir/être + participe passé",
+            "imparfait de avoir/être + participe passé",
+            "présent de avoir/être + participe passé"
+          ],
+          "answerIndex": 0,
+          "explanation": "L'auxiliaire est au conditionnel présent."
+        },
+        {
+          "id": "b1cpam2",
+          "prompt": "Que signifie « j'aurais dû l'appeler » ?",
+          "options": [
+            "un regret de ne pas l'avoir fait",
+            "une obligation présente",
+            "une prédiction future"
+          ],
+          "answerIndex": 0,
+          "explanation": "C'est l'expression classique du regret au passé."
+        },
+        {
+          "id": "b1cpam3",
+          "prompt": "Après si + plus-que-parfait, quel temps utilise-t-on dans la principale ?",
+          "options": [
+            "le conditionnel passé",
+            "le conditionnel présent",
+            "le futur simple"
+          ],
+          "answerIndex": 0,
+          "explanation": "L'hypothèse manquée dans le passé demande le conditionnel passé."
+        },
+        {
+          "id": "b1cpam4",
+          "prompt": "Pourquoi dû prend-il un accent circonflexe ?",
+          "options": [
+            "pour se distinguer de du",
+            "c'est une règle sans raison",
+            "pour marquer le pluriel"
+          ],
+          "answerIndex": 0,
+          "explanation": "L'accent distingue le participe passé dû de l'article/préposition contractée du."
+        }
+      ]
+    },
+    {
+      "id": "b1cpa-correction",
+      "type": "correction",
+      "title": "Corrige les Erreurs",
+      "items": [
+        {
+          "id": "b1cpac1",
+          "incorrect": "J'aurais du t'appeler.",
+          "answer": [
+            "J'aurais dû t'appeler."
+          ],
+          "explanation": "Dû prend un accent circonflexe."
+        },
+        {
+          "id": "b1cpac2",
+          "incorrect": "Si j'avais su, je viendrais.",
+          "answer": [
+            "Si j'avais su, je serais venu."
+          ],
+          "explanation": "Après si + plus-que-parfait : conditionnel passé."
+        },
+        {
+          "id": "b1cpac3",
+          "incorrect": "Elle aurait partie plus tôt.",
+          "answer": [
+            "Elle serait partie plus tôt."
+          ],
+          "explanation": "Partir se conjugue avec être."
+        }
+      ]
+    },
+    {
+      "id": "b1cpax-reading",
+      "type": "reading-comprehension",
+      "title": "Lecture : Le Regret de Camille",
+      "passage": "<p>Si Camille avait révisé plus, elle aurait réussi son examen. Elle se dit qu'elle aurait dû commencer plus tôt. Ses amis lui avaient proposé de l'aide, mais elle avait refusé. Maintenant, elle regrette de ne pas avoir accepté.</p>",
+      "items": [
+        {
+          "id": "b1cpaxr1",
+          "prompt": "Qu'aurait fait Camille si elle avait révisé plus ?",
+          "options": [
+            "Elle aurait réussi son examen",
+            "Elle aurait échoué quand même",
+            "Elle n'aurait rien changé"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit : « elle aurait réussi son examen »."
+        },
+        {
+          "id": "b1cpaxr2",
+          "prompt": "Que se dit-elle maintenant ?",
+          "options": [
+            "Qu'elle aurait dû commencer plus tôt",
+            "Qu'elle a bien fait",
+            "Qu'elle recommencera l'année prochaine"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte le dit directement."
+        },
+        {
+          "id": "b1cpaxr3",
+          "prompt": "Qu'avaient proposé ses amis ?",
+          "options": [
+            "De l'aide",
+            "De l'argent",
+            "Un livre"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit : « Ses amis lui avaient proposé de l'aide »."
+        },
+        {
+          "id": "b1cpaxr4",
+          "prompt": "Que regrette-t-elle maintenant ?",
+          "options": [
+            "De ne pas avoir accepté l'aide",
+            "D'avoir accepté l'aide",
+            "D'avoir trop étudié"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte se termine par « elle regrette de ne pas avoir accepté »."
+        }
+      ]
+    },
+    {
+      "id": "b1cpax-order",
+      "type": "ordering",
+      "title": "Remets la Phrase en Ordre",
+      "items": [
+        {
+          "id": "b1cpaxo1",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Elle",
+            "aurait",
+            "dû",
+            "commencer",
+            "plus",
+            "tôt"
+          ],
+          "explanation": "Conditionnel passé de devoir : regret."
+        },
+        {
+          "id": "b1cpaxo2",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Elle",
+            "aurait",
+            "réussi",
+            "son",
+            "examen"
+          ],
+          "explanation": "Conditionnel passé, hypothèse non réalisée."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Le conditionnel passé se forme avec le conditionnel présent de avoir/être + participe passé.",
+    "Il exprime un regret (j'aurais dû), un reproche, ou une hypothèse non réalisée après si + plus-que-parfait.",
+    "On le trouve aussi à l'écrit journalistique pour une information non confirmée."
+  ]
+}

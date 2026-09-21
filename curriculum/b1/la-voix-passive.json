@@ -1,0 +1,308 @@
+{
+  "id": "b1-la-voix-passive",
+  "level": "B1",
+  "unit": "1",
+  "order": 7,
+  "skill": "grammar",
+  "strand": "voix-passive",
+  "title": "La Voix Passive",
+  "subtitle": "Comment former la voix passive avec être + participe passé, et quand le français la préfère à la voix active.",
+  "objectives": [
+    "Former la voix passive avec être + participe passé + par.",
+    "Accorder le participe passé avec le sujet à la voix passive.",
+    "Reconnaître quand le français préfère la voix passive, active, ou une construction avec on."
+  ],
+  "content": {
+    "intro": "La voix passive met en avant celui qui subit l'action plutôt que celui qui l'accomplit — une construction moins fréquente en français qu'en anglais, mais utile à reconnaître et à utiliser correctement.",
+    "explanation": "<p>La voix passive se forme avec <strong>être</strong> (au temps voulu) + le <strong>participe passé</strong> du verbe, suivi de <em>par</em> + l'agent si on veut le préciser : <em>Le voleur a été arrêté par la police.</em> Le participe passé s'accorde toujours avec le sujet, comme un adjectif.</p><p>Seuls les verbes qui ont un complément d'objet direct peuvent se mettre au passif. Le français utilise la voix passive moins souvent que l'anglais : quand l'agent n'est pas important, on préfère souvent une construction avec <strong>on</strong> à la voix active : <em>On a construit ce pont en 1990</em>, plutôt que <em>Ce pont a été construit en 1990 par des ouvriers.</em></p>",
+    "rules": [
+      {
+        "heading": "a) Formation",
+        "body": "<ul><li>être (au temps voulu) + participe passé + par + agent (optionnel).</li></ul>"
+      },
+      {
+        "heading": "b) Accord",
+        "body": "<ul><li>Le participe passé s'accorde toujours avec le sujet du passif.</li></ul>"
+      },
+      {
+        "heading": "c) Verbes concernés",
+        "body": "<ul><li>Seuls les verbes transitifs directs (avec COD) peuvent se mettre au passif.</li></ul>"
+      },
+      {
+        "heading": "d) Préférence du français",
+        "body": "<ul><li>On + voix active est souvent préféré au passif quand l'agent est inconnu ou peu important.</li></ul>"
+      }
+    ],
+    "examples": [
+      "Le voleur a été arrêté par la police.",
+      "Cette maison a été construite en 1950.",
+      "Les lettres sont envoyées chaque semaine.",
+      "Le gâteau a été mangé par les enfants.",
+      "On construit ce pont depuis deux ans.",
+      "Ce roman a été traduit en dix langues.",
+      "Les billets seront vendus demain."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Le voleur a été arrêter par la police.",
+        "right": "Le voleur a été arrêté par la police.",
+        "why": "Après être au passif, on utilise le participe passé (arrêté), pas l'infinitif."
+      },
+      {
+        "wrong": "La maison a été construit en 1950.",
+        "right": "La maison a été construite en 1950.",
+        "why": "Le participe passé s'accorde avec le sujet féminin, maison : construite."
+      },
+      {
+        "wrong": "On a été construit ce pont.",
+        "right": "On a construit ce pont.",
+        "why": "On + être + participe passé n'existe pas ; il faut choisir entre on + voix active, ou le sujet + être + participe passé au passif."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b1pas-fill",
+      "type": "fill-blank",
+      "title": "Mets à la Voix Passive",
+      "instructions": "Écris la forme correcte du verbe entre parenthèses.",
+      "items": [
+        {
+          "id": "b1pasf1",
+          "prompt": "Le voleur ___ (arrêter) par la police.",
+          "answers": [
+            [
+              "a été arrêté"
+            ]
+          ],
+          "options": [
+            "a été arrêté",
+            "a arrêté",
+            "était arrêté"
+          ],
+          "explanation": "Passif : être au temps voulu + participe passé."
+        },
+        {
+          "id": "b1pasf2",
+          "prompt": "Cette maison ___ (construire) en 1950.",
+          "answers": [
+            [
+              "a été construite"
+            ]
+          ],
+          "options": [
+            "a été construite",
+            "a été construit",
+            "a construit"
+          ],
+          "explanation": "Accord du participe passé avec le sujet féminin, maison."
+        },
+        {
+          "id": "b1pasf3",
+          "prompt": "Les lettres ___ (envoyer) chaque semaine.",
+          "answers": [
+            [
+              "sont envoyées"
+            ]
+          ],
+          "options": [
+            "sont envoyées",
+            "envoient",
+            "ont envoyé"
+          ],
+          "explanation": "Passif au présent, accord au féminin pluriel."
+        },
+        {
+          "id": "b1pasf4",
+          "prompt": "Ce roman ___ (traduire) en dix langues.",
+          "answers": [
+            [
+              "a été traduit"
+            ]
+          ],
+          "options": [
+            "a été traduit",
+            "a traduit",
+            "était traduit"
+          ],
+          "explanation": "Passif au passé composé."
+        }
+      ]
+    },
+    {
+      "id": "b1pas-mc",
+      "type": "multiple-choice",
+      "title": "La Voix Passive",
+      "items": [
+        {
+          "id": "b1pasm1",
+          "prompt": "Comment forme-t-on la voix passive ?",
+          "options": [
+            "être + participe passé (+ par + agent)",
+            "avoir + participe passé",
+            "être + infinitif"
+          ],
+          "answerIndex": 0,
+          "explanation": "C'est la formation classique du passif."
+        },
+        {
+          "id": "b1pasm2",
+          "prompt": "Avec quoi le participe passé s'accorde-t-il au passif ?",
+          "options": [
+            "le sujet",
+            "l'agent",
+            "l'auxiliaire"
+          ],
+          "answerIndex": 0,
+          "explanation": "L'accord se fait toujours avec le sujet, comme un adjectif."
+        },
+        {
+          "id": "b1pasm3",
+          "prompt": "Quels verbes peuvent se mettre au passif ?",
+          "options": [
+            "les verbes avec un complément d'objet direct",
+            "tous les verbes",
+            "seulement les verbes pronominaux"
+          ],
+          "answerIndex": 0,
+          "explanation": "Seuls les verbes transitifs directs ont un passif."
+        },
+        {
+          "id": "b1pasm4",
+          "prompt": "Que préfère souvent le français quand l'agent n'est pas important ?",
+          "options": [
+            "on + voix active",
+            "le passif avec par",
+            "l'impératif"
+          ],
+          "answerIndex": 0,
+          "explanation": "On + voix active est plus naturel dans ce cas."
+        }
+      ]
+    },
+    {
+      "id": "b1pas-correction",
+      "type": "correction",
+      "title": "Corrige les Erreurs",
+      "items": [
+        {
+          "id": "b1pasc1",
+          "incorrect": "Le voleur a été arrêter par la police.",
+          "answer": [
+            "Le voleur a été arrêté par la police."
+          ],
+          "explanation": "Le passif demande le participe passé, pas l'infinitif."
+        },
+        {
+          "id": "b1pasc2",
+          "incorrect": "La maison a été construit en 1950.",
+          "answer": [
+            "La maison a été construite en 1950."
+          ],
+          "explanation": "Accord au féminin avec le sujet."
+        },
+        {
+          "id": "b1pasc3",
+          "incorrect": "On a été construit ce pont.",
+          "answer": [
+            "On a construit ce pont."
+          ],
+          "explanation": "On ne se combine pas avec être + participe passé."
+        }
+      ]
+    },
+    {
+      "id": "b1pasx-reading",
+      "type": "reading-comprehension",
+      "title": "Lecture : Un Tableau Célèbre",
+      "passage": "<p>Ce tableau a été peint par un artiste célèbre. Il a été vendu très cher l'année dernière. Aujourd'hui, il est exposé dans un grand musée. On dit qu'il sera bientôt prêté à une exposition internationale.</p>",
+      "items": [
+        {
+          "id": "b1pasxr1",
+          "prompt": "Par qui ce tableau a-t-il été peint ?",
+          "options": [
+            "Par un artiste célèbre",
+            "Par un inconnu",
+            "Par plusieurs artistes"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit : « peint par un artiste célèbre »."
+        },
+        {
+          "id": "b1pasxr2",
+          "prompt": "Quand a-t-il été vendu très cher ?",
+          "options": [
+            "L'année dernière",
+            "Le mois dernier",
+            "Il y a dix ans"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit : « vendu très cher l'année dernière »."
+        },
+        {
+          "id": "b1pasxr3",
+          "prompt": "Où est-il exposé aujourd'hui ?",
+          "options": [
+            "Dans un grand musée",
+            "Chez un collectionneur privé",
+            "Dans une galerie fermée"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte le dit directement."
+        },
+        {
+          "id": "b1pasxr4",
+          "prompt": "Que dit-on à son sujet ?",
+          "options": [
+            "Qu'il sera bientôt prêté à une exposition",
+            "Qu'il sera vendu à nouveau",
+            "Qu'il sera détruit"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte se termine ainsi."
+        }
+      ]
+    },
+    {
+      "id": "b1pasx-order",
+      "type": "ordering",
+      "title": "Remets la Phrase en Ordre",
+      "items": [
+        {
+          "id": "b1pasxo1",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Ce",
+            "tableau",
+            "a",
+            "été",
+            "peint",
+            "par",
+            "un",
+            "artiste"
+          ],
+          "explanation": "Passif : être + participe passé + par."
+        },
+        {
+          "id": "b1pasxo2",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Il",
+            "est",
+            "exposé",
+            "dans",
+            "un",
+            "grand",
+            "musée"
+          ],
+          "explanation": "Passif au présent."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "La voix passive se forme avec être + participe passé, suivi de par + agent si nécessaire.",
+    "Le participe passé s'accorde toujours avec le sujet du passif.",
+    "Le français préfère souvent on + voix active à la voix passive quand l'agent est inconnu ou sans importance."
+  ]
+}

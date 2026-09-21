@@ -1,0 +1,304 @@
+{
+  "id": "b1-le-plus-que-parfait",
+  "level": "B1",
+  "unit": "1",
+  "order": 1,
+  "skill": "grammar",
+  "strand": "plus-que-parfait",
+  "title": "Le Plus-que-parfait",
+  "subtitle": "Comment former le plus-que-parfait, pour exprimer une action antérieure à une autre action passée.",
+  "objectives": [
+    "Former le plus-que-parfait avec l'imparfait de avoir ou être + participe passé.",
+    "Employer le plus-que-parfait pour exprimer une action antérieure à un autre fait du passé.",
+    "Distinguer le plus-que-parfait du passé composé et de l'imparfait dans un récit."
+  ],
+  "content": {
+    "intro": "Quand tu racontes une histoire au passé et que tu dois mentionner un événement encore plus ancien, le français utilise un temps supplémentaire : le plus-que-parfait — « le passé du passé ».",
+    "explanation": "<p>Le plus-que-parfait se forme avec l'<strong>imparfait</strong> de <em>avoir</em> ou <em>être</em> + le participe passé, avec exactement les mêmes règles de choix d'auxiliaire et d'accord que pour le passé composé : <em>j'avais mangé, elle était partie, ils s'étaient levés</em>.</p><p>Il s'utilise pour une action terminée <strong>avant</strong> un autre moment du passé déjà exprimé au passé composé ou à l'imparfait : <em>Quand je suis arrivé, le film avait déjà commencé</em> — l'arrivée (passé composé) et le début du film (plus-que-parfait, antérieur) sont deux moments distincts.</p>",
+    "rules": [
+      {
+        "heading": "a) Formation",
+        "body": "<ul><li>Imparfait de avoir/être + participe passé : <em>j'avais parlé, tu étais parti(e), nous avions fini</em>.</li></ul>"
+      },
+      {
+        "heading": "b) Même auxiliaire, même accord",
+        "body": "<ul><li>Le même choix d'auxiliaire et le même accord qu'au passé composé s'appliquent au plus-que-parfait.</li></ul>"
+      },
+      {
+        "heading": "c) Emploi",
+        "body": "<ul><li>Exprime une action antérieure à un autre fait passé : <em>Quand elle est arrivée, nous avions déjà mangé.</em></li></ul>"
+      },
+      {
+        "heading": "d) Repères fréquents",
+        "body": "<ul><li>Souvent introduit par <em>déjà, ne…pas encore, quand</em>.</li></ul>"
+      }
+    ],
+    "examples": [
+      "Quand je suis arrivé, le film avait déjà commencé.",
+      "Elle avait fini ses devoirs avant de sortir.",
+      "Nous étions partis quand tu as téléphoné.",
+      "Il n'avait jamais vu la mer avant ce voyage.",
+      "Ils s'étaient couchés tôt la veille.",
+      "Tu avais déjà mangé quand je suis rentré.",
+      "Elle n'avait pas encore fini quand nous sommes arrivés."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Quand je suis arrivé, le film a déjà commencé.",
+        "right": "Quand je suis arrivé, le film avait déjà commencé.",
+        "why": "L'action antérieure à un autre fait passé (le début du film) se met au plus-que-parfait, pas au passé composé."
+      },
+      {
+        "wrong": "Elle avait finit ses devoirs.",
+        "right": "Elle avait fini ses devoirs.",
+        "why": "Le participe passé de finir est fini, sans t final."
+      },
+      {
+        "wrong": "Ils s'avaient couchés tôt.",
+        "right": "Ils s'étaient couchés tôt.",
+        "why": "Les verbes pronominaux se conjuguent toujours avec être, jamais avoir, même au plus-que-parfait."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b1pqp-fill",
+      "type": "fill-blank",
+      "title": "Conjugue au Plus-que-parfait",
+      "instructions": "Écris la forme correcte du verbe entre parenthèses.",
+      "items": [
+        {
+          "id": "b1pqpf1",
+          "prompt": "Quand nous sommes arrivés, le train ___ (partir) déjà.",
+          "answers": [
+            [
+              "était parti"
+            ]
+          ],
+          "options": [
+            "était parti",
+            "avait parti",
+            "est parti"
+          ],
+          "explanation": "Partir se conjugue avec être ; plus-que-parfait : était parti."
+        },
+        {
+          "id": "b1pqpf2",
+          "prompt": "Elle ___ (finir) son repas avant notre arrivée.",
+          "answers": [
+            [
+              "avait fini"
+            ]
+          ],
+          "options": [
+            "avait fini",
+            "était finie",
+            "a fini"
+          ],
+          "explanation": "Finir se conjugue avec avoir : avait fini."
+        },
+        {
+          "id": "b1pqpf3",
+          "prompt": "Je ne ___ (voir) jamais cette ville avant ce voyage.",
+          "answers": [
+            [
+              "avais vu"
+            ]
+          ],
+          "options": [
+            "avais vu",
+            "ai vu",
+            "étais vu"
+          ],
+          "explanation": "Voir se conjugue avec avoir au plus-que-parfait."
+        },
+        {
+          "id": "b1pqpf4",
+          "prompt": "Ils ___ (se lever) tôt ce matin-là.",
+          "answers": [
+            [
+              "s'étaient levés"
+            ]
+          ],
+          "options": [
+            "s'étaient levés",
+            "s'avaient levés",
+            "se sont levés"
+          ],
+          "explanation": "Les verbes pronominaux se conjuguent toujours avec être."
+        }
+      ]
+    },
+    {
+      "id": "b1pqp-mc",
+      "type": "multiple-choice",
+      "title": "Le Plus-que-parfait",
+      "items": [
+        {
+          "id": "b1pqpm1",
+          "prompt": "Comment forme-t-on le plus-que-parfait ?",
+          "options": [
+            "imparfait de avoir/être + participe passé",
+            "présent de avoir/être + participe passé",
+            "futur de avoir/être + participe passé"
+          ],
+          "answerIndex": 0,
+          "explanation": "L'auxiliaire est à l'imparfait, pas au présent ni au futur."
+        },
+        {
+          "id": "b1pqpm2",
+          "prompt": "À quoi sert le plus-que-parfait ?",
+          "options": [
+            "exprimer une action antérieure à un autre fait passé",
+            "décrire une habitude présente",
+            "annoncer un projet futur"
+          ],
+          "answerIndex": 0,
+          "explanation": "Il marque toujours l'action la plus ancienne de deux faits passés."
+        },
+        {
+          "id": "b1pqpm3",
+          "prompt": "Quel auxiliaire utilise un verbe pronominal au plus-que-parfait ?",
+          "options": [
+            "être, toujours",
+            "avoir, toujours",
+            "cela dépend du sujet"
+          ],
+          "answerIndex": 0,
+          "explanation": "Les verbes pronominaux se conjuguent toujours avec être."
+        },
+        {
+          "id": "b1pqpm4",
+          "prompt": "Dans « Quand je suis arrivé, le film avait déjà commencé », quelle action est la plus ancienne ?",
+          "options": [
+            "le début du film",
+            "mon arrivée",
+            "aucune des deux"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le plus-que-parfait marque toujours l'action la plus ancienne des deux."
+        }
+      ]
+    },
+    {
+      "id": "b1pqp-correction",
+      "type": "correction",
+      "title": "Corrige les Erreurs",
+      "items": [
+        {
+          "id": "b1pqpc1",
+          "incorrect": "Quand je suis arrivé, le film a déjà commencé.",
+          "answer": [
+            "Quand je suis arrivé, le film avait déjà commencé."
+          ],
+          "explanation": "L'action antérieure se met au plus-que-parfait."
+        },
+        {
+          "id": "b1pqpc2",
+          "incorrect": "Elle avait finit ses devoirs.",
+          "answer": [
+            "Elle avait fini ses devoirs."
+          ],
+          "explanation": "Le participe passé de finir est fini, sans t."
+        },
+        {
+          "id": "b1pqpc3",
+          "incorrect": "Ils s'avaient couchés tôt.",
+          "answer": [
+            "Ils s'étaient couchés tôt."
+          ],
+          "explanation": "Les pronominaux se conjuguent toujours avec être."
+        }
+      ]
+    },
+    {
+      "id": "b1pqpx-reading",
+      "type": "reading-comprehension",
+      "title": "Lecture : Le Train Manqué",
+      "passage": "<p>Quand Léa est arrivée à la gare, le train était déjà parti. Elle avait couru pendant dix minutes, mais ce n'était pas assez. Ses amis l'avaient attendue un moment, puis ils étaient montés dans le train sans elle. Heureusement, elle avait gardé son billet pour le train suivant.</p>",
+      "items": [
+        {
+          "id": "b1pqpxr1",
+          "prompt": "Qu'est-ce qui s'était passé quand Léa est arrivée ?",
+          "options": [
+            "Le train était déjà parti",
+            "Le train était en retard",
+            "Le train n'était pas encore là"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit : « le train était déjà parti »."
+        },
+        {
+          "id": "b1pqpxr2",
+          "prompt": "Qu'avait-elle fait pendant dix minutes ?",
+          "options": [
+            "Elle avait couru",
+            "Elle avait attendu",
+            "Elle avait téléphoné"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit : « Elle avait couru pendant dix minutes »."
+        },
+        {
+          "id": "b1pqpxr3",
+          "prompt": "Qu'avaient fait ses amis ?",
+          "options": [
+            "Ils étaient montés dans le train sans elle",
+            "Ils l'avaient attendue toute la journée",
+            "Ils étaient repartis chez eux"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte le dit directement."
+        },
+        {
+          "id": "b1pqpxr4",
+          "prompt": "Qu'avait-elle gardé ?",
+          "options": [
+            "Son billet pour le train suivant",
+            "Son sac",
+            "Son téléphone"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte se termine par « elle avait gardé son billet »."
+        }
+      ]
+    },
+    {
+      "id": "b1pqpx-order",
+      "type": "ordering",
+      "title": "Remets la Phrase en Ordre",
+      "items": [
+        {
+          "id": "b1pqpxo1",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Le",
+            "train",
+            "était",
+            "déjà",
+            "parti"
+          ],
+          "explanation": "Plus-que-parfait avec être, accord au masculin."
+        },
+        {
+          "id": "b1pqpxo2",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Elle",
+            "avait",
+            "couru",
+            "pendant",
+            "dix",
+            "minutes"
+          ],
+          "explanation": "Plus-que-parfait avec avoir."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Le plus-que-parfait se forme avec l'imparfait de avoir/être + participe passé, avec les mêmes règles d'auxiliaire et d'accord que le passé composé.",
+    "Il exprime une action terminée avant un autre moment du passé déjà exprimé au passé composé ou à l'imparfait.",
+    "Les verbes pronominaux se conjuguent toujours avec être, même au plus-que-parfait."
+  ]
+}

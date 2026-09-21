@@ -1,0 +1,310 @@
+{
+  "id": "b1-lexpression-de-lhypothese-avec-si",
+  "level": "B1",
+  "unit": "1",
+  "order": 11,
+  "skill": "grammar",
+  "strand": "hypothese-si",
+  "title": "L'Expression de l'Hypothèse avec Si",
+  "subtitle": "Si + présent, si + imparfait, si + plus-que-parfait : trois structures pour trois types d'hypothèses.",
+  "objectives": [
+    "Former une hypothèse réalisable avec si + présent, futur/impératif.",
+    "Former une hypothèse non réelle dans le présent avec si + imparfait, conditionnel présent.",
+    "Reconnaître la structure si + plus-que-parfait, conditionnel passé pour une hypothèse manquée dans le passé."
+  ],
+  "content": {
+    "intro": "Les phrases avec si permettent d'imaginer des situations, réelles ou non — et le temps utilisé après si détermine si l'hypothèse est réalisable, imaginaire, ou déjà manquée.",
+    "explanation": "<p>Pour une hypothèse <strong>réalisable</strong>, on utilise <em>si</em> + <strong>présent</strong>, et le futur simple ou l'impératif dans la proposition principale : <em>Si tu viens, nous serons contents. Si tu as faim, mange !</em> Cette structure décrit une condition qui peut vraiment se réaliser.</p><p>Pour une hypothèse <strong>imaginaire</strong> dans le présent, on utilise <em>si</em> + <strong>imparfait</strong>, et le <strong>conditionnel présent</strong> dans la principale : <em>Si j'avais plus de temps, je voyagerais davantage.</em> Pour une hypothèse déjà <strong>manquée dans le passé</strong>, on utilise <em>si</em> + <strong>plus-que-parfait</strong>, et le <strong>conditionnel passé</strong> : <em>Si j'avais su, je serais venu.</em> Dans les trois cas, le verbe après <em>si</em> n'est jamais au futur ni au conditionnel.</p>",
+    "rules": [
+      {
+        "heading": "a) Réalisable",
+        "body": "<ul><li>si + présent, futur simple ou impératif : <em>Si tu viens, nous serons contents.</em></li></ul>"
+      },
+      {
+        "heading": "b) Imaginaire (présent)",
+        "body": "<ul><li>si + imparfait, conditionnel présent : <em>Si j'avais plus de temps, je voyagerais.</em></li></ul>"
+      },
+      {
+        "heading": "c) Manquée (passé)",
+        "body": "<ul><li>si + plus-que-parfait, conditionnel passé : <em>Si j'avais su, je serais venu.</em></li></ul>"
+      },
+      {
+        "heading": "d) Règle d'or",
+        "body": "<ul><li>Jamais de futur ni de conditionnel directement après si.</li></ul>"
+      }
+    ],
+    "examples": [
+      "Si tu viens, nous serons contents.",
+      "Si tu as faim, mange quelque chose !",
+      "Si j'avais plus de temps, je voyagerais davantage.",
+      "Si elle parlait mieux anglais, elle trouverait un meilleur travail.",
+      "Si j'avais su, je serais venu plus tôt.",
+      "Si nous gagnions au loto, nous achèterions une maison.",
+      "Si tu étudies, tu réussiras."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Si tu viendras, nous serons contents.",
+        "right": "Si tu viens, nous serons contents.",
+        "why": "Le verbe juste après si n'est jamais au futur, seulement au présent."
+      },
+      {
+        "wrong": "Si j'aurais plus de temps, je voyagerais.",
+        "right": "Si j'avais plus de temps, je voyagerais.",
+        "why": "Après si pour une hypothèse imaginaire, on utilise l'imparfait, jamais le conditionnel."
+      },
+      {
+        "wrong": "Si j'avais su, je viendrais.",
+        "right": "Si j'avais su, je serais venu.",
+        "why": "Après si + plus-que-parfait, la principale est au conditionnel passé, pas au conditionnel présent."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b1hyp-fill",
+      "type": "fill-blank",
+      "title": "Complète l'Hypothèse",
+      "instructions": "Écris la forme correcte du verbe entre parenthèses.",
+      "items": [
+        {
+          "id": "b1hypf1",
+          "prompt": "Si tu ___ (venir), nous serons contents.",
+          "answers": [
+            [
+              "viens"
+            ]
+          ],
+          "options": [
+            "viens",
+            "viendras",
+            "venais"
+          ],
+          "explanation": "Hypothèse réalisable : si + présent."
+        },
+        {
+          "id": "b1hypf2",
+          "prompt": "Si j'___ (avoir) plus de temps, je voyagerais.",
+          "answers": [
+            [
+              "avais"
+            ]
+          ],
+          "options": [
+            "avais",
+            "aurais",
+            "ai"
+          ],
+          "explanation": "Hypothèse imaginaire : si + imparfait."
+        },
+        {
+          "id": "b1hypf3",
+          "prompt": "Si elle ___ (parler) mieux anglais, elle trouverait un meilleur travail.",
+          "answers": [
+            [
+              "parlait"
+            ]
+          ],
+          "options": [
+            "parlait",
+            "parlerait",
+            "parle"
+          ],
+          "explanation": "Hypothèse imaginaire : si + imparfait."
+        },
+        {
+          "id": "b1hypf4",
+          "prompt": "Si tu ___ (étudier), tu réussiras.",
+          "answers": [
+            [
+              "étudies"
+            ]
+          ],
+          "options": [
+            "étudies",
+            "étudieras",
+            "étudiais"
+          ],
+          "explanation": "Hypothèse réalisable : si + présent."
+        }
+      ]
+    },
+    {
+      "id": "b1hyp-mc",
+      "type": "multiple-choice",
+      "title": "L'Hypothèse avec Si",
+      "items": [
+        {
+          "id": "b1hypm1",
+          "prompt": "Quel temps suit si pour une hypothèse réalisable ?",
+          "options": [
+            "le présent",
+            "le futur",
+            "l'imparfait"
+          ],
+          "answerIndex": 0,
+          "explanation": "Si + présent pour une hypothèse réalisable."
+        },
+        {
+          "id": "b1hypm2",
+          "prompt": "Quel temps utilise-t-on dans la principale pour une hypothèse imaginaire au présent ?",
+          "options": [
+            "le conditionnel présent",
+            "le futur simple",
+            "le conditionnel passé"
+          ],
+          "answerIndex": 0,
+          "explanation": "Si + imparfait, conditionnel présent."
+        },
+        {
+          "id": "b1hypm3",
+          "prompt": "Quel temps n'utilise-t-on jamais directement après si ?",
+          "options": [
+            "le futur ou le conditionnel",
+            "le présent",
+            "l'imparfait"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le futur et le conditionnel sont exclus juste après si."
+        },
+        {
+          "id": "b1hypm4",
+          "prompt": "Quelle structure exprime une hypothèse déjà manquée dans le passé ?",
+          "options": [
+            "si + plus-que-parfait, conditionnel passé",
+            "si + imparfait, conditionnel présent",
+            "si + présent, futur"
+          ],
+          "answerIndex": 0,
+          "explanation": "C'est la structure du regret ou de l'occasion manquée."
+        }
+      ]
+    },
+    {
+      "id": "b1hyp-correction",
+      "type": "correction",
+      "title": "Corrige les Erreurs",
+      "items": [
+        {
+          "id": "b1hypc1",
+          "incorrect": "Si tu viendras, nous serons contents.",
+          "answer": [
+            "Si tu viens, nous serons contents."
+          ],
+          "explanation": "Jamais de futur juste après si."
+        },
+        {
+          "id": "b1hypc2",
+          "incorrect": "Si j'aurais plus de temps, je voyagerais.",
+          "answer": [
+            "Si j'avais plus de temps, je voyagerais."
+          ],
+          "explanation": "Jamais de conditionnel juste après si."
+        },
+        {
+          "id": "b1hypc3",
+          "incorrect": "Si j'avais su, je viendrais.",
+          "answer": [
+            "Si j'avais su, je serais venu."
+          ],
+          "explanation": "Après si + plus-que-parfait : conditionnel passé."
+        }
+      ]
+    },
+    {
+      "id": "b1hypx-reading",
+      "type": "reading-comprehension",
+      "title": "Lecture : Des Projets et des Regrets",
+      "passage": "<p>Si tu viens ce soir, nous serons ravis. Si j'avais plus de temps libre, je ferais du sport tous les jours. Si elle avait su la vérité plus tôt, elle aurait réagi différemment. Nous espérons vraiment que tu pourras venir.</p>",
+      "items": [
+        {
+          "id": "b1hypxr1",
+          "prompt": "Que se passera-t-il si tu viens ce soir ?",
+          "options": [
+            "Nous serons ravis",
+            "Nous serons déçus",
+            "Rien de particulier"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit : « nous serons ravis »."
+        },
+        {
+          "id": "b1hypxr2",
+          "prompt": "Que ferait la personne si elle avait plus de temps ?",
+          "options": [
+            "Du sport tous les jours",
+            "Rien du tout",
+            "Elle travaillerait plus"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte le dit directement."
+        },
+        {
+          "id": "b1hypxr3",
+          "prompt": "Qu'aurait fait la personne si elle avait su la vérité plus tôt ?",
+          "options": [
+            "Elle aurait réagi différemment",
+            "Elle n'aurait rien changé",
+            "Elle serait partie"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit : « elle aurait réagi différemment »."
+        },
+        {
+          "id": "b1hypxr4",
+          "prompt": "Qu'espèrent-ils ?",
+          "options": [
+            "Que tu pourras venir",
+            "Que tu ne viendras pas",
+            "Qu'il fera beau"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte se termine ainsi."
+        }
+      ]
+    },
+    {
+      "id": "b1hypx-order",
+      "type": "ordering",
+      "title": "Remets la Phrase en Ordre",
+      "items": [
+        {
+          "id": "b1hypxo1",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Si",
+            "tu",
+            "viens",
+            "ce",
+            "soir",
+            "nous",
+            "serons",
+            "ravis"
+          ],
+          "explanation": "Hypothèse réalisable : si + présent."
+        },
+        {
+          "id": "b1hypxo2",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Si",
+            "j'avais",
+            "plus",
+            "de",
+            "temps",
+            "je",
+            "ferais",
+            "du",
+            "sport"
+          ],
+          "explanation": "Hypothèse imaginaire : si + imparfait."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Si + présent, futur/impératif exprime une hypothèse réalisable.",
+    "Si + imparfait, conditionnel présent exprime une hypothèse imaginaire dans le présent.",
+    "Si + plus-que-parfait, conditionnel passé exprime une hypothèse déjà manquée dans le passé ; le verbe après si n'est jamais au futur ni au conditionnel."
+  ]
+}

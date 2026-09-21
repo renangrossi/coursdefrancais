@@ -1,0 +1,309 @@
+{
+  "id": "b1-les-connecteurs-logiques",
+  "level": "B1",
+  "unit": "1",
+  "order": 8,
+  "skill": "grammar",
+  "strand": "connecteurs-logiques",
+  "title": "Les Connecteurs Logiques",
+  "subtitle": "Cause, conséquence, opposition et but : parce que, donc, mais, pour que, afin de.",
+  "objectives": [
+    "Exprimer la cause avec parce que, car, puisque.",
+    "Exprimer la conséquence avec donc, alors, c'est pourquoi.",
+    "Exprimer l'opposition et le but avec mais, pourtant, pour que, afin de."
+  ],
+  "content": {
+    "intro": "Les connecteurs logiques relient les idées d'un texte ou d'un discours et rendent l'argumentation claire — indispensables dès qu'on veut expliquer, justifier ou nuancer une idée.",
+    "explanation": "<p>La <strong>cause</strong> s'exprime avec <em>parce que</em> (réponse à pourquoi, information nouvelle), <em>car</em> (surtout à l'écrit, jamais en début de phrase) et <em>puisque</em> (cause déjà connue de l'interlocuteur) : <em>Je reste chez moi parce qu'il pleut. Puisque tu es fatigué, repose-toi.</em> La <strong>conséquence</strong> s'exprime avec <em>donc, alors, c'est pourquoi</em>.</p><p>L'<strong>opposition</strong> s'exprime avec <em>mais</em> (simple), <em>pourtant/cependant</em> (plus soutenu). Le <strong>but</strong> s'exprime avec <em>pour que</em> + subjonctif (sujets différents) ou <em>afin de</em> + infinitif (même sujet) : <em>Je parle lentement pour que tu comprennes. J'étudie afin de réussir.</em></p>",
+    "rules": [
+      {
+        "heading": "a) Cause",
+        "body": "<ul><li><em>parce que</em> (réponse à pourquoi), <em>car</em> (écrit, jamais en tête de phrase), <em>puisque</em> (cause connue).</li></ul>"
+      },
+      {
+        "heading": "b) Conséquence",
+        "body": "<ul><li><em>donc, alors, c'est pourquoi</em>.</li></ul>"
+      },
+      {
+        "heading": "c) Opposition",
+        "body": "<ul><li><em>mais</em> (simple), <em>pourtant/cependant</em> (plus soutenu).</li></ul>"
+      },
+      {
+        "heading": "d) But",
+        "body": "<ul><li><em>pour que</em> + subjonctif (sujets différents), <em>afin de</em> + infinitif (même sujet).</li></ul>"
+      }
+    ],
+    "examples": [
+      "Je reste chez moi parce qu'il pleut.",
+      "Puisque tu es fatigué, repose-toi.",
+      "Il a beaucoup travaillé, donc il a réussi.",
+      "Elle est timide, pourtant elle adore parler en public.",
+      "Je parle lentement pour que tu comprennes.",
+      "J'étudie afin de réussir mon examen.",
+      "Il fait froid, alors je mets un manteau."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Car il pleut, je reste chez moi.",
+        "right": "Je reste chez moi car il pleut.",
+        "why": "Car ne s'utilise jamais en début de phrase, contrairement à parce que."
+      },
+      {
+        "wrong": "Je parle lentement pour que tu comprends.",
+        "right": "Je parle lentement pour que tu comprennes.",
+        "why": "Pour que est toujours suivi du subjonctif."
+      },
+      {
+        "wrong": "J'étudie afin de je réussisse.",
+        "right": "J'étudie afin de réussir.",
+        "why": "Afin de est suivi de l'infinitif quand le sujet est le même dans les deux propositions."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b1con-fill",
+      "type": "fill-blank",
+      "title": "Choisis le Bon Connecteur",
+      "instructions": "Complète avec le connecteur logique correct.",
+      "items": [
+        {
+          "id": "b1conf1",
+          "prompt": "Je parle lentement ___ tu comprennes.",
+          "answers": [
+            [
+              "pour que"
+            ]
+          ],
+          "options": [
+            "pour que",
+            "afin de",
+            "parce que"
+          ],
+          "explanation": "But avec sujets différents : pour que + subjonctif."
+        },
+        {
+          "id": "b1conf2",
+          "prompt": "J'étudie ___ réussir mon examen.",
+          "answers": [
+            [
+              "afin de"
+            ]
+          ],
+          "options": [
+            "afin de",
+            "pour que",
+            "puisque"
+          ],
+          "explanation": "But avec le même sujet : afin de + infinitif."
+        },
+        {
+          "id": "b1conf3",
+          "prompt": "Il a beaucoup travaillé, ___ il a réussi.",
+          "answers": [
+            [
+              "donc"
+            ]
+          ],
+          "options": [
+            "donc",
+            "car",
+            "afin de"
+          ],
+          "explanation": "Conséquence : donc."
+        },
+        {
+          "id": "b1conf4",
+          "prompt": "Elle est timide, ___ elle adore parler en public.",
+          "answers": [
+            [
+              "pourtant"
+            ]
+          ],
+          "options": [
+            "pourtant",
+            "donc",
+            "puisque"
+          ],
+          "explanation": "Opposition soutenue : pourtant."
+        }
+      ]
+    },
+    {
+      "id": "b1con-mc",
+      "type": "multiple-choice",
+      "title": "Les Connecteurs Logiques",
+      "items": [
+        {
+          "id": "b1conm1",
+          "prompt": "Quel connecteur ne s'utilise jamais en début de phrase ?",
+          "options": [
+            "car",
+            "parce que",
+            "puisque"
+          ],
+          "answerIndex": 0,
+          "explanation": "Car ne s'emploie jamais en tête de phrase."
+        },
+        {
+          "id": "b1conm2",
+          "prompt": "Quel connecteur exprime la conséquence ?",
+          "options": [
+            "donc",
+            "mais",
+            "afin de"
+          ],
+          "answerIndex": 0,
+          "explanation": "Donc introduit une conséquence."
+        },
+        {
+          "id": "b1conm3",
+          "prompt": "Que suit « pour que » ?",
+          "options": [
+            "le subjonctif",
+            "l'infinitif",
+            "l'indicatif"
+          ],
+          "answerIndex": 0,
+          "explanation": "Pour que est toujours suivi du subjonctif."
+        },
+        {
+          "id": "b1conm4",
+          "prompt": "Que suit « afin de » ?",
+          "options": [
+            "l'infinitif",
+            "le subjonctif",
+            "l'indicatif"
+          ],
+          "answerIndex": 0,
+          "explanation": "Afin de est suivi de l'infinitif."
+        }
+      ]
+    },
+    {
+      "id": "b1con-correction",
+      "type": "correction",
+      "title": "Corrige les Erreurs",
+      "items": [
+        {
+          "id": "b1conc1",
+          "incorrect": "Car il pleut, je reste chez moi.",
+          "answer": [
+            "Je reste chez moi car il pleut."
+          ],
+          "explanation": "Car ne s'utilise jamais en début de phrase."
+        },
+        {
+          "id": "b1conc2",
+          "incorrect": "Je parle lentement pour que tu comprends.",
+          "answer": [
+            "Je parle lentement pour que tu comprennes."
+          ],
+          "explanation": "Pour que impose le subjonctif."
+        },
+        {
+          "id": "b1conc3",
+          "incorrect": "J'étudie afin de je réussisse.",
+          "answer": [
+            "J'étudie afin de réussir."
+          ],
+          "explanation": "Afin de est suivi de l'infinitif quand le sujet est le même."
+        }
+      ]
+    },
+    {
+      "id": "b1conx-reading",
+      "type": "reading-comprehension",
+      "title": "Lecture : Léo et Son Projet",
+      "passage": "<p>Léo est fatigué, pourtant il continue à travailler. Il travaille beaucoup parce qu'il veut finir le projet à temps. Il a donc peu de temps libre. Il fait des efforts afin de réussir avant la date limite.</p>",
+      "items": [
+        {
+          "id": "b1conxr1",
+          "prompt": "Que fait Léo malgré sa fatigue ?",
+          "options": [
+            "Il continue à travailler",
+            "Il arrête de travailler",
+            "Il se repose"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit : « pourtant il continue à travailler »."
+        },
+        {
+          "id": "b1conxr2",
+          "prompt": "Pourquoi travaille-t-il beaucoup ?",
+          "options": [
+            "Parce qu'il veut finir le projet à temps",
+            "Parce qu'il s'ennuie",
+            "Parce qu'on l'y oblige"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte le dit directement."
+        },
+        {
+          "id": "b1conxr3",
+          "prompt": "Quelle est la conséquence de son travail ?",
+          "options": [
+            "Il a peu de temps libre",
+            "Il a beaucoup de temps libre",
+            "Il ne travaille plus du tout"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit : « Il a donc peu de temps libre »."
+        },
+        {
+          "id": "b1conxr4",
+          "prompt": "Dans quel but fait-il des efforts ?",
+          "options": [
+            "Afin de réussir avant la date limite",
+            "Afin de gagner plus d'argent",
+            "Afin de changer de projet"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte se termine ainsi."
+        }
+      ]
+    },
+    {
+      "id": "b1conx-order",
+      "type": "ordering",
+      "title": "Remets la Phrase en Ordre",
+      "items": [
+        {
+          "id": "b1conxo1",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Il",
+            "travaille",
+            "beaucoup",
+            "parce",
+            "qu'il",
+            "veut",
+            "finir",
+            "le",
+            "projet"
+          ],
+          "explanation": "Cause avec parce que."
+        },
+        {
+          "id": "b1conxo2",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Il",
+            "fait",
+            "des",
+            "efforts",
+            "afin",
+            "de",
+            "réussir"
+          ],
+          "explanation": "But avec afin de + infinitif."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "La cause s'exprime avec parce que, car (jamais en tête de phrase) et puisque ; la conséquence avec donc, alors, c'est pourquoi.",
+    "L'opposition s'exprime avec mais, ou pourtant/cependant en registre plus soutenu.",
+    "Le but s'exprime avec pour que + subjonctif (sujets différents) ou afin de + infinitif (même sujet)."
+  ]
+}

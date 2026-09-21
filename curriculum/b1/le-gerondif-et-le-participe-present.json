@@ -1,0 +1,306 @@
+{
+  "id": "b1-le-gerondif-et-le-participe-present",
+  "level": "B1",
+  "unit": "1",
+  "order": 9,
+  "skill": "grammar",
+  "strand": "gerondif-participe-present",
+  "title": "Le Gérondif et le Participe Présent",
+  "subtitle": "En + participe présent pour la simultanéité et la manière, et le participe présent employé seul.",
+  "objectives": [
+    "Former le gérondif (en + participe présent) et l'utiliser pour exprimer la simultanéité ou la manière.",
+    "Former le participe présent régulier et connaître les trois exceptions.",
+    "Distinguer le gérondif (toujours avec en) du participe présent employé seul."
+  ],
+  "content": {
+    "intro": "Le gérondif et le participe présent partagent la même forme verbale, mais jouent des rôles différents dans la phrase — l'un décrit comment ou quand une action se produit, l'autre fonctionne presque comme un adjectif.",
+    "explanation": "<p>Le participe présent se forme à partir du radical de <em>nous</em> au présent + <strong>-ant</strong> : <em>nous parlons → parlant, nous finissons → finissant</em>. Trois verbes sont irréguliers : <em>être → étant, avoir → ayant, savoir → sachant</em>. Précédé de <strong>en</strong>, il devient le <strong>gérondif</strong>, qui exprime la simultanéité ou la manière : <em>Elle écoute de la musique en travaillant. Il a réussi en persévérant.</em></p><p>Le participe présent employé seul (sans <em>en</em>) fonctionne davantage comme un adjectif ou remplace une proposition relative, surtout à l'écrit : <em>une personne parlant plusieurs langues</em> (= qui parle plusieurs langues).</p>",
+    "rules": [
+      {
+        "heading": "a) Formation",
+        "body": "<ul><li>Radical de nous au présent (sans -ons) + -ant.</li></ul>"
+      },
+      {
+        "heading": "b) Trois irréguliers",
+        "body": "<ul><li><em>être → étant, avoir → ayant, savoir → sachant</em>.</li></ul>"
+      },
+      {
+        "heading": "c) Gérondif",
+        "body": "<ul><li><em>en</em> + participe présent : exprime la simultanéité ou la manière.</li></ul>"
+      },
+      {
+        "heading": "d) Participe présent seul",
+        "body": "<ul><li>Sans en : fonctionne comme un adjectif, remplace souvent qui + verbe.</li></ul>"
+      }
+    ],
+    "examples": [
+      "Elle écoute de la musique en travaillant.",
+      "Il a réussi en persévérant.",
+      "En sortant, n'oublie pas tes clés.",
+      "Une personne parlant plusieurs langues a un avantage.",
+      "Sachant qu'il pleuvait, j'ai pris un parapluie.",
+      "Nous avons appris beaucoup en voyageant.",
+      "Ayant fini ses devoirs, elle est sortie jouer."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Elle écoute de la musique en travailler.",
+        "right": "Elle écoute de la musique en travaillant.",
+        "why": "Le gérondif utilise le participe présent (travaillant), pas l'infinitif."
+      },
+      {
+        "wrong": "Il a réussi par persévérant.",
+        "right": "Il a réussi en persévérant.",
+        "why": "Le gérondif est toujours introduit par en, jamais par une autre préposition."
+      },
+      {
+        "wrong": "Sachant que il pleuvait.",
+        "right": "Sachant qu'il pleuvait.",
+        "why": "Que s'élide toujours en qu' devant il."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b1ger-fill",
+      "type": "fill-blank",
+      "title": "Forme le Gérondif",
+      "instructions": "Écris la forme correcte du verbe entre parenthèses.",
+      "items": [
+        {
+          "id": "b1gerf1",
+          "prompt": "Elle écoute de la musique en ___ (travailler).",
+          "answers": [
+            [
+              "travaillant"
+            ]
+          ],
+          "options": [
+            "travaillant",
+            "travailler",
+            "travaille"
+          ],
+          "explanation": "Gérondif : en + participe présent."
+        },
+        {
+          "id": "b1gerf2",
+          "prompt": "Il a réussi en ___ (persévérer).",
+          "answers": [
+            [
+              "persévérant"
+            ]
+          ],
+          "options": [
+            "persévérant",
+            "persévérer",
+            "persévère"
+          ],
+          "explanation": "Gérondif de persévérer."
+        },
+        {
+          "id": "b1gerf3",
+          "prompt": "___ (savoir) qu'il pleuvait, j'ai pris un parapluie.",
+          "answers": [
+            [
+              "Sachant"
+            ]
+          ],
+          "options": [
+            "Sachant",
+            "Savant",
+            "Sais"
+          ],
+          "explanation": "Savoir a un participe présent irrégulier : sachant."
+        },
+        {
+          "id": "b1gerf4",
+          "prompt": "___ (avoir) fini ses devoirs, elle est sortie jouer.",
+          "answers": [
+            [
+              "Ayant"
+            ]
+          ],
+          "options": [
+            "Ayant",
+            "Avant",
+            "Avoir"
+          ],
+          "explanation": "Avoir a un participe présent irrégulier : ayant."
+        }
+      ]
+    },
+    {
+      "id": "b1ger-mc",
+      "type": "multiple-choice",
+      "title": "Le Gérondif et le Participe Présent",
+      "items": [
+        {
+          "id": "b1germ1",
+          "prompt": "Comment forme-t-on le participe présent régulier ?",
+          "options": [
+            "radical de nous au présent + -ant",
+            "infinitif + -ant",
+            "radical de je au présent + -ant"
+          ],
+          "answerIndex": 0,
+          "explanation": "On part du radical de nous, sans -ons."
+        },
+        {
+          "id": "b1germ2",
+          "prompt": "Quelle préposition introduit toujours le gérondif ?",
+          "options": [
+            "en",
+            "par",
+            "à"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le gérondif est toujours en + participe présent."
+        },
+        {
+          "id": "b1germ3",
+          "prompt": "Quel est le participe présent de savoir ?",
+          "options": [
+            "sachant",
+            "savant",
+            "sachiez"
+          ],
+          "answerIndex": 0,
+          "explanation": "Savoir est l'un des trois irréguliers : sachant."
+        },
+        {
+          "id": "b1germ4",
+          "prompt": "Que peut remplacer un participe présent employé seul ?",
+          "options": [
+            "une proposition relative (qui + verbe)",
+            "un adverbe",
+            "un article"
+          ],
+          "answerIndex": 0,
+          "explanation": "Il fonctionne comme un adjectif ou une relative allégée."
+        }
+      ]
+    },
+    {
+      "id": "b1ger-correction",
+      "type": "correction",
+      "title": "Corrige les Erreurs",
+      "items": [
+        {
+          "id": "b1gerc1",
+          "incorrect": "Elle écoute de la musique en travailler.",
+          "answer": [
+            "Elle écoute de la musique en travaillant."
+          ],
+          "explanation": "Le gérondif utilise le participe présent."
+        },
+        {
+          "id": "b1gerc2",
+          "incorrect": "Il a réussi par persévérant.",
+          "answer": [
+            "Il a réussi en persévérant."
+          ],
+          "explanation": "Le gérondif est toujours introduit par en."
+        },
+        {
+          "id": "b1gerc3",
+          "incorrect": "Sachant que il pleuvait.",
+          "answer": [
+            "Sachant qu'il pleuvait."
+          ],
+          "explanation": "Que s'élide devant il."
+        }
+      ]
+    },
+    {
+      "id": "b1gerx-reading",
+      "type": "reading-comprehension",
+      "title": "Lecture : Le Roman de Sophie",
+      "passage": "<p>En travaillant tous les soirs, Sophie a fini son roman. Sachant que le temps pressait, elle a écrit vite. Elle a réussi en persévérant, même les jours difficiles. Ayant terminé, elle a célébré avec ses amis.</p>",
+      "items": [
+        {
+          "id": "b1gerxr1",
+          "prompt": "Comment Sophie a-t-elle fini son roman ?",
+          "options": [
+            "En travaillant tous les soirs",
+            "En dormant beaucoup",
+            "En arrêtant souvent"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit : « En travaillant tous les soirs »."
+        },
+        {
+          "id": "b1gerxr2",
+          "prompt": "Pourquoi a-t-elle écrit vite ?",
+          "options": [
+            "Parce qu'elle savait que le temps pressait",
+            "Parce qu'elle s'ennuyait",
+            "Parce qu'on le lui a demandé"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte le dit directement."
+        },
+        {
+          "id": "b1gerxr3",
+          "prompt": "Comment a-t-elle réussi ?",
+          "options": [
+            "En persévérant",
+            "Par chance",
+            "Sans effort"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit : « Elle a réussi en persévérant »."
+        },
+        {
+          "id": "b1gerxr4",
+          "prompt": "Qu'a-t-elle fait après avoir terminé ?",
+          "options": [
+            "Elle a célébré avec ses amis",
+            "Elle a recommencé un autre roman",
+            "Elle s'est reposée seule"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte se termine ainsi."
+        }
+      ]
+    },
+    {
+      "id": "b1gerx-order",
+      "type": "ordering",
+      "title": "Remets la Phrase en Ordre",
+      "items": [
+        {
+          "id": "b1gerxo1",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "En",
+            "travaillant",
+            "tous",
+            "les",
+            "soirs",
+            "elle",
+            "a",
+            "fini"
+          ],
+          "explanation": "Gérondif : simultanéité."
+        },
+        {
+          "id": "b1gerxo2",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Elle",
+            "a",
+            "réussi",
+            "en",
+            "persévérant"
+          ],
+          "explanation": "Gérondif : manière."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Le participe présent se forme avec le radical de nous au présent + -ant (trois irréguliers : étant, ayant, sachant).",
+    "Le gérondif (en + participe présent) exprime la simultanéité ou la manière.",
+    "Le participe présent seul, sans en, fonctionne comme un adjectif ou remplace une relative."
+  ]
+}
