@@ -1,0 +1,304 @@
+{
+  "id": "a2-les-verbes-pronominaux",
+  "level": "A2",
+  "unit": "1",
+  "order": 8,
+  "skill": "grammar",
+  "strand": "pronominaux",
+  "title": "Les Verbes Pronominaux",
+  "subtitle": "Se lever, s'appeler, se laver : la conjugaison réfléchie au présent et au passé composé.",
+  "objectives": [
+    "Conjuguer un verbe pronominal au présent avec le bon pronom réfléchi.",
+    "Utiliser des verbes pronominaux fréquents : se lever, s'appeler, se laver, se coucher.",
+    "Former le passé composé d'un verbe pronominal avec être et l'accord du participe passé."
+  ],
+  "content": {
+    "intro": "Beaucoup d'actions quotidiennes se disent en français avec un verbe pronominal, construit avec un petit pronom réfléchi qui renvoie au sujet lui-même.",
+    "explanation": "<p>Un verbe pronominal se conjugue avec un pronom réfléchi (<strong>me, te, se, nous, vous, se</strong>) qui correspond au sujet et se place juste avant le verbe : <em>je me lève, tu te lèves, il se lève, nous nous levons, vous vous levez, ils se lèvent</em>.</p><p>Au passé composé, tous les verbes pronominaux se conjuguent avec <strong>être</strong>, et le participe passé s'accorde généralement avec le sujet, comme pour les autres verbes en être : <em>elle s'est levée, ils se sont couchés</em>.</p>",
+    "rules": [
+      {
+        "heading": "a) Pronoms réfléchis",
+        "body": "<ul><li><em>me/te/se/nous/vous/se</em>, placés avant le verbe conjugué.</li></ul>"
+      },
+      {
+        "heading": "b) Conjugaison au présent",
+        "body": "<ul><li><em>je me lève, tu te lèves, il/elle se lève, nous nous levons, vous vous levez, ils/elles se lèvent</em>.</li></ul>"
+      },
+      {
+        "heading": "c) Négation",
+        "body": "<ul><li><em>ne</em> encadre le pronom réfléchi et le verbe : <em>je ne me lève pas</em>.</li></ul>"
+      },
+      {
+        "heading": "d) Passé composé",
+        "body": "<ul><li>Toujours avec être, participe passé généralement accordé avec le sujet : <em>elle s'est levée, ils se sont couchés</em>.</li></ul>"
+      }
+    ],
+    "examples": [
+      "Je me lève à sept heures.",
+      "Comment tu t'appelles ?",
+      "Nous nous couchons tard le week-end.",
+      "Elle s'est levée très tôt ce matin.",
+      "Ils se sont couchés après minuit.",
+      "Vous vous lavez les mains avant de manger ?"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Je lève à sept heures.",
+        "right": "Je me lève à sept heures.",
+        "why": "Un verbe pronominal a toujours besoin de son pronom réfléchi."
+      },
+      {
+        "wrong": "Je ne lève pas me tôt.",
+        "right": "Je ne me lève pas tôt.",
+        "why": "Ne encadre ensemble le pronom réfléchi et le verbe : ne + me + lève + pas."
+      },
+      {
+        "wrong": "Elle a levée tôt.",
+        "right": "Elle s'est levée tôt.",
+        "why": "Tous les verbes pronominaux utilisent être au passé composé, jamais avoir."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a2vp-fill",
+      "type": "fill-blank",
+      "title": "Conjugue le Verbe Pronominal",
+      "instructions": "Écris la forme correcte du verbe entre parenthèses.",
+      "items": [
+        {
+          "id": "a2vpf1",
+          "prompt": "Je ___ (se lever) à sept heures.",
+          "answers": [
+            [
+              "me lève"
+            ]
+          ],
+          "options": [
+            "me lève",
+            "lève",
+            "me levé"
+          ],
+          "explanation": "Pronom réfléchi me + verbe conjugué au présent."
+        },
+        {
+          "id": "a2vpf2",
+          "prompt": "Comment tu ___ (s'appeler) ?",
+          "answers": [
+            [
+              "t'appelles"
+            ]
+          ],
+          "options": [
+            "t'appelles",
+            "appelles",
+            "t'appelle"
+          ],
+          "explanation": "Pronom réfléchi te (t') + appeler conjugué à tu."
+        },
+        {
+          "id": "a2vpf3",
+          "prompt": "Elle ___ (se lever) très tôt hier.",
+          "answers": [
+            [
+              "s'est levée"
+            ]
+          ],
+          "options": [
+            "s'est levée",
+            "a levée",
+            "s'est levé"
+          ],
+          "explanation": "Passé composé avec être, participe accordé au féminin."
+        },
+        {
+          "id": "a2vpf4",
+          "prompt": "Nous ___ (se coucher) tard le week-end.",
+          "answers": [
+            [
+              "nous couchons"
+            ]
+          ],
+          "options": [
+            "nous couchons",
+            "couchons",
+            "nous couché"
+          ],
+          "explanation": "Pronom réfléchi nous + verbe conjugué au présent."
+        }
+      ]
+    },
+    {
+      "id": "a2vp-mc",
+      "type": "multiple-choice",
+      "title": "Les Verbes Pronominaux",
+      "items": [
+        {
+          "id": "a2vpm1",
+          "prompt": "Quel auxiliaire utilise-t-on avec un verbe pronominal au passé composé ?",
+          "options": [
+            "être",
+            "avoir",
+            "les deux selon le verbe"
+          ],
+          "answerIndex": 0,
+          "explanation": "Tous les verbes pronominaux se conjuguent avec être."
+        },
+        {
+          "id": "a2vpm2",
+          "prompt": "Où se place le pronom réfléchi ?",
+          "options": [
+            "avant le verbe conjugué",
+            "après le verbe conjugué",
+            "à la fin de la phrase"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le pronom réfléchi précède toujours le verbe conjugué."
+        },
+        {
+          "id": "a2vpm3",
+          "prompt": "Comment nie-t-on « je me lève » ?",
+          "options": [
+            "je ne me lève pas",
+            "je me ne lève pas",
+            "je ne lève me pas"
+          ],
+          "answerIndex": 0,
+          "explanation": "Ne encadre ensemble le pronom réfléchi et le verbe."
+        },
+        {
+          "id": "a2vpm4",
+          "prompt": "Comment le participe passé s'accorde-t-il en général avec un verbe pronominal ?",
+          "options": [
+            "avec le sujet",
+            "il ne s'accorde jamais",
+            "toujours au masculin"
+          ],
+          "answerIndex": 0,
+          "explanation": "Comme les autres verbes en être, le participe passé s'accorde généralement avec le sujet."
+        }
+      ]
+    },
+    {
+      "id": "a2vp-correction",
+      "type": "correction",
+      "title": "Corrige les Erreurs",
+      "items": [
+        {
+          "id": "a2vpc1",
+          "incorrect": "Je lève à sept heures.",
+          "answer": [
+            "Je me lève à sept heures."
+          ],
+          "explanation": "Le pronom réfléchi me est obligatoire."
+        },
+        {
+          "id": "a2vpc2",
+          "incorrect": "Elle a levée tôt ce matin.",
+          "answer": [
+            "Elle s'est levée tôt ce matin."
+          ],
+          "explanation": "Se lever se conjugue avec être au passé composé."
+        },
+        {
+          "id": "a2vpc3",
+          "incorrect": "Nous ne nous couchons tard pas.",
+          "answer": [
+            "Nous ne nous couchons pas tard."
+          ],
+          "explanation": "Ne...pas encadre le pronom et le verbe ; tard reste après pas."
+        }
+      ]
+    },
+    {
+      "id": "a2vpx-reading",
+      "type": "reading-comprehension",
+      "title": "Lecture : Le Matin de Léo",
+      "passage": "<p>Chaque matin, je me réveille à six heures. Je me lave rapidement, puis je m'habille. Mon frère, lui, se lève toujours plus tard. Hier soir, nous nous sommes couchés très tard après le film.</p>",
+      "items": [
+        {
+          "id": "a2vpxr1",
+          "prompt": "À quelle heure se réveille la personne ?",
+          "options": [
+            "À six heures",
+            "À sept heures",
+            "À huit heures"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit : « je me réveille à six heures »."
+        },
+        {
+          "id": "a2vpxr2",
+          "prompt": "Que fait-elle après s'être lavée ?",
+          "options": [
+            "Elle s'habille",
+            "Elle se recouche",
+            "Elle mange"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte le dit directement."
+        },
+        {
+          "id": "a2vpxr3",
+          "prompt": "Comment se lève le frère ?",
+          "options": [
+            "Plus tard",
+            "Plus tôt",
+            "À la même heure"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit : « se lève toujours plus tard »."
+        },
+        {
+          "id": "a2vpxr4",
+          "prompt": "Quand se sont-ils couchés très tard ?",
+          "options": [
+            "Hier soir, après le film",
+            "Ce matin",
+            "La semaine dernière"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte se termine par « Hier soir … après le film »."
+        }
+      ]
+    },
+    {
+      "id": "a2vpx-order",
+      "type": "ordering",
+      "title": "Remets la Phrase en Ordre",
+      "items": [
+        {
+          "id": "a2vpxo1",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Je",
+            "me",
+            "réveille",
+            "à",
+            "six",
+            "heures"
+          ],
+          "explanation": "Pronom réfléchi me devant le verbe conjugué."
+        },
+        {
+          "id": "a2vpxo2",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Nous",
+            "nous",
+            "sommes",
+            "couchés",
+            "très",
+            "tard"
+          ],
+          "explanation": "Passé composé pronominal avec être, accord au sujet."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Un verbe pronominal se conjugue avec un pronom réfléchi (me/te/se/nous/vous/se) placé avant le verbe.",
+    "Au passé composé, tous les verbes pronominaux se conjuguent avec être.",
+    "Le participe passé d'un verbe pronominal s'accorde généralement avec le sujet, comme pour les autres verbes en être."
+  ]
+}

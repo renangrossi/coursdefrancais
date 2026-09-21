@@ -1,0 +1,303 @@
+{
+  "id": "a2-les-pronoms-coi",
+  "level": "A2",
+  "unit": "1",
+  "order": 7,
+  "skill": "grammar",
+  "strand": "pronoms-coi",
+  "title": "Les Pronoms Compléments d'Objet Indirect (COI)",
+  "subtitle": "Lui et leur pour remplacer un complément introduit par à + personne.",
+  "objectives": [
+    "Identifier le complément d'objet indirect introduit par à + personne.",
+    "Remplacer un COI par lui (singulier) ou leur (pluriel).",
+    "Distinguer un verbe direct (COD) d'un verbe indirect (COI) selon sa construction."
+  ],
+  "content": {
+    "intro": "Certains verbes se construisent avec à devant la personne — parler à quelqu'un, téléphoner à quelqu'un — et ce à change le pronom qu'on utilise pour éviter de la répéter.",
+    "explanation": "<p>Le complément d'objet indirect (COI) répond à la question <em>à qui</em> après le verbe. Il se remplace par <strong>lui</strong> (singulier, masculin ou féminin) ou <strong>leur</strong> (pluriel), placés avant le verbe conjugué, comme les pronoms COD : <em>Je parle à Marie → Je lui parle. Je téléphone à mes parents → Je leur téléphone.</em></p><p>Des verbes très fréquents se construisent avec <em>à</em> + personne, et prennent donc <em>lui/leur</em> : <em>parler à, téléphoner à, écrire à, donner à, dire à, demander à, répondre à</em>. D'autres verbes se construisent directement, sans <em>à</em>, et prennent donc <em>le/la/les</em> : <em>regarder, écouter, attendre, chercher</em>.</p>",
+    "rules": [
+      {
+        "heading": "a) Formes",
+        "body": "<ul><li><strong>lui</strong> — singulier, masculin ou féminin : <em>je lui parle</em>.</li><li><strong>leur</strong> — pluriel, masculin ou féminin : <em>je leur téléphone</em>.</li></ul>"
+      },
+      {
+        "heading": "b) Verbes courants avec à + personne",
+        "body": "<ul><li><em>parler à, téléphoner à, écrire à, donner à, dire à, demander à, répondre à</em>.</li></ul>"
+      },
+      {
+        "heading": "c) Position",
+        "body": "<ul><li>Avant le verbe conjugué, comme le COD : <em>Je lui parle. Je ne leur téléphone pas.</em></li></ul>"
+      },
+      {
+        "heading": "d) COD ou COI ?",
+        "body": "<ul><li>Vérifier la construction du verbe : avec à + personne → COI (lui/leur) ; sans préposition → COD (le/la/les).</li></ul>"
+      }
+    ],
+    "examples": [
+      "Je parle à Marie. → Je lui parle.",
+      "Nous téléphonons à nos parents. → Nous leur téléphonons.",
+      "Il écrit à sa sœur. → Il lui écrit.",
+      "Vous répondez à vos clients ? → Vous leur répondez ?",
+      "Je ne lui donne pas d'argent.",
+      "Elle leur dit la vérité."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Je le parle.",
+        "right": "Je lui parle.",
+        "why": "Parler à quelqu'un est un verbe indirect : il prend lui/leur, pas le/la."
+      },
+      {
+        "wrong": "Je téléphone lui.",
+        "right": "Je lui téléphone.",
+        "why": "Le pronom COI se place avant le verbe conjugué, jamais après."
+      },
+      {
+        "wrong": "Nous leur regardons.",
+        "right": "Nous les regardons.",
+        "why": "Regarder se construit sans préposition : c'est un COD (les), pas un COI (leur)."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a2ci-fill",
+      "type": "fill-blank",
+      "title": "Remplace par Lui ou Leur",
+      "instructions": "Récris la phrase avec le pronom COI correct à la place de l'espace.",
+      "items": [
+        {
+          "id": "a2cif1",
+          "prompt": "Tu parles à Marie ? — Oui, je ___ parle.",
+          "answers": [
+            [
+              "lui"
+            ]
+          ],
+          "options": [
+            "lui",
+            "la",
+            "leur"
+          ],
+          "explanation": "À Marie (singulier) se remplace par lui."
+        },
+        {
+          "id": "a2cif2",
+          "prompt": "Vous téléphonez à vos parents ? — Oui, nous ___ téléphonons.",
+          "answers": [
+            [
+              "leur"
+            ]
+          ],
+          "options": [
+            "leur",
+            "les",
+            "lui"
+          ],
+          "explanation": "À vos parents (pluriel) se remplace par leur."
+        },
+        {
+          "id": "a2cif3",
+          "prompt": "Il écrit à sa sœur ? — Oui, il ___ écrit.",
+          "answers": [
+            [
+              "lui"
+            ]
+          ],
+          "options": [
+            "lui",
+            "la",
+            "leur"
+          ],
+          "explanation": "À sa sœur (singulier) se remplace par lui."
+        },
+        {
+          "id": "a2cif4",
+          "prompt": "Tu regardes tes amis ? — Oui, je ___ regarde.",
+          "answers": [
+            [
+              "les"
+            ]
+          ],
+          "options": [
+            "les",
+            "leur",
+            "lui"
+          ],
+          "explanation": "Regarder est direct (sans à) : c'est donc un COD, les."
+        }
+      ]
+    },
+    {
+      "id": "a2ci-mc",
+      "type": "multiple-choice",
+      "title": "COD ou COI ?",
+      "items": [
+        {
+          "id": "a2cim1",
+          "prompt": "Quel pronom remplace à + personne au pluriel ?",
+          "options": [
+            "leur",
+            "les",
+            "lui"
+          ],
+          "answerIndex": 0,
+          "explanation": "Leur remplace un COI pluriel."
+        },
+        {
+          "id": "a2cim2",
+          "prompt": "Quel verbe se construit avec à + personne ?",
+          "options": [
+            "téléphoner à",
+            "regarder",
+            "attendre"
+          ],
+          "answerIndex": 0,
+          "explanation": "Téléphoner à quelqu'un est un verbe indirect."
+        },
+        {
+          "id": "a2cim3",
+          "prompt": "Comment remplace-t-on à Marie ?",
+          "options": [
+            "lui",
+            "elle",
+            "la"
+          ],
+          "answerIndex": 0,
+          "explanation": "Lui remplace un COI singulier, masculin ou féminin."
+        },
+        {
+          "id": "a2cim4",
+          "prompt": "Écouter se construit-il avec à + personne ?",
+          "options": [
+            "non, directement",
+            "oui, toujours",
+            "cela dépend du sujet"
+          ],
+          "answerIndex": 0,
+          "explanation": "Écouter est direct : il prend un COD (le/la/les), pas lui/leur."
+        }
+      ]
+    },
+    {
+      "id": "a2ci-correction",
+      "type": "correction",
+      "title": "Corrige les Erreurs",
+      "items": [
+        {
+          "id": "a2cic1",
+          "incorrect": "Je le parle tous les jours.",
+          "answer": [
+            "Je lui parle tous les jours."
+          ],
+          "explanation": "Parler à quelqu'un demande lui/leur, pas le/la."
+        },
+        {
+          "id": "a2cic2",
+          "incorrect": "Je téléphone lui ce soir.",
+          "answer": [
+            "Je lui téléphone ce soir."
+          ],
+          "explanation": "Le pronom COI se place avant le verbe conjugué."
+        },
+        {
+          "id": "a2cic3",
+          "incorrect": "Nous leur regardons jouer.",
+          "answer": [
+            "Nous les regardons jouer."
+          ],
+          "explanation": "Regarder est un verbe direct : il prend un COD, pas un COI."
+        }
+      ]
+    },
+    {
+      "id": "a2cix-reading",
+      "type": "reading-comprehension",
+      "title": "Lecture : Un Problème d'Ordinateur",
+      "passage": "<p>Paul a un problème avec son ordinateur. Il téléphone à son frère, qui travaille en informatique. Son frère lui explique la solution patiemment. Ensuite, Paul lui dit merci et raccroche.</p>",
+      "items": [
+        {
+          "id": "a2cixr1",
+          "prompt": "Quel est le problème de Paul ?",
+          "options": [
+            "Avec son ordinateur",
+            "Avec sa voiture",
+            "Avec son téléphone"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit : « Paul a un problème avec son ordinateur »."
+        },
+        {
+          "id": "a2cixr2",
+          "prompt": "À qui téléphone-t-il ?",
+          "options": [
+            "À son frère",
+            "À un ami",
+            "À un technicien"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit : « Il téléphone à son frère »."
+        },
+        {
+          "id": "a2cixr3",
+          "prompt": "Que fait le frère ?",
+          "options": [
+            "Il lui explique la solution",
+            "Il vient réparer l'ordinateur",
+            "Il ne peut pas aider"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte le dit directement."
+        },
+        {
+          "id": "a2cixr4",
+          "prompt": "Que dit Paul à son frère à la fin ?",
+          "options": [
+            "Merci",
+            "Au revoir seulement",
+            "Rien"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit : « Paul lui dit merci et raccroche »."
+        }
+      ]
+    },
+    {
+      "id": "a2cix-order",
+      "type": "ordering",
+      "title": "Remets la Phrase en Ordre",
+      "items": [
+        {
+          "id": "a2cixo1",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Il",
+            "téléphone",
+            "à",
+            "son",
+            "frère"
+          ],
+          "explanation": "Verbe indirect téléphoner à + personne."
+        },
+        {
+          "id": "a2cixo2",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Son",
+            "frère",
+            "lui",
+            "explique",
+            "la",
+            "solution"
+          ],
+          "explanation": "Pronom COI lui devant le verbe conjugué."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Le COI répond à à qui, et se remplace par lui (singulier) ou leur (pluriel).",
+    "Des verbes fréquents comme parler à, téléphoner à, écrire à, donner à se construisent avec à + personne et prennent donc lui/leur.",
+    "Il faut vérifier la construction de chaque verbe pour choisir entre COD (le/la/les) et COI (lui/leur)."
+  ]
+}

@@ -111,12 +111,65 @@
       ]
     },
     "A2": {
-      "overview": "Le niveau A2 te donnera les outils pour parler du passé, du futur et faire des comparaisons, en plus de remplacer des noms par des pronoms pour sonner plus naturel. Tu apprendras le passé composé et l'imparfait — et surtout quand utiliser chacun —, ainsi que le futur proche et le futur simple, les comparatifs et les superlatifs, les verbes pronominaux, les pronoms compléments d'objet direct et indirect, et l'impératif pour donner des ordres et des instructions. À la fin de ce niveau, tu pourras raconter ce que tu as fait hier, décrire comment était quelque chose dans le passé, faire des projets et donner des instructions simples. Ce niveau arrive bientôt ; en attendant, commence par le niveau Pre-A1, déjà disponible.",
+      "overview": "Le niveau A2 te donne les outils pour parler du passé, du futur et faire des comparaisons, en plus de remplacer des noms par des pronoms pour sonner plus naturel. Tu apprendras le passé composé et l'imparfait — et surtout quand utiliser chacun —, le futur simple, les comparatifs et les superlatifs, les pronoms compléments d'objet direct et indirect, les verbes pronominaux, l'impératif pour donner des ordres et des instructions, le conditionnel présent, les indéfinis, les pronoms y et en, et les prépositions avec les pays et les villes. À la fin de ce niveau, tu pourras raconter ce que tu as fait hier, décrire comment était quelque chose dans le passé, faire des projets et donner des instructions simples.",
       "units": [
         {
           "id": "1",
           "title": "Grammaire A2",
-          "lessons": []
+          "lessons": [
+            {
+              "id": "a2-le-passe-compose",
+              "status": "published"
+            },
+            {
+              "id": "a2-limparfait",
+              "status": "published"
+            },
+            {
+              "id": "a2-passe-compose-vs-imparfait",
+              "status": "published"
+            },
+            {
+              "id": "a2-le-futur-simple",
+              "status": "published"
+            },
+            {
+              "id": "a2-les-comparatifs-et-superlatifs",
+              "status": "published"
+            },
+            {
+              "id": "a2-les-pronoms-cod",
+              "status": "published"
+            },
+            {
+              "id": "a2-les-pronoms-coi",
+              "status": "published"
+            },
+            {
+              "id": "a2-les-verbes-pronominaux",
+              "status": "published"
+            },
+            {
+              "id": "a2-limperatif",
+              "status": "published"
+            },
+            {
+              "id": "a2-le-conditionnel-present",
+              "status": "published"
+            },
+            {
+              "id": "a2-les-indefinis",
+              "status": "published"
+            },
+            {
+              "id": "a2-y-et-en",
+              "status": "published"
+            },
+            {
+              "id": "a2-les-prepositions-avec-les-pays-et-les-villes",
+              "status": "published"
+            }
+          ]
         }
       ]
     },

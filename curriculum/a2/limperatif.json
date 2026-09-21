@@ -1,0 +1,302 @@
+{
+  "id": "a2-limperatif",
+  "level": "A2",
+  "unit": "1",
+  "order": 9,
+  "skill": "grammar",
+  "strand": "imperatif",
+  "title": "L'Impératif",
+  "subtitle": "Donner un ordre ou un conseil, à l'affirmatif et au négatif, et placer les pronoms compléments.",
+  "objectives": [
+    "Former l'impératif affirmatif pour tu, nous et vous.",
+    "Former l'impératif négatif et placer correctement les pronoms compléments.",
+    "Reconnaître la particularité des verbes en -er à l'impératif (pas de -s à tu)."
+  ],
+  "content": {
+    "intro": "L'impératif sert à donner un ordre, un conseil ou une instruction — et se construit à partir d'un temps que tu maîtrises déjà, le présent, sans aucun pronom sujet.",
+    "explanation": "<p>L'impératif se forme à partir du <strong>présent de l'indicatif</strong>, sans pronom sujet, pour trois personnes seulement : <em>tu, nous, vous</em>. Les verbes en <strong>-er</strong> (et <em>ouvrir</em> et ses composés) perdent le <strong>-s</strong> final de <em>tu</em> : <em>tu parles → Parle !</em></p><p>À l'impératif affirmatif, le pronom complément se place <strong>après</strong> le verbe, relié par un trait d'union : <em>Mange-le ! Lève-toi !</em> (te devient toi après le verbe). À l'impératif négatif, il retourne <strong>avant</strong> le verbe, comme d'habitude : <em>Ne le mange pas ! Ne te lève pas !</em></p>",
+    "rules": [
+      {
+        "heading": "a) Formation",
+        "body": "<ul><li>Présent de l'indicatif sans pronom sujet, pour tu/nous/vous : <em>Finis ! Finissons ! Finissez !</em></li></ul>"
+      },
+      {
+        "heading": "b) Verbes en -er",
+        "body": "<ul><li>Perdent le -s final à tu : <em>tu parles → Parle !</em> ; mais <em>Parlons ! Parlez !</em> gardent leur forme normale.</li></ul>"
+      },
+      {
+        "heading": "c) Impératif affirmatif + pronom",
+        "body": "<ul><li>Pronom après le verbe, avec un trait d'union : <em>Mange-le ! Lève-toi !</em></li></ul>"
+      },
+      {
+        "heading": "d) Impératif négatif + pronom",
+        "body": "<ul><li>Pronom avant le verbe, comme d'habitude : <em>Ne le mange pas ! Ne te lève pas !</em></li></ul>"
+      }
+    ],
+    "examples": [
+      "Parle plus fort, s'il te plaît !",
+      "Finissons ce travail ensemble.",
+      "Prenez le temps de réfléchir.",
+      "Mange-le avant qu'il ne soit froid.",
+      "Lève-toi, il est tard !",
+      "Ne le mange pas, il est encore chaud.",
+      "Ne vous inquiétez pas."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Parles plus fort.",
+        "right": "Parle plus fort.",
+        "why": "Les verbes en -er perdent leur -s final à l'impératif tu."
+      },
+      {
+        "wrong": "Le mange !",
+        "right": "Mange-le !",
+        "why": "À l'impératif affirmatif, le pronom se place après le verbe, avec un trait d'union."
+      },
+      {
+        "wrong": "Ne te lève pas te.",
+        "right": "Ne te lève pas.",
+        "why": "À la forme négative, le pronom se place une seule fois, devant le verbe."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a2ip-fill",
+      "type": "fill-blank",
+      "title": "Forme l'Impératif",
+      "instructions": "Écris la forme correcte de l'impératif pour la personne indiquée.",
+      "items": [
+        {
+          "id": "a2ipf1",
+          "prompt": "(tu, parler) ___ plus fort !",
+          "answers": [
+            [
+              "Parle"
+            ]
+          ],
+          "options": [
+            "Parle",
+            "Parles",
+            "Parler"
+          ],
+          "explanation": "Les verbes en -er perdent leur -s final à tu."
+        },
+        {
+          "id": "a2ipf2",
+          "prompt": "(nous, finir) ___ ce travail ensemble.",
+          "answers": [
+            [
+              "Finissons"
+            ]
+          ],
+          "options": [
+            "Finissons",
+            "Finissez",
+            "Finis"
+          ],
+          "explanation": "Forme nous de l'impératif, identique au présent."
+        },
+        {
+          "id": "a2ipf3",
+          "prompt": "(tu, manger + le) ___ avant qu'il ne soit froid.",
+          "answers": [
+            [
+              "Mange-le"
+            ]
+          ],
+          "options": [
+            "Mange-le",
+            "Le mange",
+            "Manges-le"
+          ],
+          "explanation": "Pronom après le verbe à l'impératif affirmatif, avec trait d'union."
+        },
+        {
+          "id": "a2ipf4",
+          "prompt": "(vous, ne pas s'inquiéter) ___.",
+          "answers": [
+            [
+              "Ne vous inquiétez pas"
+            ]
+          ],
+          "options": [
+            "Ne vous inquiétez pas",
+            "Vous ne inquiétez pas",
+            "N'inquiétez vous pas"
+          ],
+          "explanation": "À la forme négative, le pronom reste devant le verbe."
+        }
+      ]
+    },
+    {
+      "id": "a2ip-mc",
+      "type": "multiple-choice",
+      "title": "L'Impératif : Formation et Pronoms",
+      "items": [
+        {
+          "id": "a2ipm1",
+          "prompt": "Pour combien de personnes existe l'impératif ?",
+          "options": [
+            "trois : tu, nous, vous",
+            "toutes les personnes",
+            "seulement tu"
+          ],
+          "answerIndex": 0,
+          "explanation": "L'impératif n'existe qu'à tu, nous et vous."
+        },
+        {
+          "id": "a2ipm2",
+          "prompt": "Que perdent les verbes en -er à l'impératif tu ?",
+          "options": [
+            "le -s final",
+            "le -e final",
+            "rien"
+          ],
+          "answerIndex": 0,
+          "explanation": "Tu parles devient Parle !, sans -s."
+        },
+        {
+          "id": "a2ipm3",
+          "prompt": "Où se place le pronom à l'impératif affirmatif ?",
+          "options": [
+            "après le verbe, avec un trait d'union",
+            "avant le verbe",
+            "il disparaît"
+          ],
+          "answerIndex": 0,
+          "explanation": "Mange-le !, Lève-toi ! : pronom après le verbe."
+        },
+        {
+          "id": "a2ipm4",
+          "prompt": "Où se place le pronom à l'impératif négatif ?",
+          "options": [
+            "avant le verbe",
+            "après le verbe",
+            "à la fin de la phrase"
+          ],
+          "answerIndex": 0,
+          "explanation": "Ne le mange pas ! : le pronom retourne avant le verbe."
+        }
+      ]
+    },
+    {
+      "id": "a2ip-correction",
+      "type": "correction",
+      "title": "Corrige les Erreurs",
+      "items": [
+        {
+          "id": "a2ipc1",
+          "incorrect": "Parles plus fort !",
+          "answer": [
+            "Parle plus fort !"
+          ],
+          "explanation": "Les verbes en -er perdent leur -s final à l'impératif tu."
+        },
+        {
+          "id": "a2ipc2",
+          "incorrect": "Le mange avant qu'il ne soit froid !",
+          "answer": [
+            "Mange-le avant qu'il ne soit froid !"
+          ],
+          "explanation": "À l'affirmatif, le pronom se place après le verbe."
+        },
+        {
+          "id": "a2ipc3",
+          "incorrect": "Ne te lève pas te.",
+          "answer": [
+            "Ne te lève pas."
+          ],
+          "explanation": "Le pronom ne se répète pas ; il reste devant le verbe à la forme négative."
+        }
+      ]
+    },
+    {
+      "id": "a2ipx-reading",
+      "type": "reading-comprehension",
+      "title": "Lecture : Départ en Taxi",
+      "passage": "<p>Écoute bien les instructions. Prends ton sac et n'oublie pas ton passeport. Ne t'inquiète pas, tout va bien se passer. Allons-y, le taxi nous attend !</p>",
+      "items": [
+        {
+          "id": "a2ipxr1",
+          "prompt": "Que faut-il écouter ?",
+          "options": [
+            "Les instructions",
+            "La radio",
+            "Le téléphone"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte commence par « Écoute bien les instructions »."
+        },
+        {
+          "id": "a2ipxr2",
+          "prompt": "Qu'est-ce qu'il ne faut pas oublier ?",
+          "options": [
+            "Le passeport",
+            "Le téléphone",
+            "Les clés"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit : « n'oublie pas ton passeport »."
+        },
+        {
+          "id": "a2ipxr3",
+          "prompt": "Que dit-on pour rassurer la personne ?",
+          "options": [
+            "Ne t'inquiète pas",
+            "Dépêche-toi",
+            "Attends ici"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte le dit directement."
+        },
+        {
+          "id": "a2ipxr4",
+          "prompt": "Qui attend, selon le texte ?",
+          "options": [
+            "Le taxi",
+            "L'avion",
+            "Le train"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte se termine par « le taxi nous attend »."
+        }
+      ]
+    },
+    {
+      "id": "a2ipx-order",
+      "type": "ordering",
+      "title": "Remets la Phrase en Ordre",
+      "items": [
+        {
+          "id": "a2ipxo1",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Prends",
+            "ton",
+            "sac",
+            "et",
+            "ton",
+            "passeport"
+          ],
+          "explanation": "Impératif tu, verbe en -re, sans -s."
+        },
+        {
+          "id": "a2ipxo2",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Ne",
+            "t'inquiète",
+            "pas"
+          ],
+          "explanation": "Impératif négatif, pronom devant le verbe."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "L'impératif se forme à partir du présent, sans pronom sujet, pour tu/nous/vous ; les verbes en -er perdent leur -s final à tu.",
+    "À l'impératif affirmatif, le pronom complément se place après le verbe, relié par un trait d'union.",
+    "À l'impératif négatif, le pronom retourne devant le verbe, comme d'habitude."
+  ]
+}

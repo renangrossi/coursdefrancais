@@ -1,0 +1,304 @@
+{
+  "id": "a2-les-indefinis",
+  "level": "A2",
+  "unit": "1",
+  "order": 11,
+  "skill": "grammar",
+  "strand": "indefinis",
+  "title": "Les Indéfinis",
+  "subtitle": "Quelqu'un/personne, quelque chose/rien, chaque, plusieurs, et l'accord de tout.",
+  "objectives": [
+    "Utiliser quelqu'un/personne et quelque chose/rien selon l'affirmation ou la négation.",
+    "Utiliser chaque et plusieurs pour quantifier un nom.",
+    "Accorder tout/tous/toute/toutes selon le genre et le nombre du nom."
+  ],
+  "content": {
+    "intro": "Ces petits mots permettent de parler de personnes ou de choses sans les préciser, ou de quantifier un groupe — indispensables dès qu'on veut parler de façon plus naturelle.",
+    "explanation": "<p><strong>Quelqu'un</strong> (affirmatif) et <strong>personne</strong> (négatif, avec <em>ne</em>) servent à parler d'une personne indéterminée : <em>Il y a quelqu'un à la porte. / Il n'y a personne à la porte.</em> <strong>Quelque chose</strong> et <strong>rien</strong> fonctionnent de la même façon pour une chose : <em>J'ai quelque chose à te dire. / Je n'ai rien à te dire.</em></p><p><strong>Chaque</strong> (invariable) précède toujours un nom singulier : <em>chaque élève</em>. <strong>Plusieurs</strong> (invariable) précède toujours un nom pluriel : <em>plusieurs livres</em>. <strong>Tout</strong>, en revanche, s'accorde selon le nom qu'il précède : <em>tout le monde</em> (masculin singulier), <em>toute la classe</em> (féminin singulier), <em>tous les jours</em> (masculin pluriel), <em>toutes les semaines</em> (féminin pluriel).</p>",
+    "rules": [
+      {
+        "heading": "a) Quelqu'un / personne",
+        "body": "<ul><li><em>quelqu'un</em> (affirmatif) — <em>Il y a quelqu'un ici.</em></li><li><em>ne…personne</em> (négatif) — <em>Il n'y a personne ici.</em></li></ul>"
+      },
+      {
+        "heading": "b) Quelque chose / rien",
+        "body": "<ul><li><em>quelque chose</em> (affirmatif) — <em>J'ai quelque chose à dire.</em></li><li><em>ne…rien</em> (négatif) — <em>Je n'ai rien à dire.</em></li></ul>"
+      },
+      {
+        "heading": "c) Chaque et plusieurs",
+        "body": "<ul><li><strong>chaque</strong> (invariable) + nom singulier — <em>chaque élève</em>.</li><li><strong>plusieurs</strong> (invariable) + nom pluriel — <em>plusieurs livres</em>.</li></ul>"
+      },
+      {
+        "heading": "d) Tout / tous / toute / toutes",
+        "body": "<ul><li><em>tout le monde</em> (masc. sing.), <em>toute la classe</em> (fém. sing.).</li><li><em>tous les jours</em> (masc. plur.), <em>toutes les semaines</em> (fém. plur.).</li></ul>"
+      }
+    ],
+    "examples": [
+      "Il y a quelqu'un à la porte.",
+      "Je n'ai rien à te dire.",
+      "Chaque élève a son propre livre.",
+      "Plusieurs personnes attendent dehors.",
+      "Tout le monde est content.",
+      "Nous travaillons tous les jours.",
+      "Elle vient toutes les semaines."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Il n'y a pas quelqu'un.",
+        "right": "Il n'y a personne.",
+        "why": "À la forme négative, on utilise personne, jamais quelqu'un + pas."
+      },
+      {
+        "wrong": "Chaques élèves ont un livre.",
+        "right": "Chaque élève a un livre.",
+        "why": "Chaque est invariable et s'utilise toujours avec un nom singulier."
+      },
+      {
+        "wrong": "Toutes les jours, je travaille.",
+        "right": "Tous les jours, je travaille.",
+        "why": "Jours est masculin pluriel : il faut tous, pas toutes."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a2in-fill",
+      "type": "fill-blank",
+      "title": "Complète avec l'Indéfini Correct",
+      "instructions": "Choisis la forme correcte pour chaque espace.",
+      "items": [
+        {
+          "id": "a2inf1",
+          "prompt": "Il n'y a ___ à la porte.",
+          "answers": [
+            [
+              "personne"
+            ]
+          ],
+          "options": [
+            "personne",
+            "quelqu'un",
+            "rien"
+          ],
+          "explanation": "À la forme négative, on utilise personne pour une personne indéterminée."
+        },
+        {
+          "id": "a2inf2",
+          "prompt": "___ élève a son propre livre.",
+          "answers": [
+            [
+              "Chaque"
+            ]
+          ],
+          "options": [
+            "Chaque",
+            "Chaques",
+            "Plusieurs"
+          ],
+          "explanation": "Chaque est invariable et précède un nom singulier."
+        },
+        {
+          "id": "a2inf3",
+          "prompt": "Nous travaillons ___ les jours.",
+          "answers": [
+            [
+              "tous"
+            ]
+          ],
+          "options": [
+            "tous",
+            "toutes",
+            "tout"
+          ],
+          "explanation": "Jours est masculin pluriel : tous les jours."
+        },
+        {
+          "id": "a2inf4",
+          "prompt": "Je n'ai ___ à te dire.",
+          "answers": [
+            [
+              "rien"
+            ]
+          ],
+          "options": [
+            "rien",
+            "quelque chose",
+            "personne"
+          ],
+          "explanation": "À la forme négative, on utilise rien pour une chose indéterminée."
+        }
+      ]
+    },
+    {
+      "id": "a2in-mc",
+      "type": "multiple-choice",
+      "title": "Les Indéfinis",
+      "items": [
+        {
+          "id": "a2inm1",
+          "prompt": "Quel mot utilise-t-on à l'affirmatif pour une personne indéterminée ?",
+          "options": [
+            "quelqu'un",
+            "personne",
+            "rien"
+          ],
+          "answerIndex": 0,
+          "explanation": "Quelqu'un s'utilise dans une phrase affirmative."
+        },
+        {
+          "id": "a2inm2",
+          "prompt": "Chaque s'accorde-t-il en nombre ?",
+          "options": [
+            "non, il est invariable",
+            "oui, au pluriel chaques",
+            "seulement au féminin"
+          ],
+          "answerIndex": 0,
+          "explanation": "Chaque reste invariable et précède toujours un nom singulier."
+        },
+        {
+          "id": "a2inm3",
+          "prompt": "Comment accorde-t-on tout devant la classe ?",
+          "options": [
+            "toute la classe",
+            "tout la classe",
+            "tous la classe"
+          ],
+          "answerIndex": 0,
+          "explanation": "Classe est féminin singulier : toute la classe."
+        },
+        {
+          "id": "a2inm4",
+          "prompt": "Plusieurs précède-t-il un nom singulier ou pluriel ?",
+          "options": [
+            "pluriel",
+            "singulier",
+            "les deux"
+          ],
+          "answerIndex": 0,
+          "explanation": "Plusieurs s'utilise toujours avec un nom pluriel."
+        }
+      ]
+    },
+    {
+      "id": "a2in-correction",
+      "type": "correction",
+      "title": "Corrige les Erreurs",
+      "items": [
+        {
+          "id": "a2inc1",
+          "incorrect": "Il n'y a pas quelqu'un dans la salle.",
+          "answer": [
+            "Il n'y a personne dans la salle."
+          ],
+          "explanation": "La négation utilise personne, pas quelqu'un."
+        },
+        {
+          "id": "a2inc2",
+          "incorrect": "Chaques élèves ont un livre.",
+          "answer": [
+            "Chaque élève a un livre."
+          ],
+          "explanation": "Chaque est invariable et précède un nom singulier."
+        },
+        {
+          "id": "a2inc3",
+          "incorrect": "Toutes les jours, je travaille.",
+          "answer": [
+            "Tous les jours, je travaille."
+          ],
+          "explanation": "Jours est masculin pluriel : tous les jours."
+        }
+      ]
+    },
+    {
+      "id": "a2inx-reading",
+      "type": "reading-comprehension",
+      "title": "Lecture : La Fête chez Nous",
+      "passage": "<p>Il y a quelqu'un à la porte ; va voir qui c'est. Chaque invité a apporté quelque chose à manger. Plusieurs amis sont déjà arrivés. Tout le monde est content d'être ici ce soir.</p>",
+      "items": [
+        {
+          "id": "a2inxr1",
+          "prompt": "Que faut-il faire quand quelqu'un frappe ?",
+          "options": [
+            "Aller voir qui c'est",
+            "Ne pas répondre",
+            "Attendre"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit : « va voir qui c'est »."
+        },
+        {
+          "id": "a2inxr2",
+          "prompt": "Qu'a apporté chaque invité ?",
+          "options": [
+            "Quelque chose à manger",
+            "Une boisson seulement",
+            "Rien du tout"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte le dit directement."
+        },
+        {
+          "id": "a2inxr3",
+          "prompt": "Combien d'amis sont déjà arrivés ?",
+          "options": [
+            "Plusieurs",
+            "Un seul",
+            "Aucun"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit : « Plusieurs amis sont déjà arrivés »."
+        },
+        {
+          "id": "a2inxr4",
+          "prompt": "Comment est tout le monde, selon le texte ?",
+          "options": [
+            "Content",
+            "Fatigué",
+            "Inquiet"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte se termine par « Tout le monde est content »."
+        }
+      ]
+    },
+    {
+      "id": "a2inx-order",
+      "type": "ordering",
+      "title": "Remets la Phrase en Ordre",
+      "items": [
+        {
+          "id": "a2inxo1",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Chaque",
+            "invité",
+            "a",
+            "apporté",
+            "quelque",
+            "chose"
+          ],
+          "explanation": "Chaque, invariable, devant un nom singulier."
+        },
+        {
+          "id": "a2inxo2",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Tout",
+            "le",
+            "monde",
+            "est",
+            "content"
+          ],
+          "explanation": "Tout le monde, masculin singulier invariable dans cette expression."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Quelqu'un/quelque chose s'utilisent à l'affirmatif ; personne/rien à la négatif, toujours avec ne.",
+    "Chaque (+ singulier) et plusieurs (+ pluriel) sont invariables.",
+    "Tout s'accorde en genre et en nombre avec le nom qu'il précède : tout/toute/tous/toutes."
+  ]
+}

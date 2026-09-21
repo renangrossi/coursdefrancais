@@ -1,0 +1,307 @@
+{
+  "id": "a2-passe-compose-vs-imparfait",
+  "level": "A2",
+  "unit": "1",
+  "order": 3,
+  "skill": "grammar",
+  "strand": "passe-compose-imparfait",
+  "title": "Passé Composé vs. Imparfait",
+  "subtitle": "Comment choisir entre les deux temps du passé selon le sens de la phrase.",
+  "objectives": [
+    "Distinguer une action ponctuelle et terminée (passé composé) d'une description ou d'une habitude (imparfait).",
+    "Reconnaître le schéma classique : une scène à l'imparfait interrompue par un événement au passé composé.",
+    "Employer les deux temps ensemble dans un même récit."
+  ],
+  "content": {
+    "intro": "C'est la question que se posent tous les débutants en racontant une histoire au passé : passé composé ou imparfait ? La réponse dépend toujours du sens que tu veux donner à l'action, jamais d'une règle de forme.",
+    "explanation": "<p>Le <strong>passé composé</strong> raconte un événement ponctuel, terminé, qui fait avancer l'histoire : <em>Hier, je suis sorti, j'ai rencontré un ami, nous avons dîné ensemble.</em> Chaque verbe correspond à une étape précise de l'histoire. L'<strong>imparfait</strong>, lui, décrit le décor autour de ces événements : l'heure, le temps qu'il faisait, l'état d'esprit des personnes, une habitude.</p><p>Le schéma le plus fréquent combine les deux : une scène installée à l'imparfait, interrompue par un événement au passé composé — <em>Je dormais (imparfait) quand le téléphone a sonné (passé composé).</em> Dans ce type de phrase, imparfait et passé composé ne sont jamais interchangeables : chacun a un rôle précis.</p>",
+    "rules": [
+      {
+        "heading": "a) Passé composé : l'action",
+        "body": "<ul><li>Événement ponctuel, terminé, qui fait avancer le récit : <em>il est arrivé, elle a téléphoné, nous avons mangé</em>.</li></ul>"
+      },
+      {
+        "heading": "b) Imparfait : le décor",
+        "body": "<ul><li>Description, état, habitude, action en cours : <em>il faisait nuit, elle était contente, nous mangions toujours à huit heures</em>.</li></ul>"
+      },
+      {
+        "heading": "c) Le schéma scène + interruption",
+        "body": "<ul><li>Imparfait (scène/décor) + passé composé (événement soudain) : <em>Je dormais quand le téléphone a sonné.</em></li></ul>"
+      },
+      {
+        "heading": "d) Un repère pratique",
+        "body": "<ul><li>Si tu peux dire « à ce moment précis, il s'est passé quelque chose » → passé composé.</li><li>Si tu décris « comment c'était » ou « ce qu'on faisait d'habitude » → imparfait.</li></ul>"
+      }
+    ],
+    "examples": [
+      "Je dormais quand le téléphone a sonné.",
+      "Il faisait beau, alors nous sommes sortis.",
+      "Elle regardait la télé quand ses parents sont rentrés.",
+      "Quand j'étais petit, nous allions à la plage chaque été.",
+      "Hier, il a plu toute la journée.",
+      "Nous étions fatigués, donc nous sommes rentrés tôt.",
+      "Pendant qu'il cuisinait, elle a mis la table."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Je dormais quand le téléphone sonnait.",
+        "right": "Je dormais quand le téléphone a sonné.",
+        "why": "L'événement soudain qui interrompt la scène doit être au passé composé, pas à l'imparfait."
+      },
+      {
+        "wrong": "Hier, il faisait très beau toute la journée, alors nous avons sorti à la plage. (les deux verbes à l'imparfait)",
+        "right": "Hier, il a fait très beau toute la journée, alors nous sommes sortis à la plage.",
+        "why": "Un fait ponctuel annoncé avec « hier » est souvent au passé composé, même s'il dure toute la journée."
+      },
+      {
+        "wrong": "Quand j'étais petit, nous sommes allés à la plage chaque été.",
+        "right": "Quand j'étais petit, nous allions à la plage chaque été.",
+        "why": "Une habitude répétée (« chaque été ») se raconte à l'imparfait, pas au passé composé."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a2vi-fill",
+      "type": "fill-blank",
+      "title": "Choisis le Bon Temps",
+      "instructions": "Complète avec le passé composé ou l'imparfait du verbe entre parenthèses.",
+      "items": [
+        {
+          "id": "a2vif1",
+          "prompt": "Je ___ (dormir) quand le téléphone a sonné.",
+          "answers": [
+            [
+              "dormais"
+            ]
+          ],
+          "options": [
+            "dormais",
+            "ai dormi",
+            "dors"
+          ],
+          "explanation": "La scène en cours au moment de l'interruption est à l'imparfait."
+        },
+        {
+          "id": "a2vif2",
+          "prompt": "Hier soir, nous ___ (manger) au restaurant.",
+          "answers": [
+            [
+              "avons mangé"
+            ]
+          ],
+          "options": [
+            "avons mangé",
+            "mangions",
+            "mangeons"
+          ],
+          "explanation": "Événement ponctuel terminé, daté par « hier soir » : passé composé."
+        },
+        {
+          "id": "a2vif3",
+          "prompt": "Quand j'étais enfant, je ___ (jouer) dehors tous les jours.",
+          "answers": [
+            [
+              "jouais"
+            ]
+          ],
+          "options": [
+            "jouais",
+            "ai joué",
+            "joue"
+          ],
+          "explanation": "Habitude répétée dans le passé : imparfait."
+        },
+        {
+          "id": "a2vif4",
+          "prompt": "Il ___ (pleuvoir) quand nous sommes sortis.",
+          "answers": [
+            [
+              "pleuvait"
+            ]
+          ],
+          "options": [
+            "pleuvait",
+            "a plu",
+            "pleut"
+          ],
+          "explanation": "Description du temps qu'il faisait au moment de l'action : imparfait."
+        }
+      ]
+    },
+    {
+      "id": "a2vi-mc",
+      "type": "multiple-choice",
+      "title": "Passé Composé ou Imparfait ?",
+      "items": [
+        {
+          "id": "a2vim1",
+          "prompt": "Quel temps décrit le décor, l'état ou l'habitude ?",
+          "options": [
+            "l'imparfait",
+            "le passé composé",
+            "les deux également"
+          ],
+          "answerIndex": 0,
+          "explanation": "L'imparfait sert à décrire, pas à faire avancer l'action."
+        },
+        {
+          "id": "a2vim2",
+          "prompt": "Quel temps fait avancer les événements d'un récit ?",
+          "options": [
+            "le passé composé",
+            "l'imparfait",
+            "aucun des deux"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le passé composé raconte les étapes successives d'une histoire."
+        },
+        {
+          "id": "a2vim3",
+          "prompt": "Dans « Je lisais quand elle est arrivée », quel verbe est l'événement soudain ?",
+          "options": [
+            "est arrivée",
+            "lisais",
+            "les deux"
+          ],
+          "answerIndex": 0,
+          "explanation": "L'arrivée est l'événement ponctuel qui interrompt la scène en cours."
+        },
+        {
+          "id": "a2vim4",
+          "prompt": "Comment raconter une habitude répétée dans le passé (« chaque été ») ?",
+          "options": [
+            "à l'imparfait",
+            "au passé composé",
+            "au futur"
+          ],
+          "answerIndex": 0,
+          "explanation": "Une répétition habituelle dans le passé se raconte à l'imparfait."
+        }
+      ]
+    },
+    {
+      "id": "a2vi-correction",
+      "type": "correction",
+      "title": "Corrige les Erreurs",
+      "items": [
+        {
+          "id": "a2vic1",
+          "incorrect": "Je dormais quand le téléphone sonnait.",
+          "answer": [
+            "Je dormais quand le téléphone a sonné."
+          ],
+          "explanation": "L'événement soudain doit être au passé composé."
+        },
+        {
+          "id": "a2vic2",
+          "incorrect": "Quand j'étais petit, nous sommes allés à la plage chaque été.",
+          "answer": [
+            "Quand j'étais petit, nous allions à la plage chaque été."
+          ],
+          "explanation": "Une habitude répétée se raconte à l'imparfait."
+        },
+        {
+          "id": "a2vic3",
+          "incorrect": "Hier, nous mangions au restaurant.",
+          "answer": [
+            "Hier, nous avons mangé au restaurant."
+          ],
+          "explanation": "Un événement ponctuel daté par « hier » est au passé composé."
+        }
+      ]
+    },
+    {
+      "id": "a2vix-reading",
+      "type": "reading-comprehension",
+      "title": "Lecture : L'Arrivée à l'Hôtel",
+      "passage": "<p>Il faisait nuit quand nous sommes arrivés à l'hôtel. La réceptionniste dormait presque, mais elle nous a souri gentiment. Nous étions fatigués après le long voyage, alors nous sommes montés directement dans notre chambre.</p>",
+      "items": [
+        {
+          "id": "a2vixr1",
+          "prompt": "Quand sont-ils arrivés à l'hôtel ?",
+          "options": [
+            "Il faisait nuit",
+            "Il faisait jour",
+            "Il faisait beau"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit : « Il faisait nuit quand nous sommes arrivés »."
+        },
+        {
+          "id": "a2vixr2",
+          "prompt": "Que faisait la réceptionniste ?",
+          "options": [
+            "Elle dormait presque",
+            "Elle lisait un livre",
+            "Elle mangeait"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte le dit directement."
+        },
+        {
+          "id": "a2vixr3",
+          "prompt": "Pourquoi sont-ils montés directement dans la chambre ?",
+          "options": [
+            "Parce qu'ils étaient fatigués",
+            "Parce qu'il pleuvait",
+            "Parce que l'hôtel fermait"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit : « Nous étions fatigués … alors nous sommes montés directement »."
+        },
+        {
+          "id": "a2vixr4",
+          "prompt": "Comment la réceptionniste les a-t-elle accueillis ?",
+          "options": [
+            "Avec un sourire",
+            "Avec froideur",
+            "Sans un mot"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit : « elle nous a souri gentiment »."
+        }
+      ]
+    },
+    {
+      "id": "a2vix-order",
+      "type": "ordering",
+      "title": "Remets la Phrase en Ordre",
+      "items": [
+        {
+          "id": "a2vixo1",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Il",
+            "faisait",
+            "nuit",
+            "quand",
+            "nous",
+            "sommes",
+            "arrivés"
+          ],
+          "explanation": "Imparfait (décor) + passé composé (événement)."
+        },
+        {
+          "id": "a2vixo2",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Nous",
+            "sommes",
+            "montés",
+            "directement",
+            "dans",
+            "la",
+            "chambre"
+          ],
+          "explanation": "Passé composé avec être, action ponctuelle."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Le passé composé raconte des événements ponctuels et terminés qui font avancer le récit ; l'imparfait décrit le décor, l'état ou l'habitude.",
+    "Le schéma le plus fréquent combine une scène à l'imparfait interrompue par un événement au passé composé.",
+    "Le choix dépend toujours du sens voulu, jamais d'une règle de forme fixe."
+  ]
+}

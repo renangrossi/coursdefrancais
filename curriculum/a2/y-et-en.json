@@ -1,0 +1,303 @@
+{
+  "id": "a2-y-et-en",
+  "level": "A2",
+  "unit": "1",
+  "order": 12,
+  "skill": "grammar",
+  "strand": "y-en",
+  "title": "Y et En",
+  "subtitle": "Deux pronoms pour remplacer à + lieu/chose et de + lieu/chose/quantité.",
+  "objectives": [
+    "Utiliser y pour remplacer à + lieu ou à + chose.",
+    "Utiliser en pour remplacer de + lieu, de + chose, ou une quantité.",
+    "Placer y et en avant le verbe conjugué, comme les autres pronoms."
+  ],
+  "content": {
+    "intro": "Y et en sont deux petits pronoms très fréquents à l'oral, qui remplacent tout un groupe introduit par à ou de, ou même une simple quantité, pour éviter de tout répéter.",
+    "explanation": "<p><strong>Y</strong> remplace <em>à</em> + lieu (<em>J'habite à Paris → J'y habite</em>) ou <em>à</em> + chose (<em>Je pense à mon voyage → J'y pense</em>). <strong>En</strong> remplace <em>de</em> + lieu (<em>Je viens de Paris → J'en viens</em>), <em>de</em> + chose (<em>Je parle de mon travail → J'en parle</em>), ou une <strong>quantité</strong> (<em>J'ai deux chats → J'en ai deux ; Tu veux du pain ? → Oui, j'en veux</em>).</p><p>Comme les autres pronoms, <strong>y</strong> et <strong>en</strong> se placent avant le verbe conjugué, ou avant l'auxiliaire au passé composé : <em>J'y suis allé. J'en ai acheté.</em></p>",
+    "rules": [
+      {
+        "heading": "a) Y",
+        "body": "<ul><li>Remplace à + lieu ou à + chose : <em>j'y habite, j'y pense</em>.</li></ul>"
+      },
+      {
+        "heading": "b) En",
+        "body": "<ul><li>Remplace de + lieu/chose ou une quantité : <em>j'en viens, j'en parle, j'en ai deux</em>.</li></ul>"
+      },
+      {
+        "heading": "c) Position",
+        "body": "<ul><li>Avant le verbe conjugué (ou l'auxiliaire au passé composé) : <em>j'y vais, j'en ai acheté</em>.</li></ul>"
+      },
+      {
+        "heading": "d) En + quantité",
+        "body": "<ul><li>Le nombre ou l'expression de quantité reste souvent après le verbe : <em>j'en ai deux, j'en veux beaucoup</em>.</li></ul>"
+      }
+    ],
+    "examples": [
+      "J'habite à Paris. → J'y habite.",
+      "Je pense souvent à mon voyage. → J'y pense souvent.",
+      "Je viens de Lyon. → J'en viens.",
+      "Tu as des frères ? — Oui, j'en ai deux.",
+      "Elle parle de son travail. → Elle en parle.",
+      "Nous y sommes allés hier."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "J'habite y.",
+        "right": "J'y habite.",
+        "why": "Y se place avant le verbe conjugué, jamais après."
+      },
+      {
+        "wrong": "J'ai des frères deux.",
+        "right": "J'en ai deux.",
+        "why": "Pour remplacer une quantité déjà mentionnée, il faut utiliser en, même si le nombre reste dans la phrase."
+      },
+      {
+        "wrong": "Je viens de en.",
+        "right": "J'en viens.",
+        "why": "En remplace déjà de + lieu ; on ne répète pas de après en."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a2ye-fill",
+      "type": "fill-blank",
+      "title": "Remplace par Y ou En",
+      "instructions": "Récris la phrase avec le pronom correct à la place de l'espace.",
+      "items": [
+        {
+          "id": "a2yef1",
+          "prompt": "Tu habites à Paris ? — Oui, j'___ habite.",
+          "answers": [
+            [
+              "y"
+            ]
+          ],
+          "options": [
+            "y",
+            "en",
+            "le"
+          ],
+          "explanation": "Y remplace à + lieu."
+        },
+        {
+          "id": "a2yef2",
+          "prompt": "Tu viens de Lyon ? — Oui, j'___ viens.",
+          "answers": [
+            [
+              "en"
+            ]
+          ],
+          "options": [
+            "en",
+            "y",
+            "la"
+          ],
+          "explanation": "En remplace de + lieu."
+        },
+        {
+          "id": "a2yef3",
+          "prompt": "Tu as des sœurs ? — Oui, j'___ ai une.",
+          "answers": [
+            [
+              "en"
+            ]
+          ],
+          "options": [
+            "en",
+            "y",
+            "la"
+          ],
+          "explanation": "En remplace une quantité déjà mentionnée."
+        },
+        {
+          "id": "a2yef4",
+          "prompt": "Tu penses souvent à ton voyage ? — Oui, j'___ pense souvent.",
+          "answers": [
+            [
+              "y"
+            ]
+          ],
+          "options": [
+            "y",
+            "en",
+            "le"
+          ],
+          "explanation": "Y remplace à + chose."
+        }
+      ]
+    },
+    {
+      "id": "a2ye-mc",
+      "type": "multiple-choice",
+      "title": "Y ou En ?",
+      "items": [
+        {
+          "id": "a2yem1",
+          "prompt": "Que remplace y ?",
+          "options": [
+            "à + lieu ou à + chose",
+            "de + lieu ou de + chose",
+            "un COD"
+          ],
+          "answerIndex": 0,
+          "explanation": "Y remplace un groupe introduit par à."
+        },
+        {
+          "id": "a2yem2",
+          "prompt": "Que remplace en ?",
+          "options": [
+            "de + lieu/chose ou une quantité",
+            "à + lieu",
+            "un COI"
+          ],
+          "answerIndex": 0,
+          "explanation": "En remplace un groupe introduit par de, ou une quantité."
+        },
+        {
+          "id": "a2yem3",
+          "prompt": "Où se placent y et en ?",
+          "options": [
+            "avant le verbe conjugué",
+            "après le verbe conjugué",
+            "en fin de phrase"
+          ],
+          "answerIndex": 0,
+          "explanation": "Comme les autres pronoms, ils précèdent le verbe conjugué."
+        },
+        {
+          "id": "a2yem4",
+          "prompt": "Comment répond-on à « Tu as deux frères ? » avec en ?",
+          "options": [
+            "Oui, j'en ai deux.",
+            "Oui, j'y ai deux.",
+            "Oui, j'ai en deux."
+          ],
+          "answerIndex": 0,
+          "explanation": "En remplace la quantité, placé avant le verbe conjugué."
+        }
+      ]
+    },
+    {
+      "id": "a2ye-correction",
+      "type": "correction",
+      "title": "Corrige les Erreurs",
+      "items": [
+        {
+          "id": "a2yec1",
+          "incorrect": "J'habite y depuis dix ans.",
+          "answer": [
+            "J'y habite depuis dix ans."
+          ],
+          "explanation": "Y se place avant le verbe conjugué."
+        },
+        {
+          "id": "a2yec2",
+          "incorrect": "Je viens de en Espagne.",
+          "answer": [
+            "J'en viens."
+          ],
+          "explanation": "En remplace déjà de + lieu ; on ne répète pas de."
+        },
+        {
+          "id": "a2yec3",
+          "incorrect": "J'ai des chats deux.",
+          "answer": [
+            "J'en ai deux."
+          ],
+          "explanation": "Pour remplacer une quantité, il faut utiliser en."
+        }
+      ]
+    },
+    {
+      "id": "a2yex-reading",
+      "type": "reading-comprehension",
+      "title": "Lecture : Léa à Paris",
+      "passage": "<p>Léa adore Paris ; elle y habite depuis cinq ans. Elle vient de Marseille, mais elle n'y retourne pas souvent. Elle a deux frères là-bas, et elle en parle avec tendresse. Elle en a de beaux souvenirs.</p>",
+      "items": [
+        {
+          "id": "a2yexr1",
+          "prompt": "Depuis quand Léa habite-t-elle à Paris ?",
+          "options": [
+            "Cinq ans",
+            "Deux ans",
+            "Dix ans"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit : « elle y habite depuis cinq ans »."
+        },
+        {
+          "id": "a2yexr2",
+          "prompt": "D'où vient Léa ?",
+          "options": [
+            "De Marseille",
+            "De Lyon",
+            "De Nice"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit : « Elle vient de Marseille »."
+        },
+        {
+          "id": "a2yexr3",
+          "prompt": "Combien de frères a-t-elle ?",
+          "options": [
+            "Deux",
+            "Un",
+            "Trois"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit : « Elle a deux frères là-bas »."
+        },
+        {
+          "id": "a2yexr4",
+          "prompt": "Comment parle-t-elle de sa famille ?",
+          "options": [
+            "Avec tendresse",
+            "Avec indifférence",
+            "Avec tristesse"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit : « elle en parle avec tendresse »."
+        }
+      ]
+    },
+    {
+      "id": "a2yex-order",
+      "type": "ordering",
+      "title": "Remets la Phrase en Ordre",
+      "items": [
+        {
+          "id": "a2yexo1",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Elle",
+            "y",
+            "habite",
+            "depuis",
+            "cinq",
+            "ans"
+          ],
+          "explanation": "Y remplace à Paris, placé avant le verbe."
+        },
+        {
+          "id": "a2yexo2",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Elle",
+            "en",
+            "parle",
+            "avec",
+            "tendresse"
+          ],
+          "explanation": "En remplace de ses frères, placé avant le verbe."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Y remplace à + lieu ou à + chose ; en remplace de + lieu, de + chose, ou une quantité.",
+    "Comme les autres pronoms, y et en se placent avant le verbe conjugué, ou avant l'auxiliaire au passé composé.",
+    "Avec une quantité, en s'utilise même si le nombre reste exprimé après le verbe : j'en ai deux."
+  ]
+}

@@ -1,0 +1,305 @@
+{
+  "id": "a2-les-prepositions-avec-les-pays-et-les-villes",
+  "level": "A2",
+  "unit": "1",
+  "order": 13,
+  "skill": "grammar",
+  "strand": "prepositions-pays",
+  "title": "Les Prépositions avec les Pays et les Villes",
+  "subtitle": "En/au/aux devant un pays selon son genre, à devant une ville, et venir de/du/des pour l'origine.",
+  "objectives": [
+    "Utiliser en/au/aux devant un pays selon son genre et son nombre.",
+    "Utiliser à devant une ville, toujours sans article.",
+    "Utiliser venir de/du/des pour exprimer l'origine."
+  ],
+  "content": {
+    "intro": "Parler d'un pays ou d'une ville en français demande de choisir la bonne préposition selon le genre du nom — une règle simple une fois les catégories bien identifiées.",
+    "explanation": "<p>Devant un pays <strong>féminin</strong> (ou commençant par une voyelle), on utilise <strong>en</strong> : <em>en France, en Espagne, en Iran</em>. Devant un pays <strong>masculin</strong>, on utilise <strong>au</strong> : <em>au Japon, au Canada, au Brésil</em>. Devant un pays <strong>pluriel</strong>, on utilise <strong>aux</strong> : <em>aux États-Unis, aux Pays-Bas</em>. Devant une <strong>ville</strong>, on utilise toujours <strong>à</strong>, sans article : <em>à Paris, à Tokyo</em>.</p><p>Pour exprimer l'<strong>origine</strong> (venir de), la logique est similaire : <strong>de/d'</strong> devant un pays féminin ou une ville (<em>je viens de France, je viens de Paris</em>), <strong>du</strong> devant un pays masculin (<em>je viens du Japon</em>), <strong>des</strong> devant un pays pluriel (<em>je viens des États-Unis</em>).</p>",
+    "rules": [
+      {
+        "heading": "a) En",
+        "body": "<ul><li>Pays féminins ou commençant par une voyelle : <em>en France, en Espagne, en Iran</em>.</li></ul>"
+      },
+      {
+        "heading": "b) Au / Aux",
+        "body": "<ul><li><strong>au</strong> — pays masculin : <em>au Japon, au Brésil</em>.</li><li><strong>aux</strong> — pays pluriel : <em>aux États-Unis, aux Pays-Bas</em>.</li></ul>"
+      },
+      {
+        "heading": "c) À + ville",
+        "body": "<ul><li>Toujours à, sans article : <em>à Paris, à Rome, à Tokyo</em>.</li></ul>"
+      },
+      {
+        "heading": "d) Venir de/du/des",
+        "body": "<ul><li><em>de/d'</em> (féminin ou ville) — <em>de France, de Paris</em>.</li><li><em>du</em> (masculin) — <em>du Japon</em>.</li><li><em>des</em> (pluriel) — <em>des États-Unis</em>.</li></ul>"
+      }
+    ],
+    "examples": [
+      "Je passe mes vacances en Espagne.",
+      "Il travaille au Japon.",
+      "Ils habitent aux États-Unis.",
+      "Nous visitons Paris cet été.",
+      "Elle vient de France.",
+      "Tu viens du Canada ?",
+      "Ils viennent des Pays-Bas."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Je vis à France.",
+        "right": "Je vis en France.",
+        "why": "Devant un pays féminin, on utilise en ; à est réservé aux villes."
+      },
+      {
+        "wrong": "Il habite en Japon.",
+        "right": "Il habite au Japon.",
+        "why": "Japon est un pays masculin : il faut au, pas en."
+      },
+      {
+        "wrong": "Elle vient de Japon.",
+        "right": "Elle vient du Japon.",
+        "why": "Devant un pays masculin, l'origine s'exprime avec du, pas de seul."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a2pp-fill",
+      "type": "fill-blank",
+      "title": "Complète avec la Préposition Correcte",
+      "instructions": "Choisis la forme correcte pour chaque espace.",
+      "items": [
+        {
+          "id": "a2ppf1",
+          "prompt": "Je passe mes vacances ___ Espagne.",
+          "answers": [
+            [
+              "en"
+            ]
+          ],
+          "options": [
+            "en",
+            "au",
+            "à"
+          ],
+          "explanation": "Espagne est un pays féminin : en."
+        },
+        {
+          "id": "a2ppf2",
+          "prompt": "Il travaille ___ Japon.",
+          "answers": [
+            [
+              "au"
+            ]
+          ],
+          "options": [
+            "au",
+            "en",
+            "aux"
+          ],
+          "explanation": "Japon est un pays masculin : au."
+        },
+        {
+          "id": "a2ppf3",
+          "prompt": "Ils habitent ___ États-Unis.",
+          "answers": [
+            [
+              "aux"
+            ]
+          ],
+          "options": [
+            "aux",
+            "au",
+            "en"
+          ],
+          "explanation": "États-Unis est un pays pluriel : aux."
+        },
+        {
+          "id": "a2ppf4",
+          "prompt": "Elle vient ___ Canada.",
+          "answers": [
+            [
+              "du"
+            ]
+          ],
+          "options": [
+            "du",
+            "de",
+            "des"
+          ],
+          "explanation": "Canada est masculin : origine avec du."
+        }
+      ]
+    },
+    {
+      "id": "a2pp-mc",
+      "type": "multiple-choice",
+      "title": "Pays et Villes",
+      "items": [
+        {
+          "id": "a2ppm1",
+          "prompt": "Quelle préposition utilise-t-on devant une ville ?",
+          "options": [
+            "à",
+            "en",
+            "au"
+          ],
+          "answerIndex": 0,
+          "explanation": "On utilise toujours à devant une ville, sans article."
+        },
+        {
+          "id": "a2ppm2",
+          "prompt": "Quelle préposition utilise-t-on devant un pays féminin ?",
+          "options": [
+            "en",
+            "au",
+            "aux"
+          ],
+          "answerIndex": 0,
+          "explanation": "Les pays féminins (ou à voyelle initiale) prennent en."
+        },
+        {
+          "id": "a2ppm3",
+          "prompt": "Comment dit-on venir des Pays-Bas ?",
+          "options": [
+            "Je viens des Pays-Bas.",
+            "Je viens du Pays-Bas.",
+            "Je viens de Pays-Bas."
+          ],
+          "answerIndex": 0,
+          "explanation": "Pays-Bas est pluriel : origine avec des."
+        },
+        {
+          "id": "a2ppm4",
+          "prompt": "Quelle préposition utilise-t-on devant un pays pluriel comme les États-Unis ?",
+          "options": [
+            "aux",
+            "au",
+            "en"
+          ],
+          "answerIndex": 0,
+          "explanation": "Les pays pluriels prennent aux."
+        }
+      ]
+    },
+    {
+      "id": "a2pp-correction",
+      "type": "correction",
+      "title": "Corrige les Erreurs",
+      "items": [
+        {
+          "id": "a2ppc1",
+          "incorrect": "Je vis à France.",
+          "answer": [
+            "Je vis en France."
+          ],
+          "explanation": "Devant un pays féminin, on utilise en."
+        },
+        {
+          "id": "a2ppc2",
+          "incorrect": "Il habite en Japon.",
+          "answer": [
+            "Il habite au Japon."
+          ],
+          "explanation": "Japon est masculin : au."
+        },
+        {
+          "id": "a2ppc3",
+          "incorrect": "Elle vient de Japon.",
+          "answer": [
+            "Elle vient du Japon."
+          ],
+          "explanation": "Devant un pays masculin, l'origine s'exprime avec du."
+        }
+      ]
+    },
+    {
+      "id": "a2ppx-reading",
+      "type": "reading-comprehension",
+      "title": "Lecture : Le Parcours de Sarah",
+      "passage": "<p>Sarah vit à Berlin, en Allemagne, depuis deux ans. Avant, elle habitait au Portugal, dans la ville de Porto. Elle vient d'une grande famille, originaire des Philippines. Cet été, elle ira aux Pays-Bas pour les vacances.</p>",
+      "items": [
+        {
+          "id": "a2ppxr1",
+          "prompt": "Où vit Sarah actuellement ?",
+          "options": [
+            "À Berlin, en Allemagne",
+            "À Porto, au Portugal",
+            "Aux Pays-Bas"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit : « Sarah vit à Berlin, en Allemagne »."
+        },
+        {
+          "id": "a2ppxr2",
+          "prompt": "Où habitait-elle avant ?",
+          "options": [
+            "Au Portugal, à Porto",
+            "En Allemagne",
+            "Aux Philippines"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit : « elle habitait au Portugal, dans la ville de Porto »."
+        },
+        {
+          "id": "a2ppxr3",
+          "prompt": "D'où vient sa famille, à l'origine ?",
+          "options": [
+            "Des Philippines",
+            "Du Portugal",
+            "De Berlin"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit : « originaire des Philippines »."
+        },
+        {
+          "id": "a2ppxr4",
+          "prompt": "Où ira-t-elle cet été ?",
+          "options": [
+            "Aux Pays-Bas",
+            "Au Portugal",
+            "En Allemagne"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte se termine par « elle ira aux Pays-Bas »."
+        }
+      ]
+    },
+    {
+      "id": "a2ppx-order",
+      "type": "ordering",
+      "title": "Remets la Phrase en Ordre",
+      "items": [
+        {
+          "id": "a2ppxo1",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Elle",
+            "vit",
+            "à",
+            "Berlin",
+            "en",
+            "Allemagne"
+          ],
+          "explanation": "À devant une ville, en devant un pays féminin."
+        },
+        {
+          "id": "a2ppxo2",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Elle",
+            "ira",
+            "aux",
+            "Pays-Bas",
+            "cet",
+            "été"
+          ],
+          "explanation": "Aux devant un pays pluriel."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "En précède un pays féminin, au un pays masculin, aux un pays pluriel ; à précède toujours une ville, sans article.",
+    "L'origine suit la même logique : de/d' (féminin/ville), du (masculin), des (pluriel).",
+    "Ces prépositions dépendent uniquement du genre et du nombre du pays, pas de règles arbitraires."
+  ]
+}
