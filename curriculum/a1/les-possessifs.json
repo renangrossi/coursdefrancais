@@ -1,0 +1,301 @@
+{
+  "id": "a1-les-possessifs",
+  "level": "A1",
+  "unit": "1",
+  "order": 9,
+  "skill": "grammar",
+  "strand": "possessifs",
+  "title": "Les Possessifs",
+  "subtitle": "Mon/ma/mes, ton/ta/tes, son/sa/ses, notre/nos, votre/vos, leur/leurs.",
+  "objectives": [
+    "Utiliser mon/ma/mes, ton/ta/tes, son/sa/ses selon le genre et le nombre du nom possédé.",
+    "Utiliser notre/nos, votre/vos, leur/leurs.",
+    "Appliquer la règle mon/ton/son devant un nom féminin commençant par une voyelle."
+  ],
+  "content": {
+    "intro": "Contrairement à l'anglais, le possessif français s'accorde avec l'objet possédé, pas avec le genre de la personne qui possède.",
+    "explanation": "<p><strong>Mon/ma/mes, ton/ta/tes, son/sa/ses</strong> s'accordent avec le nom qui suit : <em>mon livre</em> (masculin), <em>ma maison</em> (féminin), <em>mes livres</em> (pluriel). <em>Son livre</em> peut signifier « son livre à lui » ou « à elle » — le mot lui-même ne précise pas le genre du possesseur, seulement celui de l'objet possédé.</p><p><strong>Notre/nos</strong> et <strong>votre/vos</strong> ont une seule forme au singulier (<em>notre maison, notre livre</em>) et une au pluriel (<em>nos maisons</em>). <strong>Leur</strong> devient <strong>leurs</strong> devant un nom pluriel : <em>leur maison</em>, mais <em>leurs enfants</em>. Enfin, devant un nom féminin commençant par une voyelle ou un h muet, <em>ma/ta/sa</em> deviennent <strong>mon/ton/son</strong> pour faciliter la prononciation : <em>mon amie</em>, jamais « ma amie ».</p>",
+    "rules": [
+      {
+        "heading": "a) Mon/ma/mes, ton/ta/tes, son/sa/ses",
+        "body": "<ul><li>Masculin : <em>mon livre, ton frère, son père</em>.</li><li>Féminin : <em>ma maison, ta sœur, sa mère</em>.</li><li>Pluriel : <em>mes livres, tes amis, ses enfants</em>.</li></ul>"
+      },
+      {
+        "heading": "b) L'ambiguïté de son/sa/ses",
+        "body": "<ul><li>Son livre = le livre de lui OU le livre d'elle.</li><li>Le contexte précise à qui appartient l'objet, pas le mot lui-même.</li></ul>"
+      },
+      {
+        "heading": "c) Notre/nos, votre/vos, leur/leurs",
+        "body": "<ul><li><em>notre maison</em> (sing.) → <em>nos maisons</em> (plur.).</li><li><em>votre livre</em> (sing.) → <em>vos livres</em> (plur.).</li><li><em>leur maison</em> (sing.) → <em>leurs maisons</em> (plur.).</li></ul>"
+      },
+      {
+        "heading": "d) Mon/ton/son devant une voyelle",
+        "body": "<ul><li>Devant un nom féminin commençant par une voyelle ou un h muet : <em>mon amie, ton école, son adresse</em> (jamais « ma amie »).</li></ul>"
+      }
+    ],
+    "examples": [
+      "C'est mon livre préféré.",
+      "Voici ma maison.",
+      "Ce sont mes amis.",
+      "Elle aime son frère.",
+      "Nous adorons notre quartier.",
+      "Ils cherchent leurs clés.",
+      "C'est mon amie Sophie."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "ma amie",
+        "right": "mon amie",
+        "why": "Devant une voyelle, ma devient mon, même pour un nom féminin."
+      },
+      {
+        "wrong": "Penser que son signifie toujours « à lui ».",
+        "right": "Reconnaître que son livre peut aussi signifier « à elle ».",
+        "why": "En français, l'accord du possessif se fait avec l'objet possédé, pas avec le genre du possesseur."
+      },
+      {
+        "wrong": "Ils cherchent leur clés.",
+        "right": "Ils cherchent leurs clés.",
+        "why": "Leur prend un s au pluriel devant un nom pluriel, comme les autres possessifs."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a1po-fill",
+      "type": "fill-blank",
+      "title": "Complète avec le Bon Possessif",
+      "instructions": "Choisis la forme correcte pour chaque espace.",
+      "items": [
+        {
+          "id": "a1pof1",
+          "prompt": "C'est ___ livre préféré.",
+          "answers": [
+            [
+              "mon"
+            ]
+          ],
+          "options": [
+            "mon",
+            "ma",
+            "mes"
+          ],
+          "explanation": "Livre est masculin singulier : mon livre."
+        },
+        {
+          "id": "a1pof2",
+          "prompt": "Voici ___ maison.",
+          "answers": [
+            [
+              "ma"
+            ]
+          ],
+          "options": [
+            "ma",
+            "mon",
+            "mes"
+          ],
+          "explanation": "Maison est féminin singulier : ma maison."
+        },
+        {
+          "id": "a1pof3",
+          "prompt": "C'est ___ amie Sophie.",
+          "answers": [
+            [
+              "mon"
+            ]
+          ],
+          "options": [
+            "mon",
+            "ma",
+            "ta"
+          ],
+          "explanation": "Devant une voyelle, ma devient mon, même pour un nom féminin."
+        },
+        {
+          "id": "a1pof4",
+          "prompt": "Ils cherchent ___ clés.",
+          "answers": [
+            [
+              "leurs"
+            ]
+          ],
+          "options": [
+            "leurs",
+            "leur",
+            "leures"
+          ],
+          "explanation": "Leur prend un s devant un nom pluriel."
+        }
+      ]
+    },
+    {
+      "id": "a1po-mc",
+      "type": "multiple-choice",
+      "title": "Les Possessifs",
+      "items": [
+        {
+          "id": "a1pom1",
+          "prompt": "Comment dit-on « my friend » (féminin) devant une voyelle ?",
+          "options": [
+            "mon amie",
+            "ma amie",
+            "ta amie"
+          ],
+          "answerIndex": 0,
+          "explanation": "Mon remplace ma devant une voyelle, pour la prononciation."
+        },
+        {
+          "id": "a1pom2",
+          "prompt": "Que peut signifier son livre ?",
+          "options": [
+            "son livre à lui ou à elle",
+            "seulement à lui",
+            "seulement à elle"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le possessif s'accorde avec l'objet, pas avec le possesseur."
+        },
+        {
+          "id": "a1pom3",
+          "prompt": "Quelle est la forme correcte de notre au pluriel ?",
+          "options": [
+            "nos",
+            "notre",
+            "nôtres"
+          ],
+          "answerIndex": 0,
+          "explanation": "Notre devient nos au pluriel."
+        },
+        {
+          "id": "a1pom4",
+          "prompt": "Comment accorder leur devant un nom pluriel ?",
+          "options": [
+            "leurs",
+            "leur",
+            "leures"
+          ],
+          "answerIndex": 0,
+          "explanation": "Leur prend un s devant un nom pluriel."
+        }
+      ]
+    },
+    {
+      "id": "a1po-correction",
+      "type": "correction",
+      "title": "Corrige les Erreurs",
+      "items": [
+        {
+          "id": "a1poc1",
+          "incorrect": "C'est ma amie Sophie.",
+          "answer": [
+            "C'est mon amie Sophie."
+          ],
+          "explanation": "Devant une voyelle, ma devient mon."
+        },
+        {
+          "id": "a1poc2",
+          "incorrect": "Ils cherchent leur clés.",
+          "answer": [
+            "Ils cherchent leurs clés."
+          ],
+          "explanation": "Leur prend un s devant un nom pluriel."
+        },
+        {
+          "id": "a1poc3",
+          "incorrect": "Nous adorons nos quartier.",
+          "answer": [
+            "Nous adorons notre quartier."
+          ],
+          "explanation": "Notre (singulier) pour un seul quartier ; nos est réservé au pluriel."
+        }
+      ]
+    },
+    {
+      "id": "a1pox-reading",
+      "type": "reading-comprehension",
+      "title": "Lecture : Ma Famille",
+      "passage": "<p>Voici ma famille. C'est mon père, et voici sa voiture. Ma sœur adore son chat. Nous adorons notre quartier, et nos voisins sont très sympathiques. Mes amis viennent souvent chez moi avec leurs enfants.</p>",
+      "items": [
+        {
+          "id": "a1poxr1",
+          "prompt": "De qui parle-t-on au début du texte ?",
+          "options": [
+            "Du père",
+            "De la mère",
+            "Du frère"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit : « C'est mon père »."
+        },
+        {
+          "id": "a1poxr2",
+          "prompt": "Qu'aime la sœur ?",
+          "options": [
+            "Son chat",
+            "Son chien",
+            "Sa voiture"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit : « Ma sœur adore son chat »."
+        },
+        {
+          "id": "a1poxr3",
+          "prompt": "Comment sont les voisins ?",
+          "options": [
+            "Très sympathiques",
+            "Très sérieux",
+            "Très occupés"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte le dit directement."
+        },
+        {
+          "id": "a1poxr4",
+          "prompt": "Qui vient souvent chez la personne ?",
+          "options": [
+            "Ses amis avec leurs enfants",
+            "Sa famille",
+            "Ses collègues"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte se termine sur cette visite."
+        }
+      ]
+    },
+    {
+      "id": "a1pox-order",
+      "type": "ordering",
+      "title": "Remets la Phrase en Ordre",
+      "items": [
+        {
+          "id": "a1poxo1",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "C'est",
+            "mon",
+            "père"
+          ],
+          "explanation": "Possessif masculin singulier devant un nom masculin."
+        },
+        {
+          "id": "a1poxo2",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Nos",
+            "voisins",
+            "sont",
+            "très",
+            "sympathiques"
+          ],
+          "explanation": "Possessif pluriel nos devant un nom pluriel."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Les possessifs s'accordent avec l'objet possédé, pas avec le genre de la personne qui possède : son livre peut signifier « à lui » ou « à elle ».",
+    "Notre/votre ont une seule forme au singulier (notre, votre) et une au pluriel (nos, vos) ; leur devient leurs devant un nom pluriel.",
+    "Devant un nom féminin commençant par une voyelle ou un h muet, ma/ta/sa deviennent mon/ton/son : mon amie, pas ma amie."
+  ]
+}

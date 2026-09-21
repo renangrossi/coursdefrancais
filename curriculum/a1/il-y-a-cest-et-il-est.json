@@ -1,0 +1,302 @@
+{
+  "id": "a1-il-y-a-cest-et-il-est",
+  "level": "A1",
+  "unit": "1",
+  "order": 4,
+  "skill": "grammar",
+  "strand": "identification",
+  "title": "Il y a, C'est et Il est",
+  "subtitle": "Comment affirmer l'existence, identifier une personne ou une chose, et décrire une caractéristique.",
+  "objectives": [
+    "Utiliser il y a pour affirmer l'existence ou la présence de quelque chose.",
+    "Utiliser c'est pour identifier une personne, une chose, ou donner une opinion générale.",
+    "Utiliser il/elle est pour décrire une caractéristique ou une profession, sans article."
+  ],
+  "content": {
+    "intro": "Ces trois structures se traduisent parfois par le même mot dans d'autres langues, mais elles ont chacune un usage précis en français, et les confondre est l'une des erreurs les plus fréquentes des débutants.",
+    "explanation": "<p><strong>Il y a</strong> affirme l'existence ou la présence de quelque chose et reste toujours invariable, même au pluriel : <em>Il y a un chat</em> / <em>Il y a des chats</em> (c'est le nom qui prend la marque du pluriel, pas <em>il y a</em>).</p><p><strong>C'est</strong> sert à identifier une personne ou une chose (toujours suivi d'un nom avec son article) ou à donner une opinion générale : <em>C'est mon frère. C'est une bonne idée.</em> <strong>Il/elle est</strong> sert plutôt à décrire, avec un adjectif seul ou une profession <em>sans article</em> : <em>Il est fatigué. Elle est professeure.</em> Avec <em>c'est</em>, en revanche, la profession reprend son article : <em>C'est un professeur très patient.</em></p>",
+    "rules": [
+      {
+        "heading": "a) Il y a",
+        "body": "<ul><li>Forme fixe, jamais accordée : <em>Il y a un problème / Il y a des problèmes</em>.</li><li>Sert à affirmer l'existence ou la présence de quelque chose.</li></ul>"
+      },
+      {
+        "heading": "b) C'est + nom",
+        "body": "<ul><li>Identifie qui ou quoi c'est : <em>C'est mon frère. C'est une bonne idée.</em></li><li>Le nom garde toujours son article : <em>C'est un professeur</em>.</li></ul>"
+      },
+      {
+        "heading": "c) Il/elle est + adjectif ou profession",
+        "body": "<ul><li>Décrit une caractéristique : <em>Il est fatigué. Elle est intelligente.</em></li><li>Profession sans article : <em>Elle est professeure</em> (jamais « elle est une professeure »).</li></ul>"
+      },
+      {
+        "heading": "d) Le piège de la profession",
+        "body": "<ul><li>Avec <em>il/elle est</em> : pas d'article — <em>Il est médecin</em>.</li><li>Avec <em>c'est</em> : article obligatoire — <em>C'est un médecin</em>.</li></ul>"
+      }
+    ],
+    "examples": [
+      "Il y a un chat sur le canapé.",
+      "Il y a beaucoup de monde ici.",
+      "C'est mon frère Paul.",
+      "C'est une bonne idée.",
+      "Il est fatigué aujourd'hui.",
+      "Elle est professeure de mathématiques.",
+      "C'est un professeur très patient."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Il y a des problème.",
+        "right": "Il y a des problèmes.",
+        "why": "Le nom prend la marque du pluriel même si il y a reste toujours invariable."
+      },
+      {
+        "wrong": "Elle est une professeure.",
+        "right": "Elle est professeure. (ou : C'est une professeure.)",
+        "why": "Il/elle est + profession ne prend jamais d'article ; c'est un professeur, en revanche, en prend un."
+      },
+      {
+        "wrong": "C'est fatigué.",
+        "right": "Il est fatigué.",
+        "why": "Un adjectif seul décrivant un sujet déjà connu utilise il/elle est, pas c'est, qui s'utilise surtout avec un nom."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a1ie-fill",
+      "type": "fill-blank",
+      "title": "Il y a, C'est ou Il est ?",
+      "instructions": "Choisis l'expression correcte pour chaque espace.",
+      "items": [
+        {
+          "id": "a1ief1",
+          "prompt": "___ beaucoup de monde dans la rue.",
+          "answers": [
+            [
+              "Il y a"
+            ]
+          ],
+          "options": [
+            "Il y a",
+            "C'est",
+            "Il est"
+          ],
+          "explanation": "Il y a affirme la présence de quelque chose."
+        },
+        {
+          "id": "a1ief2",
+          "prompt": "___ un professeur très patient.",
+          "answers": [
+            [
+              "C'est"
+            ]
+          ],
+          "options": [
+            "C'est",
+            "Il y a",
+            "Il est"
+          ],
+          "explanation": "C'est identifie une personne avec un nom accompagné de son article."
+        },
+        {
+          "id": "a1ief3",
+          "prompt": "___ fatigué après le travail.",
+          "answers": [
+            [
+              "Il est"
+            ]
+          ],
+          "options": [
+            "Il est",
+            "C'est",
+            "Il y a"
+          ],
+          "explanation": "Il est + adjectif seul décrit une caractéristique."
+        },
+        {
+          "id": "a1ief4",
+          "prompt": "___ des problèmes à résoudre.",
+          "answers": [
+            [
+              "Il y a"
+            ]
+          ],
+          "options": [
+            "Il y a",
+            "C'est",
+            "Il est"
+          ],
+          "explanation": "Il y a affirme l'existence de plusieurs choses."
+        }
+      ]
+    },
+    {
+      "id": "a1ie-mc",
+      "type": "multiple-choice",
+      "title": "Identifier ou Décrire ?",
+      "items": [
+        {
+          "id": "a1iem1",
+          "prompt": "Comment dit-on « there are many books » ?",
+          "options": [
+            "Il y a beaucoup de livres.",
+            "C'est beaucoup de livres.",
+            "Il est beaucoup de livres."
+          ],
+          "answerIndex": 0,
+          "explanation": "Il y a exprime l'existence de plusieurs choses."
+        },
+        {
+          "id": "a1iem2",
+          "prompt": "Quelle phrase est correcte pour une profession sans article ?",
+          "options": [
+            "Il est médecin.",
+            "Il est un médecin.",
+            "C'est médecin."
+          ],
+          "answerIndex": 0,
+          "explanation": "Il/elle est + profession n'a jamais d'article."
+        },
+        {
+          "id": "a1iem3",
+          "prompt": "Quelle phrase identifie une personne ?",
+          "options": [
+            "C'est Marie.",
+            "Il y a Marie.",
+            "Elle y a Marie."
+          ],
+          "answerIndex": 0,
+          "explanation": "C'est + nom propre identifie qui c'est."
+        },
+        {
+          "id": "a1iem4",
+          "prompt": "Quelle forme reste toujours invariable, même au pluriel ?",
+          "options": [
+            "Il y a",
+            "C'est",
+            "Il est"
+          ],
+          "answerIndex": 0,
+          "explanation": "Seul le nom qui suit il y a change au pluriel, jamais il y a lui-même."
+        }
+      ]
+    },
+    {
+      "id": "a1ie-correction",
+      "type": "correction",
+      "title": "Corrige les Erreurs",
+      "items": [
+        {
+          "id": "a1iec1",
+          "incorrect": "Il y a des problème.",
+          "answer": [
+            "Il y a des problèmes."
+          ],
+          "explanation": "Le nom prend le -s du pluriel, même après il y a."
+        },
+        {
+          "id": "a1iec2",
+          "incorrect": "Elle est une professeure.",
+          "answer": [
+            "Elle est professeure.",
+            "C'est une professeure."
+          ],
+          "explanation": "Pas d'article après il/elle est ; l'article revient avec c'est."
+        },
+        {
+          "id": "a1iec3",
+          "incorrect": "C'est fatigué.",
+          "answer": [
+            "Il est fatigué."
+          ],
+          "explanation": "Un adjectif seul décrivant un sujet connu utilise il/elle est."
+        }
+      ]
+    },
+    {
+      "id": "a1iex-reading",
+      "type": "reading-comprehension",
+      "title": "Lecture : Notre Classe",
+      "passage": "<p>Dans notre classe, il y a vingt-cinq élèves. C'est une classe très sympathique. Il y a aussi un nouveau professeur : c'est Monsieur Dubois. Il est très patient et il est toujours souriant. Il y a beaucoup de livres sur son bureau.</p>",
+      "items": [
+        {
+          "id": "a1iexr1",
+          "prompt": "Combien d'élèves y a-t-il dans la classe ?",
+          "options": [
+            "Vingt-cinq",
+            "Quinze",
+            "Trente"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit : « il y a vingt-cinq élèves »."
+        },
+        {
+          "id": "a1iexr2",
+          "prompt": "Comment s'appelle le nouveau professeur ?",
+          "options": [
+            "Monsieur Dubois",
+            "Monsieur Martin",
+            "Monsieur Petit"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit : « c'est Monsieur Dubois »."
+        },
+        {
+          "id": "a1iexr3",
+          "prompt": "Comment est le professeur ?",
+          "options": [
+            "Patient et souriant",
+            "Sévère et sérieux",
+            "Fatigué"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit : « il est très patient et … toujours souriant »."
+        },
+        {
+          "id": "a1iexr4",
+          "prompt": "Qu'y a-t-il sur son bureau ?",
+          "options": [
+            "Beaucoup de livres",
+            "Un ordinateur",
+            "Rien"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte le mentionne directement."
+        }
+      ]
+    },
+    {
+      "id": "a1iex-order",
+      "type": "ordering",
+      "title": "Remets la Phrase en Ordre",
+      "items": [
+        {
+          "id": "a1iexo1",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Il",
+            "y",
+            "a",
+            "vingt-cinq",
+            "élèves"
+          ],
+          "explanation": "Il y a + nombre + nom au pluriel."
+        },
+        {
+          "id": "a1iexo2",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "C'est",
+            "Monsieur",
+            "Dubois"
+          ],
+          "explanation": "C'est + nom propre pour identifier une personne."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Il y a affirme l'existence de quelque chose et reste toujours invariable ; c'est le nom qui prend la marque du pluriel.",
+    "C'est + nom (avec article) identifie une personne, une chose, ou donne une opinion générale.",
+    "Il/elle est + adjectif ou profession (sans article) décrit une caractéristique ; avec c'est, la profession reprend son article."
+  ]
+}

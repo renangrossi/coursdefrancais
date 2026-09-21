@@ -1,0 +1,302 @@
+{
+  "id": "a1-les-adjectifs-qualificatifs-et-laccord",
+  "level": "A1",
+  "unit": "1",
+  "order": 8,
+  "skill": "grammar",
+  "strand": "adjectifs",
+  "title": "Les Adjectifs Qualificatifs et l'Accord",
+  "subtitle": "Comment accorder un adjectif en genre et en nombre, et où le placer dans la phrase.",
+  "objectives": [
+    "Accorder un adjectif en genre et en nombre avec le nom qu'il qualifie.",
+    "Reconnaître les formations féminines régulières et quelques irrégulières fréquentes.",
+    "Placer correctement les adjectifs avant ou après le nom."
+  ],
+  "content": {
+    "intro": "En français, l'adjectif s'adapte toujours au nom qu'il décrit : il change de forme selon que ce nom est masculin ou féminin, singulier ou pluriel.",
+    "explanation": "<p>La règle générale est d'ajouter un <strong>-e</strong> au féminin (<em>grand → grande</em>) et un <strong>-s</strong> au pluriel (<em>grand → grands, grande → grandes</em>). Les adjectifs déjà terminés par <em>-e</em> au masculin ne changent pas au féminin : <em>jeune, rouge, facile</em>.</p><p>Certains féminins sont irréguliers et doivent être mémorisés : <em>beau → belle, nouveau → nouvelle, blanc → blanche, heureux → heureuse, gentil → gentille</em>. Côté position, la plupart des adjectifs se placent <strong>après</strong> le nom (<em>une voiture rouge</em>), mais une courte liste d'adjectifs courts et très fréquents se place <strong>avant</strong> : <em>grand, petit, bon, beau, jeune, vieux, nouveau, joli</em> (<em>un beau jardin</em>).</p>",
+    "rules": [
+      {
+        "heading": "a) Accord régulier",
+        "body": "<ul><li>Masculin + -e = féminin : <em>grand → grande</em>.</li><li>+ -s = pluriel : <em>grand → grands, grande → grandes</em>.</li></ul>"
+      },
+      {
+        "heading": "b) Adjectifs déjà en -e",
+        "body": "<ul><li>Ne changent pas au féminin : <em>un livre jeune → une histoire jeune</em>, <em>rouge, facile</em>.</li></ul>"
+      },
+      {
+        "heading": "c) Féminins irréguliers fréquents",
+        "body": "<ul><li><em>beau → belle</em>, <em>nouveau → nouvelle</em>, <em>blanc → blanche</em>.</li><li><em>heureux → heureuse</em>, <em>gentil → gentille</em>.</li></ul>"
+      },
+      {
+        "heading": "d) Position dans la phrase",
+        "body": "<ul><li>La plupart des adjectifs se placent après le nom : <em>une voiture rouge</em>.</li><li>Une courte liste se place avant : <em>grand, petit, bon, beau, jeune, vieux, nouveau, joli</em> — <em>un beau jardin</em>.</li></ul>"
+      }
+    ],
+    "examples": [
+      "Elle a une voiture rouge.",
+      "C'est un beau jardin.",
+      "Ils sont très heureux.",
+      "Ma sœur est gentille.",
+      "Les enfants sont petits.",
+      "Nous avons une nouvelle maison."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "une jardin beau",
+        "right": "un beau jardin",
+        "why": "Jardin est masculin (un, pas une), et beau se place avant le nom, comme les autres adjectifs courts fréquents."
+      },
+      {
+        "wrong": "Elle est heureux.",
+        "right": "Elle est heureuse.",
+        "why": "Heureux devient heureuse au féminin (x → se)."
+      },
+      {
+        "wrong": "Les enfants sont petit.",
+        "right": "Les enfants sont petits.",
+        "why": "L'adjectif doit s'accorder en nombre avec le nom pluriel."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a1aj-fill",
+      "type": "fill-blank",
+      "title": "Accorde l'Adjectif",
+      "instructions": "Écris la forme correcte de l'adjectif entre parenthèses.",
+      "items": [
+        {
+          "id": "a1ajf1",
+          "prompt": "Elle a une voiture ___ (rouge).",
+          "answers": [
+            [
+              "rouge"
+            ]
+          ],
+          "options": [
+            "rouge",
+            "rouges",
+            "rougee"
+          ],
+          "explanation": "Rouge se termine déjà par -e ; il ne change pas au féminin."
+        },
+        {
+          "id": "a1ajf2",
+          "prompt": "C'est un ___ (beau) jardin.",
+          "answers": [
+            [
+              "beau"
+            ]
+          ],
+          "options": [
+            "beau",
+            "belle",
+            "beaux"
+          ],
+          "explanation": "Beau, masculin singulier, s'accorde avec jardin."
+        },
+        {
+          "id": "a1ajf3",
+          "prompt": "Ma sœur est très ___ (gentil).",
+          "answers": [
+            [
+              "gentille"
+            ]
+          ],
+          "options": [
+            "gentille",
+            "gentil",
+            "gentils"
+          ],
+          "explanation": "Gentil devient gentille au féminin."
+        },
+        {
+          "id": "a1ajf4",
+          "prompt": "Les enfants sont ___ (petit).",
+          "answers": [
+            [
+              "petits"
+            ]
+          ],
+          "options": [
+            "petits",
+            "petit",
+            "petites"
+          ],
+          "explanation": "Petit s'accorde au masculin pluriel avec enfants."
+        }
+      ]
+    },
+    {
+      "id": "a1aj-mc",
+      "type": "multiple-choice",
+      "title": "Genre, Nombre et Position",
+      "items": [
+        {
+          "id": "a1ajm1",
+          "prompt": "Comment forme-t-on le féminin de heureux ?",
+          "options": [
+            "heureuse",
+            "heureux",
+            "heureuxe"
+          ],
+          "answerIndex": 0,
+          "explanation": "Heureux devient heureuse au féminin."
+        },
+        {
+          "id": "a1ajm2",
+          "prompt": "Où se place généralement l'adjectif beau ?",
+          "options": [
+            "avant le nom",
+            "après le nom",
+            "les deux sont impossibles"
+          ],
+          "answerIndex": 0,
+          "explanation": "Beau fait partie des adjectifs courts qui précèdent le nom."
+        },
+        {
+          "id": "a1ajm3",
+          "prompt": "Comment accorde-t-on grand au féminin pluriel ?",
+          "options": [
+            "grandes",
+            "grands",
+            "grande"
+          ],
+          "answerIndex": 0,
+          "explanation": "Féminin (+e) puis pluriel (+s) : grandes."
+        },
+        {
+          "id": "a1ajm4",
+          "prompt": "Quel adjectif ne change pas entre masculin et féminin ?",
+          "options": [
+            "jeune",
+            "blanc",
+            "heureux"
+          ],
+          "answerIndex": 0,
+          "explanation": "Jeune se termine déjà par -e au masculin."
+        }
+      ]
+    },
+    {
+      "id": "a1aj-correction",
+      "type": "correction",
+      "title": "Corrige les Erreurs",
+      "items": [
+        {
+          "id": "a1ajc1",
+          "incorrect": "une jardin beau",
+          "answer": [
+            "un beau jardin"
+          ],
+          "explanation": "Jardin est masculin et beau se place avant le nom."
+        },
+        {
+          "id": "a1ajc2",
+          "incorrect": "Elle est heureux.",
+          "answer": [
+            "Elle est heureuse."
+          ],
+          "explanation": "Accord féminin obligatoire : heureux → heureuse."
+        },
+        {
+          "id": "a1ajc3",
+          "incorrect": "Les enfants sont petit.",
+          "answer": [
+            "Les enfants sont petits."
+          ],
+          "explanation": "Accord pluriel obligatoire avec enfants."
+        }
+      ]
+    },
+    {
+      "id": "a1ajx-reading",
+      "type": "reading-comprehension",
+      "title": "Lecture : Ma Maison et Mes Voisins",
+      "passage": "<p>J'ai une petite maison blanche avec un beau jardin. Mes voisins sont très gentils et toujours heureux. Ma voiture est rouge et un peu vieille, mais elle marche bien. Le week-end, nous invitons de nouveaux amis pour un grand déjeuner.</p>",
+      "items": [
+        {
+          "id": "a1ajxr1",
+          "prompt": "Comment est la maison ?",
+          "options": [
+            "Petite et blanche",
+            "Grande et bleue",
+            "Vieille et noire"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit : « une petite maison blanche »."
+        },
+        {
+          "id": "a1ajxr2",
+          "prompt": "Comment sont les voisins ?",
+          "options": [
+            "Très gentils et heureux",
+            "Très sérieux",
+            "Très occupés"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte le dit directement."
+        },
+        {
+          "id": "a1ajxr3",
+          "prompt": "Comment est la voiture ?",
+          "options": [
+            "Rouge et un peu vieille",
+            "Verte et neuve",
+            "Noire et rapide"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit : « Ma voiture est rouge et un peu vieille »."
+        },
+        {
+          "id": "a1ajxr4",
+          "prompt": "Que font-ils le week-end ?",
+          "options": [
+            "Ils invitent de nouveaux amis pour un grand déjeuner",
+            "Ils travaillent",
+            "Ils voyagent"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte se termine sur cette activité."
+        }
+      ]
+    },
+    {
+      "id": "a1ajx-order",
+      "type": "ordering",
+      "title": "Remets la Phrase en Ordre",
+      "items": [
+        {
+          "id": "a1ajxo1",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "J'ai",
+            "une",
+            "petite",
+            "maison",
+            "blanche"
+          ],
+          "explanation": "Adjectifs avant et après le nom, accordés au féminin."
+        },
+        {
+          "id": "a1ajxo2",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Mes",
+            "voisins",
+            "sont",
+            "toujours",
+            "heureux"
+          ],
+          "explanation": "Accord pluriel de l'adjectif heureux."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "L'adjectif s'accorde toujours en genre et en nombre avec le nom : -e au féminin, -s au pluriel, -es au féminin pluriel.",
+    "Certains féminins sont irréguliers : beau→belle, blanc→blanche, heureux→heureuse, gentil→gentille.",
+    "La plupart des adjectifs se placent après le nom, mais quelques adjectifs courts et fréquents (grand, petit, beau, bon, jeune, nouveau) se placent avant."
+  ]
+}

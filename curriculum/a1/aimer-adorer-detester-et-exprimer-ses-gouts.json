@@ -1,0 +1,303 @@
+{
+  "id": "a1-aimer-adorer-detester-et-exprimer-ses-gouts",
+  "level": "A1",
+  "unit": "1",
+  "order": 13,
+  "skill": "functional",
+  "strand": "gouts",
+  "title": "Aimer, Adorer, Détester et Exprimer ses Goûts",
+  "subtitle": "Comment parler de ses préférences, avec l'article défini pour une catégorie générale.",
+  "objectives": [
+    "Exprimer ses goûts avec aimer, adorer, détester et ne pas aimer.",
+    "Utiliser l'article défini pour parler d'une catégorie générale (j'aime le café).",
+    "Nuancer ses goûts avec des adverbes (beaucoup, un peu, vraiment, pas du tout)."
+  ],
+  "content": {
+    "intro": "Exprimer ses goûts est l'une des toutes premières choses qu'on apprend à dire dans une nouvelle langue, et le français a sa propre logique à ce sujet.",
+    "explanation": "<p>Les verbes <strong>aimer, adorer, détester</strong> se conjuguent comme des verbes réguliers en -er. Pour parler d'une <strong>catégorie générale</strong>, ils sont suivis de l'article <strong>défini</strong> : <em>j'aime le café, elle déteste les épinards</em> — jamais de l'article indéfini dans ce sens. Pour parler d'une <strong>activité</strong>, ils sont directement suivis d'un <strong>infinitif</strong>, sans préposition : <em>j'adore voyager</em>.</p><p>On peut nuancer ses goûts avec des adverbes : <em>aimer beaucoup, aimer un peu, adorer vraiment, ne pas aimer du tout</em>. Attention à ne pas confondre <em>j'aime le café</em> (préférence générale, article défini) avec <em>je voudrais un café</em> (une tasse précise que l'on demande, article indéfini).</p>",
+    "rules": [
+      {
+        "heading": "a) + article défini + nom (catégorie générale)",
+        "body": "<ul><li><em>j'aime le chocolat, elle déteste les épinards</em>.</li></ul>"
+      },
+      {
+        "heading": "b) + infinitif (activité)",
+        "body": "<ul><li><em>j'adore voyager, nous détestons attendre</em> — jamais de préposition avant l'infinitif.</li></ul>"
+      },
+      {
+        "heading": "c) Nuancer ses goûts",
+        "body": "<ul><li><em>aimer beaucoup / un peu</em>, <em>adorer vraiment</em>, <em>ne pas aimer du tout</em>.</li></ul>"
+      },
+      {
+        "heading": "d) Le piège : j'aime le café vs je voudrais un café",
+        "body": "<ul><li><em>J'aime le café</em> — préférence générale, article défini.</li><li><em>Je voudrais un café</em> — une tasse précise demandée, article indéfini.</li></ul>"
+      }
+    ],
+    "examples": [
+      "J'aime le café le matin.",
+      "Elle adore voyager.",
+      "Nous détestons attendre.",
+      "Il n'aime pas beaucoup les légumes.",
+      "Tu aimes vraiment ce film ?",
+      "Je voudrais un café, s'il vous plaît."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "J'aime un café, en général.",
+        "right": "J'aime le café, en général.",
+        "why": "Une catégorie générale prend l'article défini, pas l'indéfini."
+      },
+      {
+        "wrong": "J'aime à voyager.",
+        "right": "J'aime voyager.",
+        "why": "Aimer + infinitif ne prend jamais de préposition en français."
+      },
+      {
+        "wrong": "Je aime pas le café.",
+        "right": "Je n'aime pas le café.",
+        "why": "La négation ne…pas encadre le verbe ; ne s'élide en n' devant une voyelle."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a1am-fill",
+      "type": "fill-blank",
+      "title": "Complète pour Exprimer un Goût",
+      "instructions": "Choisis la forme correcte pour chaque espace.",
+      "items": [
+        {
+          "id": "a1amf1",
+          "prompt": "J'aime ___ café le matin.",
+          "answers": [
+            [
+              "le"
+            ]
+          ],
+          "options": [
+            "le",
+            "un",
+            "du"
+          ],
+          "explanation": "Catégorie générale : article défini le."
+        },
+        {
+          "id": "a1amf2",
+          "prompt": "Elle adore ___ (voyager).",
+          "answers": [
+            [
+              "voyager"
+            ]
+          ],
+          "options": [
+            "voyager",
+            "à voyager",
+            "de voyager"
+          ],
+          "explanation": "Adorer + infinitif, sans préposition."
+        },
+        {
+          "id": "a1amf3",
+          "prompt": "Il n'aime pas beaucoup ___ légumes.",
+          "answers": [
+            [
+              "les"
+            ]
+          ],
+          "options": [
+            "les",
+            "des",
+            "un"
+          ],
+          "explanation": "Catégorie générale au pluriel : article défini les."
+        },
+        {
+          "id": "a1amf4",
+          "prompt": "Je ___ un café, s'il vous plaît.",
+          "answers": [
+            [
+              "voudrais"
+            ]
+          ],
+          "options": [
+            "voudrais",
+            "aime",
+            "adore"
+          ],
+          "explanation": "Voudrais demande une tasse précise, pas une préférence générale."
+        }
+      ]
+    },
+    {
+      "id": "a1am-mc",
+      "type": "multiple-choice",
+      "title": "Exprimer ses Goûts",
+      "items": [
+        {
+          "id": "a1amm1",
+          "prompt": "Comment dit-on « I love coffee » (en général) ?",
+          "options": [
+            "J'aime le café.",
+            "J'aime un café.",
+            "J'aime café."
+          ],
+          "answerIndex": 0,
+          "explanation": "La préférence générale prend l'article défini."
+        },
+        {
+          "id": "a1amm2",
+          "prompt": "Quelle forme suit directement aimer pour une activité ?",
+          "options": [
+            "l'infinitif",
+            "à + infinitif",
+            "de + infinitif"
+          ],
+          "answerIndex": 0,
+          "explanation": "Aimer + infinitif, sans préposition."
+        },
+        {
+          "id": "a1amm3",
+          "prompt": "Comment demander une tasse précise ?",
+          "options": [
+            "Je voudrais un café.",
+            "J'aime le café.",
+            "Je déteste le café."
+          ],
+          "answerIndex": 0,
+          "explanation": "Je voudrais + article indéfini demande une chose précise."
+        },
+        {
+          "id": "a1amm4",
+          "prompt": "Où se place ne dans la négation ?",
+          "options": [
+            "avant le verbe (ne/n')",
+            "après le verbe seulement",
+            "à la fin de la phrase"
+          ],
+          "answerIndex": 0,
+          "explanation": "Ne (ou n') précède toujours le verbe conjugué."
+        }
+      ]
+    },
+    {
+      "id": "a1am-correction",
+      "type": "correction",
+      "title": "Corrige les Erreurs",
+      "items": [
+        {
+          "id": "a1amc1",
+          "incorrect": "J'aime un café, en général.",
+          "answer": [
+            "J'aime le café, en général."
+          ],
+          "explanation": "Catégorie générale = article défini."
+        },
+        {
+          "id": "a1amc2",
+          "incorrect": "J'aime à voyager.",
+          "answer": [
+            "J'aime voyager."
+          ],
+          "explanation": "Aimer + infinitif sans préposition."
+        },
+        {
+          "id": "a1amc3",
+          "incorrect": "Je aime pas le café.",
+          "answer": [
+            "Je n'aime pas le café."
+          ],
+          "explanation": "Ne s'élide en n' et encadre le verbe avec pas."
+        }
+      ]
+    },
+    {
+      "id": "a1amx-reading",
+      "type": "reading-comprehension",
+      "title": "Lecture : Les Goûts de ma Famille",
+      "passage": "<p>Ma famille adore la cuisine française. Mon père aime beaucoup le fromage, mais il déteste les épinards. Ma mère adore vraiment voyager, et elle aime lire des romans le soir. Moi, je n'aime pas du tout me lever tôt, mais j'adore le café du matin.</p>",
+      "items": [
+        {
+          "id": "a1amxr1",
+          "prompt": "Qu'aime beaucoup le père ?",
+          "options": [
+            "Le fromage",
+            "Les épinards",
+            "Le café"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit : « Mon père aime beaucoup le fromage »."
+        },
+        {
+          "id": "a1amxr2",
+          "prompt": "Que déteste le père ?",
+          "options": [
+            "Les épinards",
+            "Le fromage",
+            "Voyager"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit : « il déteste les épinards »."
+        },
+        {
+          "id": "a1amxr3",
+          "prompt": "Qu'adore vraiment la mère ?",
+          "options": [
+            "Voyager",
+            "Lire",
+            "Cuisiner"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit : « Ma mère adore vraiment voyager »."
+        },
+        {
+          "id": "a1amxr4",
+          "prompt": "Qu'est-ce que la personne n'aime pas du tout ?",
+          "options": [
+            "Se lever tôt",
+            "Le café",
+            "Voyager"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit : « je n'aime pas du tout me lever tôt »."
+        }
+      ]
+    },
+    {
+      "id": "a1amx-order",
+      "type": "ordering",
+      "title": "Remets la Phrase en Ordre",
+      "items": [
+        {
+          "id": "a1amxo1",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Mon",
+            "père",
+            "aime",
+            "beaucoup",
+            "le",
+            "fromage"
+          ],
+          "explanation": "Aimer + article défini pour une catégorie générale."
+        },
+        {
+          "id": "a1amxo2",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "J'adore",
+            "le",
+            "café",
+            "du",
+            "matin"
+          ],
+          "explanation": "Adorer + article défini."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Aimer/adorer/détester + article défini + nom expriment une préférence générale : j'aime le café.",
+    "Aimer/adorer/détester + infinitif (sans préposition) expriment une préférence pour une activité : j'adore voyager.",
+    "Je voudrais + article indéfini demande une chose précise, à ne pas confondre avec j'aime + article défini, qui exprime une préférence générale."
+  ]
+}

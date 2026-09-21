@@ -1,0 +1,300 @@
+{
+  "id": "a1-les-pronoms-sujets-et-toniques",
+  "level": "A1",
+  "unit": "1",
+  "order": 5,
+  "skill": "grammar",
+  "strand": "pronoms",
+  "title": "Les Pronoms Sujets et Toniques",
+  "subtitle": "Je/tu/il/elle/on/nous/vous/ils/elles, et leurs équivalents toniques moi/toi/lui/elle/nous/vous/eux/elles.",
+  "objectives": [
+    "Utiliser correctement les pronoms sujets je/tu/il/elle/on/nous/vous/ils/elles.",
+    "Utiliser les pronoms toniques (moi/toi/lui/elle/nous/vous/eux/elles) après une préposition ou pour insister.",
+    "Employer on comme équivalent familier de nous, conjugué comme il/elle."
+  ],
+  "content": {
+    "intro": "Le français a deux familles de pronoms personnels selon leur position dans la phrase : les pronoms sujets, toujours devant le verbe, et les pronoms toniques, utilisés seuls ou après une préposition.",
+    "explanation": "<p>Les <strong>pronoms sujets</strong> (<em>je, tu, il, elle, on, nous, vous, ils, elles</em>) précèdent toujours le verbe conjugué. <strong>On</strong> est très fréquent à l'oral comme équivalent informel de <em>nous</em>, mais il se conjugue toujours comme <em>il/elle</em> (troisième personne du singulier) : <em>On va au cinéma</em>, pas « on vont ».</p><p>Les <strong>pronoms toniques</strong> (<em>moi, toi, lui, elle, nous, vous, eux, elles</em>) s'utilisent après une préposition (<em>avec moi, chez toi, pour lui</em>), pour insister sur le sujet (<em>Moi, je pense que…</em>), ou seuls dans une réponse courte (<em>— Et toi ? — Moi aussi.</em>).</p>",
+    "rules": [
+      {
+        "heading": "a) Pronoms sujets",
+        "body": "<ul><li><em>je, tu</em> — 1re et 2e personne du singulier.</li><li><em>il, elle</em> — personnes ou choses ; <em>ils, elles</em> au pluriel.</li><li><em>nous, vous</em> — 1re et 2e personne du pluriel (vous aussi formel de politesse).</li></ul>"
+      },
+      {
+        "heading": "b) On",
+        "body": "<ul><li>Équivalent familier de nous à l'oral : <em>On va au cinéma</em> = <em>Nous allons au cinéma</em>.</li><li>Se conjugue toujours comme il/elle, même s'il signifie nous.</li></ul>"
+      },
+      {
+        "heading": "c) Pronoms toniques",
+        "body": "<ul><li>Après une préposition : <em>avec moi, chez toi, pour eux</em>.</li><li>Pour insister sur le sujet : <em>Moi, je suis étudiant.</em></li><li>Seuls, dans une réponse courte : <em>— Et vous ? — Nous aussi.</em></li></ul>"
+      },
+      {
+        "heading": "d) Ils ou elles ?",
+        "body": "<ul><li><strong>Ils</strong> — groupe masculin ou mixte (même un seul homme parmi des femmes).</li><li><strong>Elles</strong> — groupe entièrement féminin.</li></ul>"
+      }
+    ],
+    "examples": [
+      "Moi, je suis étudiant.",
+      "Tu viens avec moi ?",
+      "On va au cinéma ce soir.",
+      "Ils sont canadiens ; elles sont françaises.",
+      "C'est pour toi.",
+      "Et vous, vous venez ?"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Je viens avec je.",
+        "right": "Je viens avec moi.",
+        "why": "Après une préposition comme avec, on utilise le pronom tonique, jamais le pronom sujet."
+      },
+      {
+        "wrong": "On vont au cinéma.",
+        "right": "On va au cinéma.",
+        "why": "On se conjugue toujours comme il/elle (3e personne du singulier), même s'il signifie nous."
+      },
+      {
+        "wrong": "Ils sont très gentilles. (pour un groupe entièrement féminin)",
+        "right": "Elles sont très gentilles.",
+        "why": "Un groupe entièrement féminin utilise elles ; ils ne s'utilise que pour un groupe masculin ou mixte."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a1pn-fill",
+      "type": "fill-blank",
+      "title": "Complète avec le Bon Pronom",
+      "instructions": "Choisis le pronom correct pour chaque espace.",
+      "items": [
+        {
+          "id": "a1pnf1",
+          "prompt": "___, je suis étudiant.",
+          "answers": [
+            [
+              "Moi"
+            ]
+          ],
+          "options": [
+            "Moi",
+            "Je",
+            "Me"
+          ],
+          "explanation": "Pronom tonique en début de phrase pour insister sur le sujet."
+        },
+        {
+          "id": "a1pnf2",
+          "prompt": "Tu viens avec ___ ?",
+          "answers": [
+            [
+              "moi"
+            ]
+          ],
+          "options": [
+            "moi",
+            "je",
+            "me"
+          ],
+          "explanation": "Après une préposition, on utilise le pronom tonique."
+        },
+        {
+          "id": "a1pnf3",
+          "prompt": "___ va au cinéma ce soir (forme familière de nous).",
+          "answers": [
+            [
+              "On"
+            ]
+          ],
+          "options": [
+            "On",
+            "Nous",
+            "Ils"
+          ],
+          "explanation": "On est l'équivalent familier de nous, conjugué comme il/elle."
+        },
+        {
+          "id": "a1pnf4",
+          "prompt": "C'est pour ___ (toi, forme tonique).",
+          "answers": [
+            [
+              "toi"
+            ]
+          ],
+          "options": [
+            "toi",
+            "tu",
+            "te"
+          ],
+          "explanation": "Forme tonique après la préposition pour."
+        }
+      ]
+    },
+    {
+      "id": "a1pn-mc",
+      "type": "multiple-choice",
+      "title": "Pronoms Sujets et Toniques",
+      "items": [
+        {
+          "id": "a1pnm1",
+          "prompt": "Quel pronom tonique correspond à il ?",
+          "options": [
+            "lui",
+            "le",
+            "il"
+          ],
+          "answerIndex": 0,
+          "explanation": "Lui est la forme tonique de il."
+        },
+        {
+          "id": "a1pnm2",
+          "prompt": "Comment se conjugue le verbe après on ?",
+          "options": [
+            "comme il/elle (3e personne du singulier)",
+            "comme nous",
+            "comme ils"
+          ],
+          "answerIndex": 0,
+          "explanation": "On est toujours suivi d'un verbe à la 3e personne du singulier."
+        },
+        {
+          "id": "a1pnm3",
+          "prompt": "Quel pronom utiliser pour un groupe entièrement féminin ?",
+          "options": [
+            "elles",
+            "ils",
+            "eux"
+          ],
+          "answerIndex": 0,
+          "explanation": "Elles ne s'utilise que pour un groupe entièrement féminin."
+        },
+        {
+          "id": "a1pnm4",
+          "prompt": "Quel pronom utiliser après une préposition comme avec ou pour ?",
+          "options": [
+            "le pronom tonique (moi, toi, lui…)",
+            "le pronom sujet (je, tu, il…)",
+            "aucun pronom"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le pronom tonique s'utilise toujours après une préposition."
+        }
+      ]
+    },
+    {
+      "id": "a1pn-correction",
+      "type": "correction",
+      "title": "Corrige les Erreurs",
+      "items": [
+        {
+          "id": "a1pnc1",
+          "incorrect": "Je viens avec je.",
+          "answer": [
+            "Je viens avec moi."
+          ],
+          "explanation": "Pronom tonique obligatoire après une préposition."
+        },
+        {
+          "id": "a1pnc2",
+          "incorrect": "On vont au cinéma.",
+          "answer": [
+            "On va au cinéma."
+          ],
+          "explanation": "On se conjugue comme il/elle, pas comme ils."
+        },
+        {
+          "id": "a1pnc3",
+          "incorrect": "Ils sont très gentilles. (à propos d'un groupe entièrement féminin)",
+          "answer": [
+            "Elles sont très gentilles."
+          ],
+          "explanation": "Un groupe entièrement féminin utilise elles, pas ils."
+        }
+      ]
+    },
+    {
+      "id": "a1pnx-reading",
+      "type": "reading-comprehension",
+      "title": "Lecture : Ma Famille et Mes Amis",
+      "passage": "<p>Moi, je m'appelle Sami. Toi, tu es ma meilleure amie. Elle, c'est ma sœur Nora. Nous, on habite ensemble depuis un an. Eux, ce sont nos voisins ; ils sont très gentils. Et vous, vous habitez où ?</p>",
+      "items": [
+        {
+          "id": "a1pnxr1",
+          "prompt": "Comment s'appelle la personne qui parle ?",
+          "options": [
+            "Sami",
+            "Nora",
+            "Eux"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte commence par « Moi, je m'appelle Sami »."
+        },
+        {
+          "id": "a1pnxr2",
+          "prompt": "Qui est Nora ?",
+          "options": [
+            "La sœur de Sami",
+            "La voisine",
+            "L'amie"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit : « Elle, c'est ma sœur Nora »."
+        },
+        {
+          "id": "a1pnxr3",
+          "prompt": "Depuis combien de temps habitent-ils ensemble ?",
+          "options": [
+            "Un an",
+            "Deux ans",
+            "Six mois"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit : « on habite ensemble depuis un an »."
+        },
+        {
+          "id": "a1pnxr4",
+          "prompt": "Comment sont les voisins, selon le texte ?",
+          "options": [
+            "Très gentils",
+            "Très sérieux",
+            "Très occupés"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit : « ils sont très gentils »."
+        }
+      ]
+    },
+    {
+      "id": "a1pnx-order",
+      "type": "ordering",
+      "title": "Remets la Phrase en Ordre",
+      "items": [
+        {
+          "id": "a1pnxo1",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Nous",
+            "on",
+            "habite",
+            "ensemble"
+          ],
+          "explanation": "On remplace nous à l'oral, conjugué comme il/elle."
+        },
+        {
+          "id": "a1pnxo2",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Ils",
+            "sont",
+            "très",
+            "gentils"
+          ],
+          "explanation": "Pronom sujet pluriel + adjectif accordé au masculin pluriel."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Les pronoms sujets (je/tu/il/elle/on/nous/vous/ils/elles) précèdent toujours le verbe conjugué ; on se conjugue comme il/elle même s'il signifie nous.",
+    "Les pronoms toniques (moi/toi/lui/elle/nous/vous/eux/elles) s'utilisent après une préposition, pour insister, ou seuls dans une réponse courte.",
+    "Ils s'utilise pour un groupe masculin ou mixte ; elles seulement pour un groupe entièrement féminin."
+  ]
+}

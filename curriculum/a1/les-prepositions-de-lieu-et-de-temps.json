@@ -1,0 +1,305 @@
+{
+  "id": "a1-les-prepositions-de-lieu-et-de-temps",
+  "level": "A1",
+  "unit": "1",
+  "order": 11,
+  "skill": "grammar",
+  "strand": "prepositions",
+  "title": "Les Prépositions de Lieu et de Temps",
+  "subtitle": "À, en, au, dans, sur, sous, devant, derrière, depuis — situer dans l'espace et dans le temps.",
+  "objectives": [
+    "Utiliser les prépositions de lieu à, en, au selon le type de lieu (ville, pays féminin, pays masculin).",
+    "Utiliser dans, sur, sous, devant, derrière pour des relations spatiales concrètes.",
+    "Utiliser à, en, de…à et depuis pour situer dans le temps."
+  ],
+  "content": {
+    "intro": "Les prépositions de lieu et de temps sont parmi les mots les plus fréquents du français, mais leur choix dépend de règles précises qu'il faut mémoriser dès le début.",
+    "explanation": "<p>Pour les <strong>lieux</strong> : <strong>à</strong> s'utilise devant une ville (<em>à Paris</em>), <strong>en</strong> devant un pays féminin (<em>en France</em>), et <strong>au</strong> devant un pays masculin (<em>au Japon</em>) — <strong>aux</strong> au pluriel (<em>aux États-Unis</em>). Pour des relations spatiales plus concrètes, on utilise <em>dans, sur, sous, devant, derrière</em>.</p><p>Pour le <strong>temps</strong> : <strong>à</strong> précède une heure précise (<em>à huit heures</em>), <strong>en</strong> précède un mois ou une année (<em>en janvier, en 2024</em>). <strong>De…à</strong> délimite une plage horaire (<em>de neuf heures à midi</em>), et <strong>depuis</strong> exprime une durée commencée dans le passé et qui continue au présent (<em>j'habite ici depuis deux ans</em>).</p>",
+    "rules": [
+      {
+        "heading": "a) À, en, au pour les lieux",
+        "body": "<ul><li><strong>à</strong> + ville — <em>à Paris, à Lyon</em>.</li><li><strong>en</strong> + pays féminin — <em>en France, en Espagne</em>.</li><li><strong>au</strong> + pays masculin, <strong>aux</strong> + pays pluriel — <em>au Japon, aux États-Unis</em>.</li></ul>"
+      },
+      {
+        "heading": "b) Prépositions spatiales concrètes",
+        "body": "<ul><li><em>dans le sac, sur la table, sous le lit, devant la maison, derrière l'école</em>.</li></ul>"
+      },
+      {
+        "heading": "c) À et en pour le temps précis",
+        "body": "<ul><li><strong>à</strong> + heure — <em>à huit heures</em>.</li><li><strong>en</strong> + mois/année — <em>en janvier, en 2024</em>.</li></ul>"
+      },
+      {
+        "heading": "d) De…à et depuis",
+        "body": "<ul><li><strong>de…à</strong> délimite une plage horaire — <em>de neuf heures à midi</em>.</li><li><strong>depuis</strong> exprime une durée commencée dans le passé, encore vraie maintenant — <em>depuis deux ans</em>.</li></ul>"
+      }
+    ],
+    "examples": [
+      "J'habite à Paris.",
+      "Elle vit en France.",
+      "Ils voyagent au Japon.",
+      "Le chat dort sous la table.",
+      "Le musée est devant la gare.",
+      "Nous travaillons de neuf heures à midi.",
+      "Il habite ici depuis deux ans."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Je vis à France.",
+        "right": "Je vis en France.",
+        "why": "Les pays féminins utilisent en, pas à."
+      },
+      {
+        "wrong": "Ils voyagent en Japon.",
+        "right": "Ils voyagent au Japon.",
+        "why": "Les pays masculins utilisent au, pas en."
+      },
+      {
+        "wrong": "J'habite ici pendant deux ans.",
+        "right": "J'habite ici depuis deux ans.",
+        "why": "Depuis exprime une action commencée dans le passé et qui continue maintenant ; pendant décrit une durée totale, sans lien avec le présent."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a1pp-fill",
+      "type": "fill-blank",
+      "title": "Complète avec la Bonne Préposition",
+      "instructions": "Choisis la préposition correcte pour chaque espace.",
+      "items": [
+        {
+          "id": "a1ppf1",
+          "prompt": "J'habite ___ Paris.",
+          "answers": [
+            [
+              "à"
+            ]
+          ],
+          "options": [
+            "à",
+            "en",
+            "au"
+          ],
+          "explanation": "à précède le nom d'une ville."
+        },
+        {
+          "id": "a1ppf2",
+          "prompt": "Elle vit ___ France.",
+          "answers": [
+            [
+              "en"
+            ]
+          ],
+          "options": [
+            "en",
+            "au",
+            "à"
+          ],
+          "explanation": "en précède un pays féminin."
+        },
+        {
+          "id": "a1ppf3",
+          "prompt": "Le chat dort ___ la table.",
+          "answers": [
+            [
+              "sous"
+            ]
+          ],
+          "options": [
+            "sous",
+            "sur",
+            "devant"
+          ],
+          "explanation": "Sous exprime une position en dessous de quelque chose."
+        },
+        {
+          "id": "a1ppf4",
+          "prompt": "Il habite ici ___ deux ans.",
+          "answers": [
+            [
+              "depuis"
+            ]
+          ],
+          "options": [
+            "depuis",
+            "pendant",
+            "dans"
+          ],
+          "explanation": "Depuis marque une durée commencée dans le passé et qui continue."
+        }
+      ]
+    },
+    {
+      "id": "a1pp-mc",
+      "type": "multiple-choice",
+      "title": "Prépositions de Lieu et de Temps",
+      "items": [
+        {
+          "id": "a1ppm1",
+          "prompt": "Quelle préposition pour un pays féminin comme la France ?",
+          "options": [
+            "en",
+            "au",
+            "à"
+          ],
+          "answerIndex": 0,
+          "explanation": "Les pays féminins prennent en."
+        },
+        {
+          "id": "a1ppm2",
+          "prompt": "Quelle préposition pour un pays masculin comme le Japon ?",
+          "options": [
+            "au",
+            "en",
+            "à"
+          ],
+          "answerIndex": 0,
+          "explanation": "Les pays masculins prennent au."
+        },
+        {
+          "id": "a1ppm3",
+          "prompt": "Quelle préposition exprime une action commencée dans le passé et continuant maintenant ?",
+          "options": [
+            "depuis",
+            "pendant",
+            "dans"
+          ],
+          "answerIndex": 0,
+          "explanation": "Depuis relie le passé au présent."
+        },
+        {
+          "id": "a1ppm4",
+          "prompt": "Quelle préposition pour une ville ?",
+          "options": [
+            "à",
+            "en",
+            "au"
+          ],
+          "answerIndex": 0,
+          "explanation": "à précède toujours le nom d'une ville."
+        }
+      ]
+    },
+    {
+      "id": "a1pp-correction",
+      "type": "correction",
+      "title": "Corrige les Erreurs",
+      "items": [
+        {
+          "id": "a1ppc1",
+          "incorrect": "Je vis à France.",
+          "answer": [
+            "Je vis en France."
+          ],
+          "explanation": "Les pays féminins utilisent en."
+        },
+        {
+          "id": "a1ppc2",
+          "incorrect": "Ils voyagent en Japon.",
+          "answer": [
+            "Ils voyagent au Japon."
+          ],
+          "explanation": "Les pays masculins utilisent au."
+        },
+        {
+          "id": "a1ppc3",
+          "incorrect": "J'habite ici pendant deux ans.",
+          "answer": [
+            "J'habite ici depuis deux ans."
+          ],
+          "explanation": "Depuis exprime une durée commencée dans le passé et continuant au présent."
+        }
+      ]
+    },
+    {
+      "id": "a1ppx-reading",
+      "type": "reading-comprehension",
+      "title": "Lecture : Le Travail de Marc",
+      "passage": "<p>Marc habite à Lyon, mais il travaille en Suisse. Il voyage souvent au Japon pour son travail. Dans son bureau, ses dossiers sont sur la table, sous une pile de livres. Il travaille de huit heures à dix-sept heures, et il vit dans cette ville depuis cinq ans.</p>",
+      "items": [
+        {
+          "id": "a1ppxr1",
+          "prompt": "Où habite Marc ?",
+          "options": [
+            "À Lyon",
+            "En Suisse",
+            "Au Japon"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit : « Marc habite à Lyon »."
+        },
+        {
+          "id": "a1ppxr2",
+          "prompt": "Où travaille-t-il ?",
+          "options": [
+            "En Suisse",
+            "À Lyon",
+            "Au Japon"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit : « il travaille en Suisse »."
+        },
+        {
+          "id": "a1ppxr3",
+          "prompt": "Où sont ses dossiers ?",
+          "options": [
+            "Sur la table, sous une pile de livres",
+            "Dans un tiroir",
+            "Sur une chaise"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte le décrit précisément."
+        },
+        {
+          "id": "a1ppxr4",
+          "prompt": "Depuis combien de temps vit-il dans cette ville ?",
+          "options": [
+            "Cinq ans",
+            "Deux ans",
+            "Dix ans"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit : « depuis cinq ans »."
+        }
+      ]
+    },
+    {
+      "id": "a1ppx-order",
+      "type": "ordering",
+      "title": "Remets la Phrase en Ordre",
+      "items": [
+        {
+          "id": "a1ppxo1",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Il",
+            "vit",
+            "en",
+            "Suisse"
+          ],
+          "explanation": "En devant un pays féminin."
+        },
+        {
+          "id": "a1ppxo2",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Il",
+            "travaille",
+            "de",
+            "huit",
+            "heures",
+            "à",
+            "dix-sept",
+            "heures"
+          ],
+          "explanation": "De…à pour délimiter une plage horaire."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Les prépositions de lieu changent selon le type de lieu : à pour une ville, en pour un pays féminin, au pour un pays masculin.",
+    "Dans, sur, sous, devant, derrière situent précisément un objet dans l'espace.",
+    "Depuis exprime une durée commencée dans le passé et qui continue au présent ; de…à délimite une plage horaire précise."
+  ]
+}

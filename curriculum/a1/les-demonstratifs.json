@@ -1,0 +1,300 @@
+{
+  "id": "a1-les-demonstratifs",
+  "level": "A1",
+  "unit": "1",
+  "order": 10,
+  "skill": "grammar",
+  "strand": "demonstratifs",
+  "title": "Les Démonstratifs",
+  "subtitle": "Ce, cet, cette et ces — comment désigner précisément une personne ou une chose.",
+  "objectives": [
+    "Utiliser ce, cet, cette et ces selon le genre, le nombre et la lettre initiale du nom.",
+    "Distinguer cet (masculin devant voyelle) de cette (féminin).",
+    "Employer les démonstratifs pour désigner une personne ou une chose précise."
+  ],
+  "content": {
+    "intro": "Les démonstratifs pointent vers une personne ou une chose précise, présente ou déjà mentionnée dans la conversation.",
+    "explanation": "<p><strong>Ce</strong> s'utilise devant un nom masculin singulier commençant par une consonne (<em>ce livre, ce garçon</em>), et devient <strong>cet</strong> devant une voyelle ou un h muet (<em>cet homme, cet ami</em>) pour faciliter la prononciation. <strong>Cette</strong> s'utilise devant tout nom féminin singulier, quelle que soit sa première lettre (<em>cette maison, cette amie</em>).</p><p>Au pluriel, une seule forme sert pour les deux genres : <strong>ces</strong> (<em>ces livres, ces maisons</em>). Pour insister sur la proximité ou l'éloignement, on peut ajouter <em>-ci</em> ou <em>-là</em> après le nom : <em>ce livre-ci</em> (celui-ci, proche) contre <em>ce livre-là</em> (celui-là, plus loin).</p>",
+    "rules": [
+      {
+        "heading": "a) Ce",
+        "body": "<ul><li>Masculin singulier devant consonne : <em>ce livre, ce garçon</em>.</li></ul>"
+      },
+      {
+        "heading": "b) Cet",
+        "body": "<ul><li>Masculin singulier devant voyelle ou h muet : <em>cet homme, cet ami</em>.</li></ul>"
+      },
+      {
+        "heading": "c) Cette",
+        "body": "<ul><li>Tout nom féminin singulier : <em>cette maison, cette amie</em>.</li></ul>"
+      },
+      {
+        "heading": "d) Ces et -ci/-là",
+        "body": "<ul><li>Pluriel, masculin ou féminin : <em>ces livres, ces maisons</em>.</li><li>-ci (proche) / -là (loin) pour préciser : <em>ce livre-ci</em> vs <em>ce livre-là</em>.</li></ul>"
+      }
+    ],
+    "examples": [
+      "Ce livre est très intéressant.",
+      "Cet homme travaille avec moi.",
+      "Cette maison est magnifique.",
+      "Ces enfants sont très polis.",
+      "J'aime cet appartement.",
+      "Regarde cette photo !"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "ce homme",
+        "right": "cet homme",
+        "why": "Devant une voyelle ou un h muet, ce devient cet, même si le nom reste masculin."
+      },
+      {
+        "wrong": "cet maison",
+        "right": "cette maison",
+        "why": "Maison est féminin, donc cette ; cet est réservé au masculin."
+      },
+      {
+        "wrong": "ce livres",
+        "right": "ces livres",
+        "why": "Au pluriel, on utilise toujours ces, quel que soit le genre du nom."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a1de-fill",
+      "type": "fill-blank",
+      "title": "Complète avec le Bon Démonstratif",
+      "instructions": "Choisis la forme correcte pour chaque espace.",
+      "items": [
+        {
+          "id": "a1def1",
+          "prompt": "___ livre est très intéressant.",
+          "answers": [
+            [
+              "Ce"
+            ]
+          ],
+          "options": [
+            "Ce",
+            "Cet",
+            "Cette"
+          ],
+          "explanation": "Livre est masculin et commence par une consonne : ce livre."
+        },
+        {
+          "id": "a1def2",
+          "prompt": "___ homme travaille avec moi.",
+          "answers": [
+            [
+              "Cet"
+            ]
+          ],
+          "options": [
+            "Cet",
+            "Ce",
+            "Cette"
+          ],
+          "explanation": "Homme est masculin et commence par une voyelle : cet homme."
+        },
+        {
+          "id": "a1def3",
+          "prompt": "___ maison est magnifique.",
+          "answers": [
+            [
+              "Cette"
+            ]
+          ],
+          "options": [
+            "Cette",
+            "Ce",
+            "Cet"
+          ],
+          "explanation": "Maison est féminin : cette maison."
+        },
+        {
+          "id": "a1def4",
+          "prompt": "___ enfants sont très polis.",
+          "answers": [
+            [
+              "Ces"
+            ]
+          ],
+          "options": [
+            "Ces",
+            "Ce",
+            "Cette"
+          ],
+          "explanation": "Enfants est pluriel : ces enfants."
+        }
+      ]
+    },
+    {
+      "id": "a1de-mc",
+      "type": "multiple-choice",
+      "title": "Les Démonstratifs",
+      "items": [
+        {
+          "id": "a1dem1",
+          "prompt": "Quel démonstratif utiliser devant un nom masculin commençant par une voyelle ?",
+          "options": [
+            "cet",
+            "ce",
+            "cette"
+          ],
+          "answerIndex": 0,
+          "explanation": "Cet remplace ce devant une voyelle pour faciliter la prononciation."
+        },
+        {
+          "id": "a1dem2",
+          "prompt": "Quel démonstratif utiliser au pluriel ?",
+          "options": [
+            "ces",
+            "ce",
+            "cette"
+          ],
+          "answerIndex": 0,
+          "explanation": "Ces est la seule forme du pluriel, pour le masculin comme le féminin."
+        },
+        {
+          "id": "a1dem3",
+          "prompt": "Comment dit-on « this house » ?",
+          "options": [
+            "cette maison",
+            "ce maison",
+            "cet maison"
+          ],
+          "answerIndex": 0,
+          "explanation": "Maison est féminin : cette maison."
+        },
+        {
+          "id": "a1dem4",
+          "prompt": "Que signifie cet dans cet ami ?",
+          "options": [
+            "ce, masculin devant voyelle",
+            "cette au féminin",
+            "ces au pluriel"
+          ],
+          "answerIndex": 0,
+          "explanation": "Cet est la forme de ce utilisée devant une voyelle ou un h muet."
+        }
+      ]
+    },
+    {
+      "id": "a1de-correction",
+      "type": "correction",
+      "title": "Corrige les Erreurs",
+      "items": [
+        {
+          "id": "a1dec1",
+          "incorrect": "Ce homme travaille avec moi.",
+          "answer": [
+            "Cet homme travaille avec moi."
+          ],
+          "explanation": "Devant une voyelle, ce devient cet."
+        },
+        {
+          "id": "a1dec2",
+          "incorrect": "Cet maison est magnifique.",
+          "answer": [
+            "Cette maison est magnifique."
+          ],
+          "explanation": "Maison est féminin, donc cette."
+        },
+        {
+          "id": "a1dec3",
+          "incorrect": "Ce livres sont intéressants.",
+          "answer": [
+            "Ces livres sont intéressants."
+          ],
+          "explanation": "Le pluriel utilise toujours ces."
+        }
+      ]
+    },
+    {
+      "id": "a1dex-reading",
+      "type": "reading-comprehension",
+      "title": "Lecture : Une Photo de Famille",
+      "passage": "<p>Regarde cette photo ! C'est ma famille. Cet homme, c'est mon oncle, et cette femme, c'est ma tante. Ces enfants sont mes cousins. Ce jardin, c'est celui de mes grands-parents.</p>",
+      "items": [
+        {
+          "id": "a1dexr1",
+          "prompt": "Que montre la personne ?",
+          "options": [
+            "Une photo de famille",
+            "Une carte",
+            "Un livre"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte commence par « Regarde cette photo ! C'est ma famille »."
+        },
+        {
+          "id": "a1dexr2",
+          "prompt": "Qui est cet homme ?",
+          "options": [
+            "L'oncle",
+            "Le père",
+            "Le frère"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit : « Cet homme, c'est mon oncle »."
+        },
+        {
+          "id": "a1dexr3",
+          "prompt": "Qui sont ces enfants ?",
+          "options": [
+            "Les cousins",
+            "Les voisins",
+            "Les amis"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit : « Ces enfants sont mes cousins »."
+        },
+        {
+          "id": "a1dexr4",
+          "prompt": "À qui appartient ce jardin ?",
+          "options": [
+            "Aux grands-parents",
+            "Aux voisins",
+            "À l'oncle"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte se termine sur ce jardin des grands-parents."
+        }
+      ]
+    },
+    {
+      "id": "a1dex-order",
+      "type": "ordering",
+      "title": "Remets la Phrase en Ordre",
+      "items": [
+        {
+          "id": "a1dexo1",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Regarde",
+            "cette",
+            "photo"
+          ],
+          "explanation": "Cette devant un nom féminin singulier."
+        },
+        {
+          "id": "a1dexo2",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Cet",
+            "homme",
+            "c'est",
+            "mon",
+            "oncle"
+          ],
+          "explanation": "Cet devant un nom masculin commençant par une voyelle."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Ce s'utilise devant un nom masculin singulier commençant par une consonne ; cet devant une voyelle ou un h muet.",
+    "Cette s'utilise devant tout nom féminin singulier, quelle que soit sa première lettre.",
+    "Ces s'utilise au pluriel, pour le masculin comme pour le féminin."
+  ]
+}

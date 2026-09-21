@@ -1,0 +1,301 @@
+{
+  "id": "a1-les-articles-definis-indefinis-et-contractes",
+  "level": "A1",
+  "unit": "1",
+  "order": 3,
+  "skill": "grammar",
+  "strand": "articles",
+  "title": "Les Articles Définis, Indéfinis et Contractés",
+  "subtitle": "Le/la/l'/les, un/une/des, et les contractions au/aux/du/des avec à et de.",
+  "objectives": [
+    "Utiliser le/la/l'/les et un/une/des selon le genre, le nombre et la lettre initiale du nom.",
+    "Former et utiliser les articles contractés avec à (au/à la/à l'/aux) et de (du/de la/de l'/des).",
+    "Distinguer l'article défini (chose connue ou catégorie générale) de l'article indéfini (chose non précisée)."
+  ],
+  "content": {
+    "intro": "Les articles accompagnent presque tous les noms en français, et leur forme change selon le genre, le nombre, et même selon la préposition qui les précède.",
+    "explanation": "<p>L'article <strong>défini</strong> (<em>le, la, l', les</em>) désigne une chose déjà connue ou une catégorie générale : <em>Le café est excellent ici</em>. L'article <strong>indéfini</strong> (<em>un, une, des</em>) désigne une chose non précisée : <em>J'ai un chat</em>. Devant une voyelle ou un h muet, <em>le</em> et <em>la</em> deviennent toujours <strong>l'</strong> : <em>l'école, l'homme</em>.</p><p>Après les prépositions <strong>à</strong> et <strong>de</strong>, les articles <em>le</em> et <em>les</em> se contractent obligatoirement : <em>à + le → au</em>, <em>à + les → aux</em>, <em>de + le → du</em>, <em>de + les → des</em>. En revanche, <em>à la, à l', de la, de l'</em> ne changent jamais de forme.</p>",
+    "rules": [
+      {
+        "heading": "a) Articles définis",
+        "body": "<ul><li><strong>le</strong> (masculin singulier) — <em>le café</em>.</li><li><strong>la</strong> (féminin singulier) — <em>la piscine</em>.</li><li><strong>l'</strong> (devant voyelle ou h muet) — <em>l'école, l'homme</em>.</li><li><strong>les</strong> (pluriel) — <em>les enfants</em>.</li></ul>"
+      },
+      {
+        "heading": "b) Articles indéfinis",
+        "body": "<ul><li><strong>un</strong> (masculin) — <em>un chat</em>.</li><li><strong>une</strong> (féminin) — <em>une chienne</em>.</li><li><strong>des</strong> (pluriel) — <em>des amis</em>.</li></ul>"
+      },
+      {
+        "heading": "c) Contractions avec à",
+        "body": "<ul><li>à + le → <strong>au</strong> — <em>au cinéma</em>.</li><li>à + les → <strong>aux</strong> — <em>aux toilettes</em>.</li><li>à + la / à + l' ne changent pas — <em>à la piscine, à l'école</em>.</li></ul>"
+      },
+      {
+        "heading": "d) Contractions avec de",
+        "body": "<ul><li>de + le → <strong>du</strong> — <em>du pain</em>.</li><li>de + les → <strong>des</strong> — <em>des enfants du quartier</em>.</li><li>de + la / de + l' ne changent pas — <em>de la confiture, de l'eau</em>.</li></ul>"
+      }
+    ],
+    "examples": [
+      "Je vais au cinéma ce soir.",
+      "Elle boit de l'eau fraîche.",
+      "Nous parlons des enfants du quartier.",
+      "J'ai un chat et une chienne.",
+      "Le café est excellent ici.",
+      "Les élèves aiment l'école."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Je vais à le cinéma.",
+        "right": "Je vais au cinéma.",
+        "why": "à + le se contracte toujours en au ; « à le » n'existe jamais en français."
+      },
+      {
+        "wrong": "la eau",
+        "right": "l'eau",
+        "why": "le et la deviennent toujours l' devant une voyelle ou un h muet."
+      },
+      {
+        "wrong": "J'aime un café le matin, en général.",
+        "right": "J'aime le café, en général.",
+        "why": "Pour parler d'une catégorie générale ou d'une préférence, le français utilise l'article défini, pas l'indéfini."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a1ar-fill",
+      "type": "fill-blank",
+      "title": "Complète avec l'Article Correct",
+      "instructions": "Choisis la forme correcte pour chaque espace.",
+      "items": [
+        {
+          "id": "a1arf1",
+          "prompt": "Je vais ___ cinéma ce soir.",
+          "answers": [
+            [
+              "au"
+            ]
+          ],
+          "options": [
+            "au",
+            "à le",
+            "a"
+          ],
+          "explanation": "à + le se contracte obligatoirement en au."
+        },
+        {
+          "id": "a1arf2",
+          "prompt": "Elle boit ___ eau fraîche.",
+          "answers": [
+            [
+              "de l'"
+            ]
+          ],
+          "options": [
+            "de l'",
+            "de la",
+            "du"
+          ],
+          "explanation": "de + l' ne change pas devant une voyelle."
+        },
+        {
+          "id": "a1arf3",
+          "prompt": "Nous parlons ___ enfants du quartier.",
+          "answers": [
+            [
+              "des"
+            ]
+          ],
+          "options": [
+            "des",
+            "de les",
+            "de le"
+          ],
+          "explanation": "de + les se contracte obligatoirement en des."
+        },
+        {
+          "id": "a1arf4",
+          "prompt": "___ élèves aiment l'école.",
+          "answers": [
+            [
+              "Les"
+            ]
+          ],
+          "options": [
+            "Les",
+            "Le",
+            "La"
+          ],
+          "explanation": "Article défini pluriel devant un nom au pluriel."
+        }
+      ]
+    },
+    {
+      "id": "a1ar-mc",
+      "type": "multiple-choice",
+      "title": "Articles et Contractions",
+      "items": [
+        {
+          "id": "a1arm1",
+          "prompt": "Comment dit-on à + les ?",
+          "options": [
+            "aux",
+            "à les",
+            "als"
+          ],
+          "answerIndex": 0,
+          "explanation": "à + les se contracte toujours en aux."
+        },
+        {
+          "id": "a1arm2",
+          "prompt": "Quel article utilise-t-on devant un nom féminin commençant par une voyelle ?",
+          "options": [
+            "l'",
+            "la",
+            "le"
+          ],
+          "answerIndex": 0,
+          "explanation": "la devient l' devant une voyelle ou un h muet."
+        },
+        {
+          "id": "a1arm3",
+          "prompt": "Pour parler d'une catégorie générale (« Le café est bon »), on utilise…",
+          "options": [
+            "l'article défini",
+            "l'article indéfini",
+            "aucun article"
+          ],
+          "answerIndex": 0,
+          "explanation": "Une catégorie générale ou une préférence prend l'article défini en français."
+        },
+        {
+          "id": "a1arm4",
+          "prompt": "Comment dit-on de + le ?",
+          "options": [
+            "du",
+            "de le",
+            "del"
+          ],
+          "answerIndex": 0,
+          "explanation": "de + le se contracte obligatoirement en du."
+        }
+      ]
+    },
+    {
+      "id": "a1ar-correction",
+      "type": "correction",
+      "title": "Corrige les Erreurs",
+      "items": [
+        {
+          "id": "a1arc1",
+          "incorrect": "Je vais à le cinéma.",
+          "answer": [
+            "Je vais au cinéma."
+          ],
+          "explanation": "à + le devient toujours au."
+        },
+        {
+          "id": "a1arc2",
+          "incorrect": "Elle boit la eau.",
+          "answer": [
+            "Elle boit de l'eau."
+          ],
+          "explanation": "L'article se contracte en l' devant une voyelle : de l'eau, pas la eau."
+        },
+        {
+          "id": "a1arc3",
+          "incorrect": "Nous parlons de les enfants.",
+          "answer": [
+            "Nous parlons des enfants."
+          ],
+          "explanation": "de + les devient toujours des."
+        }
+      ]
+    },
+    {
+      "id": "a1arx-reading",
+      "type": "reading-comprehension",
+      "title": "Lecture : Le Samedi au Marché",
+      "passage": "<p>Le samedi, je vais souvent au marché avec ma sœur. Nous achetons du pain, de la confiture et des légumes frais. Ensuite, nous allons à la piscine, puis nous rentrons à la maison. Le soir, on parle des enfants du quartier qui jouent dans la rue.</p>",
+      "items": [
+        {
+          "id": "a1arxr1",
+          "prompt": "Où va la personne le samedi, en premier ?",
+          "options": [
+            "Au marché",
+            "À la piscine",
+            "À la maison"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit : « je vais souvent au marché »."
+        },
+        {
+          "id": "a1arxr2",
+          "prompt": "Qu'achète-t-elle au marché ?",
+          "options": [
+            "Du pain, de la confiture et des légumes",
+            "Seulement du pain",
+            "Des livres"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte liste ces trois achats."
+        },
+        {
+          "id": "a1arxr3",
+          "prompt": "Où va-t-elle ensuite ?",
+          "options": [
+            "À la piscine",
+            "Au cinéma",
+            "À l'école"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit : « nous allons à la piscine »."
+        },
+        {
+          "id": "a1arxr4",
+          "prompt": "De qui parle-t-on le soir ?",
+          "options": [
+            "Des enfants du quartier",
+            "Des voisins",
+            "Des amis de l'école"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte se termine sur ce sujet."
+        }
+      ]
+    },
+    {
+      "id": "a1arx-order",
+      "type": "ordering",
+      "title": "Remets la Phrase en Ordre",
+      "items": [
+        {
+          "id": "a1arxo1",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Je",
+            "vais",
+            "au",
+            "marché"
+          ],
+          "explanation": "à + le se contracte en au."
+        },
+        {
+          "id": "a1arxo2",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Nous",
+            "achetons",
+            "de",
+            "la",
+            "confiture"
+          ],
+          "explanation": "Article partitif de la devant un nom féminin."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Les articles définis (le/la/l'/les) désignent une chose connue ou une catégorie générale ; les indéfinis (un/une/des) désignent une chose non précisée.",
+    "à + le devient au, à + les devient aux ; de + le devient du, de + les devient des — des contractions obligatoires.",
+    "Devant une voyelle ou un h muet, le et la deviennent toujours l'."
+  ]
+}
