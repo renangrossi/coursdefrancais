@@ -1,0 +1,305 @@
+{
+  "id": "a1-le-present-verbes-irreguliers-courants",
+  "level": "A1",
+  "unit": "1",
+  "order": 7,
+  "skill": "grammar",
+  "strand": "verbes-irreguliers",
+  "title": "Le Présent — Verbes Irréguliers Courants",
+  "subtitle": "Aller, faire, prendre, pouvoir et devoir — cinq verbes indispensables au présent.",
+  "objectives": [
+    "Conjuguer aller et faire au présent, deux verbes irréguliers très fréquents.",
+    "Conjuguer prendre, pouvoir et devoir au présent.",
+    "Utiliser ces verbes dans des phrases simples de la vie quotidienne."
+  ],
+  "content": {
+    "intro": "Ces cinq verbes reviennent dans presque toutes les conversations, et leur conjugaison irrégulière doit être mémorisée directement, sans règle générale.",
+    "explanation": "<p><strong>Aller</strong> (je vais, tu vas, il va, nous allons, vous allez, ils vont) est totalement irrégulier et essentiel — il sert aussi à former le futur proche. <strong>Faire</strong> (je fais, tu fais, il fait, nous faisons, vous faites, ils font) apparaît dans de nombreuses expressions, comme <em>il fait beau</em> ou <em>faire du sport</em>.</p><p><strong>Prendre</strong> (je prends, tu prends, il prend, nous prenons, vous prenez, ils prennent) perd son d aux formes nous/vous/ils. <strong>Pouvoir</strong> (je peux, tu peux, il peut, nous pouvons, vous pouvez, ils peuvent) et <strong>devoir</strong> (je dois, tu dois, il doit, nous devons, vous devez, ils doivent) sont suivis directement d'un infinitif, sans préposition : <em>je peux venir, tu dois partir</em>.</p>",
+    "rules": [
+      {
+        "heading": "a) Aller",
+        "body": "<ul><li>je vais, tu vas, il/elle/on va.</li><li>nous allons, vous allez, ils/elles vont.</li></ul>"
+      },
+      {
+        "heading": "b) Faire",
+        "body": "<ul><li>je fais, tu fais, il/elle/on fait.</li><li>nous faisons, vous faites, ils/elles font.</li></ul>"
+      },
+      {
+        "heading": "c) Prendre",
+        "body": "<ul><li>je prends, tu prends, il/elle/on prend.</li><li>nous prenons, vous prenez, ils/elles prennent (double n).</li></ul>"
+      },
+      {
+        "heading": "d) Pouvoir et devoir + infinitif",
+        "body": "<ul><li><em>Je peux venir.</em> — capacité ou permission.</li><li><em>Tu dois partir.</em> — obligation.</li><li>Toujours suivis directement d'un verbe à l'infinitif, sans préposition.</li></ul>"
+      }
+    ],
+    "examples": [
+      "Je vais à l'école tous les jours.",
+      "Il fait beau aujourd'hui.",
+      "Nous prenons le train ce matin.",
+      "Elle peut parler trois langues.",
+      "Vous devez arriver à l'heure.",
+      "Ils vont au marché ensemble."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Je vas à l'école.",
+        "right": "Je vais à l'école.",
+        "why": "Aller a une conjugaison totalement irrégulière : je vais, pas je vas."
+      },
+      {
+        "wrong": "Nous prendons le train.",
+        "right": "Nous prenons le train.",
+        "why": "Prendre perd son d aux formes nous/vous/ils : prenons, prenez, prennent."
+      },
+      {
+        "wrong": "Vous faisez du sport.",
+        "right": "Vous faites du sport.",
+        "why": "Faire a une forme irrégulière à vous : faites, pas faisez."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a1ir-fill",
+      "type": "fill-blank",
+      "title": "Conjugue le Verbe",
+      "instructions": "Écris la forme correcte du verbe entre parenthèses.",
+      "items": [
+        {
+          "id": "a1irf1",
+          "prompt": "Je ___ (aller) à l'école tous les jours.",
+          "answers": [
+            [
+              "vais"
+            ]
+          ],
+          "options": [
+            "vais",
+            "vas",
+            "va"
+          ],
+          "explanation": "Je vais est la forme irrégulière de aller."
+        },
+        {
+          "id": "a1irf2",
+          "prompt": "Il ___ (faire) beau aujourd'hui.",
+          "answers": [
+            [
+              "fait"
+            ]
+          ],
+          "options": [
+            "fait",
+            "fais",
+            "faisont"
+          ],
+          "explanation": "Il fait est la forme correcte de faire."
+        },
+        {
+          "id": "a1irf3",
+          "prompt": "Nous ___ (prendre) le train ce matin.",
+          "answers": [
+            [
+              "prenons"
+            ]
+          ],
+          "options": [
+            "prenons",
+            "prendons",
+            "prennons"
+          ],
+          "explanation": "Prendre perd son d aux formes nous/vous/ils."
+        },
+        {
+          "id": "a1irf4",
+          "prompt": "Vous ___ (devoir) arriver à l'heure.",
+          "answers": [
+            [
+              "devez"
+            ]
+          ],
+          "options": [
+            "devez",
+            "devont",
+            "doivez"
+          ],
+          "explanation": "Vous devez est la forme correcte de devoir."
+        }
+      ]
+    },
+    {
+      "id": "a1ir-mc",
+      "type": "multiple-choice",
+      "title": "Verbes Irréguliers du Présent",
+      "items": [
+        {
+          "id": "a1irm1",
+          "prompt": "Comment conjugue-t-on aller avec je ?",
+          "options": [
+            "je vais",
+            "je vas",
+            "j'aille"
+          ],
+          "answerIndex": 0,
+          "explanation": "Je vais est la forme correcte et irrégulière."
+        },
+        {
+          "id": "a1irm2",
+          "prompt": "Comment conjugue-t-on faire avec vous ?",
+          "options": [
+            "vous faites",
+            "vous faisez",
+            "vous faisont"
+          ],
+          "answerIndex": 0,
+          "explanation": "Vous faites est une forme irrégulière à mémoriser."
+        },
+        {
+          "id": "a1irm3",
+          "prompt": "Comment conjugue-t-on prendre avec ils ?",
+          "options": [
+            "ils prennent",
+            "ils prendent",
+            "ils prenent"
+          ],
+          "answerIndex": 0,
+          "explanation": "Prendre double le n aux formes ils/elles."
+        },
+        {
+          "id": "a1irm4",
+          "prompt": "Quel verbe utilise-t-on pour exprimer une capacité (je peux) ?",
+          "options": [
+            "pouvoir",
+            "devoir",
+            "vouloir"
+          ],
+          "answerIndex": 0,
+          "explanation": "Pouvoir exprime la capacité ou la permission."
+        }
+      ]
+    },
+    {
+      "id": "a1ir-correction",
+      "type": "correction",
+      "title": "Corrige les Erreurs",
+      "items": [
+        {
+          "id": "a1irc1",
+          "incorrect": "Je vas au marché.",
+          "answer": [
+            "Je vais au marché."
+          ],
+          "explanation": "Aller est totalement irrégulier : je vais, pas je vas."
+        },
+        {
+          "id": "a1irc2",
+          "incorrect": "Nous prendons le bus.",
+          "answer": [
+            "Nous prenons le bus."
+          ],
+          "explanation": "Prendre perd son d aux formes nous/vous/ils."
+        },
+        {
+          "id": "a1irc3",
+          "incorrect": "Vous faisez attention.",
+          "answer": [
+            "Vous faites attention."
+          ],
+          "explanation": "Faire a une forme irrégulière à vous : faites."
+        }
+      ]
+    },
+    {
+      "id": "a1irx-reading",
+      "type": "reading-comprehension",
+      "title": "Lecture : Un Voyage à Paris",
+      "passage": "<p>Demain, je vais à Paris avec mon frère. Nous prenons le train à huit heures. Il fait souvent froid en hiver, donc nous devons prendre des vêtements chauds. Mon frère peut parler un peu anglais, ça peut aider pendant le voyage. À Paris, nous allons visiter la tour Eiffel.</p>",
+      "items": [
+        {
+          "id": "a1irxr1",
+          "prompt": "Où va la personne demain ?",
+          "options": [
+            "À Paris",
+            "À Lyon",
+            "À Nice"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit : « je vais à Paris »."
+        },
+        {
+          "id": "a1irxr2",
+          "prompt": "À quelle heure prennent-ils le train ?",
+          "options": [
+            "À huit heures",
+            "À neuf heures",
+            "À sept heures"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit : « Nous prenons le train à huit heures »."
+        },
+        {
+          "id": "a1irxr3",
+          "prompt": "Pourquoi doivent-ils prendre des vêtements chauds ?",
+          "options": [
+            "Parce qu'il fait souvent froid en hiver",
+            "Parce qu'il pleut",
+            "Parce qu'il neige beaucoup"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte donne cette raison directement."
+        },
+        {
+          "id": "a1irxr4",
+          "prompt": "Que vont-ils visiter à Paris ?",
+          "options": [
+            "La tour Eiffel",
+            "Le Louvre",
+            "Notre-Dame"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte se termine sur cette visite prévue."
+        }
+      ]
+    },
+    {
+      "id": "a1irx-order",
+      "type": "ordering",
+      "title": "Remets la Phrase en Ordre",
+      "items": [
+        {
+          "id": "a1irxo1",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Nous",
+            "prenons",
+            "le",
+            "train",
+            "à",
+            "huit",
+            "heures"
+          ],
+          "explanation": "Prendre conjugué avec nous."
+        },
+        {
+          "id": "a1irxo2",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Il",
+            "fait",
+            "souvent",
+            "froid",
+            "en",
+            "hiver"
+          ],
+          "explanation": "Faire dans une expression météorologique."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Aller (je vais, tu vas, il va, nous allons, vous allez, ils vont) et faire (je fais, tu fais, il fait, nous faisons, vous faites, ils font) sont deux verbes irréguliers essentiels.",
+    "Prendre perd son d aux formes nous/vous/ils : nous prenons, ils prennent.",
+    "Pouvoir et devoir sont suivis directement d'un infinitif, sans préposition : je peux venir, tu dois partir."
+  ]
+}

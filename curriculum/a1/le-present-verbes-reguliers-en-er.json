@@ -1,0 +1,298 @@
+{
+  "id": "a1-le-present-verbes-reguliers-en-er",
+  "level": "A1",
+  "unit": "1",
+  "order": 6,
+  "skill": "grammar",
+  "strand": "verbes-er",
+  "title": "Le Présent — Verbes Réguliers en -ER",
+  "subtitle": "Les terminaisons du premier groupe, et les petites modifications orthographiques de verbes comme manger et appeler.",
+  "objectives": [
+    "Conjuguer au présent un verbe régulier du premier groupe (-er).",
+    "Reconnaître les terminaisons -e, -es, -e, -ons, -ez, -ent.",
+    "Identifier les modifications orthographiques de verbes comme manger et appeler."
+  ],
+  "content": {
+    "intro": "Les verbes en -er forment le groupe le plus large et le plus régulier du français : une fois leur schéma maîtrisé, il s'applique à des centaines de verbes.",
+    "explanation": "<p>Pour conjuguer un verbe régulier en <strong>-er</strong> comme <em>parler</em>, on retire la terminaison <em>-er</em> de l'infinitif et on ajoute : <em>-e, -es, -e, -ons, -ez, -ent</em>. Les trois premières formes du singulier (<em>je, tu, il/elle/on</em>) se prononcent toutes de façon identique à l'oral, malgré leur orthographe différente.</p><p>Quelques verbes en -er ont une petite modification orthographique pour garder le même son. Les verbes en <strong>-ger</strong> comme <em>manger</em> gardent un <strong>e</strong> devant <em>-ons</em> (<em>nous mangeons</em>), pour que le g garde son son doux. Des verbes comme <strong>appeler</strong> doublent leur consonne finale devant une terminaison muette (<em>j'appelle, tu appelles, il appelle, ils appellent</em>), sauf aux formes <em>nous</em> et <em>vous</em> (<em>nous appelons</em>).</p>",
+    "rules": [
+      {
+        "heading": "a) Terminaisons régulières",
+        "body": "<ul><li><strong>je</strong> -e, <strong>tu</strong> -es, <strong>il/elle/on</strong> -e — <em>je parle, tu parles, il parle</em>.</li><li><strong>nous</strong> -ons, <strong>vous</strong> -ez, <strong>ils/elles</strong> -ent — <em>nous parlons, vous parlez, ils parlent</em>.</li></ul>"
+      },
+      {
+        "heading": "b) Verbes en -ger",
+        "body": "<ul><li>Gardent un e devant -ons pour garder le son doux du g : <em>nous mangeons, nous voyageons</em>.</li><li>Les autres formes suivent la règle normale : <em>je mange, tu manges, ils mangent</em>.</li></ul>"
+      },
+      {
+        "heading": "c) Verbes comme appeler",
+        "body": "<ul><li>Doublent leur consonne devant une terminaison muette (-e, -es, -ent) : <em>j'appelle, tu appelles, ils appellent</em>.</li><li>Une seule consonne aux formes nous et vous : <em>nous appelons, vous appelez</em>.</li></ul>"
+      }
+    ],
+    "examples": [
+      "Je parle français.",
+      "Tu manges une pomme.",
+      "Nous mangeons ensemble.",
+      "Ils travaillent beaucoup.",
+      "Elle appelle sa mère.",
+      "Vous voyagez souvent."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Nous mangons.",
+        "right": "Nous mangeons.",
+        "why": "Il faut garder le e après le g devant -ons pour conserver le son doux du g."
+      },
+      {
+        "wrong": "Elle apelle sa mère.",
+        "right": "Elle appelle sa mère.",
+        "why": "Appeler double le l devant une terminaison muette, sauf aux formes nous et vous."
+      },
+      {
+        "wrong": "Il parles français.",
+        "right": "Il parle français.",
+        "why": "La terminaison de il/elle/on est -e, pas -es, qui est réservée à tu."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a1er-fill",
+      "type": "fill-blank",
+      "title": "Conjugue le Verbe",
+      "instructions": "Écris la forme correcte du verbe entre parenthèses.",
+      "items": [
+        {
+          "id": "a1erf1",
+          "prompt": "Je ___ (parler) français.",
+          "answers": [
+            [
+              "parle"
+            ]
+          ],
+          "options": [
+            "parle",
+            "parles",
+            "parlons"
+          ],
+          "explanation": "Terminaison -e pour je."
+        },
+        {
+          "id": "a1erf2",
+          "prompt": "Nous ___ (manger) ensemble.",
+          "answers": [
+            [
+              "mangeons"
+            ]
+          ],
+          "options": [
+            "mangeons",
+            "mangons",
+            "mangeont"
+          ],
+          "explanation": "Nous mangeons garde le e pour le son doux du g."
+        },
+        {
+          "id": "a1erf3",
+          "prompt": "Elle ___ (appeler) sa mère.",
+          "answers": [
+            [
+              "appelle"
+            ]
+          ],
+          "options": [
+            "appelle",
+            "apelle",
+            "appele"
+          ],
+          "explanation": "Appeler double le l devant une terminaison muette."
+        },
+        {
+          "id": "a1erf4",
+          "prompt": "Vous ___ (voyager) souvent.",
+          "answers": [
+            [
+              "voyagez"
+            ]
+          ],
+          "options": [
+            "voyagez",
+            "voyagiez",
+            "voyageez"
+          ],
+          "explanation": "Terminaison régulière -ez pour vous."
+        }
+      ]
+    },
+    {
+      "id": "a1er-mc",
+      "type": "multiple-choice",
+      "title": "Les Terminaisons du Présent",
+      "items": [
+        {
+          "id": "a1erm1",
+          "prompt": "Quelle est la terminaison de nous au présent des verbes en -er ?",
+          "options": [
+            "-ons",
+            "-ez",
+            "-ent"
+          ],
+          "answerIndex": 0,
+          "explanation": "Nous prend toujours -ons au présent."
+        },
+        {
+          "id": "a1erm2",
+          "prompt": "Comment conjugue-t-on manger avec nous ?",
+          "options": [
+            "nous mangeons",
+            "nous mangons",
+            "nous mangeont"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le e se garde devant -ons pour le son doux du g."
+        },
+        {
+          "id": "a1erm3",
+          "prompt": "Quelle est la terminaison de il/elle/on ?",
+          "options": [
+            "-e",
+            "-es",
+            "-ons"
+          ],
+          "answerIndex": 0,
+          "explanation": "Il/elle/on prend -e, comme je."
+        },
+        {
+          "id": "a1erm4",
+          "prompt": "Comment conjugue-t-on appeler avec je ?",
+          "options": [
+            "j'appelle",
+            "j'apelle",
+            "j'appele"
+          ],
+          "answerIndex": 0,
+          "explanation": "Appeler double le l devant une terminaison muette comme -e."
+        }
+      ]
+    },
+    {
+      "id": "a1er-correction",
+      "type": "correction",
+      "title": "Corrige les Erreurs",
+      "items": [
+        {
+          "id": "a1erc1",
+          "incorrect": "Nous mangons à midi.",
+          "answer": [
+            "Nous mangeons à midi."
+          ],
+          "explanation": "Il faut garder le e devant -ons."
+        },
+        {
+          "id": "a1erc2",
+          "incorrect": "Il parles très bien.",
+          "answer": [
+            "Il parle très bien."
+          ],
+          "explanation": "Il/elle/on prend la terminaison -e, pas -es."
+        },
+        {
+          "id": "a1erc3",
+          "incorrect": "Elle apelle son ami.",
+          "answer": [
+            "Elle appelle son ami."
+          ],
+          "explanation": "Appeler double le l sauf aux formes nous et vous."
+        }
+      ]
+    },
+    {
+      "id": "a1erx-reading",
+      "type": "reading-comprehension",
+      "title": "Lecture : Une Journée de Travail",
+      "passage": "<p>Chaque matin, je parle avec mes collègues au bureau. Nous mangeons ensemble à midi, dans un petit restaurant. L'après-midi, elle appelle souvent ses clients, et ils voyagent beaucoup pour leur travail. Le week-end, nous mangeons chez mes parents.</p>",
+      "items": [
+        {
+          "id": "a1erxr1",
+          "prompt": "Avec qui la personne parle-t-elle chaque matin ?",
+          "options": [
+            "Ses collègues",
+            "Ses parents",
+            "Ses clients"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit : « je parle avec mes collègues au bureau »."
+        },
+        {
+          "id": "a1erxr2",
+          "prompt": "Où mangent-ils à midi ?",
+          "options": [
+            "Dans un petit restaurant",
+            "Au bureau",
+            "Chez les parents"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit : « Nous mangeons ensemble à midi, dans un petit restaurant »."
+        },
+        {
+          "id": "a1erxr3",
+          "prompt": "Que fait-elle souvent l'après-midi ?",
+          "options": [
+            "Elle appelle ses clients",
+            "Elle mange",
+            "Elle voyage"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte le dit directement."
+        },
+        {
+          "id": "a1erxr4",
+          "prompt": "Où mangent-ils le week-end ?",
+          "options": [
+            "Chez les parents",
+            "Au restaurant",
+            "Au bureau"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit : « nous mangeons chez mes parents »."
+        }
+      ]
+    },
+    {
+      "id": "a1erx-order",
+      "type": "ordering",
+      "title": "Remets la Phrase en Ordre",
+      "items": [
+        {
+          "id": "a1erxo1",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Nous",
+            "mangeons",
+            "ensemble",
+            "à",
+            "midi"
+          ],
+          "explanation": "Nous + verbe en -ger avec e devant -ons."
+        },
+        {
+          "id": "a1erxo2",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Elle",
+            "appelle",
+            "souvent",
+            "ses",
+            "clients"
+          ],
+          "explanation": "Elle + appeler avec doublement du l."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Les verbes réguliers en -er suivent les terminaisons -e/-es/-e/-ons/-ez/-ent.",
+    "Les verbes en -ger gardent un e devant -ons (nous mangeons) pour conserver le son doux du g.",
+    "Des verbes comme appeler doublent leur consonne finale devant une terminaison muette, sauf aux formes nous et vous."
+  ]
+}

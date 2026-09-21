@@ -1,0 +1,304 @@
+{
+  "id": "a1-la-prononciation-avancee",
+  "level": "A1",
+  "unit": "1",
+  "order": 1,
+  "skill": "pronunciation",
+  "strand": "liaison",
+  "title": "La Prononciation Avancée : Liaisons, Groupes de Lettres et Intonation",
+  "subtitle": "Comment les mots s'enchaînent à l'oral, comment prononcer ai/au/ou/oi/gn/ch/qu, et comment la voix marque une question.",
+  "objectives": [
+    "Distinguer la liaison obligatoire de la liaison interdite dans des exemples courants.",
+    "Reconnaître la prononciation des principaux groupes de lettres (ai, au/eau, ou, oi, gn, ch, qu).",
+    "Utiliser une intonation montante pour une question oui/non et descendante pour une affirmation."
+  ],
+  "content": {
+    "intro": "Après l'alphabet et les sons de base, il est temps d'aller plus loin : comment les mots s'enchaînent entre eux à l'oral, et comment la voix seule peut transformer une phrase en question.",
+    "explanation": "<p>La <strong>liaison</strong> consiste à prononcer une consonne finale normalement muette quand le mot suivant commence par une voyelle. Elle est <strong>obligatoire</strong> après un article ou un déterminant (<em>les amis</em>), après un pronom sujet (<em>vous avez</em>), ou après certaines prépositions courtes (<em>chez eux</em>). Elle est en revanche <strong>interdite</strong> après <em>et</em> (<em>et elle</em>, jamais «&nbsp;ét-elle&nbsp;»), et devant un mot commençant par un <strong>h aspiré</strong> (<em>les / héros</em>, sans liaison, même si le h ne se prononce pas lui-même).</p><p>Certains groupes de lettres se prononcent toujours de la même façon en français, comme une seule unité : <strong>ai/ei</strong> → un son ouvert comme dans <em>fait</em> ; <strong>au/eau</strong> → un son fermé comme dans <em>chaud</em> ; <strong>ou</strong> → comme dans <em>vous</em> ; <strong>oi</strong> → comme dans <em>moi</em> ; <strong>gn</strong> → comme dans <em>montagne</em> ; <strong>ch</strong> → comme dans <em>chat</em> ; <strong>qu</strong> → comme un k, comme dans <em>qui</em>. Enfin, à l'oral, une question sans mot interrogatif (<em>Tu viens ?</em>) se reconnaît surtout à l'<strong>intonation montante</strong> à la fin de la phrase ; une affirmation garde une intonation descendante.</p>",
+    "rules": [
+      {
+        "heading": "a) La liaison obligatoire",
+        "body": "<ul><li>Article/déterminant + nom : <em>les amis, un enfant, mes amis</em>.</li><li>Pronom sujet + verbe : <em>vous avez, ils ont, nous en avons</em>.</li><li>Préposition courte + mot : <em>chez eux, dans un sac, sous un arbre</em>.</li></ul>"
+      },
+      {
+        "heading": "b) La liaison interdite",
+        "body": "<ul><li>Après <em>et</em> : <em>et elle</em> (jamais de liaison après <em>et</em>).</li><li>Devant un h aspiré : <em>les / héros, les / haricots</em>.</li><li>Après un nom singulier, avant un adjectif : généralement pas de liaison à ce niveau.</li></ul>"
+      },
+      {
+        "heading": "c) Groupes de lettres fréquents",
+        "body": "<ul><li><strong>ai/ei</strong> → <em>fait, treize</em>.</li><li><strong>au/eau</strong> → <em>chaud, gâteau</em>.</li><li><strong>ou</strong> → <em>vous, rouge</em>.</li><li><strong>oi</strong> → <em>moi, voiture</em>.</li><li><strong>gn</strong> → <em>montagne, champagne</em>.</li><li><strong>ch</strong> → <em>chat, chien</em>.</li><li><strong>qu</strong> → <em>qui, quatre</em> (jamais «&nbsp;kw&nbsp;»).</li></ul>"
+      },
+      {
+        "heading": "d) L'intonation",
+        "body": "<ul><li>Question oui/non sans mot interrogatif : la voix <strong>monte</strong> à la fin — <em>Tu viens ?</em></li><li>Affirmation ou question avec mot interrogatif : la voix <strong>descend</strong> à la fin — <em>Tu viens avec nous.</em> / <em>Où est-ce que tu vas ?</em></li></ul>"
+      }
+    ],
+    "examples": [
+      "Les amis arrivent bientôt.",
+      "Vous avez de la chance.",
+      "Les héros ne sont pas des surhommes.",
+      "Le gâteau est encore chaud.",
+      "Je voudrais un peu d'eau, s'il vous plaît.",
+      "Le chien s'appelle Champagne.",
+      "Tu viens avec nous ?",
+      "Où est-ce que tu habites ?"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Faire la liaison entre les et héros.",
+        "right": "Ne pas faire de liaison devant un h aspiré : les / héros.",
+        "why": "Le h aspiré bloque la liaison, même s'il ne se prononce pas lui-même."
+      },
+      {
+        "wrong": "Prononcer au et eau comme deux sons séparés.",
+        "right": "Prononcer au/eau comme un seul son fermé, proche du o.",
+        "why": "Ce sont des digraphes : une seule unité sonore, pas la somme de leurs lettres."
+      },
+      {
+        "wrong": "Garder une intonation plate pour poser une question oui/non.",
+        "right": "Faire monter la voix à la fin de la question : Tu viens ?",
+        "why": "À l'oral, l'intonation montante est souvent le seul signal qu'une phrase est une question sans mot interrogatif."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a1pr-fill",
+      "type": "fill-blank",
+      "title": "Complète avec le Bon Mot",
+      "instructions": "Choisis l'orthographe correcte pour chaque espace.",
+      "items": [
+        {
+          "id": "a1prf1",
+          "prompt": "Il fait ___ chaud aujourd'hui.",
+          "answers": [
+            [
+              "beaucoup"
+            ]
+          ],
+          "options": [
+            "beaucoup",
+            "boucoup",
+            "beaucou"
+          ],
+          "explanation": "Beaucoup se termine par -oup, avec un p final muet."
+        },
+        {
+          "id": "a1prf2",
+          "prompt": "Je voudrais un peu d'___, s'il vous plaît.",
+          "answers": [
+            [
+              "eau"
+            ]
+          ],
+          "options": [
+            "eau",
+            "au",
+            "ault"
+          ],
+          "explanation": "Le son [o] s'écrit eau dans ce mot."
+        },
+        {
+          "id": "a1prf3",
+          "prompt": "As-tu vu les ___ dans le jardin ?",
+          "answers": [
+            [
+              "oiseaux"
+            ]
+          ],
+          "options": [
+            "oiseaux",
+            "oizeaux",
+            "oiseau"
+          ],
+          "explanation": "Oiseaux combine oi et eau, et prend un x au pluriel."
+        },
+        {
+          "id": "a1prf4",
+          "prompt": "Le ___ de la voisine aboie beaucoup.",
+          "answers": [
+            [
+              "chien"
+            ]
+          ],
+          "options": [
+            "chien",
+            "chien s",
+            "shien"
+          ],
+          "explanation": "Ch se prononce toujours [ʃ], jamais comme le sh anglais à l'écrit."
+        }
+      ]
+    },
+    {
+      "id": "a1pr-mc",
+      "type": "multiple-choice",
+      "title": "Prononciation et Liaison",
+      "items": [
+        {
+          "id": "a1prm1",
+          "prompt": "Quelle phrase contient une liaison obligatoire ?",
+          "options": [
+            "Les amis arrivent.",
+            "Les héros arrivent.",
+            "Et elle arrive."
+          ],
+          "answerIndex": 0,
+          "explanation": "Article pluriel + nom commençant par une voyelle : liaison obligatoire."
+        },
+        {
+          "id": "a1prm2",
+          "prompt": "Comment se prononce le groupe oi dans moi ?",
+          "options": [
+            "wa",
+            "o-i séparés",
+            "un o long"
+          ],
+          "answerIndex": 0,
+          "explanation": "Oi se prononce toujours [wa] en français."
+        },
+        {
+          "id": "a1prm3",
+          "prompt": "Quel son fait le groupe gn dans montagne ?",
+          "options": [
+            "comme ni (ɲ)",
+            "comme un g dur",
+            "comme un n simple"
+          ],
+          "answerIndex": 0,
+          "explanation": "Gn correspond au son [ɲ], proche du ni de oignon."
+        },
+        {
+          "id": "a1prm4",
+          "prompt": "Une question comme « Tu viens ? » sans mot interrogatif se reconnaît surtout par…",
+          "options": [
+            "l'intonation montante à la fin",
+            "l'ordre des mots",
+            "un accent écrit"
+          ],
+          "answerIndex": 0,
+          "explanation": "À l'oral, la montée de la voix signale la question."
+        }
+      ]
+    },
+    {
+      "id": "a1pr-correction",
+      "type": "correction",
+      "title": "Corrige les Erreurs",
+      "items": [
+        {
+          "id": "a1prc1",
+          "incorrect": "Je voudrais un peu d'au.",
+          "answer": [
+            "Je voudrais un peu d'eau."
+          ],
+          "explanation": "Le son [o] de ce mot s'écrit eau, pas au."
+        },
+        {
+          "id": "a1prc2",
+          "incorrect": "Il y a un chien qui s'apelle Bruno.",
+          "answer": [
+            "Il y a un chien qui s'appelle Bruno."
+          ],
+          "explanation": "S'appeler prend deux p."
+        },
+        {
+          "id": "a1prc3",
+          "incorrect": "Ou est la gare, s'il vous plaît ?",
+          "answer": [
+            "Où est la gare, s'il vous plaît ?"
+          ],
+          "explanation": "Où (lieu) prend un accent grave ; sans accent, ou signifie « ou bien »."
+        }
+      ]
+    },
+    {
+      "id": "a1prx-reading",
+      "type": "reading-comprehension",
+      "title": "Lecture : Le Matin chez Léa",
+      "passage": "<p>Léa habite avec ses amis dans un petit appartement à Lyon. Le matin, elle dit : « Vous avez bien dormi ? » Ses amis répondent en souriant. Dans la cuisine, il y a un gâteau au chocolat et de l'eau fraîche. Le chien de la voisine, qui s'appelle Champagne, aboie dans le jardin. Léa demande : « Tu viens avec nous au marché ? »</p>",
+      "items": [
+        {
+          "id": "a1prxr1",
+          "prompt": "Où habite Léa ?",
+          "options": [
+            "À Lyon",
+            "À Paris",
+            "À Lille"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit : « Léa habite … à Lyon »."
+        },
+        {
+          "id": "a1prxr2",
+          "prompt": "Que demande Léa le matin ?",
+          "options": [
+            "Vous avez bien dormi ?",
+            "Vous avez faim ?",
+            "Vous avez froid ?"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte cite exactement cette question."
+        },
+        {
+          "id": "a1prxr3",
+          "prompt": "Comment s'appelle le chien de la voisine ?",
+          "options": [
+            "Champagne",
+            "Chocolat",
+            "Château"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit : « le chien … qui s'appelle Champagne »."
+        },
+        {
+          "id": "a1prxr4",
+          "prompt": "Qu'y a-t-il dans la cuisine ?",
+          "options": [
+            "Un gâteau au chocolat et de l'eau fraîche",
+            "Du pain et du fromage",
+            "Rien du tout"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte le mentionne directement."
+        }
+      ]
+    },
+    {
+      "id": "a1prx-order",
+      "type": "ordering",
+      "title": "Remets la Phrase en Ordre",
+      "items": [
+        {
+          "id": "a1prxo1",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Vous",
+            "avez",
+            "bien",
+            "dormi"
+          ],
+          "explanation": "Pronom sujet + verbe avoir avec liaison à l'oral."
+        },
+        {
+          "id": "a1prxo2",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Le",
+            "chien",
+            "aboie",
+            "dans",
+            "le",
+            "jardin"
+          ],
+          "explanation": "Sujet + verbe + complément de lieu."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "La liaison relie une consonne finale muette à la voyelle du mot suivant dans des contextes précis (article+nom, pronom+verbe) ; elle est bloquée devant un h aspiré et après et.",
+    "Les groupes ai/au/eau/ou/oi/gn/ch/qu correspondent chacun à un seul son fixe, à mémoriser comme des unités.",
+    "L'intonation montante marque une question oui/non ; l'intonation descendante marque une affirmation ou une question avec mot interrogatif."
+  ]
+}

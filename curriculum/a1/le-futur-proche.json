@@ -1,0 +1,304 @@
+{
+  "id": "a1-le-futur-proche",
+  "level": "A1",
+  "unit": "1",
+  "order": 14,
+  "skill": "grammar",
+  "strand": "futur-proche",
+  "title": "Le Futur Proche",
+  "subtitle": "Aller (au présent) + infinitif — pour parler de projets et d'actions proches dans le temps.",
+  "objectives": [
+    "Former le futur proche avec aller (au présent) + infinitif.",
+    "Utiliser le futur proche pour parler de projets ou d'actions proches dans le temps.",
+    "Placer correctement la négation autour du verbe aller conjugué."
+  ],
+  "content": {
+    "intro": "Le futur proche est la façon la plus courante de parler de l'avenir à l'oral en français, bien plus fréquente que le futur simple dans une conversation quotidienne.",
+    "explanation": "<p>Le futur proche se forme avec <strong>aller</strong> conjugué au présent, suivi directement d'un verbe à l'<strong>infinitif</strong> : <em>je vais manger, tu vas partir, elle va téléphoner</em>. Il s'utilise pour parler de projets, de décisions ou d'actions qui vont bientôt se produire, souvent accompagné de marqueurs temporels comme <em>demain, ce soir, bientôt, la semaine prochaine</em>.</p><p>À la forme négative, <strong>ne…pas</strong> encadre uniquement le verbe <em>aller</em> conjugué, jamais l'infinitif qui le suit : <em>je ne vais pas sortir</em> (et non « je ne vais sortir pas »).</p>",
+    "rules": [
+      {
+        "heading": "a) Formation",
+        "body": "<ul><li>aller (présent) + infinitif : <em>je vais, tu vas, il/elle/on va, nous allons, vous allez, ils/elles vont</em> + verbe à l'infinitif.</li></ul>"
+      },
+      {
+        "heading": "b) Usage",
+        "body": "<ul><li>Projets, décisions, prévisions proches : <em>Je vais téléphoner à ma mère.</em></li></ul>"
+      },
+      {
+        "heading": "c) Négation",
+        "body": "<ul><li>Ne…pas encadre uniquement aller conjugué : <em>Je ne vais pas sortir ce soir.</em></li></ul>"
+      },
+      {
+        "heading": "d) Marqueurs temporels fréquents",
+        "body": "<ul><li><em>demain, ce soir, bientôt, la semaine prochaine, dans une heure</em>.</li></ul>"
+      }
+    ],
+    "examples": [
+      "Je vais manger dans dix minutes.",
+      "Tu vas partir demain ?",
+      "Elle va téléphoner à sa mère.",
+      "Nous allons visiter le musée.",
+      "Vous allez adorer ce film.",
+      "Ils ne vont pas venir ce soir."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Je vais à manger.",
+        "right": "Je vais manger.",
+        "why": "Aller + infinitif ne prend jamais de préposition entre les deux verbes."
+      },
+      {
+        "wrong": "Je ne vais manger pas.",
+        "right": "Je ne vais pas manger.",
+        "why": "La négation encadre uniquement le verbe conjugué (vais), pas l'infinitif."
+      },
+      {
+        "wrong": "Elle va téléphones à sa mère.",
+        "right": "Elle va téléphoner à sa mère.",
+        "why": "Le deuxième verbe reste toujours à l'infinitif, jamais conjugué."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a1fp-fill",
+      "type": "fill-blank",
+      "title": "Conjugue au Futur Proche",
+      "instructions": "Écris la forme correcte de aller pour chaque espace.",
+      "items": [
+        {
+          "id": "a1fpf1",
+          "prompt": "Je ___ (aller) manger dans dix minutes.",
+          "answers": [
+            [
+              "vais"
+            ]
+          ],
+          "options": [
+            "vais",
+            "va",
+            "vas"
+          ],
+          "explanation": "Je vais est la forme correcte pour je."
+        },
+        {
+          "id": "a1fpf2",
+          "prompt": "Tu ___ (aller) partir demain ?",
+          "answers": [
+            [
+              "vas"
+            ]
+          ],
+          "options": [
+            "vas",
+            "va",
+            "vais"
+          ],
+          "explanation": "Tu vas est la forme correcte pour tu."
+        },
+        {
+          "id": "a1fpf3",
+          "prompt": "Nous ___ (aller) visiter le musée.",
+          "answers": [
+            [
+              "allons"
+            ]
+          ],
+          "options": [
+            "allons",
+            "allez",
+            "vont"
+          ],
+          "explanation": "Nous allons est la forme correcte pour nous."
+        },
+        {
+          "id": "a1fpf4",
+          "prompt": "Ils ne ___ pas venir ce soir.",
+          "answers": [
+            [
+              "vont"
+            ]
+          ],
+          "options": [
+            "vont",
+            "va",
+            "allons"
+          ],
+          "explanation": "Ils vont est la forme correcte pour ils."
+        }
+      ]
+    },
+    {
+      "id": "a1fp-mc",
+      "type": "multiple-choice",
+      "title": "Le Futur Proche",
+      "items": [
+        {
+          "id": "a1fpm1",
+          "prompt": "Comment se forme le futur proche ?",
+          "options": [
+            "aller au présent + infinitif",
+            "aller au présent + participe passé",
+            "avoir au présent + infinitif"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le futur proche combine aller et un infinitif."
+        },
+        {
+          "id": "a1fpm2",
+          "prompt": "Quelle phrase est correcte ?",
+          "options": [
+            "Je vais manger.",
+            "Je vais à manger.",
+            "Je vais mange."
+          ],
+          "answerIndex": 0,
+          "explanation": "Aucune préposition entre aller et l'infinitif."
+        },
+        {
+          "id": "a1fpm3",
+          "prompt": "Où se place la négation avec le futur proche ?",
+          "options": [
+            "autour du verbe aller conjugué",
+            "autour de l'infinitif",
+            "à la fin de la phrase"
+          ],
+          "answerIndex": 0,
+          "explanation": "Ne…pas encadre uniquement aller conjugué."
+        },
+        {
+          "id": "a1fpm4",
+          "prompt": "Quel marqueur temporel accompagne souvent le futur proche ?",
+          "options": [
+            "demain",
+            "hier",
+            "avant"
+          ],
+          "answerIndex": 0,
+          "explanation": "Demain marque une action future proche."
+        }
+      ]
+    },
+    {
+      "id": "a1fp-correction",
+      "type": "correction",
+      "title": "Corrige les Erreurs",
+      "items": [
+        {
+          "id": "a1fpc1",
+          "incorrect": "Je vais à manger.",
+          "answer": [
+            "Je vais manger."
+          ],
+          "explanation": "Aucune préposition entre aller et l'infinitif."
+        },
+        {
+          "id": "a1fpc2",
+          "incorrect": "Je ne vais manger pas.",
+          "answer": [
+            "Je ne vais pas manger."
+          ],
+          "explanation": "La négation encadre uniquement aller conjugué."
+        },
+        {
+          "id": "a1fpc3",
+          "incorrect": "Elle va téléphones à sa mère.",
+          "answer": [
+            "Elle va téléphoner à sa mère."
+          ],
+          "explanation": "Le deuxième verbe reste toujours à l'infinitif."
+        }
+      ]
+    },
+    {
+      "id": "a1fpx-reading",
+      "type": "reading-comprehension",
+      "title": "Lecture : Mon Week-End",
+      "passage": "<p>Ce week-end, je vais rester à la maison. Demain, mes amis vont venir chez moi, et nous allons regarder un film. Ma sœur va préparer le dîner, et après, on va jouer à des jeux de société. Je ne vais pas sortir ce soir, parce que je suis fatigué.</p>",
+      "items": [
+        {
+          "id": "a1fpxr1",
+          "prompt": "Où la personne va-t-elle rester ce week-end ?",
+          "options": [
+            "À la maison",
+            "Chez des amis",
+            "En voyage"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit : « je vais rester à la maison »."
+        },
+        {
+          "id": "a1fpxr2",
+          "prompt": "Que vont faire les amis demain ?",
+          "options": [
+            "Venir chez elle et regarder un film",
+            "Aller au cinéma",
+            "Faire du sport"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte le décrit directement."
+        },
+        {
+          "id": "a1fpxr3",
+          "prompt": "Qui va préparer le dîner ?",
+          "options": [
+            "La sœur",
+            "La mère",
+            "Un ami"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit : « Ma sœur va préparer le dîner »."
+        },
+        {
+          "id": "a1fpxr4",
+          "prompt": "Pourquoi ne va-t-elle pas sortir ce soir ?",
+          "options": [
+            "Parce qu'elle est fatiguée",
+            "Parce qu'il pleut",
+            "Parce qu'elle travaille"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte se termine sur cette raison."
+        }
+      ]
+    },
+    {
+      "id": "a1fpx-order",
+      "type": "ordering",
+      "title": "Remets la Phrase en Ordre",
+      "items": [
+        {
+          "id": "a1fpxo1",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Nous",
+            "allons",
+            "regarder",
+            "un",
+            "film"
+          ],
+          "explanation": "Futur proche avec nous."
+        },
+        {
+          "id": "a1fpxo2",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Je",
+            "ne",
+            "vais",
+            "pas",
+            "sortir",
+            "ce",
+            "soir"
+          ],
+          "explanation": "Négation autour du verbe aller conjugué."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Le futur proche se forme avec aller au présent + un verbe à l'infinitif : je vais manger.",
+    "Il s'utilise pour parler de projets ou d'actions proches dans le temps, souvent avec des marqueurs comme demain, ce soir, bientôt.",
+    "La négation encadre uniquement le verbe aller conjugué (ne vais pas), jamais l'infinitif."
+  ]
+}

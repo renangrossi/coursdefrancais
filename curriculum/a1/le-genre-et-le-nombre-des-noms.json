@@ -1,0 +1,300 @@
+{
+  "id": "a1-le-genre-et-le-nombre-des-noms",
+  "level": "A1",
+  "unit": "1",
+  "order": 2,
+  "skill": "grammar",
+  "strand": "genre-nombre",
+  "title": "Le Genre et le Nombre des Noms",
+  "subtitle": "Comment reconnaître le masculin et le féminin d'un nom, et comment former le pluriel.",
+  "objectives": [
+    "Reconnaître des terminaisons typiquement masculines ou féminines.",
+    "Former le pluriel régulier des noms et reconnaître les pluriels irréguliers les plus courants.",
+    "Éviter les pièges des noms qui semblent féminins mais sont masculins, et inversement."
+  ],
+  "content": {
+    "intro": "En français, chaque nom a un genre — masculin ou féminin — et ce genre influence l'article, l'adjectif et parfois le pronom qui l'accompagnent : c'est une information à apprendre dès le premier jour, en même temps que le mot lui-même.",
+    "explanation": "<p>Il n'existe pas de règle universelle pour deviner le genre d'un nom, mais certaines <strong>terminaisons</strong> sont de bons indices : les mots en <em>-tion, -sion, -té, -ette, -ance</em> sont presque toujours féminins ; les mots en <em>-eau, -age, -ment, -isme</em> sont presque toujours masculins. Il faut cependant apprendre chaque nom avec son article dès le début, car il existe de nombreuses exceptions (<em>le problème</em>, <em>la page</em>).</p><p>Le <strong>pluriel</strong> se forme le plus souvent en ajoutant un <strong>-s</strong> final, qui reste muet à l'oral (<em>un livre → des livres</em>). Les noms terminés en <em>-eau, -eu</em> prennent un <strong>-x</strong> (<em>un bateau → des bateaux</em>), et beaucoup de noms en <em>-al</em> deviennent <em>-aux</em> (<em>un cheval → des chevaux</em>). Quelques pluriels sont irréguliers et doivent être mémorisés directement, comme <em>un œil → des yeux</em>.</p>",
+    "rules": [
+      {
+        "heading": "a) Indices de genre",
+        "body": "<ul><li>Souvent féminins : <em>-tion</em> (la nation), <em>-té</em> (la beauté), <em>-ette</em> (la fourchette).</li><li>Souvent masculins : <em>-eau</em> (le bureau), <em>-age</em> (le fromage), <em>-ment</em> (le moment).</li><li>Exceptions courantes à mémoriser : <em>le problème, la page, le silence</em>.</li></ul>"
+      },
+      {
+        "heading": "b) Le pluriel régulier",
+        "body": "<ul><li>Cas général : ajouter -s — <em>un livre → des livres</em> (le -s ne se prononce pas).</li><li>Noms en -eau/-eu : ajouter -x — <em>un bateau → des bateaux, un jeu → des jeux</em>.</li><li>Noms déjà en -s, -x, -z : ne changent pas — <em>un pays → des pays</em>.</li></ul>"
+      },
+      {
+        "heading": "c) Le pluriel irrégulier",
+        "body": "<ul><li>Beaucoup de noms en -al → -aux : <em>un cheval → des chevaux, un journal → des journaux</em>.</li><li>Quelques pluriels totalement irréguliers : <em>un œil → des yeux</em>.</li><li>Un œuf [œf] se prononce différemment au pluriel des œufs [ø], bien que l'orthographe suive la règle générale (+s).</li></ul>"
+      }
+    ],
+    "examples": [
+      "Le bureau est grand ; les bureaux sont neufs.",
+      "La beauté de ce jardin est incroyable.",
+      "Un cheval blanc ; des chevaux blancs.",
+      "J'ai mal à un œil ; elle a de beaux yeux.",
+      "Le problème, c'est le prix.",
+      "Des livres et des journaux sont sur la table."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Dire la problème, en pensant que -ème est féminin.",
+        "right": "Dire le problème : ce nom est masculin malgré sa terminaison en -e.",
+        "why": "La terminaison -e n'indique pas fiablement le genre ; le problème fait partie des exceptions à mémoriser."
+      },
+      {
+        "wrong": "Dire des chevals au pluriel.",
+        "right": "Dire des chevaux.",
+        "why": "Les noms en -al forment souvent leur pluriel en -aux, pas en -als."
+      },
+      {
+        "wrong": "Prononcer le -s final du pluriel dans des livres.",
+        "right": "Ne pas prononcer le -s final : des livres se prononce comme livre.",
+        "why": "Le -s du pluriel est presque toujours muet à l'oral en français ; c'est l'article (le/les) qui marque le nombre à l'oreille."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a1gn-fill",
+      "type": "fill-blank",
+      "title": "Forme le Pluriel",
+      "instructions": "Écris la forme correcte pour chaque espace.",
+      "items": [
+        {
+          "id": "a1gnf1",
+          "prompt": "Un cheval, des ___.",
+          "answers": [
+            [
+              "chevaux"
+            ]
+          ],
+          "options": [
+            "chevaux",
+            "chevals",
+            "chevaus"
+          ],
+          "explanation": "Les noms en -al font souvent leur pluriel en -aux."
+        },
+        {
+          "id": "a1gnf2",
+          "prompt": "Un bateau, des ___.",
+          "answers": [
+            [
+              "bateaux"
+            ]
+          ],
+          "options": [
+            "bateaux",
+            "bateaus",
+            "bateax"
+          ],
+          "explanation": "Les noms en -eau prennent un x au pluriel."
+        },
+        {
+          "id": "a1gnf3",
+          "prompt": "Un œil, des ___.",
+          "answers": [
+            [
+              "yeux"
+            ]
+          ],
+          "options": [
+            "yeux",
+            "œils",
+            "oeuils"
+          ],
+          "explanation": "Œil a un pluriel totalement irrégulier : yeux."
+        },
+        {
+          "id": "a1gnf4",
+          "prompt": "Un pays, des ___.",
+          "answers": [
+            [
+              "pays"
+            ]
+          ],
+          "options": [
+            "pays",
+            "payes",
+            "pais"
+          ],
+          "explanation": "Les noms déjà terminés en -s ne changent pas au pluriel."
+        }
+      ]
+    },
+    {
+      "id": "a1gn-mc",
+      "type": "multiple-choice",
+      "title": "Masculin ou Féminin ?",
+      "items": [
+        {
+          "id": "a1gnm1",
+          "prompt": "Quel est le genre de nation ?",
+          "options": [
+            "féminin",
+            "masculin",
+            "les deux"
+          ],
+          "answerIndex": 0,
+          "explanation": "Les noms en -tion sont presque toujours féminins."
+        },
+        {
+          "id": "a1gnm2",
+          "prompt": "Quel est le genre de problème ?",
+          "options": [
+            "masculin",
+            "féminin",
+            "les deux"
+          ],
+          "answerIndex": 0,
+          "explanation": "Problème fait partie des exceptions masculines malgré sa terminaison en -e."
+        },
+        {
+          "id": "a1gnm3",
+          "prompt": "Comment se forme le pluriel de journal ?",
+          "options": [
+            "journaux",
+            "journals",
+            "journales"
+          ],
+          "answerIndex": 0,
+          "explanation": "Journal suit la règle -al → -aux."
+        },
+        {
+          "id": "a1gnm4",
+          "prompt": "Le -s du pluriel de livres se prononce-t-il ?",
+          "options": [
+            "Non, il est muet",
+            "Oui, comme un s",
+            "Oui, comme un z"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le -s du pluriel est muet à l'oral dans la grande majorité des cas."
+        }
+      ]
+    },
+    {
+      "id": "a1gn-correction",
+      "type": "correction",
+      "title": "Corrige les Erreurs",
+      "items": [
+        {
+          "id": "a1gnc1",
+          "incorrect": "La problème est difficile.",
+          "answer": [
+            "Le problème est difficile."
+          ],
+          "explanation": "Problème est masculin malgré sa terminaison en -e."
+        },
+        {
+          "id": "a1gnc2",
+          "incorrect": "Des chevals courent dans le champ.",
+          "answer": [
+            "Des chevaux courent dans le champ."
+          ],
+          "explanation": "Le pluriel de cheval est chevaux, pas chevals."
+        },
+        {
+          "id": "a1gnc3",
+          "incorrect": "Un bureaux est dans la salle.",
+          "answer": [
+            "Un bureau est dans la salle."
+          ],
+          "explanation": "Au singulier, c'est bureau, sans x ; le x n'apparaît qu'au pluriel."
+        }
+      ]
+    },
+    {
+      "id": "a1gnx-reading",
+      "type": "reading-comprehension",
+      "title": "Lecture : Ma Chambre",
+      "passage": "<p>Dans ma chambre, il y a un grand bureau et une petite table. Sur le bureau, il y a des livres et des journaux. Au mur, il y a un tableau avec des chevaux blancs. Le vrai problème, c'est qu'il n'y a pas assez de place pour tous mes objets.</p>",
+      "items": [
+        {
+          "id": "a1gnxr1",
+          "prompt": "Qu'y a-t-il sur le bureau ?",
+          "options": [
+            "Des livres et des journaux",
+            "Des chevaux",
+            "Un tableau"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte le dit directement."
+        },
+        {
+          "id": "a1gnxr2",
+          "prompt": "Que représente le tableau au mur ?",
+          "options": [
+            "Des chevaux blancs",
+            "Un bureau",
+            "Une table"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit : « un tableau avec des chevaux blancs »."
+        },
+        {
+          "id": "a1gnxr3",
+          "prompt": "Quel est le vrai problème, selon le texte ?",
+          "options": [
+            "Pas assez de place",
+            "Pas assez de livres",
+            "Pas assez de lumière"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte se termine sur ce manque de place."
+        },
+        {
+          "id": "a1gnxr4",
+          "prompt": "Le mot problème est-il masculin dans ce texte ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte utilise « le vrai problème », donc masculin."
+        }
+      ]
+    },
+    {
+      "id": "a1gnx-order",
+      "type": "ordering",
+      "title": "Remets la Phrase en Ordre",
+      "items": [
+        {
+          "id": "a1gnxo1",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Il",
+            "y",
+            "a",
+            "un",
+            "grand",
+            "bureau"
+          ],
+          "explanation": "Il y a + article + adjectif + nom."
+        },
+        {
+          "id": "a1gnxo2",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Le",
+            "problème",
+            "est",
+            "le",
+            "manque",
+            "de",
+            "place"
+          ],
+          "explanation": "Sujet masculin (le problème) + être + attribut."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Le genre d'un nom se devine parfois par sa terminaison (-tion/-té féminins, -eau/-age masculins), mais il faut apprendre chaque nom avec son article, car les exceptions sont nombreuses.",
+    "Le pluriel régulier ajoute -s (muet à l'oral) ; les noms en -eau/-eu ajoutent -x, et beaucoup de noms en -al deviennent -aux.",
+    "Quelques pluriels sont irréguliers et doivent être mémorisés directement, comme œil → yeux."
+  ]
+}

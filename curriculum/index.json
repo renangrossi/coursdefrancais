@@ -44,12 +44,69 @@
       ]
     },
     "A1": {
-      "overview": "Le niveau A1 construira les vraies bases du français dès le premier jour : l'alphabet et la prononciation, le genre et le nombre des noms, les articles, les pronoms personnels, et la conjugaison du présent de l'indicatif — aussi bien les verbes réguliers que les irréguliers les plus fréquents. Tu apprendras aussi à décrire des personnes et des choses avec des adjectifs, des possessifs et des démonstratifs. À la fin de ce niveau, tu pourras te présenter, décrire ton entourage proche, poser des questions simples et exprimer tes goûts — la base sur laquelle se construit tout le reste de ce cours. Ce niveau arrive bientôt ; en attendant, commence par le niveau Pre-A1, déjà disponible.",
+      "overview": "Le niveau A1 construit les vraies bases du français : la liaison et les groupes de lettres pour bien prononcer, le genre et le nombre des noms, les articles définis, indéfinis et contractés, la distinction entre il y a, c'est et il est, les pronoms sujets et toniques, et la conjugaison du présent — aussi bien les verbes réguliers en -er que les irréguliers les plus fréquents (aller, faire, prendre, pouvoir, devoir). Tu apprendras aussi à décrire des personnes et des choses avec des adjectifs, des possessifs et des démonstratifs, à situer dans l'espace et dans le temps avec les prépositions, à poser des questions, à exprimer tes goûts avec aimer/adorer/détester, et à parler de tes projets proches avec le futur proche. À la fin de ce niveau, tu pourras te présenter en détail, décrire ton entourage, poser des questions variées et parler de ce que tu vas faire bientôt.",
       "units": [
         {
           "id": "1",
           "title": "Grammaire A1",
-          "lessons": []
+          "lessons": [
+            {
+              "id": "a1-la-prononciation-avancee",
+              "status": "published"
+            },
+            {
+              "id": "a1-le-genre-et-le-nombre-des-noms",
+              "status": "published"
+            },
+            {
+              "id": "a1-les-articles-definis-indefinis-et-contractes",
+              "status": "published"
+            },
+            {
+              "id": "a1-il-y-a-cest-et-il-est",
+              "status": "published"
+            },
+            {
+              "id": "a1-les-pronoms-sujets-et-toniques",
+              "status": "published"
+            },
+            {
+              "id": "a1-le-present-verbes-reguliers-en-er",
+              "status": "published"
+            },
+            {
+              "id": "a1-le-present-verbes-irreguliers-courants",
+              "status": "published"
+            },
+            {
+              "id": "a1-les-adjectifs-qualificatifs-et-laccord",
+              "status": "published"
+            },
+            {
+              "id": "a1-les-possessifs",
+              "status": "published"
+            },
+            {
+              "id": "a1-les-demonstratifs",
+              "status": "published"
+            },
+            {
+              "id": "a1-les-prepositions-de-lieu-et-de-temps",
+              "status": "published"
+            },
+            {
+              "id": "a1-les-mots-interrogatifs-et-poser-des-questions",
+              "status": "published"
+            },
+            {
+              "id": "a1-aimer-adorer-detester-et-exprimer-ses-gouts",
+              "status": "published"
+            },
+            {
+              "id": "a1-le-futur-proche",
+              "status": "published"
+            }
+          ]
         }
       ]
     },
