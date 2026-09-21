@@ -1,0 +1,303 @@
+{
+  "id": "a2-le-futur-simple",
+  "level": "A2",
+  "unit": "1",
+  "order": 4,
+  "skill": "grammar",
+  "strand": "futur-simple",
+  "title": "Le Futur Simple",
+  "subtitle": "Comment former le futur simple, et les principaux radicaux irréguliers à connaître.",
+  "objectives": [
+    "Former le futur simple des verbes réguliers à partir de l'infinitif.",
+    "Mémoriser les radicaux irréguliers des verbes les plus fréquents.",
+    "Distinguer le futur simple du futur proche par leur usage."
+  ],
+  "content": {
+    "intro": "Le futur simple sert à parler de projets plus lointains, de promesses et de prédictions — un temps formé simplement, mais avec quelques radicaux irréguliers indispensables à mémoriser.",
+    "explanation": "<p>Pour les verbes réguliers, le futur simple se forme en ajoutant les terminaisons <strong>-ai, -as, -a, -ons, -ez, -ont</strong> directement à l'infinitif (les verbes en -re perdent leur -e final) : <em>je parlerai, tu finiras, il vendra</em>. Ces terminaisons sont les mêmes pour tous les verbes, réguliers ou non.</p><p>Certains verbes très fréquents ont un radical irrégulier, à mémoriser directement : <em>être → ser-, avoir → aur-, aller → ir-, faire → fer-, pouvoir → pourr-, vouloir → voudr-, devoir → devr-, venir → viendr-</em>. Les terminaisons, elles, restent toujours régulières.</p>",
+    "rules": [
+      {
+        "heading": "a) Formation régulière",
+        "body": "<ul><li>Infinitif (verbes en -re : sans le -e final) + -ai/-as/-a/-ons/-ez/-ont.</li><li><em>je parlerai, tu finiras, il vendra, nous parlerons, vous finirez, ils vendront</em>.</li></ul>"
+      },
+      {
+        "heading": "b) Radicaux irréguliers fréquents",
+        "body": "<ul><li><em>être → ser-, avoir → aur-, aller → ir-, faire → fer-</em>.</li><li><em>pouvoir → pourr-, vouloir → voudr-, devoir → devr-, venir → viendr-</em>.</li></ul>"
+      },
+      {
+        "heading": "c) Terminaisons toujours régulières",
+        "body": "<ul><li>Même pour un radical irrégulier, les terminaisons ne changent jamais : <em>je serai, j'aurai, j'irai, je ferai</em>.</li></ul>"
+      },
+      {
+        "heading": "d) Futur simple vs. futur proche",
+        "body": "<ul><li>Futur proche (aller + infinitif) : projet proche ou décidé — <em>je vais partir demain</em>.</li><li>Futur simple : projet plus lointain, promesse, prédiction — <em>je partirai l'année prochaine</em>.</li></ul>"
+      }
+    ],
+    "examples": [
+      "Je parlerai avec elle demain.",
+      "Tu finiras tes études l'année prochaine.",
+      "Il sera médecin un jour.",
+      "Nous irons en France cet été.",
+      "Vous pourrez venir avec nous.",
+      "Ils devront travailler plus.",
+      "Elle viendra nous voir bientôt."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Je serais content de te voir. (confondu avec le futur simple je serai)",
+        "right": "Je serai content de te voir.",
+        "why": "Le futur simple (je serai) et le conditionnel (je serais) se prononcent presque pareil mais s'écrivent différemment ; ici, c'est une simple annonce future."
+      },
+      {
+        "wrong": "Il vas venir demain.",
+        "right": "Il viendra demain.",
+        "why": "Le radical futur de venir est viendr-, pas une forme de aller."
+      },
+      {
+        "wrong": "Nous ferons parlerons français ensemble. (mauvais radical)",
+        "right": "Nous parlerons français ensemble.",
+        "why": "Parler est un verbe régulier : le radical est l'infinitif complet, parler-."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a2fs-fill",
+      "type": "fill-blank",
+      "title": "Conjugue au Futur Simple",
+      "instructions": "Écris la forme correcte du verbe entre parenthèses.",
+      "items": [
+        {
+          "id": "a2fsf1",
+          "prompt": "Demain, je ___ (parler) avec le directeur.",
+          "answers": [
+            [
+              "parlerai"
+            ]
+          ],
+          "options": [
+            "parlerai",
+            "parlerais",
+            "parle"
+          ],
+          "explanation": "Futur simple régulier : infinitif + -ai."
+        },
+        {
+          "id": "a2fsf2",
+          "prompt": "L'année prochaine, nous ___ (aller) en Italie.",
+          "answers": [
+            [
+              "irons"
+            ]
+          ],
+          "options": [
+            "irons",
+            "allons",
+            "irions"
+          ],
+          "explanation": "Aller a un radical irrégulier au futur : ir-."
+        },
+        {
+          "id": "a2fsf3",
+          "prompt": "Elle ___ (être) très contente de te revoir.",
+          "answers": [
+            [
+              "sera"
+            ]
+          ],
+          "options": [
+            "sera",
+            "serait",
+            "est"
+          ],
+          "explanation": "Être a un radical irrégulier au futur : ser-."
+        },
+        {
+          "id": "a2fsf4",
+          "prompt": "Vous ___ (pouvoir) m'aider samedi ?",
+          "answers": [
+            [
+              "pourrez"
+            ]
+          ],
+          "options": [
+            "pourrez",
+            "pouvez",
+            "pourriez"
+          ],
+          "explanation": "Pouvoir a un radical irrégulier au futur : pourr-."
+        }
+      ]
+    },
+    {
+      "id": "a2fs-mc",
+      "type": "multiple-choice",
+      "title": "Radicaux du Futur",
+      "items": [
+        {
+          "id": "a2fsm1",
+          "prompt": "Quel est le radical futur de faire ?",
+          "options": [
+            "fer-",
+            "fais-",
+            "fair-"
+          ],
+          "answerIndex": 0,
+          "explanation": "Faire a un radical futur irrégulier : fer-."
+        },
+        {
+          "id": "a2fsm2",
+          "prompt": "Quelles terminaisons utilise-t-on au futur simple ?",
+          "options": [
+            "-ai/-as/-a/-ons/-ez/-ont",
+            "-e/-es/-e/-ons/-ez/-ent",
+            "-ais/-ais/-ait/-ions/-iez/-aient"
+          ],
+          "answerIndex": 0,
+          "explanation": "Ce sont les terminaisons propres au futur simple, identiques pour tous les verbes."
+        },
+        {
+          "id": "a2fsm3",
+          "prompt": "Quel est le radical futur de venir ?",
+          "options": [
+            "viendr-",
+            "venir-",
+            "vien-"
+          ],
+          "answerIndex": 0,
+          "explanation": "Venir a un radical futur irrégulier : viendr-."
+        },
+        {
+          "id": "a2fsm4",
+          "prompt": "Quand utilise-t-on plutôt le futur simple que le futur proche ?",
+          "options": [
+            "pour un projet plus lointain ou une prédiction",
+            "pour un projet déjà décidé pour demain",
+            "seulement à l'écrit"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le futur simple convient aux projets lointains, promesses et prédictions."
+        }
+      ]
+    },
+    {
+      "id": "a2fs-correction",
+      "type": "correction",
+      "title": "Corrige les Erreurs",
+      "items": [
+        {
+          "id": "a2fsc1",
+          "incorrect": "Il vas venir demain.",
+          "answer": [
+            "Il viendra demain."
+          ],
+          "explanation": "Venir a un radical futur irrégulier : viendr-."
+        },
+        {
+          "id": "a2fsc2",
+          "incorrect": "Nous aurrons le temps ce week-end.",
+          "answer": [
+            "Nous aurons le temps ce week-end."
+          ],
+          "explanation": "Avoir a un seul r au radical futur : aur-."
+        },
+        {
+          "id": "a2fsc3",
+          "incorrect": "Elle sera contente si tu viens, elle disait.",
+          "answer": [
+            "Elle sera contente si tu viens, elle dit."
+          ],
+          "explanation": "Ce mélange de temps n'est pas nécessaire ici ; garder le présent dit avec le futur sera."
+        }
+      ]
+    },
+    {
+      "id": "a2fsx-reading",
+      "type": "reading-comprehension",
+      "title": "Lecture : Mes Projets à Montréal",
+      "passage": "<p>L'année prochaine, je partirai étudier à Montréal. Je vivrai avec ma cousine, et nous irons à l'université ensemble. Mes parents viendront me voir pendant les vacances. Ce sera une grande aventure.</p>",
+      "items": [
+        {
+          "id": "a2fsxr1",
+          "prompt": "Où partira la personne l'année prochaine ?",
+          "options": [
+            "À Montréal",
+            "À Paris",
+            "À Londres"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit : « je partirai étudier à Montréal »."
+        },
+        {
+          "id": "a2fsxr2",
+          "prompt": "Avec qui vivra-t-elle ?",
+          "options": [
+            "Sa cousine",
+            "Ses parents",
+            "Une amie"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit : « Je vivrai avec ma cousine »."
+        },
+        {
+          "id": "a2fsxr3",
+          "prompt": "Qui viendra la voir pendant les vacances ?",
+          "options": [
+            "Ses parents",
+            "Ses amis",
+            "Son professeur"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte le dit directement."
+        },
+        {
+          "id": "a2fsxr4",
+          "prompt": "Comment sera cette expérience, selon le texte ?",
+          "options": [
+            "Une grande aventure",
+            "Assez ennuyeuse",
+            "Très difficile"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte se termine par « Ce sera une grande aventure »."
+        }
+      ]
+    },
+    {
+      "id": "a2fsx-order",
+      "type": "ordering",
+      "title": "Remets la Phrase en Ordre",
+      "items": [
+        {
+          "id": "a2fsxo1",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Je",
+            "partirai",
+            "étudier",
+            "à",
+            "Montréal"
+          ],
+          "explanation": "Futur simple, radical irrégulier de partir."
+        },
+        {
+          "id": "a2fsxo2",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Mes",
+            "parents",
+            "viendront",
+            "me",
+            "voir"
+          ],
+          "explanation": "Futur simple de venir, radical viendr-."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Le futur simple régulier ajoute -ai/-as/-a/-ons/-ez/-ont à l'infinitif (sans le -e final pour les verbes en -re).",
+    "Des verbes très fréquents ont un radical futur irrégulier à mémoriser : être→ser-, avoir→aur-, aller→ir-, faire→fer-, pouvoir→pourr-, vouloir→voudr-, devoir→devr-, venir→viendr-.",
+    "Le futur simple annonce des projets plus lointains, des promesses ou des prédictions ; le futur proche annonce des projets décidés et proches."
+  ]
+}

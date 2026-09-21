@@ -1,0 +1,298 @@
+{
+  "id": "a2-limparfait",
+  "level": "A2",
+  "unit": "1",
+  "order": 2,
+  "skill": "grammar",
+  "strand": "imparfait",
+  "title": "L'Imparfait",
+  "subtitle": "Comment former l'imparfait à partir du radical de nous, et quand l'utiliser.",
+  "objectives": [
+    "Former l'imparfait à partir du radical de la première personne du pluriel au présent.",
+    "Conjuguer être à l'imparfait, seule exception de radical.",
+    "Reconnaître les emplois de l'imparfait : description, habitude, action en cours."
+  ],
+  "content": {
+    "intro": "L'imparfait sert à décrire le décor du passé — comment c'était, ce qu'on faisait d'habitude — et se construit d'une manière très régulière, à partir d'un temps que tu connais déjà : le présent.",
+    "explanation": "<p>L'imparfait se forme à partir du radical de la première personne du pluriel (<em>nous</em>) au présent, en retirant <em>-ons</em>, puis en ajoutant les terminaisons <strong>-ais, -ais, -ait, -ions, -iez, -aient</strong>, identiques pour tous les verbes : <em>nous parlons → je parlais</em> ; <em>nous finissons → je finissais</em>. Seul <strong>être</strong> a un radical irrégulier : <em>ét-</em> (<em>j'étais, tu étais, il était…</em>).</p><p>L'imparfait sert à décrire une scène ou un état dans le passé (<em>il faisait beau, le ciel était bleu</em>), une habitude répétée (<em>quand j'étais petit, je jouais dehors tous les jours</em>), ou une action en cours interrompue par une autre (<em>je regardais la télé quand le téléphone a sonné</em>).</p>",
+    "rules": [
+      {
+        "heading": "a) Formation",
+        "body": "<ul><li>Radical de nous au présent (sans -ons) + terminaisons -ais/-ais/-ait/-ions/-iez/-aient.</li><li><em>nous finissons → je finissais, tu finissais, il finissait, nous finissions, vous finissiez, ils finissaient</em>.</li></ul>"
+      },
+      {
+        "heading": "b) Être, seule exception",
+        "body": "<ul><li><em>j'étais, tu étais, il était, nous étions, vous étiez, ils étaient</em> — radical ét-, pas de radical présent en -ons.</li></ul>"
+      },
+      {
+        "heading": "c) Emplois de l'imparfait",
+        "body": "<ul><li>Description d'une scène ou d'un état : <em>il faisait beau, elle était fatiguée</em>.</li><li>Habitude répétée dans le passé : <em>nous jouions au foot tous les samedis</em>.</li><li>Action en cours interrompue par une autre : <em>je lisais quand le téléphone a sonné</em>.</li></ul>"
+      }
+    ],
+    "examples": [
+      "Quand j'étais enfant, j'habitais à la campagne.",
+      "Il faisait beau ce jour-là.",
+      "Nous jouions au foot tous les samedis.",
+      "Elle lisait un livre quand le téléphone a sonné.",
+      "Vous étiez fatigués après le voyage.",
+      "Ils mangeaient toujours à la même heure.",
+      "Tu avais quel âge en 2010 ?"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Nous parliont le samedi.",
+        "right": "Nous parlions le samedi.",
+        "why": "La terminaison de nous est -ions, pas -iont."
+      },
+      {
+        "wrong": "Il a fait beau, le ciel a été bleu.",
+        "right": "Il faisait beau, le ciel était bleu.",
+        "why": "Pour décrire une scène ou un état continu dans le passé, on utilise l'imparfait, pas le passé composé."
+      },
+      {
+        "wrong": "Je étais content.",
+        "right": "J'étais content.",
+        "why": "Je s'élide toujours en j' devant une voyelle, y compris devant étais."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a2im-fill",
+      "type": "fill-blank",
+      "title": "Conjugue à l'Imparfait",
+      "instructions": "Écris la forme correcte du verbe entre parenthèses.",
+      "items": [
+        {
+          "id": "a2imf1",
+          "prompt": "Quand j'étais petit, je ___ (jouer) dehors tous les jours.",
+          "answers": [
+            [
+              "jouais"
+            ]
+          ],
+          "options": [
+            "jouais",
+            "joue",
+            "ai joué"
+          ],
+          "explanation": "Habitude répétée dans le passé : imparfait."
+        },
+        {
+          "id": "a2imf2",
+          "prompt": "Il ___ (faire) très froid ce matin-là.",
+          "answers": [
+            [
+              "faisait"
+            ]
+          ],
+          "options": [
+            "faisait",
+            "a fait",
+            "fait"
+          ],
+          "explanation": "Description d'un état météo continu : imparfait."
+        },
+        {
+          "id": "a2imf3",
+          "prompt": "Nous ___ (être) très jeunes à l'époque.",
+          "answers": [
+            [
+              "étions"
+            ]
+          ],
+          "options": [
+            "étions",
+            "sommes",
+            "avons été"
+          ],
+          "explanation": "Être à l'imparfait a un radical irrégulier : ét-."
+        },
+        {
+          "id": "a2imf4",
+          "prompt": "Vous ___ (habiter) où avant de déménager ?",
+          "answers": [
+            [
+              "habitiez"
+            ]
+          ],
+          "options": [
+            "habitiez",
+            "habitez",
+            "avez habité"
+          ],
+          "explanation": "Terminaison -iez pour vous à l'imparfait."
+        }
+      ]
+    },
+    {
+      "id": "a2im-mc",
+      "type": "multiple-choice",
+      "title": "L'Imparfait : Formation et Emploi",
+      "items": [
+        {
+          "id": "a2imm1",
+          "prompt": "À partir de quel radical forme-t-on l'imparfait ?",
+          "options": [
+            "le radical de nous au présent",
+            "l'infinitif",
+            "le radical de je au présent"
+          ],
+          "answerIndex": 0,
+          "explanation": "On retire -ons du radical de nous au présent."
+        },
+        {
+          "id": "a2imm2",
+          "prompt": "Quel verbe a un radical irrégulier à l'imparfait ?",
+          "options": [
+            "être",
+            "parler",
+            "finir"
+          ],
+          "answerIndex": 0,
+          "explanation": "Être utilise le radical ét-, qui ne vient pas de la forme nous du présent."
+        },
+        {
+          "id": "a2imm3",
+          "prompt": "Quel emploi correspond à l'imparfait ?",
+          "options": [
+            "décrire une habitude passée",
+            "annoncer un événement ponctuel terminé",
+            "parler du futur"
+          ],
+          "answerIndex": 0,
+          "explanation": "L'imparfait décrit des habitudes, des descriptions et des actions en cours dans le passé."
+        },
+        {
+          "id": "a2imm4",
+          "prompt": "Quelle terminaison correspond à nous à l'imparfait ?",
+          "options": [
+            "-ions",
+            "-iont",
+            "-ons"
+          ],
+          "answerIndex": 0,
+          "explanation": "La terminaison de nous à l'imparfait est -ions."
+        }
+      ]
+    },
+    {
+      "id": "a2im-correction",
+      "type": "correction",
+      "title": "Corrige les Erreurs",
+      "items": [
+        {
+          "id": "a2imc1",
+          "incorrect": "Nous parliont tous les jours.",
+          "answer": [
+            "Nous parlions tous les jours."
+          ],
+          "explanation": "La terminaison correcte de nous est -ions."
+        },
+        {
+          "id": "a2imc2",
+          "incorrect": "Il a fait très beau ce jour-là, toute la journée.",
+          "answer": [
+            "Il faisait très beau ce jour-là, toute la journée."
+          ],
+          "explanation": "Une description continue dans le passé utilise l'imparfait."
+        },
+        {
+          "id": "a2imc3",
+          "incorrect": "Je étais fatigué hier soir.",
+          "answer": [
+            "J'étais fatigué hier soir."
+          ],
+          "explanation": "Je s'élide en j' devant une voyelle."
+        }
+      ]
+    },
+    {
+      "id": "a2imx-reading",
+      "type": "reading-comprehension",
+      "title": "Lecture : Mon Enfance au Village",
+      "passage": "<p>Quand j'étais enfant, j'habitais dans un petit village. Il faisait toujours calme le matin. Mes parents travaillaient dans les champs, et moi, je jouais avec mes cousins tous les jours. Nous étions très heureux.</p>",
+      "items": [
+        {
+          "id": "a2imxr1",
+          "prompt": "Où habitait la personne enfant ?",
+          "options": [
+            "Dans un petit village",
+            "Dans une grande ville",
+            "À la montagne"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit : « j'habitais dans un petit village »."
+        },
+        {
+          "id": "a2imxr2",
+          "prompt": "Comment était le matin ?",
+          "options": [
+            "Toujours calme",
+            "Très bruyant",
+            "Toujours pluvieux"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit : « Il faisait toujours calme le matin »."
+        },
+        {
+          "id": "a2imxr3",
+          "prompt": "Que faisaient les parents ?",
+          "options": [
+            "Ils travaillaient dans les champs",
+            "Ils travaillaient en ville",
+            "Ils voyageaient"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte le dit directement."
+        },
+        {
+          "id": "a2imxr4",
+          "prompt": "Comment étaient-ils, selon le texte ?",
+          "options": [
+            "Très heureux",
+            "Très fatigués",
+            "Très occupés"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte se termine par « Nous étions très heureux »."
+        }
+      ]
+    },
+    {
+      "id": "a2imx-order",
+      "type": "ordering",
+      "title": "Remets la Phrase en Ordre",
+      "items": [
+        {
+          "id": "a2imxo1",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "J'habitais",
+            "dans",
+            "un",
+            "petit",
+            "village"
+          ],
+          "explanation": "Imparfait pour décrire une situation passée."
+        },
+        {
+          "id": "a2imxo2",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Nous",
+            "étions",
+            "très",
+            "heureux"
+          ],
+          "explanation": "Être à l'imparfait, radical irrégulier ét-."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "L'imparfait se forme à partir du radical de nous au présent (sans -ons) + -ais/-ais/-ait/-ions/-iez/-aient.",
+    "Être est la seule exception de radical : j'étais, tu étais, il était…",
+    "L'imparfait décrit une scène, un état ou une habitude dans le passé, ou une action en cours interrompue par une autre."
+  ]
+}

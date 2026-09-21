@@ -1,0 +1,302 @@
+{
+  "id": "a2-le-conditionnel-present",
+  "level": "A2",
+  "unit": "1",
+  "order": 10,
+  "skill": "grammar",
+  "strand": "conditionnel",
+  "title": "Le Conditionnel Présent",
+  "subtitle": "Formation à partir du radical du futur, et usages pour la politesse, le conseil et le souhait.",
+  "objectives": [
+    "Former le conditionnel présent avec le radical du futur et les terminaisons de l'imparfait.",
+    "Utiliser le conditionnel pour formuler une demande polie.",
+    "Utiliser le conditionnel pour donner un conseil ou exprimer un souhait."
+  ],
+  "content": {
+    "intro": "Le conditionnel présent adoucit tout ce que tu dis : une demande devient polie, un ordre devient un conseil, une envie devient un souhait — et sa formation combine deux temps que tu connais déjà.",
+    "explanation": "<p>Le conditionnel présent se forme avec le <strong>même radical que le futur simple</strong> + les terminaisons de l'<strong>imparfait</strong> (-ais, -ais, -ait, -ions, -iez, -aient) : <em>je parlerais, je serais, j'aurais, j'irais</em>. Les radicaux irréguliers sont exactement les mêmes qu'au futur : <em>être → ser-, avoir → aur-, aller → ir-, faire → fer-, pouvoir → pourr-, vouloir → voudr-, devoir → devr-</em>.</p><p>Au niveau A2, le conditionnel sert surtout à trois choses : la <strong>politesse</strong> (<em>je voudrais un café, pourriez-vous m'aider ?</em>), le <strong>conseil</strong> (<em>tu devrais te reposer</em>), et le <strong>souhait</strong> (<em>j'aimerais bien voyager</em>).</p>",
+    "rules": [
+      {
+        "heading": "a) Formation",
+        "body": "<ul><li>Radical du futur + terminaisons de l'imparfait : <em>je parlerais, tu finirais, il vendrait, nous parlerions, vous finiriez, ils vendraient</em>.</li></ul>"
+      },
+      {
+        "heading": "b) Radicaux irréguliers",
+        "body": "<ul><li>Identiques au futur : <em>être → ser-, avoir → aur-, aller → ir-, faire → fer-, pouvoir → pourr-, vouloir → voudr-, devoir → devr-</em>.</li></ul>"
+      },
+      {
+        "heading": "c) Politesse",
+        "body": "<ul><li><em>Je voudrais…, pourriez-vous…, j'aimerais…</em> — plus poli qu'un présent ou un futur direct.</li></ul>"
+      },
+      {
+        "heading": "d) Conseil et souhait",
+        "body": "<ul><li><em>Tu devrais</em> + infinitif — conseil doux.</li><li><em>J'aimerais / je voudrais</em> + infinitif — souhait.</li></ul>"
+      }
+    ],
+    "examples": [
+      "Je voudrais un café, s'il vous plaît.",
+      "Pourriez-vous m'aider ?",
+      "Tu devrais te reposer un peu.",
+      "Nous aimerions visiter Paris un jour.",
+      "Elle serait ravie de venir.",
+      "Vous pourriez répéter, s'il vous plaît ?"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Je voudrai un café.",
+        "right": "Je voudrais un café.",
+        "why": "Le conditionnel de vouloir est je voudrais (avec s), différent du futur je voudrai."
+      },
+      {
+        "wrong": "Pourrez-vous m'aider ?",
+        "right": "Pourriez-vous m'aider ?",
+        "why": "Pour une demande polie, on utilise le conditionnel, pas le futur simple."
+      },
+      {
+        "wrong": "J'aimerai voyager plus tard.",
+        "right": "J'aimerais voyager plus tard.",
+        "why": "Le conditionnel prend les terminaisons de l'imparfait : -ais, pas -ai (futur)."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a2cp-fill",
+      "type": "fill-blank",
+      "title": "Conjugue au Conditionnel Présent",
+      "instructions": "Écris la forme correcte du verbe entre parenthèses.",
+      "items": [
+        {
+          "id": "a2cpf1",
+          "prompt": "Je ___ (vouloir) un café, s'il vous plaît.",
+          "answers": [
+            [
+              "voudrais"
+            ]
+          ],
+          "options": [
+            "voudrais",
+            "voudrai",
+            "veux"
+          ],
+          "explanation": "Conditionnel de vouloir : radical voudr- + terminaison -ais."
+        },
+        {
+          "id": "a2cpf2",
+          "prompt": "___-vous (pouvoir) m'aider ?",
+          "answers": [
+            [
+              "Pourriez"
+            ]
+          ],
+          "options": [
+            "Pourriez",
+            "Pourrez",
+            "Pouvez"
+          ],
+          "explanation": "Demande polie : conditionnel de pouvoir, pourr- + -iez."
+        },
+        {
+          "id": "a2cpf3",
+          "prompt": "Tu ___ (devoir) te reposer un peu.",
+          "answers": [
+            [
+              "devrais"
+            ]
+          ],
+          "options": [
+            "devrais",
+            "devras",
+            "dois"
+          ],
+          "explanation": "Conseil au conditionnel : radical devr- + -ais."
+        },
+        {
+          "id": "a2cpf4",
+          "prompt": "Nous ___ (aimer) visiter Paris un jour.",
+          "answers": [
+            [
+              "aimerions"
+            ]
+          ],
+          "options": [
+            "aimerions",
+            "aimerons",
+            "aimons"
+          ],
+          "explanation": "Souhait au conditionnel : radical futur aimer- + -ions."
+        }
+      ]
+    },
+    {
+      "id": "a2cp-mc",
+      "type": "multiple-choice",
+      "title": "Le Conditionnel Présent",
+      "items": [
+        {
+          "id": "a2cpm1",
+          "prompt": "Quel radical utilise-t-on au conditionnel présent ?",
+          "options": [
+            "le radical du futur",
+            "l'infinitif complet",
+            "le radical de l'imparfait"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le conditionnel reprend exactement le radical du futur simple."
+        },
+        {
+          "id": "a2cpm2",
+          "prompt": "Quelles terminaisons utilise le conditionnel ?",
+          "options": [
+            "celles de l'imparfait",
+            "celles du futur",
+            "celles du présent"
+          ],
+          "answerIndex": 0,
+          "explanation": "Les terminaisons du conditionnel sont identiques à celles de l'imparfait."
+        },
+        {
+          "id": "a2cpm3",
+          "prompt": "Quelle phrase exprime une demande polie ?",
+          "options": [
+            "Pourriez-vous m'aider ?",
+            "Vous pouvez m'aider.",
+            "Vous pourrez m'aider ?"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le conditionnel adoucit une demande, la rendant polie."
+        },
+        {
+          "id": "a2cpm4",
+          "prompt": "Quel est le radical conditionnel de faire ?",
+          "options": [
+            "fer-",
+            "fais-",
+            "fait-"
+          ],
+          "answerIndex": 0,
+          "explanation": "Faire a le même radical irrégulier qu'au futur : fer-."
+        }
+      ]
+    },
+    {
+      "id": "a2cp-correction",
+      "type": "correction",
+      "title": "Corrige les Erreurs",
+      "items": [
+        {
+          "id": "a2cpc1",
+          "incorrect": "Je voudrai un café.",
+          "answer": [
+            "Je voudrais un café."
+          ],
+          "explanation": "Le conditionnel prend -ais, pas -ai (futur)."
+        },
+        {
+          "id": "a2cpc2",
+          "incorrect": "Pourrez-vous m'aider, s'il vous plaît ?",
+          "answer": [
+            "Pourriez-vous m'aider, s'il vous plaît ?"
+          ],
+          "explanation": "Une demande polie utilise le conditionnel, pas le futur."
+        },
+        {
+          "id": "a2cpc3",
+          "incorrect": "Tu devras te reposer un peu.",
+          "answer": [
+            "Tu devrais te reposer un peu."
+          ],
+          "explanation": "Un conseil doux utilise le conditionnel devrais, pas le futur devras."
+        }
+      ]
+    },
+    {
+      "id": "a2cpx-reading",
+      "type": "reading-comprehension",
+      "title": "Lecture : Un Rêve de Voyage",
+      "passage": "<p>Je voudrais visiter le Japon un jour. Ce serait un rêve pour moi. Mes amis aimeraient venir aussi, et nous pourrions découvrir Tokyo ensemble. Ça serait vraiment formidable.</p>",
+      "items": [
+        {
+          "id": "a2cpxr1",
+          "prompt": "Que voudrait faire la personne ?",
+          "options": [
+            "Visiter le Japon",
+            "Visiter la Chine",
+            "Visiter l'Italie"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit : « Je voudrais visiter le Japon »."
+        },
+        {
+          "id": "a2cpxr2",
+          "prompt": "Que serait ce voyage pour elle ?",
+          "options": [
+            "Un rêve",
+            "Une obligation",
+            "Un problème"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit : « Ce serait un rêve pour moi »."
+        },
+        {
+          "id": "a2cpxr3",
+          "prompt": "Que voudraient faire ses amis ?",
+          "options": [
+            "Venir aussi",
+            "Rester à la maison",
+            "Aller ailleurs"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte le dit directement."
+        },
+        {
+          "id": "a2cpxr4",
+          "prompt": "Comment serait l'expérience, selon le texte ?",
+          "options": [
+            "Formidable",
+            "Fatigante",
+            "Compliquée"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte se termine par « Ça serait vraiment formidable »."
+        }
+      ]
+    },
+    {
+      "id": "a2cpx-order",
+      "type": "ordering",
+      "title": "Remets la Phrase en Ordre",
+      "items": [
+        {
+          "id": "a2cpxo1",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Je",
+            "voudrais",
+            "visiter",
+            "le",
+            "Japon"
+          ],
+          "explanation": "Conditionnel de souhait, radical irrégulier voudr-."
+        },
+        {
+          "id": "a2cpxo2",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Nous",
+            "pourrions",
+            "découvrir",
+            "Tokyo",
+            "ensemble"
+          ],
+          "explanation": "Conditionnel de pouvoir, radical pourr-."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Le conditionnel présent se forme avec le radical du futur + les terminaisons de l'imparfait.",
+    "Les radicaux irréguliers sont les mêmes qu'au futur simple.",
+    "Le conditionnel sert à la politesse, au conseil doux et au souhait."
+  ]
+}

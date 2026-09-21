@@ -1,0 +1,305 @@
+{
+  "id": "a2-les-pronoms-cod",
+  "level": "A2",
+  "unit": "1",
+  "order": 6,
+  "skill": "grammar",
+  "strand": "pronoms-cod",
+  "title": "Les Pronoms Compléments d'Objet Direct (COD)",
+  "subtitle": "Le/la/l'/les pour remplacer un complément d'objet direct, et leur place avant le verbe.",
+  "objectives": [
+    "Identifier le complément d'objet direct dans une phrase.",
+    "Remplacer un COD par le/la/l'/les selon le genre et le nombre.",
+    "Placer correctement le pronom COD avant le verbe conjugué, y compris au passé composé et à la négation."
+  ],
+  "content": {
+    "intro": "Pour éviter de répéter un nom déjà mentionné, le français le remplace par un petit pronom placé avant le verbe — une construction très différente de l'anglais, où le pronom suit le verbe.",
+    "explanation": "<p>Le complément d'objet direct (COD) répond à la question <em>qui</em> ou <em>quoi</em> après le verbe, sans préposition : <em>Je vois le film</em> (je vois quoi ? le film) <em>→ Je le vois.</em> Le pronom COD (<strong>le, la, l', les</strong>) se place <strong>juste avant le verbe conjugué</strong>, jamais après.</p><p>Au passé composé, le pronom se place avant l'auxiliaire : <em>Je l'ai vu.</em> À la forme négative, <em>ne…pas</em> encadre le pronom et le verbe ensemble : <em>Je ne le vois pas. Je ne l'ai pas vu.</em></p>",
+    "rules": [
+      {
+        "heading": "a) Formes",
+        "body": "<ul><li><strong>le</strong> — masculin singulier ; <strong>la</strong> — féminin singulier.</li><li><strong>l'</strong> — devant une voyelle ou un h muet, masculin ou féminin.</li><li><strong>les</strong> — pluriel, masculin ou féminin.</li></ul>"
+      },
+      {
+        "heading": "b) Position au présent",
+        "body": "<ul><li>Avant le verbe conjugué : <em>Je le vois, tu la connais, nous les invitons</em>.</li></ul>"
+      },
+      {
+        "heading": "c) Position au passé composé",
+        "body": "<ul><li>Avant l'auxiliaire : <em>Je l'ai vu, elle l'a achetée</em>.</li></ul>"
+      },
+      {
+        "heading": "d) Négation",
+        "body": "<ul><li><em>ne</em> + pronom + verbe + <em>pas</em> : <em>Je ne le vois pas. Je ne l'ai pas vu.</em></li></ul>"
+      }
+    ],
+    "examples": [
+      "Je vois le film. → Je le vois.",
+      "Tu aimes cette chanson ? → Tu l'aimes ?",
+      "Nous invitons nos amis. → Nous les invitons.",
+      "Elle a acheté la voiture. → Elle l'a achetée.",
+      "Je ne le vois pas.",
+      "Vous les connaissez bien ?"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Je vois le.",
+        "right": "Je le vois.",
+        "why": "Le pronom COD se place avant le verbe conjugué, jamais après."
+      },
+      {
+        "wrong": "Je ai le vu.",
+        "right": "Je l'ai vu.",
+        "why": "Devant une voyelle, le et la deviennent l', et le pronom précède l'auxiliaire."
+      },
+      {
+        "wrong": "Elle a acheté la voiture, elle a acheté la.",
+        "right": "Elle a acheté la voiture, elle l'a achetée.",
+        "why": "On remplace un nom déjà mentionné par un pronom, placé avant le verbe, pour éviter la répétition."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a2cd-fill",
+      "type": "fill-blank",
+      "title": "Remplace par le Bon Pronom",
+      "instructions": "Récris la phrase avec le pronom COD correct à la place de l'espace.",
+      "items": [
+        {
+          "id": "a2cdf1",
+          "prompt": "Tu vois le film ? — Oui, je ___ vois.",
+          "answers": [
+            [
+              "le"
+            ]
+          ],
+          "options": [
+            "le",
+            "la",
+            "les"
+          ],
+          "explanation": "Le film est masculin singulier : le."
+        },
+        {
+          "id": "a2cdf2",
+          "prompt": "Tu connais cette chanson ? — Oui, je ___ connais.",
+          "answers": [
+            [
+              "la"
+            ]
+          ],
+          "options": [
+            "la",
+            "le",
+            "l'"
+          ],
+          "explanation": "Cette chanson est féminin singulier, sans voyelle initiale au verbe : la."
+        },
+        {
+          "id": "a2cdf3",
+          "prompt": "Vous invitez vos amis ? — Oui, nous ___ invitons.",
+          "answers": [
+            [
+              "les"
+            ]
+          ],
+          "options": [
+            "les",
+            "leur",
+            "la"
+          ],
+          "explanation": "Vos amis est pluriel : les."
+        },
+        {
+          "id": "a2cdf4",
+          "prompt": "Elle a acheté la voiture ? — Oui, elle ___ a achetée.",
+          "answers": [
+            [
+              "l'"
+            ]
+          ],
+          "options": [
+            "l'",
+            "la",
+            "le"
+          ],
+          "explanation": "Devant le verbe commençant par une voyelle (a), la devient l'."
+        }
+      ]
+    },
+    {
+      "id": "a2cd-mc",
+      "type": "multiple-choice",
+      "title": "Le Pronom COD",
+      "items": [
+        {
+          "id": "a2cdm1",
+          "prompt": "Où se place le pronom COD ?",
+          "options": [
+            "avant le verbe conjugué",
+            "après le verbe conjugué",
+            "à la fin de la phrase"
+          ],
+          "answerIndex": 0,
+          "explanation": "En français, le pronom complément précède toujours le verbe conjugué."
+        },
+        {
+          "id": "a2cdm2",
+          "prompt": "Quel pronom remplace un nom féminin pluriel ?",
+          "options": [
+            "les",
+            "la",
+            "leur"
+          ],
+          "answerIndex": 0,
+          "explanation": "Les est le pronom COD pluriel, masculin ou féminin."
+        },
+        {
+          "id": "a2cdm3",
+          "prompt": "Où se place le pronom au passé composé ?",
+          "options": [
+            "avant l'auxiliaire",
+            "après le participe passé",
+            "après l'auxiliaire"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le pronom précède l'auxiliaire avoir/être au passé composé."
+        },
+        {
+          "id": "a2cdm4",
+          "prompt": "Comment nie-t-on « Je le vois » ?",
+          "options": [
+            "Je ne le vois pas.",
+            "Je le vois ne pas.",
+            "Je ne vois le pas."
+          ],
+          "answerIndex": 0,
+          "explanation": "Ne...pas encadre le pronom et le verbe ensemble."
+        }
+      ]
+    },
+    {
+      "id": "a2cd-correction",
+      "type": "correction",
+      "title": "Corrige les Erreurs",
+      "items": [
+        {
+          "id": "a2cdc1",
+          "incorrect": "Je vois le.",
+          "answer": [
+            "Je le vois."
+          ],
+          "explanation": "Le pronom se place avant le verbe conjugué."
+        },
+        {
+          "id": "a2cdc2",
+          "incorrect": "Je ai le vu.",
+          "answer": [
+            "Je l'ai vu."
+          ],
+          "explanation": "Le devient l' devant une voyelle, et se place avant l'auxiliaire."
+        },
+        {
+          "id": "a2cdc3",
+          "incorrect": "Nous invitons les ne pas.",
+          "answer": [
+            "Nous ne les invitons pas."
+          ],
+          "explanation": "Ne...pas encadre le pronom et le verbe ensemble, avant le verbe."
+        }
+      ]
+    },
+    {
+      "id": "a2cdx-reading",
+      "type": "reading-comprehension",
+      "title": "Lecture : La Nouvelle Robe de Marie",
+      "passage": "<p>Marie a acheté une nouvelle robe. Elle l'a mise pour la fête de samedi. Ses amis l'ont beaucoup complimentée. Elle les a remerciés avec un grand sourire.</p>",
+      "items": [
+        {
+          "id": "a2cdxr1",
+          "prompt": "Qu'a acheté Marie ?",
+          "options": [
+            "Une nouvelle robe",
+            "Un manteau",
+            "Des chaussures"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit : « Marie a acheté une nouvelle robe »."
+        },
+        {
+          "id": "a2cdxr2",
+          "prompt": "Quand l'a-t-elle mise ?",
+          "options": [
+            "Pour la fête de samedi",
+            "Pour aller travailler",
+            "Pour un mariage"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit : « Elle l'a mise pour la fête de samedi »."
+        },
+        {
+          "id": "a2cdxr3",
+          "prompt": "Qu'ont fait ses amis ?",
+          "options": [
+            "Ils l'ont complimentée",
+            "Ils ont ri",
+            "Ils n'ont rien dit"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte le dit directement."
+        },
+        {
+          "id": "a2cdxr4",
+          "prompt": "Comment a-t-elle remercié ses amis ?",
+          "options": [
+            "Avec un grand sourire",
+            "Avec un cadeau",
+            "Elle ne les a pas remerciés"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte se termine par « avec un grand sourire »."
+        }
+      ]
+    },
+    {
+      "id": "a2cdx-order",
+      "type": "ordering",
+      "title": "Remets la Phrase en Ordre",
+      "items": [
+        {
+          "id": "a2cdxo1",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Elle",
+            "l'a",
+            "mise",
+            "pour",
+            "la",
+            "fête"
+          ],
+          "explanation": "Pronom COD l' devant l'auxiliaire, accord au féminin."
+        },
+        {
+          "id": "a2cdxo2",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Elle",
+            "les",
+            "a",
+            "remerciés",
+            "avec",
+            "un",
+            "sourire"
+          ],
+          "explanation": "Pronom COD les devant l'auxiliaire, accord au pluriel."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Le COD répond à qui/quoi sans préposition, et se remplace par le/la/l'/les.",
+    "Le pronom COD se place toujours avant le verbe conjugué, y compris avant l'auxiliaire au passé composé.",
+    "À la négation, ne...pas encadre le pronom et le verbe ensemble."
+  ]
+}

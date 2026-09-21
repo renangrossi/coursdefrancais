@@ -91,7 +91,60 @@
       "title": "Le Futur Proche"
     }
   ],
-  "a2": [],
+  "a2": [
+    {
+      "slug": "le-passe-compose",
+      "title": "Le Passé Composé"
+    },
+    {
+      "slug": "limparfait",
+      "title": "L'Imparfait"
+    },
+    {
+      "slug": "passe-compose-vs-imparfait",
+      "title": "Passé Composé vs. Imparfait"
+    },
+    {
+      "slug": "le-futur-simple",
+      "title": "Le Futur Simple"
+    },
+    {
+      "slug": "les-comparatifs-et-superlatifs",
+      "title": "Les Comparatifs et Superlatifs"
+    },
+    {
+      "slug": "les-pronoms-cod",
+      "title": "Les Pronoms Compléments d'Objet Direct (COD)"
+    },
+    {
+      "slug": "les-pronoms-coi",
+      "title": "Les Pronoms Compléments d'Objet Indirect (COI)"
+    },
+    {
+      "slug": "les-verbes-pronominaux",
+      "title": "Les Verbes Pronominaux"
+    },
+    {
+      "slug": "limperatif",
+      "title": "L'Impératif"
+    },
+    {
+      "slug": "le-conditionnel-present",
+      "title": "Le Conditionnel Présent"
+    },
+    {
+      "slug": "les-indefinis",
+      "title": "Les Indéfinis"
+    },
+    {
+      "slug": "y-et-en",
+      "title": "Y et En"
+    },
+    {
+      "slug": "les-prepositions-avec-les-pays-et-les-villes",
+      "title": "Les Prépositions avec les Pays et les Villes"
+    }
+  ],
   "b1": [],
   "b2": [],
   "c1": [],

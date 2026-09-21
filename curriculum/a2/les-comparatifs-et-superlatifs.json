@@ -1,0 +1,304 @@
+{
+  "id": "a2-les-comparatifs-et-superlatifs",
+  "level": "A2",
+  "unit": "1",
+  "order": 5,
+  "skill": "grammar",
+  "strand": "comparatifs",
+  "title": "Les Comparatifs et Superlatifs",
+  "subtitle": "Plus...que, moins...que, aussi...que, le/la/les plus/moins, et les formes irrégulières meilleur/mieux.",
+  "objectives": [
+    "Former le comparatif de supériorité, d'infériorité et d'égalité.",
+    "Former le superlatif avec le/la/les plus/moins.",
+    "Utiliser les formes irrégulières bon → meilleur et bien → mieux."
+  ],
+  "content": {
+    "intro": "Comparer deux personnes, deux choses ou une chose à tout un groupe est une compétence essentielle du niveau A2, avec une structure simple et deux exceptions à retenir absolument.",
+    "explanation": "<p>Pour comparer deux éléments, le français utilise <strong>plus…que</strong> (supériorité), <strong>moins…que</strong> (infériorité) et <strong>aussi…que</strong> (égalité), placés autour de l'adjectif ou de l'adverbe : <em>Paul est plus grand que Marie. Elle court aussi vite que lui.</em></p><p>Le <strong>superlatif</strong> se forme avec <em>le/la/les</em> + <em>plus/moins</em> + adjectif, accordé avec le nom : <em>C'est le plus grand bâtiment de la ville.</em> Deux formes sont irrégulières et ne suivent pas ce schéma : l'adjectif <strong>bon</strong> devient <strong>meilleur</strong> (jamais « plus bon »), et l'adverbe <strong>bien</strong> devient <strong>mieux</strong> (jamais « plus bien »).</p>",
+    "rules": [
+      {
+        "heading": "a) Comparatif",
+        "body": "<ul><li><strong>plus…que</strong> — supériorité : <em>plus grand que</em>.</li><li><strong>moins…que</strong> — infériorité : <em>moins cher que</em>.</li><li><strong>aussi…que</strong> — égalité : <em>aussi vite que</em>.</li></ul>"
+      },
+      {
+        "heading": "b) Superlatif",
+        "body": "<ul><li><em>le/la/les</em> + plus/moins + adjectif, accordé avec le nom : <em>la plus grande ville, les plus beaux jardins</em>.</li></ul>"
+      },
+      {
+        "heading": "c) Formes irrégulières",
+        "body": "<ul><li><strong>bon(ne)(s) → meilleur(e)(s)</strong> — <em>ce gâteau est meilleur</em> (jamais « plus bon »).</li><li><strong>bien → mieux</strong> (adverbe invariable) — <em>elle chante mieux</em> (jamais « plus bien »).</li></ul>"
+      },
+      {
+        "heading": "d) Le groupe de comparaison",
+        "body": "<ul><li>Avec un comparatif : introduit par <em>que</em> — <em>plus grand que Paul</em>.</li><li>Avec un superlatif : introduit par <em>de</em> — <em>le plus grand de la classe</em>.</li></ul>"
+      }
+    ],
+    "examples": [
+      "Paul est plus grand que Marie.",
+      "Elle court aussi vite que lui.",
+      "Ce restaurant est moins cher que l'autre.",
+      "C'est le plus grand bâtiment de la ville.",
+      "Ce gâteau est meilleur que le précédent.",
+      "Tu chantes mieux que moi.",
+      "C'est la meilleure idée de la réunion."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Ce gâteau est plus bon que l'autre.",
+        "right": "Ce gâteau est meilleur que l'autre.",
+        "why": "Bon a une forme comparative irrégulière, meilleur ; « plus bon » n'existe pas."
+      },
+      {
+        "wrong": "Elle chante plus bien que moi.",
+        "right": "Elle chante mieux que moi.",
+        "why": "L'adverbe bien devient mieux au comparatif, jamais « plus bien »."
+      },
+      {
+        "wrong": "Il est le plus grand de la classe que Paul.",
+        "right": "Il est le plus grand de la classe.",
+        "why": "Le superlatif introduit son groupe de comparaison avec de, pas avec que."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a2cs-fill",
+      "type": "fill-blank",
+      "title": "Complète la Comparaison",
+      "instructions": "Choisis la forme correcte pour chaque espace.",
+      "items": [
+        {
+          "id": "a2csf1",
+          "prompt": "Ce gâteau est ___ que l'autre.",
+          "answers": [
+            [
+              "meilleur"
+            ]
+          ],
+          "options": [
+            "meilleur",
+            "plus bon",
+            "plus bien"
+          ],
+          "explanation": "Bon a une forme comparative irrégulière : meilleur."
+        },
+        {
+          "id": "a2csf2",
+          "prompt": "Elle chante ___ que moi.",
+          "answers": [
+            [
+              "mieux"
+            ]
+          ],
+          "options": [
+            "mieux",
+            "plus bien",
+            "meilleur"
+          ],
+          "explanation": "Bien (adverbe) devient mieux au comparatif."
+        },
+        {
+          "id": "a2csf3",
+          "prompt": "C'est ___ bâtiment de la ville.",
+          "answers": [
+            [
+              "le plus grand"
+            ]
+          ],
+          "options": [
+            "le plus grand",
+            "plus grand",
+            "le meilleur grand"
+          ],
+          "explanation": "Superlatif : le + plus + adjectif."
+        },
+        {
+          "id": "a2csf4",
+          "prompt": "Marie court ___ vite que Paul.",
+          "answers": [
+            [
+              "aussi"
+            ]
+          ],
+          "options": [
+            "aussi",
+            "plus",
+            "meilleur"
+          ],
+          "explanation": "Aussi...que exprime l'égalité."
+        }
+      ]
+    },
+    {
+      "id": "a2cs-mc",
+      "type": "multiple-choice",
+      "title": "Comparatifs et Superlatifs",
+      "items": [
+        {
+          "id": "a2csm1",
+          "prompt": "Comment dit-on le comparatif irrégulier de bon ?",
+          "options": [
+            "meilleur",
+            "plus bon",
+            "bonnier"
+          ],
+          "answerIndex": 0,
+          "explanation": "Bon devient meilleur au comparatif."
+        },
+        {
+          "id": "a2csm2",
+          "prompt": "Quelle préposition introduit le groupe de comparaison du superlatif ?",
+          "options": [
+            "de",
+            "que",
+            "à"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le superlatif utilise de : le plus grand de la classe."
+        },
+        {
+          "id": "a2csm3",
+          "prompt": "Comment exprime-t-on l'égalité ?",
+          "options": [
+            "aussi...que",
+            "plus...que",
+            "moins...que"
+          ],
+          "answerIndex": 0,
+          "explanation": "Aussi...que exprime l'égalité entre deux éléments."
+        },
+        {
+          "id": "a2csm4",
+          "prompt": "Quel est le comparatif irrégulier de l'adverbe bien ?",
+          "options": [
+            "mieux",
+            "plus bien",
+            "meilleur"
+          ],
+          "answerIndex": 0,
+          "explanation": "Bien devient mieux au comparatif ; meilleur est réservé à l'adjectif bon."
+        }
+      ]
+    },
+    {
+      "id": "a2cs-correction",
+      "type": "correction",
+      "title": "Corrige les Erreurs",
+      "items": [
+        {
+          "id": "a2csc1",
+          "incorrect": "Ce gâteau est plus bon que l'autre.",
+          "answer": [
+            "Ce gâteau est meilleur que l'autre."
+          ],
+          "explanation": "Bon a une forme irrégulière au comparatif : meilleur."
+        },
+        {
+          "id": "a2csc2",
+          "incorrect": "Elle chante plus bien que moi.",
+          "answer": [
+            "Elle chante mieux que moi."
+          ],
+          "explanation": "Bien devient mieux au comparatif."
+        },
+        {
+          "id": "a2csc3",
+          "incorrect": "Il est le plus grand de la classe que Paul.",
+          "answer": [
+            "Il est le plus grand de la classe."
+          ],
+          "explanation": "Le superlatif n'a pas besoin de que après de la classe."
+        }
+      ]
+    },
+    {
+      "id": "a2csx-reading",
+      "type": "reading-comprehension",
+      "title": "Lecture : Deux Restaurants du Quartier",
+      "passage": "<p>Le restaurant italien est plus cher que le restaurant chinois, mais la nourriture y est meilleure. C'est le meilleur restaurant du quartier, selon mes amis. Moi, je trouve que le service est aussi rapide dans les deux.</p>",
+      "items": [
+        {
+          "id": "a2csxr1",
+          "prompt": "Quel restaurant est plus cher ?",
+          "options": [
+            "Le restaurant italien",
+            "Le restaurant chinois",
+            "Les deux, pareil"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit : « Le restaurant italien est plus cher »."
+        },
+        {
+          "id": "a2csxr2",
+          "prompt": "Comment est la nourriture italienne, comparée à l'autre ?",
+          "options": [
+            "Meilleure",
+            "Moins bonne",
+            "Identique"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit : « la nourriture y est meilleure »."
+        },
+        {
+          "id": "a2csxr3",
+          "prompt": "Quel restaurant est le meilleur du quartier, selon les amis ?",
+          "options": [
+            "L'italien",
+            "Le chinois",
+            "Aucun des deux"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte le dit directement."
+        },
+        {
+          "id": "a2csxr4",
+          "prompt": "Comment est le service dans les deux restaurants ?",
+          "options": [
+            "Aussi rapide",
+            "Très différent",
+            "Très lent"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit : « le service est aussi rapide dans les deux »."
+        }
+      ]
+    },
+    {
+      "id": "a2csx-order",
+      "type": "ordering",
+      "title": "Remets la Phrase en Ordre",
+      "items": [
+        {
+          "id": "a2csxo1",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "C'est",
+            "le",
+            "meilleur",
+            "restaurant",
+            "du",
+            "quartier"
+          ],
+          "explanation": "Superlatif irrégulier de bon : meilleur."
+        },
+        {
+          "id": "a2csxo2",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Le",
+            "service",
+            "est",
+            "aussi",
+            "rapide"
+          ],
+          "explanation": "Comparatif d'égalité : aussi...que."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Le comparatif se forme avec plus/moins/aussi...que autour de l'adjectif ou de l'adverbe.",
+    "Le superlatif se forme avec le/la/les plus/moins + adjectif, et son groupe de comparaison est introduit par de.",
+    "Bon devient meilleur et bien devient mieux au comparatif comme au superlatif ; « plus bon » et « plus bien » n'existent pas."
+  ]
+}

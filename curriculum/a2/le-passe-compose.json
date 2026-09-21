@@ -1,0 +1,304 @@
+{
+  "id": "a2-le-passe-compose",
+  "level": "A2",
+  "unit": "1",
+  "order": 1,
+  "skill": "grammar",
+  "strand": "passe-compose",
+  "title": "Le Passé Composé",
+  "subtitle": "Comment former le passé composé avec avoir et avec être, et accorder le participe passé.",
+  "objectives": [
+    "Former le passé composé avec avoir pour la majorité des verbes.",
+    "Reconnaître les verbes qui se conjuguent avec être (verbes de mouvement et quelques autres).",
+    "Accorder le participe passé avec le sujet pour les verbes construits avec être."
+  ],
+  "content": {
+    "intro": "Le passé composé est le temps le plus utilisé à l'oral pour parler d'un événement terminé dans le passé — c'est la première étape indispensable pour raconter ce que tu as fait.",
+    "explanation": "<p>La plupart des verbes forment leur passé composé avec l'auxiliaire <strong>avoir</strong> + participe passé : <em>j'ai parlé, tu as fini, il a vendu</em>. Un petit groupe de verbes, souvent appelés les verbes de la « maison d'être » (<em>aller/venir, arriver/partir, entrer/sortir, monter/descendre, naître/mourir, rester, tomber</em>, et leurs composés comme <em>revenir, rentrer</em>), utilisent <strong>être</strong> comme auxiliaire.</p><p>Avec être, le participe passé s'accorde en genre et en nombre avec le sujet, comme un adjectif : <em>elle est allée, ils sont partis, elles sont parties</em>. Avec avoir, le participe passé ne s'accorde pas avec le sujet à ce niveau.</p>",
+    "rules": [
+      {
+        "heading": "a) Passé composé avec avoir",
+        "body": "<ul><li>sujet + avoir (présent) + participe passé — <em>j'ai parlé, tu as fini, il a vendu</em>.</li></ul>"
+      },
+      {
+        "heading": "b) Les verbes de la « maison d'être »",
+        "body": "<ul><li><em>aller/venir, arriver/partir, entrer/sortir, monter/descendre, naître/mourir, rester, tomber</em>, et leurs composés (<em>revenir, rentrer, retourner</em>).</li></ul>"
+      },
+      {
+        "heading": "c) Accord avec être",
+        "body": "<ul><li>Le participe passé s'accorde avec le sujet : <em>elle est partie, ils sont venus, elles sont nées</em>.</li></ul>"
+      },
+      {
+        "heading": "d) Formation du participe passé",
+        "body": "<ul><li>-er → -é (<em>parlé</em>), -ir → -i (<em>fini</em>), -re → -u (<em>vendu</em>).</li><li>Irréguliers fréquents : <em>être → été, avoir → eu, faire → fait, prendre → pris</em>.</li></ul>"
+      }
+    ],
+    "examples": [
+      "J'ai mangé une pomme ce matin.",
+      "Elle est allée au marché hier.",
+      "Nous avons fini nos devoirs.",
+      "Ils sont partis très tôt.",
+      "Tu as pris le bus ce matin ?",
+      "Elle est née à Lyon en 1998.",
+      "Vous avez fait vos valises ?"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Elle a née à Lyon.",
+        "right": "Elle est née à Lyon.",
+        "why": "Naître fait partie des verbes qui se conjuguent avec être, pas avoir."
+      },
+      {
+        "wrong": "Ils sont allé au cinéma.",
+        "right": "Ils sont allés au cinéma.",
+        "why": "Avec être, le participe passé s'accorde avec le sujet ; ici, il faut le -s du pluriel."
+      },
+      {
+        "wrong": "Nous avons parti tôt.",
+        "right": "Nous sommes partis tôt.",
+        "why": "Partir se conjugue avec être, pas avoir."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a2pc-fill",
+      "type": "fill-blank",
+      "title": "Conjugue au Passé Composé",
+      "instructions": "Écris la forme correcte du verbe entre parenthèses.",
+      "items": [
+        {
+          "id": "a2pcf1",
+          "prompt": "Hier, je ___ (manger) au restaurant.",
+          "answers": [
+            [
+              "ai mangé"
+            ]
+          ],
+          "options": [
+            "ai mangé",
+            "suis mangé",
+            "a mangé"
+          ],
+          "explanation": "Manger se conjugue avec avoir : j'ai mangé."
+        },
+        {
+          "id": "a2pcf2",
+          "prompt": "Elle ___ (aller) à l'école à pied.",
+          "answers": [
+            [
+              "est allée"
+            ]
+          ],
+          "options": [
+            "est allée",
+            "a allé",
+            "est allé"
+          ],
+          "explanation": "Aller se conjugue avec être, et le participe s'accorde au féminin : allée."
+        },
+        {
+          "id": "a2pcf3",
+          "prompt": "Nous ___ (finir) le projet hier soir.",
+          "answers": [
+            [
+              "avons fini"
+            ]
+          ],
+          "options": [
+            "avons fini",
+            "sommes fini",
+            "avons finit"
+          ],
+          "explanation": "Finir se conjugue avec avoir : nous avons fini."
+        },
+        {
+          "id": "a2pcf4",
+          "prompt": "Ils ___ (partir) tôt ce matin.",
+          "answers": [
+            [
+              "sont partis"
+            ]
+          ],
+          "options": [
+            "sont partis",
+            "ont parti",
+            "sont parti"
+          ],
+          "explanation": "Partir se conjugue avec être, et le participe s'accorde au masculin pluriel : partis."
+        }
+      ]
+    },
+    {
+      "id": "a2pc-mc",
+      "type": "multiple-choice",
+      "title": "Avoir ou Être ?",
+      "items": [
+        {
+          "id": "a2pcm1",
+          "prompt": "Quel auxiliaire utilise-t-on avec aller ?",
+          "options": [
+            "être",
+            "avoir",
+            "les deux"
+          ],
+          "answerIndex": 0,
+          "explanation": "Aller fait partie des verbes de la « maison d'être »."
+        },
+        {
+          "id": "a2pcm2",
+          "prompt": "Comment accorde-t-on le participe passé avec être ?",
+          "options": [
+            "Comme un adjectif, selon le genre et le nombre du sujet",
+            "Il ne s'accorde jamais",
+            "Seulement au pluriel"
+          ],
+          "answerIndex": 0,
+          "explanation": "Avec être, le participe passé fonctionne comme un adjectif accordé au sujet."
+        },
+        {
+          "id": "a2pcm3",
+          "prompt": "Quel est le participe passé de faire ?",
+          "options": [
+            "fait",
+            "faisé",
+            "fais"
+          ],
+          "answerIndex": 0,
+          "explanation": "Faire a un participe passé irrégulier : fait."
+        },
+        {
+          "id": "a2pcm4",
+          "prompt": "Quelle phrase est correcte ?",
+          "options": [
+            "Elle est allée au marché.",
+            "Elle a allée au marché.",
+            "Elle est allé au marché."
+          ],
+          "answerIndex": 0,
+          "explanation": "Aller + être, avec accord féminin du participe : allée."
+        }
+      ]
+    },
+    {
+      "id": "a2pc-correction",
+      "type": "correction",
+      "title": "Corrige les Erreurs",
+      "items": [
+        {
+          "id": "a2pcc1",
+          "incorrect": "Elle a née à Lyon.",
+          "answer": [
+            "Elle est née à Lyon."
+          ],
+          "explanation": "Naître se conjugue avec être."
+        },
+        {
+          "id": "a2pcc2",
+          "incorrect": "Ils sont allé au cinéma.",
+          "answer": [
+            "Ils sont allés au cinéma."
+          ],
+          "explanation": "Le participe passé s'accorde au pluriel avec être."
+        },
+        {
+          "id": "a2pcc3",
+          "incorrect": "Nous avons parti tôt.",
+          "answer": [
+            "Nous sommes partis tôt."
+          ],
+          "explanation": "Partir se conjugue avec être, pas avoir."
+        }
+      ]
+    },
+    {
+      "id": "a2pcx-reading",
+      "type": "reading-comprehension",
+      "title": "Lecture : Une Journée au Marché",
+      "passage": "<p>Hier, je suis allé au marché. J'ai acheté des légumes et j'ai vu mon ami Marc. Il est arrivé en retard, mais nous avons bien mangé ensemble. Après le déjeuner, je suis rentré à la maison.</p>",
+      "items": [
+        {
+          "id": "a2pcxr1",
+          "prompt": "Où est allée la personne hier ?",
+          "options": [
+            "Au marché",
+            "Au restaurant",
+            "À l'école"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit : « je suis allé au marché »."
+        },
+        {
+          "id": "a2pcxr2",
+          "prompt": "Qui a-t-elle vu ?",
+          "options": [
+            "Son ami Marc",
+            "Sa sœur",
+            "Sa collègue"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit : « j'ai vu mon ami Marc »."
+        },
+        {
+          "id": "a2pcxr3",
+          "prompt": "Comment Marc est-il arrivé ?",
+          "options": [
+            "En retard",
+            "À l'heure",
+            "En avance"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit : « Il est arrivé en retard »."
+        },
+        {
+          "id": "a2pcxr4",
+          "prompt": "Qu'a fait la personne après le déjeuner ?",
+          "options": [
+            "Elle est rentrée à la maison",
+            "Elle est allée au travail",
+            "Elle a fait les courses"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte se termine par « je suis rentré à la maison »."
+        }
+      ]
+    },
+    {
+      "id": "a2pcx-order",
+      "type": "ordering",
+      "title": "Remets la Phrase en Ordre",
+      "items": [
+        {
+          "id": "a2pcxo1",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Je",
+            "suis",
+            "allé",
+            "au",
+            "marché",
+            "hier"
+          ],
+          "explanation": "Passé composé avec être + participe accordé."
+        },
+        {
+          "id": "a2pcxo2",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Nous",
+            "avons",
+            "bien",
+            "mangé",
+            "ensemble"
+          ],
+          "explanation": "Passé composé avec avoir, participe invariable."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Le passé composé se forme avec avoir ou être (présent) + participe passé.",
+    "Un petit groupe de verbes (la « maison d'être ») utilise être comme auxiliaire : aller, venir, arriver, partir, entrer, sortir, monter, descendre, naître, mourir, rester, tomber, et leurs composés.",
+    "Avec être, le participe passé s'accorde en genre et en nombre avec le sujet ; avec avoir, il reste invariable à ce niveau."
+  ]
+}
