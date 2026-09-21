@@ -1,0 +1,220 @@
+{
+  "id": "b2-le-futur-anterieur",
+  "level": "B2",
+  "unit": "1",
+  "order": 10,
+  "skill": "grammar",
+  "strand": "futur-anterieur",
+  "title": "Le Futur Antérieur",
+  "subtitle": "Comment former le futur antérieur, pour exprimer une action terminée avant un autre moment du futur.",
+  "objectives": [
+    "Former le futur antérieur avec le futur simple de avoir/être + participe passé.",
+    "Employer le futur antérieur après quand, dès que, lorsque pour une action antérieure à une autre action future.",
+    "Distinguer le futur antérieur du futur simple selon la chronologie des deux actions."
+  ],
+  "content": {
+    "intro": "Quand deux actions se situent dans le futur mais que l'une doit être terminée avant que l'autre commence, le français utilise le futur antérieur pour marquer clairement cette antériorité.",
+    "explanation": "<p>Le futur antérieur se forme avec le <strong>futur simple</strong> de <em>avoir</em> ou <em>être</em> + le participe passé, avec les mêmes règles d'auxiliaire et d'accord que le passé composé : <em>j'aurai fini, elle sera partie, nous nous serons levés</em>.</p><p>Il s'emploie pour une action qui sera <strong>déjà terminée</strong> au moment où une autre action future se produira, très souvent après <em>quand, dès que, lorsque, aussitôt que</em> : <em>Quand tu arriveras, j'aurai déjà fini de préparer le dîner.</em> Contrairement à l'anglais, le français utilise le futur (simple ou antérieur) après ces conjonctions, jamais le présent.</p>",
+    "rules": [
+      {
+        "heading": "a) Formation",
+        "body": "<ul><li>Futur simple de avoir/être + participe passé : <em>j'aurai parlé, tu seras parti(e)</em>.</li></ul>"
+      },
+      {
+        "heading": "b) Emploi",
+        "body": "<ul><li>Action antérieure à un autre fait futur : <em>Dès que tu auras fini, appelle-moi.</em></li></ul>"
+      },
+      {
+        "heading": "c) Après quand/dès que/lorsque",
+        "body": "<ul><li>Le français utilise le futur (simple ou antérieur), jamais le présent, contrairement à l'anglais.</li></ul>"
+      },
+      {
+        "heading": "d) Même accord que le passé composé",
+        "body": "<ul><li>Les mêmes règles d'auxiliaire et d'accord s'appliquent.</li></ul>"
+      }
+    ],
+    "examples": [
+      "Quand tu arriveras, j'aurai déjà fini de préparer le dîner.",
+      "Dès que tu auras fini, appelle-moi.",
+      "Elle sera partie avant notre arrivée.",
+      "Lorsque nous aurons terminé, nous sortirons fêter ça.",
+      "Aussitôt qu'il aura reçu la réponse, il nous préviendra.",
+      "Ils se seront couchés avant minuit, sans doute.",
+      "Tu auras compris la leçon d'ici la fin de la semaine."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Quand tu arrives, j'aurai fini.",
+        "right": "Quand tu arriveras, j'aurai fini.",
+        "why": "Après quand annonçant un fait futur, on utilise le futur, jamais le présent, en français."
+      },
+      {
+        "wrong": "Dès que tu as fini, appelle-moi.",
+        "right": "Dès que tu auras fini, appelle-moi.",
+        "why": "L'action future antérieure demande le futur antérieur, pas le passé composé."
+      },
+      {
+        "wrong": "Elle aura parti avant notre arrivée.",
+        "right": "Elle sera partie avant notre arrivée.",
+        "why": "Partir se conjugue avec être, même au futur antérieur, avec accord au féminin."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b2fa-fill",
+      "type": "fill-blank",
+      "title": "Conjugue au Futur Antérieur",
+      "instructions": "Écris la forme correcte du verbe entre parenthèses.",
+      "items": [
+        {
+          "id": "b2faf1",
+          "prompt": "Quand tu arriveras, j'___ (finir) de préparer le dîner.",
+          "answers": [
+            [
+              "aurai fini"
+            ]
+          ],
+          "options": [
+            "aurai fini",
+            "ai fini",
+            "aurais fini"
+          ],
+          "explanation": "Futur simple de avoir + participe passé."
+        },
+        {
+          "id": "b2faf2",
+          "prompt": "Dès que tu ___ (finir), appelle-moi.",
+          "answers": [
+            [
+              "auras fini"
+            ]
+          ],
+          "options": [
+            "auras fini",
+            "as fini",
+            "finiras"
+          ],
+          "explanation": "Futur antérieur après dès que."
+        },
+        {
+          "id": "b2faf3",
+          "prompt": "Elle ___ (partir) avant notre arrivée.",
+          "answers": [
+            [
+              "sera partie"
+            ]
+          ],
+          "options": [
+            "sera partie",
+            "aura parti",
+            "était partie"
+          ],
+          "explanation": "Partir se conjugue avec être, accord au féminin."
+        },
+        {
+          "id": "b2faf4",
+          "prompt": "Lorsque nous ___ (terminer), nous sortirons fêter ça.",
+          "answers": [
+            [
+              "aurons terminé"
+            ]
+          ],
+          "options": [
+            "aurons terminé",
+            "terminons",
+            "avons terminé"
+          ],
+          "explanation": "Futur antérieur après lorsque, pour une action future antérieure."
+        }
+      ]
+    },
+    {
+      "id": "b2fa-mc",
+      "type": "multiple-choice",
+      "title": "Le Futur Antérieur",
+      "items": [
+        {
+          "id": "b2fam1",
+          "prompt": "Comment forme-t-on le futur antérieur ?",
+          "options": [
+            "futur simple de avoir/être + participe passé",
+            "imparfait de avoir/être + participe passé",
+            "présent de avoir/être + participe passé"
+          ],
+          "answerIndex": 0,
+          "explanation": "L'auxiliaire est au futur simple."
+        },
+        {
+          "id": "b2fam2",
+          "prompt": "Quel temps utilise le français après quand/dès que pour un fait futur ?",
+          "options": [
+            "le futur, jamais le présent",
+            "toujours le présent",
+            "toujours le subjonctif"
+          ],
+          "answerIndex": 0,
+          "explanation": "Contrairement à l'anglais, le français exige le futur."
+        },
+        {
+          "id": "b2fam3",
+          "prompt": "À quoi sert le futur antérieur ?",
+          "options": [
+            "exprimer une action terminée avant un autre fait futur",
+            "décrire une habitude passée",
+            "exprimer un regret"
+          ],
+          "answerIndex": 0,
+          "explanation": "Il marque toujours l'antériorité entre deux faits futurs."
+        },
+        {
+          "id": "b2fam4",
+          "prompt": "Dans « quand tu arriveras, j'aurai fini », quelle action se termine en premier ?",
+          "options": [
+            "j'aurai fini",
+            "tu arriveras",
+            "aucune des deux"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le futur antérieur marque toujours l'action la plus ancienne des deux."
+        }
+      ]
+    },
+    {
+      "id": "b2fa-correction",
+      "type": "correction",
+      "title": "Corrige les Erreurs",
+      "items": [
+        {
+          "id": "b2fac1",
+          "incorrect": "Quand tu arrives, j'aurai fini.",
+          "answer": [
+            "Quand tu arriveras, j'aurai fini."
+          ],
+          "explanation": "Le futur, jamais le présent, après quand pour un fait futur."
+        },
+        {
+          "id": "b2fac2",
+          "incorrect": "Dès que tu as fini, appelle-moi.",
+          "answer": [
+            "Dès que tu auras fini, appelle-moi."
+          ],
+          "explanation": "Futur antérieur pour l'action future antérieure."
+        },
+        {
+          "id": "b2fac3",
+          "incorrect": "Elle aura parti avant notre arrivée.",
+          "answer": [
+            "Elle sera partie avant notre arrivée."
+          ],
+          "explanation": "Partir se conjugue avec être."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Le futur antérieur se forme avec le futur simple de avoir/être + participe passé.",
+    "Il exprime une action terminée avant un autre fait futur, souvent après quand, dès que, lorsque.",
+    "Contrairement à l'anglais, le français utilise toujours le futur (simple ou antérieur) après ces conjonctions, jamais le présent."
+  ]
+}

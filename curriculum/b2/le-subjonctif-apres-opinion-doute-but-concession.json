@@ -1,0 +1,220 @@
+{
+  "id": "b2-le-subjonctif-apres-opinion-doute-but-concession",
+  "level": "B2",
+  "unit": "1",
+  "order": 2,
+  "skill": "grammar",
+  "strand": "subjonctif-declencheurs-avances",
+  "title": "Le Subjonctif Après l'Opinion, le Doute, le But et la Concession",
+  "subtitle": "Un répertoire plus large de déclencheurs du subjonctif : bien que, pour que, à moins que, avant que.",
+  "objectives": [
+    "Élargir le répertoire des déclencheurs du subjonctif au-delà de il faut que et vouloir que.",
+    "Employer bien que/quoique pour la concession et pour que/afin que pour le but.",
+    "Reconnaître les expressions d'opinion qui basculent au subjonctif à la forme négative ou interrogative."
+  ],
+  "content": {
+    "intro": "Au-delà des déclencheurs de base vus au niveau B1, le français utilise le subjonctif dans un ensemble beaucoup plus large de structures — la concession, le but, la restriction — indispensables pour un discours nuancé.",
+    "explanation": "<p>La <strong>concession</strong> (« malgré tout ») s'exprime avec <em>bien que</em> ou <em>quoique</em> + subjonctif : <em>Bien qu'il soit fatigué, il continue à travailler.</em> Le <strong>but</strong> s'exprime avec <em>pour que</em> ou <em>afin que</em> + subjonctif quand le sujet change entre les deux propositions : <em>Je lui explique pour qu'il comprenne.</em> La <strong>restriction</strong> s'exprime avec <em>à moins que</em> : <em>Nous partirons à moins qu'il ne pleuve.</em> L'antériorité temporelle stricte s'exprime avec <em>avant que</em> + subjonctif.</p><p>Les verbes d'opinion (<em>penser, croire, trouver</em>) restent à l'indicatif à la forme affirmative, mais basculent souvent au subjonctif à la forme négative ou interrogative, car la certitude disparaît : <em>Je trouve que c'est une bonne idée</em> (indicatif) → <em>Trouves-tu que ce soit une bonne idée ?</em> (subjonctif, incertitude).</p>",
+    "rules": [
+      {
+        "heading": "a) Concession",
+        "body": "<ul><li><em>bien que, quoique</em> + subjonctif : <em>Bien qu'il pleuve, nous sortons.</em></li></ul>"
+      },
+      {
+        "heading": "b) But",
+        "body": "<ul><li><em>pour que, afin que</em> + subjonctif (sujets différents) : <em>Je parle fort pour qu'il m'entende.</em></li></ul>"
+      },
+      {
+        "heading": "c) Restriction et antériorité",
+        "body": "<ul><li><em>à moins que, avant que</em> + subjonctif.</li></ul>"
+      },
+      {
+        "heading": "d) Opinion à la forme négative/interrogative",
+        "body": "<ul><li><em>penser, croire, trouver</em> négatif ou interrogatif → souvent subjonctif.</li></ul>"
+      }
+    ],
+    "examples": [
+      "Bien qu'il soit fatigué, il continue à travailler.",
+      "Je lui explique pour qu'il comprenne.",
+      "Nous partirons à moins qu'il ne pleuve.",
+      "Appelle-moi avant que je parte.",
+      "Trouves-tu que ce soit une bonne idée ?",
+      "Quoiqu'elle soit jeune, elle a beaucoup d'expérience.",
+      "Je ne crois pas qu'il vienne ce soir."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Bien qu'il est fatigué, il continue.",
+        "right": "Bien qu'il soit fatigué, il continue.",
+        "why": "Bien que impose toujours le subjonctif."
+      },
+      {
+        "wrong": "Je parle fort pour qu'il m'entend.",
+        "right": "Je parle fort pour qu'il m'entende.",
+        "why": "Pour que impose le subjonctif quand le sujet change de proposition."
+      },
+      {
+        "wrong": "Je trouve que c'est une bonne idée (au subjonctif).",
+        "right": "Je trouve que c'est une bonne idée.",
+        "why": "Trouver que à la forme affirmative reste à l'indicatif, la certitude est présente."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b2sbo-fill",
+      "type": "fill-blank",
+      "title": "Complète avec le Subjonctif",
+      "instructions": "Écris la forme correcte du verbe entre parenthèses.",
+      "items": [
+        {
+          "id": "b2sbof1",
+          "prompt": "Bien qu'il ___ (être) fatigué, il continue.",
+          "answers": [
+            [
+              "soit"
+            ]
+          ],
+          "options": [
+            "soit",
+            "est",
+            "sera"
+          ],
+          "explanation": "Bien que impose le subjonctif."
+        },
+        {
+          "id": "b2sbof2",
+          "prompt": "Je lui explique pour qu'il ___ (comprendre).",
+          "answers": [
+            [
+              "comprenne"
+            ]
+          ],
+          "options": [
+            "comprenne",
+            "comprend",
+            "comprendra"
+          ],
+          "explanation": "Pour que + sujets différents → subjonctif."
+        },
+        {
+          "id": "b2sbof3",
+          "prompt": "Nous partirons à moins qu'il ne ___ (pleuvoir).",
+          "answers": [
+            [
+              "pleuve"
+            ]
+          ],
+          "options": [
+            "pleuve",
+            "pleut",
+            "pleuvra"
+          ],
+          "explanation": "À moins que impose le subjonctif."
+        },
+        {
+          "id": "b2sbof4",
+          "prompt": "Appelle-moi avant que je ne ___ (partir).",
+          "answers": [
+            [
+              "parte"
+            ]
+          ],
+          "options": [
+            "parte",
+            "pars",
+            "partirai"
+          ],
+          "explanation": "Avant que impose le subjonctif."
+        }
+      ]
+    },
+    {
+      "id": "b2sbo-mc",
+      "type": "multiple-choice",
+      "title": "Subjonctif : Opinion, Doute, But, Concession",
+      "items": [
+        {
+          "id": "b2sbom1",
+          "prompt": "Quelle conjonction exprime la concession ?",
+          "options": [
+            "bien que",
+            "pour que",
+            "parce que"
+          ],
+          "answerIndex": 0,
+          "explanation": "Bien que/quoique expriment la concession."
+        },
+        {
+          "id": "b2sbom2",
+          "prompt": "Quelle conjonction exprime le but ?",
+          "options": [
+            "pour que",
+            "bien que",
+            "à moins que"
+          ],
+          "answerIndex": 0,
+          "explanation": "Pour que/afin que expriment le but."
+        },
+        {
+          "id": "b2sbom3",
+          "prompt": "« Je trouve que c'est une bonne idée » est-il à l'indicatif ou au subjonctif ?",
+          "options": [
+            "indicatif, car affirmatif",
+            "subjonctif, toujours",
+            "cela dépend du sujet"
+          ],
+          "answerIndex": 0,
+          "explanation": "Trouver que affirmatif reste à l'indicatif."
+        },
+        {
+          "id": "b2sbom4",
+          "prompt": "Que se passe-t-il souvent avec « penser que » à la forme interrogative ?",
+          "options": [
+            "le verbe passe au subjonctif",
+            "rien ne change",
+            "le verbe passe au conditionnel"
+          ],
+          "answerIndex": 0,
+          "explanation": "La forme interrogative introduit une incertitude."
+        }
+      ]
+    },
+    {
+      "id": "b2sbo-correction",
+      "type": "correction",
+      "title": "Corrige les Erreurs",
+      "items": [
+        {
+          "id": "b2sboc1",
+          "incorrect": "Bien qu'il est fatigué, il continue.",
+          "answer": [
+            "Bien qu'il soit fatigué, il continue."
+          ],
+          "explanation": "Bien que impose le subjonctif."
+        },
+        {
+          "id": "b2sboc2",
+          "incorrect": "Je parle fort pour qu'il m'entend.",
+          "answer": [
+            "Je parle fort pour qu'il m'entende."
+          ],
+          "explanation": "Pour que impose le subjonctif."
+        },
+        {
+          "id": "b2sboc3",
+          "incorrect": "Nous partirons à moins qu'il ne pleut.",
+          "answer": [
+            "Nous partirons à moins qu'il ne pleuve."
+          ],
+          "explanation": "À moins que impose le subjonctif."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Bien que/quoique (concession) et pour que/afin que (but, sujets différents) imposent le subjonctif.",
+    "À moins que (restriction) et avant que (antériorité) imposent aussi le subjonctif.",
+    "Penser/croire/trouver restent à l'indicatif à la forme affirmative, mais basculent souvent au subjonctif à la forme négative ou interrogative."
+  ]
+}

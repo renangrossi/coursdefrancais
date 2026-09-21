@@ -1,0 +1,220 @@
+{
+  "id": "b2-le-subjonctif-passe",
+  "level": "B2",
+  "unit": "1",
+  "order": 1,
+  "skill": "grammar",
+  "strand": "subjonctif-passe",
+  "title": "Le Subjonctif Passé",
+  "subtitle": "Comment former le subjonctif passé, pour une action subjective antérieure au moment de la principale.",
+  "objectives": [
+    "Former le subjonctif passé avec le subjonctif présent de avoir/être + participe passé.",
+    "Employer le subjonctif passé quand l'action subjective est antérieure à celle de la principale.",
+    "Distinguer le subjonctif présent du subjonctif passé selon la chronologie des deux actions."
+  ],
+  "content": {
+    "intro": "Le subjonctif présent situe une action incertaine, souhaitée ou ressentie en même temps ou après la principale ; quand cette action est déjà terminée avant, il faut passer au subjonctif passé.",
+    "explanation": "<p>Le subjonctif passé se forme avec le <strong>subjonctif présent</strong> de <em>avoir</em> ou <em>être</em> + le participe passé, avec les mêmes règles d'auxiliaire et d'accord que le passé composé : <em>que j'aie fini, qu'elle soit partie, qu'ils se soient levés</em>.</p><p>Il s'emploie quand l'action introduite par <em>que</em> est <strong>antérieure</strong> à celle de la principale : <em>Je suis content que tu aies réussi ton examen</em> (la réussite précède la satisfaction). Si les deux actions sont simultanées ou que l'action subordonnée suit la principale, on garde le subjonctif présent : <em>Je suis content que tu viennes ce soir.</em></p>",
+    "rules": [
+      {
+        "heading": "a) Formation",
+        "body": "<ul><li>Subjonctif présent de avoir/être + participe passé : <em>que j'aie parlé, que tu sois parti(e)</em>.</li></ul>"
+      },
+      {
+        "heading": "b) Emploi",
+        "body": "<ul><li>Action subjective antérieure à celle de la principale : <em>Je doute qu'il ait compris.</em></li></ul>"
+      },
+      {
+        "heading": "c) Contraste avec le subjonctif présent",
+        "body": "<ul><li>Simultanéité ou postériorité → subjonctif présent : <em>Je doute qu'il comprenne.</em></li></ul>"
+      },
+      {
+        "heading": "d) Même accord que le passé composé",
+        "body": "<ul><li>Les verbes pronominaux et les verbes de mouvement suivent les mêmes règles d'auxiliaire qu'ailleurs.</li></ul>"
+      }
+    ],
+    "examples": [
+      "Je suis content que tu aies réussi ton examen.",
+      "Je doute qu'il ait compris la consigne.",
+      "C'est dommage qu'elle soit partie si tôt.",
+      "Il est possible qu'ils aient déjà mangé.",
+      "Je regrette que nous nous soyons disputés.",
+      "Je ne pense pas qu'elle ait fini le rapport.",
+      "Il est étonnant que vous ayez tout terminé si vite."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Je suis content que tu réussisses ton examen (déjà passé).",
+        "right": "Je suis content que tu aies réussi ton examen.",
+        "why": "L'action est déjà terminée : il faut le subjonctif passé, pas le présent."
+      },
+      {
+        "wrong": "Je doute qu'il a compris.",
+        "right": "Je doute qu'il ait compris.",
+        "why": "Le doute déclenche le subjonctif, ici au passé car l'action est antérieure."
+      },
+      {
+        "wrong": "C'est dommage qu'elle soit parti si tôt.",
+        "right": "C'est dommage qu'elle soit partie si tôt.",
+        "why": "Le participe passé s'accorde avec le sujet féminin, elle : partie."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b2sbp-fill",
+      "type": "fill-blank",
+      "title": "Conjugue au Subjonctif Passé",
+      "instructions": "Écris la forme correcte du verbe entre parenthèses.",
+      "items": [
+        {
+          "id": "b2sbpf1",
+          "prompt": "Je suis content que tu ___ (réussir) ton examen.",
+          "answers": [
+            [
+              "aies réussi"
+            ]
+          ],
+          "options": [
+            "aies réussi",
+            "réussisses",
+            "as réussi"
+          ],
+          "explanation": "Action antérieure à la satisfaction : subjonctif passé."
+        },
+        {
+          "id": "b2sbpf2",
+          "prompt": "Je doute qu'il ___ (comprendre) la consigne.",
+          "answers": [
+            [
+              "ait compris"
+            ]
+          ],
+          "options": [
+            "ait compris",
+            "comprenne",
+            "a compris"
+          ],
+          "explanation": "Doute + action déjà terminée : subjonctif passé."
+        },
+        {
+          "id": "b2sbpf3",
+          "prompt": "C'est dommage qu'elle ___ (partir) si tôt.",
+          "answers": [
+            [
+              "soit partie"
+            ]
+          ],
+          "options": [
+            "soit partie",
+            "soit parti",
+            "parte"
+          ],
+          "explanation": "Partir se conjugue avec être, accord au féminin : soit partie."
+        },
+        {
+          "id": "b2sbpf4",
+          "prompt": "Je regrette que nous nous ___ (disputer).",
+          "answers": [
+            [
+              "soyons disputés"
+            ]
+          ],
+          "options": [
+            "soyons disputés",
+            "disputions",
+            "sommes disputés"
+          ],
+          "explanation": "Verbe pronominal au subjonctif passé : avec être."
+        }
+      ]
+    },
+    {
+      "id": "b2sbp-mc",
+      "type": "multiple-choice",
+      "title": "Le Subjonctif Passé",
+      "items": [
+        {
+          "id": "b2sbpm1",
+          "prompt": "Comment forme-t-on le subjonctif passé ?",
+          "options": [
+            "subjonctif présent de avoir/être + participe passé",
+            "imparfait de avoir/être + participe passé",
+            "présent de avoir/être + participe passé"
+          ],
+          "answerIndex": 0,
+          "explanation": "L'auxiliaire est au subjonctif présent."
+        },
+        {
+          "id": "b2sbpm2",
+          "prompt": "Quand utilise-t-on le subjonctif passé plutôt que le présent ?",
+          "options": [
+            "quand l'action subordonnée est antérieure à la principale",
+            "quand l'action est future",
+            "jamais, ils sont interchangeables"
+          ],
+          "answerIndex": 0,
+          "explanation": "L'antériorité déclenche le subjonctif passé."
+        },
+        {
+          "id": "b2sbpm3",
+          "prompt": "Dans « je doute qu'il ait compris », quelle action est antérieure ?",
+          "options": [
+            "comprendre",
+            "douter",
+            "aucune des deux"
+          ],
+          "answerIndex": 0,
+          "explanation": "Comprendre a déjà eu lieu avant le doute exprimé."
+        },
+        {
+          "id": "b2sbpm4",
+          "prompt": "Quel accord suit les mêmes règles qu'au subjonctif passé qu'au passé composé ?",
+          "options": [
+            "l'accord du participe passé",
+            "l'accord de l'adjectif",
+            "aucun accord"
+          ],
+          "answerIndex": 0,
+          "explanation": "Les mêmes règles d'auxiliaire et d'accord s'appliquent."
+        }
+      ]
+    },
+    {
+      "id": "b2sbp-correction",
+      "type": "correction",
+      "title": "Corrige les Erreurs",
+      "items": [
+        {
+          "id": "b2sbpc1",
+          "incorrect": "Je suis content que tu réussisses ton examen (déjà passé).",
+          "answer": [
+            "Je suis content que tu aies réussi ton examen."
+          ],
+          "explanation": "Action déjà terminée : subjonctif passé."
+        },
+        {
+          "id": "b2sbpc2",
+          "incorrect": "Je doute qu'il a compris.",
+          "answer": [
+            "Je doute qu'il ait compris."
+          ],
+          "explanation": "Le doute déclenche le subjonctif, ici au passé."
+        },
+        {
+          "id": "b2sbpc3",
+          "incorrect": "C'est dommage qu'elle soit parti si tôt.",
+          "answer": [
+            "C'est dommage qu'elle soit partie si tôt."
+          ],
+          "explanation": "Accord avec le sujet féminin."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Le subjonctif passé se forme avec le subjonctif présent de avoir/être + participe passé.",
+    "Il exprime une action subjective antérieure à celle de la principale ; sinon, on garde le subjonctif présent.",
+    "Les mêmes règles d'auxiliaire et d'accord qu'au passé composé s'appliquent."
+  ]
+}

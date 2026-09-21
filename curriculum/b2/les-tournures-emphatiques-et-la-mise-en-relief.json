@@ -1,0 +1,220 @@
+{
+  "id": "b2-les-tournures-emphatiques-et-la-mise-en-relief",
+  "level": "B2",
+  "unit": "1",
+  "order": 9,
+  "skill": "grammar",
+  "strand": "emphase",
+  "title": "Les Tournures Emphatiques et la Mise en Relief",
+  "subtitle": "C'est… qui/que, ce qui/ce que… c'est : comment insister sur un élément de la phrase.",
+  "objectives": [
+    "Utiliser c'est… qui pour mettre en relief le sujet d'une phrase.",
+    "Utiliser c'est… que pour mettre en relief un complément.",
+    "Utiliser ce qui/ce que… c'est pour mettre en relief le début d'une phrase."
+  ],
+  "content": {
+    "intro": "Pour insister sur un élément précis d'une phrase — sans changer l'intonation, impossible à l'écrit — le français dispose de constructions syntaxiques dédiées, très fréquentes à l'oral comme à l'écrit soigné.",
+    "explanation": "<p>La construction <strong>c'est… qui</strong> met en relief le <strong>sujet</strong> : <em>C'est Marie qui a gagné</em> (et pas quelqu'un d'autre). La construction <strong>c'est… que</strong> met en relief un <strong>complément</strong> (objet, lieu, temps) : <em>C'est ce livre que je préfère. C'est demain que nous partons.</em></p><p>Pour mettre en relief le début de la phrase de façon encore plus marquée, on utilise <strong>ce qui/ce que… c'est</strong> : <em>Ce qui m'intéresse, c'est la musique. Ce que je veux, c'est partir en vacances.</em> <em>Ce qui</em> reprend un sujet, <em>ce que</em> reprend un complément d'objet direct.</p>",
+    "rules": [
+      {
+        "heading": "a) C'est… qui (sujet)",
+        "body": "<ul><li><em>C'est Marie qui a gagné.</em></li></ul>"
+      },
+      {
+        "heading": "b) C'est… que (complément)",
+        "body": "<ul><li><em>C'est ce livre que je préfère.</em></li></ul>"
+      },
+      {
+        "heading": "c) Ce qui… c'est (sujet, emphase forte)",
+        "body": "<ul><li><em>Ce qui m'intéresse, c'est la musique.</em></li></ul>"
+      },
+      {
+        "heading": "d) Ce que… c'est (complément, emphase forte)",
+        "body": "<ul><li><em>Ce que je veux, c'est partir en vacances.</em></li></ul>"
+      }
+    ],
+    "examples": [
+      "C'est Marie qui a gagné le concours.",
+      "C'est ce livre que je préfère.",
+      "C'est demain que nous partons.",
+      "Ce qui m'intéresse, c'est la musique classique.",
+      "Ce que je veux, c'est partir en vacances.",
+      "C'est toi qui as raison.",
+      "Ce dont j'ai besoin, c'est de calme."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "C'est Marie que a gagné.",
+        "right": "C'est Marie qui a gagné.",
+        "why": "Marie est le sujet du verbe gagner : il faut qui, pas que."
+      },
+      {
+        "wrong": "C'est ce livre qui je préfère.",
+        "right": "C'est ce livre que je préfère.",
+        "why": "Ce livre est le complément d'objet direct de préférer : il faut que, pas qui."
+      },
+      {
+        "wrong": "Ce que m'intéresse, c'est la musique.",
+        "right": "Ce qui m'intéresse, c'est la musique.",
+        "why": "M'intéresse a pour sujet ce qui précède : il faut ce qui, pas ce que."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b2emp-fill",
+      "type": "fill-blank",
+      "title": "Complète la Mise en Relief",
+      "instructions": "Choisis qui, que ou ce qui/ce que.",
+      "items": [
+        {
+          "id": "b2empf1",
+          "prompt": "C'est Marie ___ a gagné le concours.",
+          "answers": [
+            [
+              "qui"
+            ]
+          ],
+          "options": [
+            "qui",
+            "que",
+            "ce qui"
+          ],
+          "explanation": "Marie est le sujet : qui."
+        },
+        {
+          "id": "b2empf2",
+          "prompt": "C'est ce livre ___ je préfère.",
+          "answers": [
+            [
+              "que"
+            ]
+          ],
+          "options": [
+            "que",
+            "qui",
+            "ce que"
+          ],
+          "explanation": "Ce livre est le complément : que."
+        },
+        {
+          "id": "b2empf3",
+          "prompt": "___ m'intéresse, c'est la musique.",
+          "answers": [
+            [
+              "Ce qui"
+            ]
+          ],
+          "options": [
+            "Ce qui",
+            "Ce que",
+            "Qui"
+          ],
+          "explanation": "M'intéresse a pour sujet ce qui précède."
+        },
+        {
+          "id": "b2empf4",
+          "prompt": "___ je veux, c'est partir en vacances.",
+          "answers": [
+            [
+              "Ce que"
+            ]
+          ],
+          "options": [
+            "Ce que",
+            "Ce qui",
+            "Que"
+          ],
+          "explanation": "Je veux a pour complément d'objet ce que je veux."
+        }
+      ]
+    },
+    {
+      "id": "b2emp-mc",
+      "type": "multiple-choice",
+      "title": "Les Tournures Emphatiques",
+      "items": [
+        {
+          "id": "b2empm1",
+          "prompt": "Que met en relief c'est… qui ?",
+          "options": [
+            "le sujet",
+            "le complément",
+            "le verbe"
+          ],
+          "answerIndex": 0,
+          "explanation": "C'est… qui isole le sujet."
+        },
+        {
+          "id": "b2empm2",
+          "prompt": "Que met en relief c'est… que ?",
+          "options": [
+            "un complément",
+            "le sujet",
+            "le verbe"
+          ],
+          "answerIndex": 0,
+          "explanation": "C'est… que isole un complément."
+        },
+        {
+          "id": "b2empm3",
+          "prompt": "Quand utilise-t-on ce qui plutôt que ce que ?",
+          "options": [
+            "quand l'élément mis en relief est un sujet",
+            "quand c'est un complément",
+            "toujours indifféremment"
+          ],
+          "answerIndex": 0,
+          "explanation": "Ce qui reprend un sujet, ce que un COD."
+        },
+        {
+          "id": "b2empm4",
+          "prompt": "Quelle construction met le plus fortement en relief le début de la phrase ?",
+          "options": [
+            "ce qui/ce que… c'est",
+            "c'est… qui/que",
+            "l'ordre normal"
+          ],
+          "answerIndex": 0,
+          "explanation": "Ce qui/ce que… c'est place l'élément mis en relief en tête absolue."
+        }
+      ]
+    },
+    {
+      "id": "b2emp-correction",
+      "type": "correction",
+      "title": "Corrige les Erreurs",
+      "items": [
+        {
+          "id": "b2empc1",
+          "incorrect": "C'est Marie que a gagné.",
+          "answer": [
+            "C'est Marie qui a gagné."
+          ],
+          "explanation": "Marie est le sujet : qui."
+        },
+        {
+          "id": "b2empc2",
+          "incorrect": "C'est ce livre qui je préfère.",
+          "answer": [
+            "C'est ce livre que je préfère."
+          ],
+          "explanation": "Ce livre est le complément : que."
+        },
+        {
+          "id": "b2empc3",
+          "incorrect": "Ce que m'intéresse, c'est la musique.",
+          "answer": [
+            "Ce qui m'intéresse, c'est la musique."
+          ],
+          "explanation": "Sujet du verbe intéresser : ce qui."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "C'est… qui met en relief le sujet ; c'est… que met en relief un complément.",
+    "Ce qui/ce que… c'est place l'élément mis en relief en tête de phrase, pour une emphase encore plus forte.",
+    "Ce qui reprend toujours un sujet, ce que un complément d'objet direct."
+  ]
+}

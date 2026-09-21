@@ -233,12 +233,53 @@
       ]
     },
     "B2": {
-      "overview": "Le niveau B2 complétera le système du subjonctif avec le subjonctif passé et les phrases conditionnelles, et approfondira les cas où l'indicatif cède la place au subjonctif dans les propositions complétives, relatives et circonstancielles. Tu verras aussi les périphrases verbales, la voix passive et les constructions pronominales à sens passif, le discours indirect à tous les temps, des connecteurs argumentatifs plus sophistiqués, des expressions idiomatiques, et la différence entre registre formel et informel. À la fin de ce niveau, tu pourras interagir avec aisance et spontanéité, et argumenter tes idées avec clarté et nuance. Ce niveau arrive bientôt ; en attendant, commence par le niveau Pre-A1, déjà disponible.",
+      "overview": "Le niveau B2 complète le système du subjonctif avec le subjonctif passé et un éventail plus large de déclencheurs (opinion, doute, but, concession), puis explore les pronoms relatifs composés, l'usage du conditionnel pour une information non confirmée, et la nominalisation propre à l'écrit formel. Tu apprendras aussi à distinguer les registres de langue, à construire une argumentation avec des connecteurs sophistiqués, à maîtriser les cas complexes d'accord du participe passé, à utiliser les tournures emphatiques, et à former le futur antérieur. À la fin de ce niveau, tu pourras t'exprimer avec aisance et nuance, à l'oral comme à l'écrit, dans un registre adapté à chaque situation.",
       "units": [
         {
           "id": "1",
           "title": "Grammaire B2",
-          "lessons": []
+          "lessons": [
+            {
+              "id": "b2-le-subjonctif-passe",
+              "status": "published"
+            },
+            {
+              "id": "b2-le-subjonctif-apres-opinion-doute-but-concession",
+              "status": "published"
+            },
+            {
+              "id": "b2-les-pronoms-relatifs-composes",
+              "status": "published"
+            },
+            {
+              "id": "b2-le-conditionnel-information-non-confirmee",
+              "status": "published"
+            },
+            {
+              "id": "b2-la-nominalisation",
+              "status": "published"
+            },
+            {
+              "id": "b2-le-registre-soutenu-et-familier",
+              "status": "published"
+            },
+            {
+              "id": "b2-les-connecteurs-argumentatifs-avances",
+              "status": "published"
+            },
+            {
+              "id": "b2-laccord-du-participe-passe-cas-complexes",
+              "status": "published"
+            },
+            {
+              "id": "b2-les-tournures-emphatiques-et-la-mise-en-relief",
+              "status": "published"
+            },
+            {
+              "id": "b2-le-futur-anterieur",
+              "status": "published"
+            }
+          ]
         }
       ]
     },

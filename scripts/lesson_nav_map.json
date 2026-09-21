@@ -195,7 +195,48 @@
       "title": "Les Verbes Suivis de à ou de + Infinitif"
     }
   ],
-  "b2": [],
+  "b2": [
+    {
+      "slug": "le-subjonctif-passe",
+      "title": "Le Subjonctif Passé"
+    },
+    {
+      "slug": "le-subjonctif-apres-opinion-doute-but-concession",
+      "title": "Le Subjonctif Après l'Opinion, le Doute, le But et la Concession"
+    },
+    {
+      "slug": "les-pronoms-relatifs-composes",
+      "title": "Les Pronoms Relatifs Composés"
+    },
+    {
+      "slug": "le-conditionnel-information-non-confirmee",
+      "title": "Le Conditionnel pour une Information Non Confirmée"
+    },
+    {
+      "slug": "la-nominalisation",
+      "title": "La Nominalisation"
+    },
+    {
+      "slug": "le-registre-soutenu-et-familier",
+      "title": "Le Registre Soutenu, le Registre Familier et les Figures de Style"
+    },
+    {
+      "slug": "les-connecteurs-argumentatifs-avances",
+      "title": "Les Connecteurs Argumentatifs Avancés"
+    },
+    {
+      "slug": "laccord-du-participe-passe-cas-complexes",
+      "title": "L'Accord du Participe Passé — Cas Complexes"
+    },
+    {
+      "slug": "les-tournures-emphatiques-et-la-mise-en-relief",
+      "title": "Les Tournures Emphatiques et la Mise en Relief"
+    },
+    {
+      "slug": "le-futur-anterieur",
+      "title": "Le Futur Antérieur"
+    }
+  ],
   "c1": [],
   "c2": []
 }
