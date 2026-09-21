@@ -1,0 +1,304 @@
+{
+  "id": "c2-la-variation-regionale-du-francais",
+  "level": "C2",
+  "unit": "1",
+  "order": 4,
+  "skill": "vocabulary",
+  "strand": "variation-regionale",
+  "title": "La Variation Régionale du Français",
+  "subtitle": "Reconnaître le vocabulaire propre au français de France, du Québec, de Belgique, de Suisse et d'Afrique francophone.",
+  "objectives": [
+    "Reconnaître un ensemble de mots et d'expressions typiques de plusieurs variétés régionales du français.",
+    "Situer géographiquement l'origine probable d'une expression régionale donnée.",
+    "Comprendre un texte contenant des régionalismes sans en être dérouté."
+  ],
+  "content": {
+    "intro": "Le français est parlé nativement sur plusieurs continents, et chaque grande région francophone a développé son propre vocabulaire : les reconnaître fait partie de la maîtrise complète de la langue, même si l'on ne les emploie pas soi-même.",
+    "explanation": "<p>Au <strong>Québec</strong>, on dit <em>un chandail</em> pour un pull, <em>ma blonde/mon chum</em> pour ma copine/mon copain, <em>magasiner</em> pour faire du shopping, <em>dépanneur</em> pour une petite épicerie de quartier ouverte tard. En <strong>Belgique</strong> et en <strong>Suisse</strong>, les nombres suivent un système différent de celui de la France : <em>septante</em> (70) et <em>nonante</em> (90) remplacent <em>soixante-dix</em> et <em>quatre-vingt-dix</em> ; la Suisse ajoute <em>huitante</em> (80) dans certains cantons. En Belgique, <em>une drache</em> désigne une forte pluie, et <em>un essuie</em> une serviette.</p><p>En <strong>Afrique francophone</strong> (Sénégal, Côte d'Ivoire, RDC, entre autres), le français intègre des mots empruntés aux langues locales et des créations propres : <em>essencerie</em> (station-service, Côte d'Ivoire), <em>deuxième bureau</em> (maîtresse, expression ivoirienne), <em>go</em> (jeune fille, argot ivoirien). Comprendre ces variantes, sans nécessairement les employer, permet de suivre un film, un roman ou une conversation authentique venus de n'importe quelle région francophone.</p>",
+    "rules": [
+      {
+        "heading": "a) Vocabulaire québécois courant",
+        "body": "<ul><li><em>chandail</em> (pull), <em>blonde/chum</em> (copine/copain), <em>magasiner</em> (faire du shopping), <em>dépanneur</em> (épicerie de quartier).</li></ul>"
+      },
+      {
+        "heading": "b) Les nombres en Belgique et en Suisse",
+        "body": "<ul><li><em>septante</em> (70), <em>nonante</em> (90) ; <em>huitante</em> (80, dans certains cantons suisses) remplacent les formes composées françaises.</li></ul>"
+      },
+      {
+        "heading": "c) Belgicismes courants",
+        "body": "<ul><li><em>une drache</em> (forte pluie), <em>un essuie</em> (serviette), <em>une farde</em> (classeur/dossier).</li></ul>"
+      },
+      {
+        "heading": "d) Africanismes francophones",
+        "body": "<ul><li>Emprunts et créations locales variant selon le pays ; comprendre en contexte plutôt que mémoriser une liste fermée.</li></ul>"
+      }
+    ],
+    "examples": [
+      "Il fait froid, mets ton chandail avant de sortir.",
+      "Je vais magasiner cet après-midi avec ma blonde.",
+      "Passe au dépanneur, on n'a plus de lait.",
+      "Il est né en mille neuf cent septante-deux.",
+      "Le prix a augmenté de nonante euros ce mois-ci.",
+      "Il y a eu une sacrée drache ce matin, j'étais trempé.",
+      "Range ce document dans la farde bleue, s'il te plaît."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Croire que « soixante-dix » est incorrect parce que le Québec, la Belgique et la Suisse disent tous « septante ».",
+        "right": "Reconnaître que soixante-dix (France) et septante (Belgique, Suisse) coexistent, chacun correct dans sa région.",
+        "why": "Ce sont deux systèmes régionaux valides, non une forme correcte et une forme fautive."
+      },
+      {
+        "wrong": "Employer « magasiner » ou « chandail » en pensant que c'est un mot familier de France.",
+        "right": "Situer ces mots comme des québécismes, distincts du vocabulaire hexagonal (faire du shopping, pull).",
+        "why": "Un francophone de France ne les emploie généralement pas, même s'il les comprend souvent grâce aux médias québécois."
+      },
+      {
+        "wrong": "Penser que tous les francophones d'Afrique partagent exactement le même vocabulaire régional.",
+        "right": "Comprendre que chaque pays africain francophone développe ses propres régionalismes, distincts d'un pays à l'autre.",
+        "why": "Le français d'Afrique n'est pas une variété unique et homogène, mais un ensemble de variétés nationales."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "c2var-mc",
+      "type": "multiple-choice",
+      "title": "Situe le Régionalisme",
+      "items": [
+        {
+          "id": "c2varm1",
+          "prompt": "« Magasiner » signifie faire du shopping dans quelle variété du français ?",
+          "options": [
+            "Le français québécois",
+            "Le français de Belgique",
+            "Le français de Suisse"
+          ],
+          "answerIndex": 0,
+          "explanation": "Magasiner est un québécisme courant."
+        },
+        {
+          "id": "c2varm2",
+          "prompt": "Quels pays disent « septante » pour 70 ?",
+          "options": [
+            "La Belgique et la Suisse",
+            "Le Québec uniquement",
+            "La France uniquement"
+          ],
+          "answerIndex": 0,
+          "explanation": "La France utilise soixante-dix ; septante est belge et suisse."
+        },
+        {
+          "id": "c2varm3",
+          "prompt": "Que signifie « une drache » en Belgique ?",
+          "options": [
+            "Une forte pluie",
+            "Une petite épicerie",
+            "Un classeur"
+          ],
+          "answerIndex": 0,
+          "explanation": "C'est un belgicisme désignant une averse importante."
+        },
+        {
+          "id": "c2varm4",
+          "prompt": "Que désigne « un dépanneur » au Québec ?",
+          "options": [
+            "Une petite épicerie de quartier ouverte tard",
+            "Un mécanicien automobile",
+            "Un policier"
+          ],
+          "answerIndex": 0,
+          "explanation": "C'est le sens québécois courant, distinct du sens français de « personne qui répare »."
+        }
+      ]
+    },
+    {
+      "id": "c2var-fill",
+      "type": "fill-blank",
+      "title": "Complète avec le Mot Régional",
+      "items": [
+        {
+          "id": "c2varf1",
+          "prompt": "Au Québec, un pull se dit un ___.",
+          "answers": [
+            [
+              "chandail"
+            ]
+          ],
+          "options": [
+            "chandail",
+            "essuie",
+            "farde"
+          ],
+          "explanation": "Chandail est le mot québécois pour pull."
+        },
+        {
+          "id": "c2varf2",
+          "prompt": "En Belgique, une serviette de toilette se dit un ___.",
+          "answers": [
+            [
+              "essuie"
+            ]
+          ],
+          "options": [
+            "essuie",
+            "chandail",
+            "dépanneur"
+          ],
+          "explanation": "Essuie est le belgicisme courant pour serviette."
+        },
+        {
+          "id": "c2varf3",
+          "prompt": "En Suisse (certains cantons) et en Belgique, 90 se dit ___.",
+          "answers": [
+            [
+              "nonante"
+            ]
+          ],
+          "options": [
+            "nonante",
+            "quatre-vingt-dix",
+            "septante"
+          ],
+          "explanation": "Nonante remplace quatre-vingt-dix dans ces régions."
+        },
+        {
+          "id": "c2varf4",
+          "prompt": "Au Québec, faire du shopping se dit ___.",
+          "answers": [
+            [
+              "magasiner"
+            ]
+          ],
+          "options": [
+            "magasiner",
+            "dracher",
+            "essuyer"
+          ],
+          "explanation": "Magasiner est le verbe québécois pour faire du shopping."
+        }
+      ]
+    },
+    {
+      "id": "c2var-correction",
+      "type": "correction",
+      "title": "Identifie la Région Correcte",
+      "items": [
+        {
+          "id": "c2varc1",
+          "incorrect": "« Septante » est un mot québécois pour 70.",
+          "answer": [
+            "« Septante » est un mot belge et suisse pour 70, pas québécois."
+          ],
+          "explanation": "Le Québec utilise soixante-dix, comme la France."
+        },
+        {
+          "id": "c2varc2",
+          "incorrect": "« Chandail » et « magasiner » sont des mots de France courants dans tous les registres.",
+          "answer": [
+            "« Chandail » et « magasiner » sont des québécismes, peu employés en France."
+          ],
+          "explanation": "Ce sont des mots typiquement québécois, non de l'usage hexagonal courant."
+        },
+        {
+          "id": "c2varc3",
+          "incorrect": "Le vocabulaire du français d'Afrique est identique dans tous les pays francophones du continent.",
+          "answer": [
+            "Le vocabulaire du français d'Afrique varie selon le pays (Sénégal, Côte d'Ivoire, RDC...)."
+          ],
+          "explanation": "Chaque pays africain francophone a développé ses propres régionalismes."
+        }
+      ]
+    },
+    {
+      "id": "c2varx-reading",
+      "type": "reading-comprehension",
+      "title": "Lecture : Un Voyage Francophone",
+      "passage": "<p>À Montréal, mon ami m'a dit d'aller magasiner avant que le dépanneur ne ferme. À Bruxelles, on m'a proposé septante euros pour la chambre, et on m'a prêté un essuie pour la douche. À Dakar, un jeune m'a présenté sa « go » avant de m'inviter à l'essencerie du coin.</p>",
+      "items": [
+        {
+          "id": "c2varxr1",
+          "prompt": "Que signifie « magasiner » dans ce contexte montréalais ?",
+          "options": [
+            "Faire du shopping",
+            "Ranger des affaires",
+            "Chercher un magasin fermé"
+          ],
+          "answerIndex": 0,
+          "explanation": "C'est le sens québécois courant de ce verbe."
+        },
+        {
+          "id": "c2varxr2",
+          "prompt": "Combien d'euros a-t-on proposé à Bruxelles ?",
+          "options": [
+            "Septante, soit soixante-dix",
+            "Soixante-dix-sept",
+            "Dix-sept"
+          ],
+          "answerIndex": 0,
+          "explanation": "Septante est le mot belge et suisse pour 70."
+        },
+        {
+          "id": "c2varxr3",
+          "prompt": "Que lui a-t-on prêté pour la douche à Bruxelles ?",
+          "options": [
+            "Un essuie, c'est-à-dire une serviette",
+            "Un chandail",
+            "Une farde"
+          ],
+          "answerIndex": 0,
+          "explanation": "Essuie est le belgicisme pour serviette."
+        },
+        {
+          "id": "c2varxr4",
+          "prompt": "Que signifie « go » dans le contexte dakarois du texte ?",
+          "options": [
+            "Une jeune fille (argot local)",
+            "Une voiture",
+            "Un plat traditionnel"
+          ],
+          "answerIndex": 0,
+          "explanation": "C'est un régionalisme ouest-africain pour désigner une jeune fille."
+        }
+      ]
+    },
+    {
+      "id": "c2varx-order",
+      "type": "ordering",
+      "title": "Remets la Phrase en Ordre",
+      "items": [
+        {
+          "id": "c2varxo1",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Va",
+            "magasiner",
+            "avant",
+            "que",
+            "le",
+            "dépanneur",
+            "ferme"
+          ],
+          "explanation": "Vocabulaire québécois courant."
+        },
+        {
+          "id": "c2varxo2",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "On",
+            "m'a",
+            "proposé",
+            "septante",
+            "euros"
+          ],
+          "explanation": "Nombre belge/suisse pour 70."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Le Québec a son propre vocabulaire courant (chandail, magasiner, dépanneur, blonde/chum), distinct du français de France.",
+    "La Belgique et la Suisse utilisent septante/nonante (et huitante en Suisse) au lieu des formes composées françaises.",
+    "Le français d'Afrique francophone varie selon les pays, avec des emprunts et créations locales propres à chacun."
+  ]
+}

@@ -1,0 +1,306 @@
+{
+  "id": "c2-les-expressions-idiomatiques-avancees",
+  "level": "C2",
+  "unit": "1",
+  "order": 7,
+  "skill": "vocabulary",
+  "strand": "idiomes-avances",
+  "title": "Les Expressions Idiomatiques Avancées",
+  "subtitle": "Employer correctement, en contexte, un ensemble d'expressions idiomatiques riches et leur origine.",
+  "objectives": [
+    "Comprendre le sens figuré d'un ensemble d'expressions idiomatiques avancées.",
+    "Situer l'origine ou la logique imagée d'une expression pour mieux la retenir.",
+    "Employer ces expressions dans un contexte approprié, sans les prendre au sens littéral."
+  ],
+  "content": {
+    "intro": "Le français regorge d'expressions imagées qu'un locuteur natif cultivé emploie naturellement ; les comprendre et les utiliser à bon escient distingue un niveau C2 d'un niveau simplement avancé.",
+    "explanation": "<p>Certaines expressions viennent d'images concrètes devenues abstraites : <em>avoir le cafard</em> (être triste, déprimé — de l'argot du XIXe siècle), <em>poser un lapin à quelqu'un</em> (ne pas venir à un rendez-vous), <em>être sur des charbons ardents</em> (être très impatient ou anxieux), <em>tirer les vers du nez à quelqu'un</em> (le faire parler indirectement), <em>avoir un poil dans la main</em> (être très paresseux), <em>mettre la charrue avant les bœufs</em> (faire les choses dans le mauvais ordre).</p><p>Chaque expression a un sens figuré fixe, indépendant de sa logique image d'origine — il ne faut jamais la traduire littéralement ni tenter de la moduler grammaticalement (on ne dit pas « poser des lapins » au pluriel avec le même sens, ni changer l'article). L'emploi correct dépend aussi du registre : ces expressions sont surtout orales et familières à soutenues selon le cas, rarement administratives.</p>",
+    "rules": [
+      {
+        "heading": "a) Expressions liées à l'humeur",
+        "body": "<ul><li><em>Avoir le cafard</em> (être triste), <em>être sur des charbons ardents</em> (être impatient/anxieux).</li></ul>"
+      },
+      {
+        "heading": "b) Expressions liées à l'action sociale",
+        "body": "<ul><li><em>Poser un lapin</em> (ne pas venir à un rendez-vous), <em>tirer les vers du nez</em> (faire parler indirectement).</li></ul>"
+      },
+      {
+        "heading": "c) Expressions liées au comportement",
+        "body": "<ul><li><em>Avoir un poil dans la main</em> (être paresseux), <em>mettre la charrue avant les bœufs</em> (agir dans le mauvais ordre).</li></ul>"
+      },
+      {
+        "heading": "d) Fixité de la forme",
+        "body": "<ul><li>Ces expressions ne se modulent pas grammaticalement (article, nombre) sans perdre leur sens figuré.</li></ul>"
+      }
+    ],
+    "examples": [
+      "Depuis quelques jours, j'ai un peu le cafard.",
+      "Il m'a posé un lapin hier soir, je l'ai attendu une heure pour rien.",
+      "Elle était sur des charbons ardents avant les résultats de l'examen.",
+      "Arrête de tourner autour du pot, je vais finir par te tirer les vers du nez.",
+      "Il a un poil dans la main, il ne lève jamais le petit doigt à la maison.",
+      "Ne mets pas la charrue avant les bœufs, finis d'abord ce dossier.",
+      "Je crois qu'on lui a posé un lapin plus d'une fois cette année."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Traduire littéralement « avoir le cafard » comme s'il s'agissait vraiment d'un insecte.",
+        "right": "Comprendre que cette expression signifie simplement « être triste, déprimé ».",
+        "why": "Le sens figuré s'est totalement détaché de l'image d'origine ; il faut le mémoriser tel quel."
+      },
+      {
+        "wrong": "Dire « poser des lapins » au pluriel avec un sens différent, ou changer l'article.",
+        "right": "Garder la forme fixe : poser un lapin à quelqu'un, sans variation grammaticale du sens figuré.",
+        "why": "Les expressions idiomatiques sont figées ; les modifier casse leur sens conventionnel."
+      },
+      {
+        "wrong": "Employer « mettre la charrue avant les bœufs » dans un contexte administratif très formel.",
+        "right": "Réserver cette expression à un registre courant ou familier, à l'oral ou dans un écrit détendu.",
+        "why": "C'est une expression imagée de registre courant, peu adaptée à un rapport officiel."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "c2idi-mc",
+      "type": "multiple-choice",
+      "title": "Comprends le Sens Figuré",
+      "items": [
+        {
+          "id": "c2idim1",
+          "prompt": "Que signifie « avoir le cafard » ?",
+          "options": [
+            "Être triste, déprimé",
+            "Être très occupé",
+            "Être en retard"
+          ],
+          "answerIndex": 0,
+          "explanation": "C'est une expression figée signifiant la mélancolie."
+        },
+        {
+          "id": "c2idim2",
+          "prompt": "Que signifie « poser un lapin à quelqu'un » ?",
+          "options": [
+            "Ne pas venir à un rendez-vous prévu",
+            "Offrir un cadeau surprise",
+            "Raconter une blague"
+          ],
+          "answerIndex": 0,
+          "explanation": "C'est le sens figuré fixe de cette expression."
+        },
+        {
+          "id": "c2idim3",
+          "prompt": "Que signifie « mettre la charrue avant les bœufs » ?",
+          "options": [
+            "Faire les choses dans le mauvais ordre",
+            "Travailler très efficacement",
+            "Refuser de travailler"
+          ],
+          "answerIndex": 0,
+          "explanation": "L'image agricole illustre un ordre logique inversé."
+        },
+        {
+          "id": "c2idim4",
+          "prompt": "Que signifie « avoir un poil dans la main » ?",
+          "options": [
+            "Être très paresseux",
+            "Être très habile de ses mains",
+            "Avoir peur"
+          ],
+          "answerIndex": 0,
+          "explanation": "C'est une expression familière désignant la paresse."
+        }
+      ]
+    },
+    {
+      "id": "c2idi-fill",
+      "type": "fill-blank",
+      "title": "Complète l'Expression Idiomatique",
+      "items": [
+        {
+          "id": "c2idif1",
+          "prompt": "Depuis son déménagement, elle a un peu le ___.",
+          "answers": [
+            [
+              "cafard"
+            ]
+          ],
+          "options": [
+            "cafard",
+            "lapin",
+            "poil"
+          ],
+          "explanation": "Avoir le cafard = être triste."
+        },
+        {
+          "id": "c2idif2",
+          "prompt": "Il m'a posé un ___ hier soir, je l'ai attendu pour rien.",
+          "answers": [
+            [
+              "lapin"
+            ]
+          ],
+          "options": [
+            "lapin",
+            "cafard",
+            "charbon"
+          ],
+          "explanation": "Poser un lapin = ne pas venir à un rendez-vous."
+        },
+        {
+          "id": "c2idif3",
+          "prompt": "Elle était sur des ___ ardents avant les résultats.",
+          "answers": [
+            [
+              "charbons"
+            ]
+          ],
+          "options": [
+            "charbons",
+            "lapins",
+            "poils"
+          ],
+          "explanation": "Être sur des charbons ardents = être très impatient ou anxieux."
+        },
+        {
+          "id": "c2idif4",
+          "prompt": "Arrête de tourner autour du pot, je vais te tirer les ___ du nez.",
+          "answers": [
+            [
+              "vers"
+            ]
+          ],
+          "options": [
+            "vers",
+            "lapins",
+            "charbons"
+          ],
+          "explanation": "Tirer les vers du nez = faire parler indirectement."
+        }
+      ]
+    },
+    {
+      "id": "c2idi-correction",
+      "type": "correction",
+      "title": "Corrige l'Emploi de l'Expression",
+      "items": [
+        {
+          "id": "c2idic1",
+          "incorrect": "Il a vraiment un cafard dans son appartement, c'est dégoûtant.",
+          "answer": [
+            "Il a vraiment le cafard en ce moment, il traverse une période difficile."
+          ],
+          "explanation": "Dans le sens figuré recherché ici, cafard = tristesse, pas l'insecte."
+        },
+        {
+          "id": "c2idic2",
+          "incorrect": "Elle a posé des lapins à son collègue, un rose et un blanc.",
+          "answer": [
+            "Elle a posé un lapin à son collègue, il l'a attendue en vain."
+          ],
+          "explanation": "L'expression figée reste au singulier avec ce sens figuré."
+        },
+        {
+          "id": "c2idic3",
+          "incorrect": "Il faut mettre la charrue avant les bœufs pour bien réussir ce projet.",
+          "answer": [
+            "Il ne faut pas mettre la charrue avant les bœufs pour bien réussir ce projet."
+          ],
+          "explanation": "L'expression désigne une erreur d'ordre à éviter, pas une méthode à suivre."
+        }
+      ]
+    },
+    {
+      "id": "c2idix-reading",
+      "type": "reading-comprehension",
+      "title": "Lecture : Une Soirée Ratée",
+      "passage": "<p>Elle avait le cafard depuis une semaine, et ce soir-là n'arrangeait rien : son ami lui avait posé un lapin sans même s'excuser. Sur des charbons ardents toute la soirée, elle finit par appeler sa sœur pour lui tirer les vers du nez sur ce qui s'était vraiment passé. Elle comprit alors qu'il avait, comme toujours, mis la charrue avant les bœufs.</p>",
+      "items": [
+        {
+          "id": "c2idixr1",
+          "prompt": "Comment se sentait-elle depuis une semaine ?",
+          "options": [
+            "Triste, elle avait le cafard",
+            "Très heureuse",
+            "En colère"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte le dit directement en ouverture."
+        },
+        {
+          "id": "c2idixr2",
+          "prompt": "Qu'a fait son ami ce soir-là ?",
+          "options": [
+            "Il lui a posé un lapin, sans venir au rendez-vous",
+            "Il est venu en avance",
+            "Il lui a offert un cadeau"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte le précise directement."
+        },
+        {
+          "id": "c2idixr3",
+          "prompt": "Que fait-elle pour comprendre la situation ?",
+          "options": [
+            "Elle tire les vers du nez à sa sœur",
+            "Elle appelle la police",
+            "Elle part en voyage"
+          ],
+          "answerIndex": 0,
+          "explanation": "Elle cherche à faire parler sa sœur indirectement."
+        },
+        {
+          "id": "c2idixr4",
+          "prompt": "Que comprend-elle finalement à propos de son ami ?",
+          "options": [
+            "Qu'il a agi dans le mauvais ordre, comme toujours",
+            "Qu'il est très organisé",
+            "Qu'il n'a rien fait de mal"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte se termine sur cette conclusion, avec l'expression mettre la charrue avant les bœufs."
+        }
+      ]
+    },
+    {
+      "id": "c2idix-order",
+      "type": "ordering",
+      "title": "Remets la Phrase en Ordre",
+      "items": [
+        {
+          "id": "c2idixo1",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Elle",
+            "avait",
+            "le",
+            "cafard",
+            "depuis",
+            "une",
+            "semaine"
+          ],
+          "explanation": "Avoir le cafard = être triste."
+        },
+        {
+          "id": "c2idixo2",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Son",
+            "ami",
+            "lui",
+            "avait",
+            "posé",
+            "un",
+            "lapin"
+          ],
+          "explanation": "Poser un lapin = ne pas venir à un rendez-vous."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Chaque expression idiomatique a un sens figuré fixe, indépendant de son image d'origine, à mémoriser tel quel.",
+    "Ces expressions ne se modulent pas grammaticalement (article, nombre) sans perdre leur sens conventionnel.",
+    "Leur registre est généralement courant à familier, rarement adapté à un écrit administratif très formel."
+  ]
+}

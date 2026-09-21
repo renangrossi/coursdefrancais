@@ -1,0 +1,302 @@
+{
+  "id": "c2-lanalyse-et-la-synthese-de-documents-complexes",
+  "level": "C2",
+  "unit": "1",
+  "order": 8,
+  "skill": "reading",
+  "strand": "analyse-synthese",
+  "title": "L'Analyse et la Synthèse de Documents Complexes",
+  "subtitle": "Extraire la thèse d'un texte dense, distinguer l'argument de l'exemple, et reformuler en un résumé condensé.",
+  "objectives": [
+    "Distinguer, dans un texte argumentatif dense, la thèse centrale des arguments et exemples qui la soutiennent.",
+    "Reformuler l'essentiel d'un document complexe en un résumé condensé et fidèle.",
+    "Identifier un présupposé implicite ou un biais dans un texte argumentatif."
+  ],
+  "content": {
+    "intro": "Au niveau C2, comprendre un texte ne suffit plus : il faut pouvoir en extraire la structure argumentative, distinguer l'essentiel de l'accessoire, et le reformuler fidèlement en un format condensé — une compétence centrale de l'épreuve DALF C2.",
+    "explanation": "<p>Un texte argumentatif dense articule généralement une <strong>thèse</strong> (l'idée centrale défendue), des <strong>arguments</strong> (les raisons générales qui la soutiennent) et des <strong>exemples</strong> (illustrations concrètes de chaque argument). Pour analyser un tel texte, il faut d'abord repérer la thèse — souvent énoncée dès l'introduction ou reformulée en conclusion — puis relier chaque paragraphe à l'argument qu'il développe, en distinguant ce qui est une preuve générale de ce qui n'est qu'une illustration particulière.</p><p>La synthèse consiste ensuite à condenser cette structure en conservant la logique du raisonnement, sans en trahir la nuance ni y ajouter d'opinion personnelle : reformuler avec ses propres mots, réduire les exemples à leur fonction argumentative, et signaler les <strong>présupposés implicites</strong> (ce que l'auteur tient pour acquis sans le démontrer) quand ils orientent le raisonnement de façon significative.</p>",
+    "rules": [
+      {
+        "heading": "a) Repérer la thèse",
+        "body": "<ul><li>Souvent énoncée en introduction et reformulée en conclusion ; c'est l'idée que tout le texte défend.</li></ul>"
+      },
+      {
+        "heading": "b) Distinguer argument et exemple",
+        "body": "<ul><li>L'argument est une raison générale ; l'exemple l'illustre par un cas particulier, sans la remplacer.</li></ul>"
+      },
+      {
+        "heading": "c) Reformuler fidèlement",
+        "body": "<ul><li>Condenser avec ses propres mots, sans trahir la nuance ni ajouter une opinion personnelle absente du texte.</li></ul>"
+      },
+      {
+        "heading": "d) Repérer les présupposés implicites",
+        "body": "<ul><li>Identifier ce que l'auteur tient pour acquis sans le démontrer, quand cela oriente significativement le raisonnement.</li></ul>"
+      }
+    ],
+    "examples": [
+      "La thèse de l'auteur est que l'éducation à distance ne remplace jamais totalement l'enseignement en présentiel.",
+      "Son premier argument repose sur l'importance de l'interaction sociale dans l'apprentissage.",
+      "Il illustre cet argument par l'exemple d'une étude menée auprès de lycéens en 2020.",
+      "Le texte présuppose, sans le démontrer, que tous les élèves ont un accès égal à internet.",
+      "En résumé, l'auteur défend l'idée que la technologie complète l'enseignement traditionnel sans le remplacer.",
+      "Cet exemple n'est qu'une illustration ponctuelle ; l'argument central reste plus général.",
+      "Le raisonnement de l'auteur repose sur un présupposé culturel qui mériterait d'être questionné."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Confondre un exemple particulier avec un argument général dans un résumé.",
+        "right": "Réduire l'exemple à sa fonction d'illustration et ne conserver que l'argument qu'il soutient.",
+        "why": "Un résumé fidèle distingue le niveau général (argument) du niveau particulier (exemple)."
+      },
+      {
+        "wrong": "Ajouter sa propre opinion personnelle en résumant la thèse d'un auteur.",
+        "right": "Reformuler fidèlement la thèse de l'auteur, sans y mêler un jugement personnel non présent dans le texte.",
+        "why": "La synthèse doit rester fidèle au texte source, sans déformation par le point de vue du lecteur."
+      },
+      {
+        "wrong": "Ignorer un présupposé implicite qui oriente fortement l'argumentation.",
+        "right": "Signaler ce présupposé quand il joue un rôle significatif dans le raisonnement de l'auteur.",
+        "why": "Une analyse de niveau C2 va au-delà du texte explicite pour en révéler les fondements non dits."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "c2ana-mc",
+      "type": "multiple-choice",
+      "title": "Analyse la Structure Argumentative",
+      "items": [
+        {
+          "id": "c2anam1",
+          "prompt": "Où trouve-t-on le plus souvent la thèse d'un texte argumentatif ?",
+          "options": [
+            "En introduction, reformulée en conclusion",
+            "Uniquement dans le titre",
+            "Toujours dans le dernier exemple"
+          ],
+          "answerIndex": 0,
+          "explanation": "C'est la structure la plus fréquente d'un texte argumentatif."
+        },
+        {
+          "id": "c2anam2",
+          "prompt": "Quelle est la différence entre un argument et un exemple ?",
+          "options": [
+            "L'argument est général, l'exemple l'illustre par un cas particulier",
+            "Ce sont deux synonymes interchangeables",
+            "L'exemple est toujours plus important que l'argument"
+          ],
+          "answerIndex": 0,
+          "explanation": "C'est la distinction centrale pour analyser un texte argumentatif."
+        },
+        {
+          "id": "c2anam3",
+          "prompt": "Qu'est-ce qu'un présupposé implicite ?",
+          "options": [
+            "Ce que l'auteur tient pour acquis sans le démontrer",
+            "Un exemple explicite donné par l'auteur",
+            "La conclusion du texte"
+          ],
+          "answerIndex": 0,
+          "explanation": "C'est un élément non démontré mais sous-jacent au raisonnement."
+        },
+        {
+          "id": "c2anam4",
+          "prompt": "Que doit éviter une bonne synthèse ?",
+          "options": [
+            "D'ajouter une opinion personnelle absente du texte source",
+            "De reformuler avec ses propres mots",
+            "De condenser le texte"
+          ],
+          "answerIndex": 0,
+          "explanation": "La fidélité au texte source exclut le jugement personnel du rédacteur de la synthèse."
+        }
+      ]
+    },
+    {
+      "id": "c2ana-fill",
+      "type": "fill-blank",
+      "title": "Complète l'Analyse",
+      "items": [
+        {
+          "id": "c2anaf1",
+          "prompt": "La ___ de l'auteur est l'idée centrale que tout le texte défend.",
+          "answers": [
+            [
+              "thèse"
+            ]
+          ],
+          "options": [
+            "thèse",
+            "exemple",
+            "conclusion uniquement"
+          ],
+          "explanation": "C'est le terme technique pour l'idée défendue."
+        },
+        {
+          "id": "c2anaf2",
+          "prompt": "Un ___ illustre un argument par un cas particulier, sans le remplacer.",
+          "answers": [
+            [
+              "exemple"
+            ]
+          ],
+          "options": [
+            "exemple",
+            "présupposé",
+            "titre"
+          ],
+          "explanation": "L'exemple reste au niveau particulier, l'argument au niveau général."
+        },
+        {
+          "id": "c2anaf3",
+          "prompt": "Un ___ implicite est ce que l'auteur tient pour acquis sans le démontrer.",
+          "answers": [
+            [
+              "présupposé"
+            ]
+          ],
+          "options": [
+            "présupposé",
+            "exemple",
+            "résumé"
+          ],
+          "explanation": "C'est un élément non démontré mais sous-jacent au texte."
+        },
+        {
+          "id": "c2anaf4",
+          "prompt": "Une bonne synthèse ___ le texte source avec ses propres mots, sans le trahir.",
+          "answers": [
+            [
+              "reformule"
+            ]
+          ],
+          "options": [
+            "reformule",
+            "copie",
+            "ignore"
+          ],
+          "explanation": "La reformulation fidèle est la base de la synthèse."
+        }
+      ]
+    },
+    {
+      "id": "c2ana-correction",
+      "type": "correction",
+      "title": "Corrige l'Analyse",
+      "items": [
+        {
+          "id": "c2anac1",
+          "incorrect": "Dans ce résumé, l'exemple de l'étude de 2020 est présenté comme la thèse principale du texte.",
+          "answer": [
+            "Dans ce résumé, l'exemple de l'étude de 2020 illustre un argument, mais n'est pas la thèse principale du texte."
+          ],
+          "explanation": "Un exemple particulier ne doit pas être confondu avec la thèse générale."
+        },
+        {
+          "id": "c2anac2",
+          "incorrect": "Le résumé ajoute que l'auteur a tort, ce qui n'apparaît nulle part dans le texte original.",
+          "answer": [
+            "Le résumé se limite à reformuler fidèlement la thèse de l'auteur, sans jugement personnel absent du texte."
+          ],
+          "explanation": "La synthèse doit rester fidèle, sans opinion ajoutée par le rédacteur."
+        },
+        {
+          "id": "c2anac3",
+          "incorrect": "Le texte ne contient aucun présupposé, seulement des faits démontrés.",
+          "answer": [
+            "Le texte contient un présupposé implicite (l'égal accès à internet) qui n'est jamais démontré."
+          ],
+          "explanation": "Un texte argumentatif repose presque toujours sur au moins un présupposé non démontré."
+        }
+      ]
+    },
+    {
+      "id": "c2anax-reading",
+      "type": "reading-comprehension",
+      "title": "Lecture : Un Extrait d'Essai",
+      "passage": "<p>L'auteur défend l'idée que la technologie ne remplace jamais totalement l'interaction humaine directe. Il s'appuie d'abord sur une étude menée en 2020 auprès de lycéens, qu'il ne présente que comme une illustration parmi d'autres. Son raisonnement repose sur un présupposé rarement questionné : que tous les élèves disposent d'un accès égal aux outils numériques. Il conclut que la technologie doit compléter, et non remplacer, l'enseignement traditionnel.</p>",
+      "items": [
+        {
+          "id": "c2anaxr1",
+          "prompt": "Quelle est la thèse défendue par l'auteur ?",
+          "options": [
+            "La technologie ne remplace jamais totalement l'interaction humaine directe",
+            "La technologie doit remplacer complètement l'enseignement traditionnel",
+            "Les lycéens n'apprennent rien avec la technologie"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte l'énonce dès la première phrase."
+        },
+        {
+          "id": "c2anaxr2",
+          "prompt": "Comment l'étude de 2020 est-elle utilisée dans le texte ?",
+          "options": [
+            "Comme une simple illustration parmi d'autres",
+            "Comme l'unique preuve de la thèse",
+            "Elle n'est pas mentionnée"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte précise que ce n'est qu'un exemple, pas l'argument central."
+        },
+        {
+          "id": "c2anaxr3",
+          "prompt": "Quel présupposé implicite repère le texte dans le raisonnement de l'auteur ?",
+          "options": [
+            "Que tous les élèves ont un accès égal aux outils numériques",
+            "Que la technologie coûte cher",
+            "Que les lycéens n'aiment pas la technologie"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte le signale explicitement comme un présupposé rarement questionné."
+        },
+        {
+          "id": "c2anaxr4",
+          "prompt": "Quelle est la conclusion de l'auteur ?",
+          "options": [
+            "La technologie doit compléter, non remplacer, l'enseignement traditionnel",
+            "Il faut supprimer toute technologie des écoles",
+            "Le sujet ne mérite pas d'être étudié"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte se termine sur cette conclusion nuancée."
+        }
+      ]
+    },
+    {
+      "id": "c2anax-order",
+      "type": "ordering",
+      "title": "Remets la Phrase en Ordre",
+      "items": [
+        {
+          "id": "c2anaxo1",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "La",
+            "technologie",
+            "doit",
+            "compléter",
+            "l'enseignement"
+          ],
+          "explanation": "Thèse condensée en une phrase simple."
+        },
+        {
+          "id": "c2anaxo2",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Ce",
+            "présupposé",
+            "est",
+            "rarement",
+            "questionné"
+          ],
+          "explanation": "Phrase simple sur le présupposé implicite du texte."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "La thèse (l'idée centrale) se distingue des arguments (raisons générales) et des exemples (illustrations particulières).",
+    "Une synthèse fidèle reformule avec ses propres mots, sans ajouter d'opinion personnelle absente du texte source.",
+    "Repérer les présupposés implicites d'un texte révèle les fondements non démontrés de son raisonnement."
+  ]
+}

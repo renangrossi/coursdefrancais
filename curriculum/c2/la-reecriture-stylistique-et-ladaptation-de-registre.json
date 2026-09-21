@@ -1,0 +1,306 @@
+{
+  "id": "c2-la-reecriture-stylistique-et-ladaptation-de-registre",
+  "level": "C2",
+  "unit": "1",
+  "order": 10,
+  "skill": "writing",
+  "strand": "reecriture-stylistique",
+  "title": "La Réécriture Stylistique et l'Adaptation de Registre",
+  "subtitle": "Exercice de synthèse : transformer un même contenu à travers les registres administratif, courant, littéraire et familier.",
+  "objectives": [
+    "Identifier les marqueurs lexicaux et syntaxiques propres à chacun des grands registres du français.",
+    "Réécrire un même contenu en préservant le sens mais en changeant intégralement de registre.",
+    "Choisir le registre approprié à une situation de communication donnée."
+  ],
+  "content": {
+    "intro": "Cette dernière leçon du cours est un exercice de synthèse : elle mobilise la nominalisation et le style académique (B2-C1), les registres et la variation stylistique (C1), l'atténuation (C2) et les procédés stylistiques littéraires (C2) pour transformer délibérément un même message d'un registre à l'autre.",
+    "explanation": "<p>Le registre <strong>administratif</strong> privilégie les formules figées de politesse et l'impersonnel (<em>Nous vous prions de bien vouloir prendre connaissance de ce document</em>). Le registre <strong>courant</strong> reste neutre et direct, sans figure de style ni familiarité (<em>Merci de lire ce document</em>). Le registre <strong>littéraire</strong> recherche l'image et le rythme, quitte à employer le passé simple ou une syntaxe travaillée (<em>Qu'il vous plaise de porter à ce document l'attention qu'il mérite</em>). Le registre <strong>familier</strong> se permet l'ellipse, le vocabulaire relâché et une syntaxe orale (<em>Jette un œil à ce document, tu veux ?</em>).</p><p>Réécrire un même contenu d'un registre à l'autre demande de repérer, dans le texte de départ, ce qui relève du <strong>sens</strong> (à conserver absolument) et ce qui relève de la <strong>forme</strong> (à transformer entièrement) : le vocabulaire, la syntaxe, les formules de politesse ou d'appel, et jusqu'au choix des temps verbaux changent, mais l'information transmise reste identique. C'est l'exercice ultime de maîtrise du français : parler la même langue dans des mondes différents.</p>",
+    "rules": [
+      {
+        "heading": "a) Registre administratif",
+        "body": "<ul><li>Formules figées, impersonnel : <em>Nous vous prions de bien vouloir...</em></li></ul>"
+      },
+      {
+        "heading": "b) Registre courant",
+        "body": "<ul><li>Neutre, direct, sans figure de style ni familiarité : <em>Merci de lire ce document.</em></li></ul>"
+      },
+      {
+        "heading": "c) Registre littéraire",
+        "body": "<ul><li>Recherche d'image et de rythme, syntaxe travaillée, parfois passé simple.</li></ul>"
+      },
+      {
+        "heading": "d) Registre familier",
+        "body": "<ul><li>Ellipse, vocabulaire relâché, syntaxe orale : <em>Jette un œil à ça, tu veux ?</em></li></ul>"
+      }
+    ],
+    "examples": [
+      "Nous vous prions de bien vouloir prendre connaissance de ce document dans les meilleurs délais. (administratif)",
+      "Merci de lire ce document dès que possible. (courant)",
+      "Qu'il vous plaise de porter à ce document l'attention qu'il mérite. (littéraire)",
+      "Jette un œil à ce truc, tu veux ? (familier)",
+      "Veuillez agréer, Madame, Monsieur, l'expression de mes salutations distinguées. (administratif)",
+      "Cordialement. (courant)",
+      "Reçois, ami lecteur, l'assurance de ma considération la plus sincère. (littéraire, ironique)"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Modifier le sens du message en changeant de registre.",
+        "right": "Conserver strictement l'information transmise en ne transformant que la forme (vocabulaire, syntaxe).",
+        "why": "L'exercice de réécriture stylistique vise la forme, jamais le contenu informatif du message."
+      },
+      {
+        "wrong": "Employer un registre familier dans une lettre administrative officielle.",
+        "right": "Réserver le registre familier à des échanges informels, et l'administratif aux situations officielles.",
+        "why": "Le choix du registre doit correspondre à la situation de communication réelle, sous peine d'inadéquation grave."
+      },
+      {
+        "wrong": "Croire que le registre littéraire est toujours « supérieur » aux autres registres.",
+        "right": "Comprendre que chaque registre est approprié à son contexte propre, sans hiérarchie de valeur absolue.",
+        "why": "Un registre familier bien choisi dans un contexte informel est tout aussi maîtrisé qu'un registre soutenu en contexte formel."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "c2ree-mc",
+      "type": "multiple-choice",
+      "title": "Identifie le Registre",
+      "items": [
+        {
+          "id": "c2reem1",
+          "prompt": "« Nous vous prions de bien vouloir prendre connaissance de ce document » relève de quel registre ?",
+          "options": [
+            "Administratif",
+            "Familier",
+            "Littéraire"
+          ],
+          "answerIndex": 0,
+          "explanation": "Formule figée et impersonnelle typique du registre administratif."
+        },
+        {
+          "id": "c2reem2",
+          "prompt": "« Jette un œil à ce truc, tu veux ? » relève de quel registre ?",
+          "options": [
+            "Familier",
+            "Administratif",
+            "Académique"
+          ],
+          "answerIndex": 0,
+          "explanation": "Vocabulaire relâché et syntaxe orale typiques du registre familier."
+        },
+        {
+          "id": "c2reem3",
+          "prompt": "Que doit-on impérativement conserver en changeant de registre ?",
+          "options": [
+            "Le sens, l'information transmise",
+            "Le vocabulaire exact",
+            "La longueur de la phrase"
+          ],
+          "answerIndex": 0,
+          "explanation": "Seule la forme change ; le contenu informatif reste identique."
+        },
+        {
+          "id": "c2reem4",
+          "prompt": "Pourquoi le registre familier serait-il inapproprié dans une lettre officielle ?",
+          "options": [
+            "Parce que le registre doit correspondre à la situation de communication",
+            "Parce qu'il est grammaticalement incorrect",
+            "Parce qu'il n'existe pas à l'écrit"
+          ],
+          "answerIndex": 0,
+          "explanation": "Ce n'est pas une question de correction grammaticale mais d'adéquation au contexte."
+        }
+      ]
+    },
+    {
+      "id": "c2ree-fill",
+      "type": "fill-blank",
+      "title": "Identifie le Registre de Chaque Formule",
+      "items": [
+        {
+          "id": "c2reef1",
+          "prompt": "« Veuillez agréer l'expression de mes salutations distinguées » est du registre ___.",
+          "answers": [
+            [
+              "administratif"
+            ]
+          ],
+          "options": [
+            "administratif",
+            "familier",
+            "courant"
+          ],
+          "explanation": "Formule de politesse figée typique des courriers officiels."
+        },
+        {
+          "id": "c2reef2",
+          "prompt": "« Merci de lire ce document dès que possible » est du registre ___.",
+          "answers": [
+            [
+              "courant"
+            ]
+          ],
+          "options": [
+            "courant",
+            "littéraire",
+            "administratif"
+          ],
+          "explanation": "Formulation neutre, directe, sans marque de registre particulière."
+        },
+        {
+          "id": "c2reef3",
+          "prompt": "« Cordialement » en fin de message est du registre ___.",
+          "answers": [
+            [
+              "courant"
+            ]
+          ],
+          "options": [
+            "courant",
+            "familier",
+            "littéraire"
+          ],
+          "explanation": "C'est une formule de politesse neutre, ni très formelle ni familière."
+        },
+        {
+          "id": "c2reef4",
+          "prompt": "« Qu'il vous plaise de porter à ce document l'attention qu'il mérite » est du registre ___.",
+          "answers": [
+            [
+              "littéraire"
+            ]
+          ],
+          "options": [
+            "littéraire",
+            "familier",
+            "courant"
+          ],
+          "explanation": "Syntaxe travaillée et tournure recherchée, typique du registre littéraire."
+        }
+      ]
+    },
+    {
+      "id": "c2ree-correction",
+      "type": "correction",
+      "title": "Reformule dans le Bon Registre",
+      "instructions": "Réécris chaque phrase dans le registre demandé entre parenthèses, en conservant le sens.",
+      "items": [
+        {
+          "id": "c2reec1",
+          "incorrect": "Jette un œil à ce truc, tu veux ? (à reformuler en registre administratif)",
+          "answer": [
+            "Nous vous prions de bien vouloir prendre connaissance de ce document."
+          ],
+          "explanation": "Même demande, formulée avec les formules figées et l'impersonnel du registre administratif."
+        },
+        {
+          "id": "c2reec2",
+          "incorrect": "Nous vous prions de bien vouloir nous faire parvenir votre réponse. (à reformuler en registre familier)",
+          "answer": [
+            "Réponds-nous vite, tu veux ?"
+          ],
+          "explanation": "Même demande, en syntaxe orale relâchée et vocabulaire familier."
+        },
+        {
+          "id": "c2reec3",
+          "incorrect": "Merci de lire ce document. (à reformuler en registre littéraire)",
+          "answer": [
+            "Qu'il vous plaise de porter à ce document l'attention qu'il mérite."
+          ],
+          "explanation": "Même demande, avec une syntaxe recherchée et une tournure élégante."
+        }
+      ]
+    },
+    {
+      "id": "c2reex-reading",
+      "type": "reading-comprehension",
+      "title": "Lecture : Trois Réponses à un Même Message",
+      "passage": "<p>Le professeur a annoncé un contrôle surprise. Un élève très formel a écrit à ses parents : « Je vous informe qu'un contrôle surprise a été annoncé ce jour. » Un autre a texté un ami : « Grosse interro surprise, la loose ! » Un troisième, plus poétique, a noté dans son journal : « Ainsi tomba sur nous, tel un couperet, l'annonce redoutée. »</p>",
+      "items": [
+        {
+          "id": "c2reexr1",
+          "prompt": "Quel événement les trois élèves rapportent-ils ?",
+          "options": [
+            "L'annonce d'un contrôle surprise",
+            "Une sortie scolaire",
+            "Un changement d'emploi du temps"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte le dit en ouverture."
+        },
+        {
+          "id": "c2reexr2",
+          "prompt": "Quel registre utilise l'élève qui écrit à ses parents ?",
+          "options": [
+            "Courant à soutenu, formel",
+            "Familier",
+            "Littéraire"
+          ],
+          "answerIndex": 0,
+          "explanation": "« Je vous informe que » est une formule neutre et formelle."
+        },
+        {
+          "id": "c2reexr3",
+          "prompt": "Quel registre utilise l'élève qui texte son ami ?",
+          "options": [
+            "Familier",
+            "Administratif",
+            "Littéraire"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le vocabulaire relâché (« la loose ») signale le registre familier."
+        },
+        {
+          "id": "c2reexr4",
+          "prompt": "Quel procédé emploie le troisième élève dans son journal ?",
+          "options": [
+            "Une métaphore littéraire (le couperet)",
+            "Un néologisme",
+            "Un régionalisme"
+          ],
+          "answerIndex": 0,
+          "explanation": "« Tel un couperet » est une comparaison à visée littéraire, dans un registre soigné."
+        }
+      ]
+    },
+    {
+      "id": "c2reex-order",
+      "type": "ordering",
+      "title": "Remets la Phrase en Ordre",
+      "items": [
+        {
+          "id": "c2reexo1",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Je",
+            "vous",
+            "informe",
+            "qu'un",
+            "contrôle",
+            "aura",
+            "lieu"
+          ],
+          "explanation": "Registre formel/administratif, structure impersonnelle."
+        },
+        {
+          "id": "c2reexo2",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Ainsi",
+            "tomba",
+            "sur",
+            "nous",
+            "l'annonce",
+            "redoutée"
+          ],
+          "explanation": "Registre littéraire, inversion stylistique après ainsi."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Les registres administratif, courant, littéraire et familier se distinguent par leur vocabulaire, leur syntaxe et leurs formules propres.",
+    "Réécrire d'un registre à l'autre exige de conserver strictement le sens tout en transformant entièrement la forme.",
+    "Le choix du registre approprié à chaque situation de communication est la marque ultime d'une maîtrise proche du natif."
+  ]
+}

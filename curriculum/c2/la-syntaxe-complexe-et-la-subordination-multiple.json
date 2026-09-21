@@ -1,0 +1,304 @@
+{
+  "id": "c2-la-syntaxe-complexe-et-la-subordination-multiple",
+  "level": "C2",
+  "unit": "1",
+  "order": 1,
+  "skill": "grammar",
+  "strand": "syntaxe-complexe",
+  "title": "La Syntaxe Complexe et la Subordination Multiple",
+  "subtitle": "Lire et écrire des phrases à plusieurs niveaux de subordination enchâssée sans perdre la clarté.",
+  "objectives": [
+    "Analyser une phrase longue à plusieurs propositions subordonnées enchâssées sans perdre le fil du sens.",
+    "Maintenir une référence pronominale claire à travers plusieurs niveaux de subordination.",
+    "Produire soi-même des phrases complexes structurées et lisibles, sans lourdeur inutile."
+  ],
+  "content": {
+    "intro": "Au niveau C2, la difficulté n'est plus la grammaire elle-même mais la gestion de phrases longues, où plusieurs propositions subordonnées s'enchâssent les unes dans les autres — un défi de lecture autant que d'écriture.",
+    "explanation": "<p>Une phrase complexe peut enchâsser plusieurs niveaux de subordination : une relative dans une complétive, elle-même dans une circonstancielle. Par exemple : <em>Le rapport, que les experts qu'on avait consultés jugeaient incomplet, a été rejeté parce qu'il ne répondait pas aux exigences fixées.</em> Ici, une relative (<em>que... jugeaient incomplet</em>) s'enchâsse dans la phrase principale, qui contient elle-même une autre relative (<em>qu'on avait consultés</em>) et une circonstancielle de cause (<em>parce que...</em>). Pour suivre une telle phrase, il faut repérer le squelette — sujet, verbe, complément de la principale — avant de traiter chaque enchâssement séparément.</p><p>À l'écriture, la clarté prime toujours sur la longueur : chaque pronom (<em>qui, que, dont, lequel, celui-ci, ce dernier</em>) doit renvoyer sans ambiguïté à un seul antécédent possible. Quand plusieurs enchâssements rendent une phrase difficile à suivre, mieux vaut la scinder en deux phrases plus courtes, reliées par un connecteur, plutôt que de risquer la confusion du lecteur.</p>",
+    "rules": [
+      {
+        "heading": "a) Repérer le squelette de la phrase",
+        "body": "<ul><li>Isoler d'abord sujet, verbe et complément de la proposition principale avant d'analyser les subordonnées.</li></ul>"
+      },
+      {
+        "heading": "b) Les niveaux d'enchâssement",
+        "body": "<ul><li>Une relative peut contenir une autre relative ou une complétive, qui peut elle-même contenir une circonstancielle.</li></ul>"
+      },
+      {
+        "heading": "c) La clarté référentielle",
+        "body": "<ul><li>Chaque pronom doit renvoyer sans ambiguïté à un seul antécédent ; <em>celui-ci</em>/<em>ce dernier</em> distinguent deux antécédents proches.</li></ul>"
+      },
+      {
+        "heading": "d) Scinder plutôt que surcharger",
+        "body": "<ul><li>Une phrase à plus de trois niveaux d'enchâssement gagne souvent à être scindée en deux phrases reliées par un connecteur.</li></ul>"
+      }
+    ],
+    "examples": [
+      "Le rapport, que les experts qu'on avait consultés jugeaient incomplet, a été rejeté parce qu'il ne répondait pas aux exigences fixées.",
+      "L'homme dont la fille, qui vit à l'étranger, venait justement de lui rendre visite, semblait particulièrement joyeux.",
+      "Bien que la proposition qu'il avait soumise ait été accueillie avec enthousiasme, elle fut finalement écartée pour des raisons budgétaires.",
+      "Ce que redoutaient ceux qui avaient suivi le dossier depuis le début finit par se produire.",
+      "Le témoin, dont on savait qu'il avait tout vu, refusa néanmoins de répondre aux questions qu'on lui posait.",
+      "La décision, qui avait été prise dans l'urgence, sans que personne n'ait pu l'anticiper, souleva une vague de critiques.",
+      "Ce dernier point, sur lequel les avis divergeaient le plus, fut celui qui suscita le débat le plus vif."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Perdre le fil d'une phrase à plusieurs enchâssements en tentant de la lire d'une traite.",
+        "right": "Repérer d'abord le squelette (sujet-verbe-complément) de la principale, puis traiter chaque subordonnée séparément.",
+        "why": "Une lecture linéaire d'une phrase très enchâssée fait perdre le sens global ; l'analyse par niveaux le préserve."
+      },
+      {
+        "wrong": "Utiliser « qui » pour renvoyer à un antécédent ambigu quand deux noms précèdent.",
+        "right": "Employer « celui-ci »/« ce dernier » pour désigner sans ambiguïté le nom le plus proche.",
+        "why": "Un pronom relatif simple peut renvoyer à plusieurs antécédents possibles ; ces formes lèvent l'ambiguïté."
+      },
+      {
+        "wrong": "Écrire une phrase à quatre ou cinq niveaux d'enchâssement sans jamais la scinder.",
+        "right": "Diviser une phrase trop chargée en deux phrases reliées par un connecteur logique.",
+        "why": "Au-delà de trois niveaux, la lisibilité se dégrade même pour un lecteur expérimenté."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "c2syn-mc",
+      "type": "multiple-choice",
+      "title": "Analyse la Structure",
+      "items": [
+        {
+          "id": "c2synm1",
+          "prompt": "Dans « Le rapport, que les experts qu'on avait consultés jugeaient incomplet, a été rejeté », combien de propositions relatives sont enchâssées ?",
+          "options": [
+            "Deux",
+            "Une seule",
+            "Trois"
+          ],
+          "answerIndex": 0,
+          "explanation": "« que... jugeaient incomplet » et « qu'on avait consultés » sont deux relatives enchâssées l'une dans l'autre."
+        },
+        {
+          "id": "c2synm2",
+          "prompt": "Que faut-il isoler en premier pour analyser une phrase complexe ?",
+          "options": [
+            "Le squelette sujet-verbe-complément de la principale",
+            "La dernière subordonnée",
+            "Le premier mot de la phrase"
+          ],
+          "answerIndex": 0,
+          "explanation": "C'est la méthode de lecture recommandée pour ne pas perdre le sens global."
+        },
+        {
+          "id": "c2synm3",
+          "prompt": "Quand vaut-il mieux scinder une phrase en deux ?",
+          "options": [
+            "Quand elle dépasse trois niveaux d'enchâssement",
+            "Jamais, la longueur est un signe de style",
+            "Uniquement à l'oral"
+          ],
+          "answerIndex": 0,
+          "explanation": "Au-delà, la clarté se dégrade même pour un lecteur avancé."
+        },
+        {
+          "id": "c2synm4",
+          "prompt": "Pourquoi utilise-t-on « ce dernier » plutôt que « il » dans une phrase à plusieurs antécédents ?",
+          "options": [
+            "Pour lever l'ambiguïté sur l'antécédent visé",
+            "Par pure convention stylistique sans autre raison",
+            "Parce que « il » est incorrect dans tous les cas"
+          ],
+          "answerIndex": 0,
+          "explanation": "« Ce dernier » désigne sans ambiguïté le nom le plus proche."
+        }
+      ]
+    },
+    {
+      "id": "c2syn-fill",
+      "type": "fill-blank",
+      "title": "Complète avec le Pronom Adéquat",
+      "instructions": "Choisis le pronom qui lève l'ambiguïté référentielle.",
+      "items": [
+        {
+          "id": "c2synf1",
+          "prompt": "Le directeur a reçu le client et son adjoint ; ___ semblait mécontent.",
+          "answers": [
+            [
+              "ce dernier"
+            ]
+          ],
+          "options": [
+            "ce dernier",
+            "il",
+            "celui"
+          ],
+          "explanation": "Ce dernier désigne sans ambiguïté le nom le plus proche (l'adjoint)."
+        },
+        {
+          "id": "c2synf2",
+          "prompt": "Le témoin ___ on savait qu'il avait tout vu refusa de répondre.",
+          "answers": [
+            [
+              "dont"
+            ]
+          ],
+          "options": [
+            "dont",
+            "que",
+            "qui"
+          ],
+          "explanation": "Dont introduit un complément construit avec de (on savait de lui qu'il avait tout vu)."
+        },
+        {
+          "id": "c2synf3",
+          "prompt": "Ce ___ redoutaient les experts finit par se produire.",
+          "answers": [
+            [
+              "que"
+            ]
+          ],
+          "options": [
+            "que",
+            "qui",
+            "dont"
+          ],
+          "explanation": "Que reprend l'objet direct du verbe redouter."
+        },
+        {
+          "id": "c2synf4",
+          "prompt": "Le point sur ___ les avis divergeaient fut celui qui suscita le débat.",
+          "answers": [
+            [
+              "lequel"
+            ]
+          ],
+          "options": [
+            "lequel",
+            "qui",
+            "que"
+          ],
+          "explanation": "Lequel s'impose après une préposition (sur) pour un antécédent de chose."
+        }
+      ]
+    },
+    {
+      "id": "c2syn-correction",
+      "type": "correction",
+      "title": "Corrige l'Ambiguïté ou la Lourdeur",
+      "items": [
+        {
+          "id": "c2sync1",
+          "incorrect": "Le patron a parlé au client et à son fils et il a semblé satisfait.",
+          "answer": [
+            "Le patron a parlé au client et à son fils ; ce dernier a semblé satisfait."
+          ],
+          "explanation": "Ce dernier lève l'ambiguïté sur qui a semblé satisfait."
+        },
+        {
+          "id": "c2sync2",
+          "incorrect": "La proposition que l'équipe que le directeur avait nommée qu'on avait longuement discutée fut finalement acceptée.",
+          "answer": [
+            "La proposition que l'équipe nommée par le directeur avait longuement discutée fut finalement acceptée."
+          ],
+          "explanation": "Trois relatives enchâssées d'affilée surchargent la phrase ; on en réduit le nombre."
+        },
+        {
+          "id": "c2sync3",
+          "incorrect": "Il a dit qu'il viendrait et qu'il apporterait le dossier et qu'il faudrait le lire avant et qu'ensuite on déciderait.",
+          "answer": [
+            "Il a dit qu'il viendrait et apporterait le dossier. Il faudrait le lire avant de décider."
+          ],
+          "explanation": "Une accumulation de complétives coordonnées se scinde pour plus de clarté."
+        }
+      ]
+    },
+    {
+      "id": "c2synx-reading",
+      "type": "reading-comprehension",
+      "title": "Lecture : Un Dossier Contesté",
+      "passage": "<p>Le dossier, que la commission qu'on avait spécialement nommée jugeait insuffisant, fut renvoyé pour révision. Ce que redoutaient ceux qui suivaient l'affaire depuis le début finit par arriver : les conclusions, qui avaient été rédigées à la hâte, sans que personne n'ait pu les vérifier sérieusement, furent largement contestées.</p>",
+      "items": [
+        {
+          "id": "c2synxr1",
+          "prompt": "Pourquoi le dossier fut-il renvoyé ?",
+          "options": [
+            "La commission le jugeait insuffisant",
+            "Il était trop long",
+            "Il avait été perdu"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte le dit directement, via une relative enchâssée."
+        },
+        {
+          "id": "c2synxr2",
+          "prompt": "Qui avait nommé la commission ?",
+          "options": [
+            "Le texte ne le précise pas explicitement",
+            "Le gouvernement",
+            "Les journalistes"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit seulement « qu'on avait spécialement nommée », sans préciser qui."
+        },
+        {
+          "id": "c2synxr3",
+          "prompt": "Comment les conclusions avaient-elles été rédigées ?",
+          "options": [
+            "À la hâte, sans vérification sérieuse",
+            "Avec beaucoup de soin",
+            "Par plusieurs experts indépendants"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte le précise dans une incise enchâssée."
+        },
+        {
+          "id": "c2synxr4",
+          "prompt": "Que finit par arriver, selon le texte ?",
+          "options": [
+            "Ce que redoutaient ceux qui suivaient l'affaire",
+            "Une bonne nouvelle inattendue",
+            "Rien de particulier"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte le dit dès la deuxième phrase."
+        }
+      ]
+    },
+    {
+      "id": "c2synx-order",
+      "type": "ordering",
+      "title": "Remets la Phrase en Ordre",
+      "items": [
+        {
+          "id": "c2synxo1",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Le",
+            "dossier",
+            "fut",
+            "renvoyé",
+            "pour",
+            "révision"
+          ],
+          "explanation": "Squelette simple : sujet, verbe, complément."
+        },
+        {
+          "id": "c2synxo2",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Les",
+            "conclusions",
+            "furent",
+            "largement",
+            "contestées"
+          ],
+          "explanation": "Structure passive, sujet-verbe-attribut."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Une phrase complexe s'analyse en repérant d'abord le squelette de la principale, puis chaque niveau de subordination.",
+    "Les pronoms de reprise (celui-ci, ce dernier) lèvent l'ambiguïté quand plusieurs antécédents sont possibles.",
+    "Au-delà de trois niveaux d'enchâssement, il vaut mieux scinder la phrase pour préserver la clarté."
+  ]
+}

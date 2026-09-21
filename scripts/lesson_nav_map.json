@@ -279,5 +279,46 @@
       "title": "L'Expression de la Restriction et de l'Exception"
     }
   ],
-  "c2": []
+  "c2": [
+    {
+      "slug": "la-syntaxe-complexe-et-la-subordination-multiple",
+      "title": "La Syntaxe Complexe et la Subordination Multiple"
+    },
+    {
+      "slug": "le-registre-litteraire-et-les-procedes-stylistiques",
+      "title": "Le Registre Littéraire et les Procédés Stylistiques"
+    },
+    {
+      "slug": "les-nuances-lexicales-et-les-faux-amis-avances",
+      "title": "Les Nuances Lexicales et les Faux Amis Avancés"
+    },
+    {
+      "slug": "la-variation-regionale-du-francais",
+      "title": "La Variation Régionale du Français"
+    },
+    {
+      "slug": "lironie-limplicite-et-les-sous-entendus",
+      "title": "L'Ironie, l'Implicite et les Sous-entendus"
+    },
+    {
+      "slug": "lattenuation-et-la-diplomatie-dans-le-discours",
+      "title": "L'Atténuation et la Diplomatie dans le Discours"
+    },
+    {
+      "slug": "les-expressions-idiomatiques-avancees",
+      "title": "Les Expressions Idiomatiques Avancées"
+    },
+    {
+      "slug": "lanalyse-et-la-synthese-de-documents-complexes",
+      "title": "L'Analyse et la Synthèse de Documents Complexes"
+    },
+    {
+      "slug": "la-creativite-lexicale-neologismes-et-jeux-de-mots",
+      "title": "La Créativité Lexicale : Néologismes et Jeux de Mots"
+    },
+    {
+      "slug": "la-reecriture-stylistique-et-ladaptation-de-registre",
+      "title": "La Réécriture Stylistique et l'Adaptation de Registre"
+    }
+  ]
 }

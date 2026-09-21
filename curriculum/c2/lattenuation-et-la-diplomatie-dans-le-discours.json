@@ -1,0 +1,303 @@
+{
+  "id": "c2-lattenuation-et-la-diplomatie-dans-le-discours",
+  "level": "C2",
+  "unit": "1",
+  "order": 6,
+  "skill": "functional",
+  "strand": "attenuation",
+  "title": "L'Atténuation et la Diplomatie dans le Discours",
+  "subtitle": "Adoucir une critique, une demande ou un désaccord grâce aux stratégies d'atténuation du français soutenu.",
+  "objectives": [
+    "Employer le conditionnel de politesse et des formules impersonnelles pour adoucir un propos.",
+    "Utiliser des expressions de nuance (dans une certaine mesure, il me semble que) pour éviter l'affirmation brutale.",
+    "Reformuler une critique directe en une remarque diplomatique équivalente."
+  ],
+  "content": {
+    "intro": "Dans un contexte professionnel ou délicat, le français dispose de nombreuses stratégies pour dire une chose désagréable sans heurter — une compétence de niveau C2 aussi importante que la grammaire elle-même.",
+    "explanation": "<p>Le <strong>conditionnel de politesse</strong>, déjà connu, s'étend ici à des tournures plus subtiles : <em>il me semblerait préférable de</em>, <em>je me permettrais de suggérer</em>, <em>auriez-vous l'obligeance de</em>. Les <strong>formules impersonnelles</strong> (<em>il conviendrait de, il serait souhaitable que</em> + subjonctif) évitent de désigner directement une personne responsable d'un problème. Des <strong>euphémismes</strong> adoucissent une réalité difficile : <em>des difficultés</em> plutôt que <em>des erreurs graves</em>, <em>perfectible</em> plutôt que <em>mauvais</em>.</p><p>Des marqueurs de nuance limitent la portée d'une affirmation pour la rendre moins tranchante : <em>dans une certaine mesure, il me semble que, on pourrait penser que, à première vue</em>. Une critique directe (<em>Ce rapport est mauvais</em>) se reformule ainsi en une remarque diplomatique (<em>Il me semble que ce rapport gagnerait à être retravaillé sur certains points</em>) — le sens critique reste présent, mais la forme préserve la relation avec l'interlocuteur.</p>",
+    "rules": [
+      {
+        "heading": "a) Conditionnel de politesse étendu",
+        "body": "<ul><li><em>Il me semblerait préférable de, je me permettrais de suggérer</em> — adoucissent une suggestion ou une demande.</li></ul>"
+      },
+      {
+        "heading": "b) Formules impersonnelles",
+        "body": "<ul><li><em>Il conviendrait de, il serait souhaitable que</em> + subjonctif — évitent de désigner un responsable direct.</li></ul>"
+      },
+      {
+        "heading": "c) Euphémismes",
+        "body": "<ul><li><em>Des difficultés</em> pour des erreurs graves, <em>perfectible</em> pour mauvais — adoucissent une réalité négative.</li></ul>"
+      },
+      {
+        "heading": "d) Marqueurs de nuance",
+        "body": "<ul><li><em>Dans une certaine mesure, il me semble que, à première vue</em> — limitent la portée d'une affirmation.</li></ul>"
+      }
+    ],
+    "examples": [
+      "Il me semblerait préférable de revoir ce point avant la présentation.",
+      "Je me permettrais de suggérer une approche légèrement différente.",
+      "Il conviendrait de clarifier certains éléments de ce dossier.",
+      "Ce projet est perfectible sur plusieurs aspects.",
+      "Il me semble, dans une certaine mesure, que ce choix mérite d'être reconsidéré.",
+      "À première vue, ce plan présente quelques difficultés.",
+      "Auriez-vous l'obligeance de revoir ce paragraphe avant demain ?"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Ce rapport est mauvais et truffé d'erreurs (dans un contexte professionnel délicat).",
+        "right": "Il me semble que ce rapport gagnerait à être retravaillé sur certains points.",
+        "why": "La reformulation diplomatique préserve le sens critique tout en évitant une confrontation brutale."
+      },
+      {
+        "wrong": "Tu dois corriger ça immédiatement.",
+        "right": "Il conviendrait de corriger ce point dès que possible.",
+        "why": "La formule impersonnelle atténue l'ordre direct en une recommandation plus douce."
+      },
+      {
+        "wrong": "Employer un euphémisme si vague que le message critique disparaît totalement.",
+        "right": "Choisir un euphémisme qui adoucit la forme sans effacer le fond du message.",
+        "why": "L'atténuation doit rester compréhensible ; trop de vague nuit à la communication."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "c2att-mc",
+      "type": "multiple-choice",
+      "title": "Choisis la Formule Diplomatique",
+      "items": [
+        {
+          "id": "c2attm1",
+          "prompt": "Quelle formule adoucit le mieux une critique directe ?",
+          "options": [
+            "Il me semble que ce rapport gagnerait à être retravaillé.",
+            "Ce rapport est nul.",
+            "Refais ce rapport, il est raté."
+          ],
+          "answerIndex": 0,
+          "explanation": "La formule impersonnelle et nuancée préserve la relation professionnelle."
+        },
+        {
+          "id": "c2attm2",
+          "prompt": "Que permet une formule impersonnelle comme « il conviendrait de » ?",
+          "options": [
+            "Éviter de désigner directement un responsable",
+            "Accuser plus fermement quelqu'un",
+            "Rendre le message incompréhensible"
+          ],
+          "answerIndex": 0,
+          "explanation": "C'est justement son rôle diplomatique."
+        },
+        {
+          "id": "c2attm3",
+          "prompt": "Quel euphémisme convient pour adoucir « mauvais » dans une évaluation ?",
+          "options": [
+            "Perfectible",
+            "Excellent",
+            "Génial"
+          ],
+          "answerIndex": 0,
+          "explanation": "Perfectible reconnaît un défaut tout en restant constructif."
+        },
+        {
+          "id": "c2attm4",
+          "prompt": "Quel marqueur limite la portée d'une affirmation ?",
+          "options": [
+            "Dans une certaine mesure",
+            "Absolument",
+            "Sans aucun doute"
+          ],
+          "answerIndex": 0,
+          "explanation": "Ce marqueur nuance l'affirmation plutôt que de la rendre catégorique."
+        }
+      ]
+    },
+    {
+      "id": "c2att-fill",
+      "type": "fill-blank",
+      "title": "Complète avec la Tournure Atténuée",
+      "items": [
+        {
+          "id": "c2attf1",
+          "prompt": "Il me ___ préférable de revoir ce point avant la présentation.",
+          "answers": [
+            [
+              "semblerait"
+            ]
+          ],
+          "options": [
+            "semblerait",
+            "semble",
+            "sembla"
+          ],
+          "explanation": "Le conditionnel de politesse adoucit la suggestion."
+        },
+        {
+          "id": "c2attf2",
+          "prompt": "Il ___ de clarifier certains éléments de ce dossier.",
+          "answers": [
+            [
+              "conviendrait"
+            ]
+          ],
+          "options": [
+            "conviendrait",
+            "faut",
+            "fallait"
+          ],
+          "explanation": "Il conviendrait de est une formule impersonnelle diplomatique."
+        },
+        {
+          "id": "c2attf3",
+          "prompt": "Ce projet est ___ sur plusieurs aspects (au lieu de dire qu'il est mauvais).",
+          "answers": [
+            [
+              "perfectible"
+            ]
+          ],
+          "options": [
+            "perfectible",
+            "nul",
+            "raté"
+          ],
+          "explanation": "Perfectible est l'euphémisme approprié."
+        },
+        {
+          "id": "c2attf4",
+          "prompt": "___ première vue, ce plan présente quelques difficultés.",
+          "answers": [
+            [
+              "À"
+            ]
+          ],
+          "options": [
+            "À",
+            "En",
+            "Sur"
+          ],
+          "explanation": "L'expression figée est à première vue."
+        }
+      ]
+    },
+    {
+      "id": "c2att-correction",
+      "type": "correction",
+      "title": "Reformule Diplomatiquement",
+      "instructions": "Réécris chaque phrase directe en une formule plus diplomatique.",
+      "items": [
+        {
+          "id": "c2attc1",
+          "incorrect": "Ce rapport est mauvais et truffé d'erreurs.",
+          "answer": [
+            "Il me semble que ce rapport gagnerait à être retravaillé sur certains points."
+          ],
+          "explanation": "La reformulation préserve le sens critique en une forme moins directe."
+        },
+        {
+          "id": "c2attc2",
+          "incorrect": "Tu dois corriger ça immédiatement.",
+          "answer": [
+            "Il conviendrait de corriger ce point dès que possible."
+          ],
+          "explanation": "La formule impersonnelle adoucit l'ordre direct."
+        },
+        {
+          "id": "c2attc3",
+          "incorrect": "Cette idée est nulle.",
+          "answer": [
+            "Cette idée est perfectible et mériterait d'être retravaillée."
+          ],
+          "explanation": "L'euphémisme perfectible adoucit le jugement sans le supprimer."
+        }
+      ]
+    },
+    {
+      "id": "c2attx-reading",
+      "type": "reading-comprehension",
+      "title": "Lecture : Un Courriel Diplomatique",
+      "passage": "<p>Il me semblerait préférable de revoir certains passages de votre rapport avant sa publication. Il conviendrait notamment de clarifier la partie consacrée aux résultats, qui reste, dans une certaine mesure, perfectible. Auriez-vous l'obligeance d'y apporter ces quelques ajustements avant la fin de la semaine ?</p>",
+      "items": [
+        {
+          "id": "c2attxr1",
+          "prompt": "Que suggère l'auteur du courriel concernant le rapport ?",
+          "options": [
+            "De revoir certains passages avant publication",
+            "De ne rien changer",
+            "De le supprimer entièrement"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte le dit directement, avec une formule atténuée."
+        },
+        {
+          "id": "c2attxr2",
+          "prompt": "Quelle partie du rapport est jugée perfectible ?",
+          "options": [
+            "La partie consacrée aux résultats",
+            "L'introduction",
+            "La bibliographie"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte le précise directement."
+        },
+        {
+          "id": "c2attxr3",
+          "prompt": "Que signifie « perfectible » dans ce contexte ?",
+          "options": [
+            "Qui pourrait être amélioré (euphémisme pour imparfait)",
+            "Absolument excellent",
+            "Totalement inutilisable"
+          ],
+          "answerIndex": 0,
+          "explanation": "C'est un euphémisme diplomatique pour dire que le texte a des défauts."
+        },
+        {
+          "id": "c2attxr4",
+          "prompt": "Que demande finalement l'auteur ?",
+          "options": [
+            "D'apporter des ajustements avant la fin de la semaine",
+            "De ne jamais republier ce rapport",
+            "De changer complètement de sujet"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte se termine sur cette demande formulée poliment."
+        }
+      ]
+    },
+    {
+      "id": "c2attx-order",
+      "type": "ordering",
+      "title": "Remets la Phrase en Ordre",
+      "items": [
+        {
+          "id": "c2attxo1",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Il",
+            "conviendrait",
+            "de",
+            "clarifier",
+            "cette",
+            "partie"
+          ],
+          "explanation": "Formule impersonnelle diplomatique."
+        },
+        {
+          "id": "c2attxo2",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Cette",
+            "partie",
+            "reste",
+            "perfectible"
+          ],
+          "explanation": "Euphémisme atténuant une critique."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Le conditionnel de politesse et les formules impersonnelles (il conviendrait de) adoucissent une demande ou une critique.",
+    "Les euphémismes (perfectible pour mauvais) préservent le sens tout en évitant la brutalité.",
+    "Les marqueurs de nuance (dans une certaine mesure, à première vue) limitent la portée d'une affirmation trop tranchante."
+  ]
+}
