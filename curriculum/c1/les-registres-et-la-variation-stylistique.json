@@ -1,0 +1,303 @@
+{
+  "id": "c1-les-registres-et-la-variation-stylistique",
+  "level": "C1",
+  "unit": "1",
+  "order": 9,
+  "skill": "vocabulary",
+  "strand": "registres-ecrits",
+  "title": "Les Registres et la Variation Stylistique à l'Écrit",
+  "subtitle": "Distinguer littéraire, journalistique, administratif et courant, et choisir le registre adapté à chaque écrit.",
+  "objectives": [
+    "Distinguer quatre registres écrits : littéraire, journalistique, administratif, courant.",
+    "Reconnaître les marqueurs lexicaux et syntaxiques propres à chacun.",
+    "Reformuler un même contenu dans le registre approprié à une situation donnée."
+  ],
+  "content": {
+    "intro": "Un même contenu peut s'écrire de quatre façons très différentes selon le contexte : un roman, un article de presse, un courrier officiel et une note interne n'obéissent pas aux mêmes conventions stylistiques.",
+    "explanation": "<p>Le registre <strong>littéraire</strong> privilégie les phrases longues, le vocabulaire recherché, les figures de style et parfois les temps du passé simple/subjonctif imparfait : <em>Le soleil déclinait lentement sur la vallée endormie.</em> Le registre <strong>journalistique</strong> vise la clarté et l'accroche : phrases courtes, chiffres, citations, conditionnel pour l'information non confirmée : <em>Le bilan s'alourdirait, selon les derniers chiffres.</em></p><p>Le registre <strong>administratif</strong> emploie des formules figées, la nominalisation, la troisième personne et des formules de politesse codifiées : <em>Nous vous prions de bien vouloir nous faire parvenir les documents requis.</em> Le registre <strong>courant</strong> (celui de ce cours) reste clair, correct, sans effet de style ni formule figée : <em>Merci de nous envoyer les documents.</em> Savoir passer de l'un à l'autre selon le contexte est une compétence-clé du niveau C1.</p>",
+    "rules": [
+      {
+        "heading": "a) Registre littéraire",
+        "body": "<ul><li>Phrases longues, figures de style, temps littéraires : <em>Le soleil déclinait sur la vallée.</em></li></ul>"
+      },
+      {
+        "heading": "b) Registre journalistique",
+        "body": "<ul><li>Phrases courtes, chiffres, conditionnel d'information non confirmée.</li></ul>"
+      },
+      {
+        "heading": "c) Registre administratif",
+        "body": "<ul><li>Formules figées, nominalisation, politesse codifiée : <em>Nous vous prions de bien vouloir…</em></li></ul>"
+      },
+      {
+        "heading": "d) Registre courant",
+        "body": "<ul><li>Clair, correct, sans effet de style : le registre par défaut de ce cours.</li></ul>"
+      }
+    ],
+    "examples": [
+      "Le soleil déclinait lentement sur la vallée endormie. (littéraire)",
+      "Le bilan s'alourdirait, selon les derniers chiffres communiqués. (journalistique)",
+      "Nous vous prions de bien vouloir nous faire parvenir les documents requis. (administratif)",
+      "Merci de nous envoyer les documents dès que possible. (courant)",
+      "Ainsi s'acheva cette longue et éprouvante journée. (littéraire)",
+      "Le gouvernement annoncerait de nouvelles mesures dès la semaine prochaine. (journalistique)",
+      "Veuillez trouver ci-joint le formulaire dûment complété. (administratif)"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Écrire à un ami : « Nous vous prions de bien vouloir me répondre. »",
+        "right": "Écrire à un ami : « Réponds-moi vite, s'il te plaît ! »",
+        "why": "Le registre administratif est totalement déplacé dans une communication amicale et informelle."
+      },
+      {
+        "wrong": "Rédiger un article de presse avec des phrases très longues et un vocabulaire littéraire recherché.",
+        "right": "Rédiger un article de presse avec des phrases courtes, claires, et des informations chiffrées.",
+        "why": "Le registre journalistique vise la clarté et l'efficacité, pas l'effet de style littéraire."
+      },
+      {
+        "wrong": "Utiliser le passé simple dans une lettre administrative courante.",
+        "right": "Utiliser le passé composé, temps normal du registre administratif et courant.",
+        "why": "Le passé simple est réservé au registre littéraire ; l'administratif emploie le passé composé."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "c1reg-fill",
+      "type": "fill-blank",
+      "title": "Identifie le Registre",
+      "items": [
+        {
+          "id": "c1regf1",
+          "prompt": "« Le soleil déclinait lentement sur la vallée » appartient au registre ___.",
+          "answers": [
+            [
+              "littéraire"
+            ]
+          ],
+          "options": [
+            "littéraire",
+            "administratif",
+            "journalistique"
+          ],
+          "explanation": "Phrase longue, image poétique : registre littéraire."
+        },
+        {
+          "id": "c1regf2",
+          "prompt": "« Nous vous prions de bien vouloir… » appartient au registre ___.",
+          "answers": [
+            [
+              "administratif"
+            ]
+          ],
+          "options": [
+            "administratif",
+            "littéraire",
+            "courant"
+          ],
+          "explanation": "Formule figée et polie : registre administratif."
+        },
+        {
+          "id": "c1regf3",
+          "prompt": "« Le bilan s'alourdirait, selon les derniers chiffres » appartient au registre ___.",
+          "answers": [
+            [
+              "journalistique"
+            ]
+          ],
+          "options": [
+            "journalistique",
+            "littéraire",
+            "administratif"
+          ],
+          "explanation": "Conditionnel d'information non confirmée : registre journalistique."
+        },
+        {
+          "id": "c1regf4",
+          "prompt": "« Merci de nous envoyer les documents » appartient au registre ___.",
+          "answers": [
+            [
+              "courant"
+            ]
+          ],
+          "options": [
+            "courant",
+            "littéraire",
+            "administratif"
+          ],
+          "explanation": "Clair, simple, sans formule figée : registre courant."
+        }
+      ]
+    },
+    {
+      "id": "c1reg-mc",
+      "type": "multiple-choice",
+      "title": "Les Registres à l'Écrit",
+      "items": [
+        {
+          "id": "c1regm1",
+          "prompt": "Quel registre emploie le plus souvent des figures de style et le passé simple ?",
+          "options": [
+            "le littéraire",
+            "l'administratif",
+            "le journalistique"
+          ],
+          "answerIndex": 0,
+          "explanation": "Ce sont des marqueurs typiques du registre littéraire."
+        },
+        {
+          "id": "c1regm2",
+          "prompt": "Quel registre emploie souvent le conditionnel pour une information non confirmée ?",
+          "options": [
+            "le journalistique",
+            "le courant",
+            "le littéraire"
+          ],
+          "answerIndex": 0,
+          "explanation": "C'est un usage typique de la presse."
+        },
+        {
+          "id": "c1regm3",
+          "prompt": "Quel registre emploie des formules figées de politesse codifiée ?",
+          "options": [
+            "l'administratif",
+            "le littéraire",
+            "le courant"
+          ],
+          "answerIndex": 0,
+          "explanation": "« Nous vous prions de bien vouloir » est une formule administrative typique."
+        },
+        {
+          "id": "c1regm4",
+          "prompt": "Quel registre est le registre « par défaut », sans effet de style particulier ?",
+          "options": [
+            "le courant",
+            "le littéraire",
+            "l'administratif"
+          ],
+          "answerIndex": 0,
+          "explanation": "C'est le registre neutre de la communication quotidienne correcte."
+        }
+      ]
+    },
+    {
+      "id": "c1reg-correction",
+      "type": "correction",
+      "title": "Corrige le Registre Inapproprié",
+      "items": [
+        {
+          "id": "c1regc1",
+          "incorrect": "Nous vous prions de bien vouloir me répondre (à un ami proche).",
+          "answer": [
+            "Réponds-moi vite, s'il te plaît !"
+          ],
+          "explanation": "Le registre administratif est déplacé entre amis."
+        },
+        {
+          "id": "c1regc2",
+          "incorrect": "Le soleil déclinait lentement sur la vallée endormie (dans un article factuel bref).",
+          "answer": [
+            "Le soleil s'est couché à 19h30 aujourd'hui."
+          ],
+          "explanation": "Le registre littéraire est déplacé dans un article factuel."
+        },
+        {
+          "id": "c1regc3",
+          "incorrect": "Le bilan s'alourdit, c'est confirmé (alors que l'information n'est pas vérifiée).",
+          "answer": [
+            "Le bilan s'alourdirait, selon les derniers chiffres."
+          ],
+          "explanation": "Une information non confirmée demande le conditionnel journalistique."
+        }
+      ]
+    },
+    {
+      "id": "c1regx-reading",
+      "type": "reading-comprehension",
+      "title": "Lecture : Trois Messages, Trois Registres",
+      "passage": "<p>Dans son roman, l'auteur écrit : « Le vent balayait la plaine, emportant avec lui les derniers échos du jour. » Dans le journal du soir, on lit : « Les vents violents pourraient s'intensifier dans la nuit, selon Météo-France. » Dans la lettre officielle reçue le matin même, il est écrit : « Nous vous prions de bien vouloir prendre vos dispositions en conséquence. »</p>",
+      "items": [
+        {
+          "id": "c1regxr1",
+          "prompt": "Quel registre utilise l'auteur du roman ?",
+          "options": [
+            "Littéraire",
+            "Administratif",
+            "Journalistique"
+          ],
+          "answerIndex": 0,
+          "explanation": "Image poétique et phrase longue : registre littéraire."
+        },
+        {
+          "id": "c1regxr2",
+          "prompt": "Que suggère le conditionnel « pourraient s'intensifier » dans le journal ?",
+          "options": [
+            "Une information non totalement confirmée",
+            "Une certitude absolue",
+            "Un événement passé"
+          ],
+          "answerIndex": 0,
+          "explanation": "C'est l'usage journalistique du conditionnel."
+        },
+        {
+          "id": "c1regxr3",
+          "prompt": "Quel registre utilise la lettre officielle ?",
+          "options": [
+            "Administratif",
+            "Littéraire",
+            "Familier"
+          ],
+          "answerIndex": 0,
+          "explanation": "Formule figée de politesse : registre administratif."
+        },
+        {
+          "id": "c1regxr4",
+          "prompt": "Combien de registres différents ce texte illustre-t-il ?",
+          "options": [
+            "Trois",
+            "Un seul",
+            "Cinq"
+          ],
+          "answerIndex": 0,
+          "explanation": "Littéraire, journalistique et administratif."
+        }
+      ]
+    },
+    {
+      "id": "c1regx-order",
+      "type": "ordering",
+      "title": "Remets la Phrase en Ordre",
+      "items": [
+        {
+          "id": "c1regxo1",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Le",
+            "vent",
+            "balayait",
+            "la",
+            "plaine"
+          ],
+          "explanation": "Registre littéraire, imparfait descriptif."
+        },
+        {
+          "id": "c1regxo2",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Les",
+            "vents",
+            "pourraient",
+            "s'intensifier",
+            "cette",
+            "nuit"
+          ],
+          "explanation": "Registre journalistique, conditionnel d'incertitude."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Le littéraire privilégie les figures de style et les temps littéraires ; le journalistique vise la clarté et l'accroche.",
+    "L'administratif emploie des formules figées et la politesse codifiée ; le courant reste clair et sans effet de style.",
+    "Choisir le registre adapté à la situation est une compétence-clé du niveau C1."
+  ]
+}

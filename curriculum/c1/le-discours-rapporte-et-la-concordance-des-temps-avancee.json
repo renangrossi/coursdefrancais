@@ -1,0 +1,307 @@
+{
+  "id": "c1-le-discours-rapporte-et-la-concordance-des-temps-avancee",
+  "level": "C1",
+  "unit": "1",
+  "order": 6,
+  "skill": "grammar",
+  "strand": "discours-rapporte-avance",
+  "title": "Le Discours Rapporté et la Concordance des Temps Avancée",
+  "subtitle": "Rapporter un conditionnel, un subjonctif, ou un discours situé loin dans le passé — et changer les repères de temps et de lieu.",
+  "objectives": [
+    "Rapporter au passé un énoncé contenant un conditionnel ou un subjonctif.",
+    "Appliquer la concordance des temps complète (présent, passé composé, futur, imparfait, plus-que-parfait, conditionnel).",
+    "Changer correctement les repères de temps et de lieu (hier → la veille, ici → là) en rapportant un discours au passé."
+  ],
+  "content": {
+    "intro": "Le discours rapporté vu au niveau B1 couvrait le présent et le passé composé ; au niveau C1, il faut savoir rapporter n'importe quel énoncé, y compris un conditionnel ou un subjonctif, avec tous les changements de repères que cela implique.",
+    "explanation": "<p>La concordance des temps complète, quand le verbe introducteur est au <strong>passé</strong> : le présent devient <strong>imparfait</strong>, le passé composé devient <strong>plus-que-parfait</strong>, le futur simple devient <strong>conditionnel présent</strong>, le futur antérieur devient <strong>conditionnel passé</strong>. Le <strong>conditionnel</strong> et le <strong>subjonctif</strong> de l'énoncé original, eux, ne changent pas de forme au discours rapporté : <em>« Je viendrais si je pouvais »</em> devient <em>Il a dit qu'il viendrait s'il pouvait</em> (le conditionnel reste conditionnel).</p><p>Les repères de temps et de lieu changent aussi quand on rapporte un discours à un moment différent : <em>aujourd'hui → ce jour-là, hier → la veille, demain → le lendemain, la semaine prochaine → la semaine suivante, ici → là</em>. Ces changements, souvent négligés même par des locuteurs avancés, sont indispensables à un récit rapporté cohérent.</p>",
+    "rules": [
+      {
+        "heading": "a) Présent → imparfait, passé composé → plus-que-parfait",
+        "body": "<ul><li><em>« Je pars » → il a dit qu'il partait. « J'ai fini » → il a dit qu'il avait fini.</em></li></ul>"
+      },
+      {
+        "heading": "b) Futur → conditionnel présent, futur antérieur → conditionnel passé",
+        "body": "<ul><li><em>« Je viendrai » → il a dit qu'il viendrait.</em></li></ul>"
+      },
+      {
+        "heading": "c) Conditionnel et subjonctif inchangés",
+        "body": "<ul><li><em>« Je viendrais si je pouvais » → il a dit qu'il viendrait s'il pouvait.</em></li></ul>"
+      },
+      {
+        "heading": "d) Repères de temps et de lieu",
+        "body": "<ul><li><em>hier → la veille, demain → le lendemain, ici → là, aujourd'hui → ce jour-là</em>.</li></ul>"
+      }
+    ],
+    "examples": [
+      "Il a dit qu'il partait le lendemain.",
+      "Elle a expliqué qu'elle avait fini son travail la veille.",
+      "Ils ont annoncé qu'ils viendraient dès que possible.",
+      "Il m'a confié qu'il aurait terminé avant la fin du mois.",
+      "Elle a dit qu'elle viendrait si elle pouvait.",
+      "Il a précisé qu'il fallait qu'on parte tôt.",
+      "Elle a raconté qu'elle habitait là depuis deux ans."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Il a dit qu'il vient demain.",
+        "right": "Il a dit qu'il venait le lendemain.",
+        "why": "Le verbe introducteur au passé impose l'imparfait, et demain devient le lendemain."
+      },
+      {
+        "wrong": "Elle a expliqué qu'elle finirait le rapport hier.",
+        "right": "Elle a expliqué qu'elle avait fini le rapport la veille.",
+        "why": "Une action déjà accomplie au moment du rapport se met au plus-que-parfait, et hier devient la veille."
+      },
+      {
+        "wrong": "Il a dit qu'il viendra s'il pourrait.",
+        "right": "Il a dit qu'il viendrait s'il pouvait.",
+        "why": "Le conditionnel de l'énoncé original reste conditionnel ; seul le si + imparfait ne change pas non plus."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "c1disc-fill",
+      "type": "fill-blank",
+      "title": "Rapporte le Discours au Passé",
+      "instructions": "Complète avec la forme correcte au discours rapporté.",
+      "items": [
+        {
+          "id": "c1discf1",
+          "prompt": "« Je pars demain » → Il a dit qu'il ___ (partir) le lendemain.",
+          "answers": [
+            [
+              "partait"
+            ]
+          ],
+          "options": [
+            "partait",
+            "part",
+            "partira"
+          ],
+          "explanation": "Présent → imparfait, demain → le lendemain."
+        },
+        {
+          "id": "c1discf2",
+          "prompt": "« J'ai fini hier » → Elle a expliqué qu'elle ___ (finir) la veille.",
+          "answers": [
+            [
+              "avait fini"
+            ]
+          ],
+          "options": [
+            "avait fini",
+            "a fini",
+            "finissait"
+          ],
+          "explanation": "Passé composé → plus-que-parfait, hier → la veille."
+        },
+        {
+          "id": "c1discf3",
+          "prompt": "« Je viendrai » → Ils ont annoncé qu'ils ___ (venir).",
+          "answers": [
+            [
+              "viendraient"
+            ]
+          ],
+          "options": [
+            "viendraient",
+            "viendront",
+            "venaient"
+          ],
+          "explanation": "Futur simple → conditionnel présent."
+        },
+        {
+          "id": "c1discf4",
+          "prompt": "« Je viendrais si je pouvais » → Elle a dit qu'elle ___ (venir) si elle pouvait.",
+          "answers": [
+            [
+              "viendrait"
+            ]
+          ],
+          "options": [
+            "viendrait",
+            "vient",
+            "était venue"
+          ],
+          "explanation": "Le conditionnel original reste conditionnel."
+        }
+      ]
+    },
+    {
+      "id": "c1disc-mc",
+      "type": "multiple-choice",
+      "title": "Le Discours Rapporté Avancé",
+      "items": [
+        {
+          "id": "c1discm1",
+          "prompt": "Que devient le futur simple au discours rapporté passé ?",
+          "options": [
+            "le conditionnel présent",
+            "l'imparfait",
+            "le plus-que-parfait"
+          ],
+          "answerIndex": 0,
+          "explanation": "C'est la transformation classique du futur au discours rapporté."
+        },
+        {
+          "id": "c1discm2",
+          "prompt": "Que devient un conditionnel de l'énoncé original au discours rapporté ?",
+          "options": [
+            "il reste conditionnel",
+            "il devient indicatif",
+            "il devient subjonctif"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le conditionnel ne change pas de forme."
+        },
+        {
+          "id": "c1discm3",
+          "prompt": "Que devient « hier » au discours rapporté passé ?",
+          "options": [
+            "la veille",
+            "le lendemain",
+            "ce jour-là"
+          ],
+          "answerIndex": 0,
+          "explanation": "C'est le changement de repère temporel correspondant."
+        },
+        {
+          "id": "c1discm4",
+          "prompt": "Que devient « ici » au discours rapporté ?",
+          "options": [
+            "là",
+            "ici (inchangé)",
+            "là-bas uniquement"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le repère de lieu change en là quand on rapporte ailleurs."
+        }
+      ]
+    },
+    {
+      "id": "c1disc-correction",
+      "type": "correction",
+      "title": "Corrige les Erreurs",
+      "items": [
+        {
+          "id": "c1discc1",
+          "incorrect": "Il a dit qu'il vient demain.",
+          "answer": [
+            "Il a dit qu'il venait le lendemain."
+          ],
+          "explanation": "Imparfait + changement de repère temporel."
+        },
+        {
+          "id": "c1discc2",
+          "incorrect": "Elle a expliqué qu'elle finirait le rapport hier.",
+          "answer": [
+            "Elle a expliqué qu'elle avait fini le rapport la veille."
+          ],
+          "explanation": "Plus-que-parfait pour une action déjà accomplie."
+        },
+        {
+          "id": "c1discc3",
+          "incorrect": "Il a dit qu'il viendra s'il pourrait.",
+          "answer": [
+            "Il a dit qu'il viendrait s'il pouvait."
+          ],
+          "explanation": "Le conditionnel reste conditionnel ; si + imparfait ne change pas."
+        }
+      ]
+    },
+    {
+      "id": "c1discx-reading",
+      "type": "reading-comprehension",
+      "title": "Lecture : Un Témoignage Rapporté",
+      "passage": "<p>Elle a raconté qu'elle était née là-bas et qu'elle y avait vécu jusqu'à ses vingt ans. Elle a précisé qu'elle partirait le lendemain pour ne jamais revenir. Elle a ajouté qu'elle serait revenue plus tôt si elle avait pu. Elle a confié qu'elle regrettait cette décision, mais qu'elle referait sans doute le même choix.</p>",
+      "items": [
+        {
+          "id": "c1discxr1",
+          "prompt": "Où était-elle née, selon son témoignage ?",
+          "options": [
+            "Là-bas",
+            "Ici",
+            "On ne sait pas"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le repère de lieu là reprend ici de l'énoncé original."
+        },
+        {
+          "id": "c1discxr2",
+          "prompt": "Jusqu'à quel âge y avait-elle vécu ?",
+          "options": [
+            "Vingt ans",
+            "Dix ans",
+            "Trente ans"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte le dit directement."
+        },
+        {
+          "id": "c1discxr3",
+          "prompt": "Quand allait-elle partir, selon son témoignage ?",
+          "options": [
+            "Le lendemain",
+            "Dans un mois",
+            "Immédiatement"
+          ],
+          "answerIndex": 0,
+          "explanation": "Demain devient le lendemain au discours rapporté passé."
+        },
+        {
+          "id": "c1discxr4",
+          "prompt": "Que regrettait-elle, selon le texte ?",
+          "options": [
+            "Cette décision",
+            "Son enfance",
+            "Son travail"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte se termine sur ce regret exprimé."
+        }
+      ]
+    },
+    {
+      "id": "c1discx-order",
+      "type": "ordering",
+      "title": "Remets la Phrase en Ordre",
+      "items": [
+        {
+          "id": "c1discxo1",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Elle",
+            "a",
+            "précisé",
+            "qu'elle",
+            "partirait",
+            "le",
+            "lendemain"
+          ],
+          "explanation": "Futur → conditionnel présent, demain → le lendemain."
+        },
+        {
+          "id": "c1discxo2",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Elle",
+            "a",
+            "raconté",
+            "qu'elle",
+            "était",
+            "née",
+            "là-bas"
+          ],
+          "explanation": "Présent → imparfait, ici → là-bas."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Au discours rapporté passé : présent → imparfait, passé composé → plus-que-parfait, futur → conditionnel présent.",
+    "Le conditionnel et le subjonctif de l'énoncé original ne changent pas de forme.",
+    "Les repères de temps et de lieu changent aussi : hier → la veille, demain → le lendemain, ici → là."
+  ]
+}

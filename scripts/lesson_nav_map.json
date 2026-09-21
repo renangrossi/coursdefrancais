@@ -237,6 +237,47 @@
       "title": "Le Futur Antérieur"
     }
   ],
-  "c1": [],
+  "c1": [
+    {
+      "slug": "le-subjonctif-imparfait-et-plus-que-parfait",
+      "title": "Le Subjonctif Imparfait et le Subjonctif Plus-que-parfait"
+    },
+    {
+      "slug": "les-quatre-types-de-phrases-conditionnelles-complexes",
+      "title": "Les Quatre Types de Phrases Conditionnelles Complexes"
+    },
+    {
+      "slug": "les-nuances-du-subjonctif",
+      "title": "Les Nuances du Subjonctif : Perception, Négation et Degrés de Certitude"
+    },
+    {
+      "slug": "les-constructions-emphatiques-avancees",
+      "title": "Les Constructions Emphatiques et de Mise en Relief Avancées"
+    },
+    {
+      "slug": "la-nominalisation-et-le-style-academique",
+      "title": "La Nominalisation et le Style Académique"
+    },
+    {
+      "slug": "le-discours-rapporte-et-la-concordance-des-temps-avancee",
+      "title": "Le Discours Rapporté et la Concordance des Temps Avancée"
+    },
+    {
+      "slug": "les-locutions-prepositives-nuancees",
+      "title": "Les Locutions Prépositives Nuancées"
+    },
+    {
+      "slug": "la-cohesion-et-la-progression-thematique",
+      "title": "La Cohésion et la Progression Thématique dans un Texte Argumentatif"
+    },
+    {
+      "slug": "les-registres-et-la-variation-stylistique",
+      "title": "Les Registres et la Variation Stylistique à l'Écrit"
+    },
+    {
+      "slug": "lexpression-de-la-restriction-et-de-lexception",
+      "title": "L'Expression de la Restriction et de l'Exception"
+    }
+  ],
   "c2": []
 }

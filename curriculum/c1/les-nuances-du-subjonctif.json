@@ -1,0 +1,306 @@
+{
+  "id": "c1-les-nuances-du-subjonctif",
+  "level": "C1",
+  "unit": "1",
+  "order": 3,
+  "skill": "grammar",
+  "strand": "nuances-subjonctif",
+  "title": "Les Nuances du Subjonctif : Perception, Négation et Degrés de Certitude",
+  "subtitle": "Comment la négation, l'interrogation et le degré de certitude font basculer un verbe entre indicatif et subjonctif.",
+  "objectives": [
+    "Reconnaître que les verbes de perception et de déclaration basculent au subjonctif quand ils sont niés ou interrogés.",
+    "Distinguer les degrés de certitude qui déclenchent ou non le subjonctif (il est certain que / il se peut que).",
+    "Manier ces nuances pour exprimer un jugement précis sur la réalité d'un fait."
+  ],
+  "content": {
+    "intro": "Le choix entre indicatif et subjonctif n'est pas toujours fixé par la conjonction elle-même — il dépend souvent du degré de certitude que le locuteur veut exprimer, une nuance typique du niveau C1.",
+    "explanation": "<p>Les verbes de perception et de déclaration (<em>penser, croire, trouver, dire, sembler</em>) prennent l'<strong>indicatif</strong> à la forme affirmative, car ils expriment une certitude : <em>Je pense qu'il a raison.</em> À la forme <strong>négative</strong> ou <strong>interrogative</strong>, la certitude s'affaiblit et le <strong>subjonctif</strong> devient possible, voire préféré à l'écrit soutenu : <em>Je ne pense pas qu'il ait raison</em>, <em>Penses-tu qu'il ait raison ?</em> À l'oral courant, l'indicatif reste toutefois fréquent même à la forme négative.</p><p>Le <strong>degré de certitude</strong> de l'expression elle-même compte aussi : <em>il est certain que, il est évident que, il est clair que</em> gardent l'indicatif (certitude totale), tandis que <em>il est possible que, il se peut que, il n'est pas certain que</em> imposent le subjonctif (incertitude). Entre les deux, <em>il est probable que</em> garde l'indicatif (probabilité forte), mais <em>il est peu probable que</em> bascule au subjonctif (incertitude renforcée par la négation).</p>",
+    "rules": [
+      {
+        "heading": "a) Affirmatif : indicatif",
+        "body": "<ul><li><em>penser, croire, trouver, dire</em> affirmatifs + indicatif : <em>Je crois qu'il vient.</em></li></ul>"
+      },
+      {
+        "heading": "b) Négatif/interrogatif : subjonctif possible",
+        "body": "<ul><li>La certitude s'affaiblit : <em>Je ne crois pas qu'il vienne.</em></li></ul>"
+      },
+      {
+        "heading": "c) Certitude totale : indicatif",
+        "body": "<ul><li><em>il est certain/évident/clair que</em> + indicatif.</li></ul>"
+      },
+      {
+        "heading": "d) Incertitude : subjonctif",
+        "body": "<ul><li><em>il est possible/il se peut/il n'est pas certain que</em> + subjonctif ; <em>il est peu probable que</em> + subjonctif.</li></ul>"
+      }
+    ],
+    "examples": [
+      "Je pense qu'il a raison.",
+      "Je ne pense pas qu'il ait raison.",
+      "Crois-tu qu'elle vienne ce soir ?",
+      "Il est certain qu'elle réussira.",
+      "Il est possible qu'elle échoue.",
+      "Il est peu probable qu'il pleuve demain.",
+      "Il est évident que ce projet fonctionne."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Je ne pense pas qu'il a raison (dans un contexte soutenu).",
+        "right": "Je ne pense pas qu'il ait raison.",
+        "why": "À l'écrit soutenu, la négation d'un verbe d'opinion favorise le subjonctif, car la certitude disparaît."
+      },
+      {
+        "wrong": "Il est possible qu'elle échoue (au subjonctif) confondu avec « il est probable qu'elle échouera » (à l'indicatif).",
+        "right": "Il est possible qu'elle échoue / Il est probable qu'elle échouera.",
+        "why": "Possible exprime une simple éventualité (subjonctif) ; probable exprime une forte probabilité (indicatif)."
+      },
+      {
+        "wrong": "Il est certain qu'elle réussisse.",
+        "right": "Il est certain qu'elle réussira.",
+        "why": "Certain exprime une certitude totale, donc l'indicatif, jamais le subjonctif."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "c1nuan-fill",
+      "type": "fill-blank",
+      "title": "Choisis le Mode Selon le Degré de Certitude",
+      "instructions": "Écris la forme correcte du verbe entre parenthèses.",
+      "items": [
+        {
+          "id": "c1nuanf1",
+          "prompt": "Il est certain qu'elle ___ (réussir).",
+          "answers": [
+            [
+              "réussira"
+            ]
+          ],
+          "options": [
+            "réussira",
+            "réussisse",
+            "réussirait"
+          ],
+          "explanation": "Certitude totale : indicatif."
+        },
+        {
+          "id": "c1nuanf2",
+          "prompt": "Il est possible qu'elle ___ (échouer).",
+          "answers": [
+            [
+              "échoue"
+            ]
+          ],
+          "options": [
+            "échoue",
+            "échouera",
+            "échouerait"
+          ],
+          "explanation": "Simple possibilité : subjonctif."
+        },
+        {
+          "id": "c1nuanf3",
+          "prompt": "Je ne crois pas qu'il ___ (venir) ce soir.",
+          "answers": [
+            [
+              "vienne"
+            ]
+          ],
+          "options": [
+            "vienne",
+            "vient",
+            "viendra"
+          ],
+          "explanation": "Négation d'un verbe d'opinion : subjonctif à l'écrit soutenu."
+        },
+        {
+          "id": "c1nuanf4",
+          "prompt": "Il est peu probable qu'il ___ (pleuvoir) demain.",
+          "answers": [
+            [
+              "pleuve"
+            ]
+          ],
+          "options": [
+            "pleuve",
+            "pleuvra",
+            "pleut"
+          ],
+          "explanation": "Peu probable renforce l'incertitude : subjonctif."
+        }
+      ]
+    },
+    {
+      "id": "c1nuan-mc",
+      "type": "multiple-choice",
+      "title": "Les Nuances du Subjonctif",
+      "items": [
+        {
+          "id": "c1nuanm1",
+          "prompt": "Quel mode suit « il est évident que » ?",
+          "options": [
+            "l'indicatif",
+            "le subjonctif",
+            "le conditionnel"
+          ],
+          "answerIndex": 0,
+          "explanation": "Évident exprime une certitude totale."
+        },
+        {
+          "id": "c1nuanm2",
+          "prompt": "Que se passe-t-il quand on nie un verbe d'opinion comme penser ?",
+          "options": [
+            "le subjonctif devient possible, la certitude s'affaiblit",
+            "rien ne change",
+            "le verbe passe au futur"
+          ],
+          "answerIndex": 0,
+          "explanation": "La négation introduit un doute."
+        },
+        {
+          "id": "c1nuanm3",
+          "prompt": "Quel mode suit « il est peu probable que » ?",
+          "options": [
+            "le subjonctif",
+            "l'indicatif",
+            "l'impératif"
+          ],
+          "answerIndex": 0,
+          "explanation": "La négation de probable renforce l'incertitude."
+        },
+        {
+          "id": "c1nuanm4",
+          "prompt": "Quel mode suit « il est probable que » (sans négation) ?",
+          "options": [
+            "l'indicatif",
+            "le subjonctif",
+            "le conditionnel"
+          ],
+          "answerIndex": 0,
+          "explanation": "Une forte probabilité garde l'indicatif."
+        }
+      ]
+    },
+    {
+      "id": "c1nuan-correction",
+      "type": "correction",
+      "title": "Corrige les Erreurs",
+      "items": [
+        {
+          "id": "c1nuanc1",
+          "incorrect": "Il est certain qu'elle réussisse.",
+          "answer": [
+            "Il est certain qu'elle réussira."
+          ],
+          "explanation": "Certitude totale : indicatif, jamais subjonctif."
+        },
+        {
+          "id": "c1nuanc2",
+          "incorrect": "Il est possible qu'elle échouera.",
+          "answer": [
+            "Il est possible qu'elle échoue."
+          ],
+          "explanation": "Possible exprime l'incertitude : subjonctif."
+        },
+        {
+          "id": "c1nuanc3",
+          "incorrect": "Crois-tu qu'elle vient ce soir ? (dans un contexte soutenu)",
+          "answer": [
+            "Crois-tu qu'elle vienne ce soir ?"
+          ],
+          "explanation": "L'interrogation d'un verbe d'opinion favorise le subjonctif à l'écrit soutenu."
+        }
+      ]
+    },
+    {
+      "id": "c1nuanx-reading",
+      "type": "reading-comprehension",
+      "title": "Lecture : Une Décision Incertaine",
+      "passage": "<p>Il est certain que ce projet coûtera cher. Il est cependant peu probable qu'il soit abandonné, tant les enjeux sont importants. Je ne pense pas que le conseil rejette cette proposition, mais il est possible que des modifications soient demandées. Il est évident que la décision finale reviendra à la direction.</p>",
+      "items": [
+        {
+          "id": "c1nuanxr1",
+          "prompt": "Que dit le texte avec certitude sur le coût du projet ?",
+          "options": [
+            "Il coûtera cher",
+            "Il sera gratuit",
+            "Il coûtera peu"
+          ],
+          "answerIndex": 0,
+          "explanation": "Il est certain que + indicatif exprime la certitude."
+        },
+        {
+          "id": "c1nuanxr2",
+          "prompt": "Le projet a-t-il de fortes chances d'être abandonné ?",
+          "options": [
+            "Non, c'est peu probable",
+            "Oui, c'est certain",
+            "Le texte ne le dit pas"
+          ],
+          "answerIndex": 0,
+          "explanation": "Il est peu probable que + subjonctif exprime une faible probabilité."
+        },
+        {
+          "id": "c1nuanxr3",
+          "prompt": "Que pense l'auteur du rejet de la proposition par le conseil ?",
+          "options": [
+            "Il ne pense pas que ce soit probable",
+            "Il en est certain",
+            "Il n'a pas d'avis"
+          ],
+          "answerIndex": 0,
+          "explanation": "Je ne pense pas que + subjonctif exprime le doute."
+        },
+        {
+          "id": "c1nuanxr4",
+          "prompt": "Qui prendra la décision finale, selon le texte ?",
+          "options": [
+            "La direction",
+            "Le conseil seul",
+            "Les employés"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte se termine sur cette affirmation certaine."
+        }
+      ]
+    },
+    {
+      "id": "c1nuanx-order",
+      "type": "ordering",
+      "title": "Remets la Phrase en Ordre",
+      "items": [
+        {
+          "id": "c1nuanxo1",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Il",
+            "est",
+            "certain",
+            "que",
+            "cela",
+            "coûtera",
+            "cher"
+          ],
+          "explanation": "Certitude totale : indicatif."
+        },
+        {
+          "id": "c1nuanxo2",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Il",
+            "est",
+            "possible",
+            "que",
+            "cela",
+            "change"
+          ],
+          "explanation": "Simple possibilité : subjonctif."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Penser/croire/dire basculent souvent au subjonctif quand ils sont niés ou interrogés, la certitude s'affaiblissant.",
+    "Certain/évident/clair gardent l'indicatif (certitude totale) ; possible/il se peut/peu probable imposent le subjonctif (incertitude).",
+    "Probable garde l'indicatif, mais peu probable bascule au subjonctif : la négation renforce le doute."
+  ]
+}

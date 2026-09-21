@@ -1,0 +1,307 @@
+{
+  "id": "c1-le-subjonctif-imparfait-et-plus-que-parfait",
+  "level": "C1",
+  "unit": "1",
+  "order": 1,
+  "skill": "grammar",
+  "strand": "subjonctif-litteraire",
+  "title": "Le Subjonctif Imparfait et le Subjonctif Plus-que-parfait",
+  "subtitle": "Reconnaître les formes littéraires du subjonctif, aujourd'hui réservées à l'écrit très soutenu.",
+  "objectives": [
+    "Reconnaître la formation du subjonctif imparfait à partir du radical du passé simple.",
+    "Reconnaître la formation du subjonctif plus-que-parfait comme équivalent littéraire du conditionnel passé.",
+    "Situer ces formes dans leur contexte d'usage réel : littérature classique et registre très soutenu, jamais à l'oral."
+  ],
+  "content": {
+    "intro": "Le français littéraire conserve deux temps du subjonctif que la langue courante a abandonnés depuis longtemps : les reconnaître à la lecture est une compétence C1, les produire à l'oral serait une erreur de registre.",
+    "explanation": "<p>Le <strong>subjonctif imparfait</strong> se forme sur le radical du passé simple + des terminaisons propres (<em>que je parlasse, que tu finisses, qu'il parlât, que nous eussions</em>). Sa marque la plus reconnaissable est l'<strong>accent circonflexe</strong> à la troisième personne du singulier : <em>qu'il fût, qu'il eût, qu'il parlât</em> — sans cet accent, on aurait la forme du passé simple (<em>il fut, il eut, il parla</em>).</p><p>Le <strong>subjonctif plus-que-parfait</strong> se forme avec le subjonctif imparfait de <em>avoir</em>/<em>être</em> + participe passé : <em>qu'il eût parlé, qu'elle fût partie</em>. Dans la prose classique, il remplace souvent le conditionnel passé après <em>si</em> : <em>Si j'eusse su, je ne serais pas venu</em> équivaut à <em>Si j'avais su, je ne serais pas venu</em>. Aujourd'hui, ces deux temps sont vivants uniquement à l'écrit littéraire soutenu ; la langue courante, même très correcte, les remplace par le subjonctif présent et le subjonctif passé.</p>",
+    "rules": [
+      {
+        "heading": "a) Formation du subjonctif imparfait",
+        "body": "<ul><li>Radical du passé simple + terminaisons : <em>que je parlasse, qu'il parlât, que nous parlassions</em>.</li></ul>"
+      },
+      {
+        "heading": "b) Formation du subjonctif plus-que-parfait",
+        "body": "<ul><li>Subjonctif imparfait de avoir/être + participe passé : <em>qu'il eût fini, qu'elle fût venue</em>.</li></ul>"
+      },
+      {
+        "heading": "c) La marque de la 3e personne du singulier",
+        "body": "<ul><li>L'accent circonflexe distingue le subjonctif du passé simple : <em>qu'il fût</em> (subjonctif) contre <em>il fut</em> (passé simple).</li></ul>"
+      },
+      {
+        "heading": "d) Usage réel aujourd'hui",
+        "body": "<ul><li>Littérature classique, concordance des temps littéraire, style très soutenu — jamais à l'oral ni à l'écrit courant.</li></ul>"
+      }
+    ],
+    "examples": [
+      "Il fallait qu'il partît avant l'aube.",
+      "Bien qu'elle fût fatiguée, elle continua son chemin.",
+      "Il eût fallu que nous fussions plus prudents.",
+      "Quoiqu'il eût terminé son travail, il resta au bureau.",
+      "Elle souhaitait qu'il vînt la voir avant son départ.",
+      "Il semblait que la situation se fût aggravée pendant la nuit.",
+      "Si j'eusse su, je ne serais jamais venu."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Dire « il fallait qu'il parte » avec « qu'il partît » dans une conversation ordinaire.",
+        "right": "Réserver « qu'il partît » à la lecture ou à l'écriture littéraire, et dire « qu'il parte » à l'oral.",
+        "why": "Employer le subjonctif imparfait dans une conversation courante sonnerait artificiel, presque comique — ce n'est plus une forme vivante à l'oral."
+      },
+      {
+        "wrong": "Confondre « qu'il parla » et « qu'il parlât ».",
+        "right": "Repérer l'accent circonflexe : « il parla » est un passé simple, « qu'il parlât » un subjonctif imparfait.",
+        "why": "Seul l'accent circonflexe distingue les deux formes à la troisième personne du singulier."
+      },
+      {
+        "wrong": "Croire que le subjonctif plus-que-parfait a disparu de tout usage écrit.",
+        "right": "Le reconnaître dans les textes classiques et dans certains styles littéraires soutenus contemporains.",
+        "why": "Il reste vivant à l'écrit très soutenu et dans la littérature, même s'il a disparu de l'oral et de l'écrit courant."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "c1sil-fill",
+      "type": "fill-blank",
+      "title": "Reconnais la Forme Littéraire",
+      "instructions": "Choisis la forme correspondante en français courant.",
+      "items": [
+        {
+          "id": "c1silf1",
+          "prompt": "« Il fallait qu'il partît » se dit en français courant : « Il fallait qu'il ___ ».",
+          "answers": [
+            [
+              "parte"
+            ]
+          ],
+          "options": [
+            "parte",
+            "partît",
+            "partit"
+          ],
+          "explanation": "Le subjonctif présent remplace le subjonctif imparfait à l'oral moderne."
+        },
+        {
+          "id": "c1silf2",
+          "prompt": "« Bien qu'elle fût fatiguée » se dit en français courant : « Bien qu'elle ___ fatiguée ».",
+          "answers": [
+            [
+              "soit"
+            ]
+          ],
+          "options": [
+            "soit",
+            "fût",
+            "était"
+          ],
+          "explanation": "Le subjonctif présent de être est soit."
+        },
+        {
+          "id": "c1silf3",
+          "prompt": "« Si j'eusse su » se dit en français courant : « Si j'___ su ».",
+          "answers": [
+            [
+              "avais"
+            ]
+          ],
+          "options": [
+            "avais",
+            "eusse",
+            "aurais"
+          ],
+          "explanation": "Le plus-que-parfait de l'indicatif remplace le subjonctif plus-que-parfait après si."
+        },
+        {
+          "id": "c1silf4",
+          "prompt": "Quelle marque distingue « qu'il fût » du passé simple « il fut » ?",
+          "answers": [
+            [
+              "l'accent circonflexe"
+            ]
+          ],
+          "options": [
+            "l'accent circonflexe",
+            "le u final",
+            "aucune marque"
+          ],
+          "explanation": "L'accent circonflexe est la seule différence graphique."
+        }
+      ]
+    },
+    {
+      "id": "c1sil-mc",
+      "type": "multiple-choice",
+      "title": "Le Subjonctif Imparfait et Plus-que-parfait",
+      "items": [
+        {
+          "id": "c1silm1",
+          "prompt": "Sur quel radical se forme le subjonctif imparfait ?",
+          "options": [
+            "le radical du passé simple",
+            "le radical du présent",
+            "le radical du futur"
+          ],
+          "answerIndex": 0,
+          "explanation": "C'est le radical du passé simple qui sert de base."
+        },
+        {
+          "id": "c1silm2",
+          "prompt": "Comment se forme le subjonctif plus-que-parfait ?",
+          "options": [
+            "subjonctif imparfait de avoir/être + participe passé",
+            "subjonctif présent de avoir/être + participe passé",
+            "imparfait de avoir/être + participe passé"
+          ],
+          "answerIndex": 0,
+          "explanation": "L'auxiliaire est au subjonctif imparfait."
+        },
+        {
+          "id": "c1silm3",
+          "prompt": "Où rencontre-t-on aujourd'hui ces deux temps ?",
+          "options": [
+            "dans la littérature classique et le style très soutenu",
+            "dans les conversations quotidiennes",
+            "uniquement dans les SMS"
+          ],
+          "answerIndex": 0,
+          "explanation": "Ce sont des formes littéraires, disparues de l'oral."
+        },
+        {
+          "id": "c1silm4",
+          "prompt": "Que remplace souvent le subjonctif plus-que-parfait après si, en style classique ?",
+          "options": [
+            "le conditionnel passé",
+            "le futur antérieur",
+            "le subjonctif présent"
+          ],
+          "answerIndex": 0,
+          "explanation": "« Si j'eusse su » équivaut à « si j'avais su »."
+        }
+      ]
+    },
+    {
+      "id": "c1sil-correction",
+      "type": "correction",
+      "title": "Modernise la Phrase",
+      "instructions": "Réécris chaque phrase littéraire en français courant, au subjonctif présent ou passé.",
+      "items": [
+        {
+          "id": "c1silc1",
+          "incorrect": "Il fallait qu'il partît avant l'aube.",
+          "answer": [
+            "Il fallait qu'il parte avant l'aube."
+          ],
+          "explanation": "Le subjonctif présent remplace le subjonctif imparfait à l'oral."
+        },
+        {
+          "id": "c1silc2",
+          "incorrect": "Quoiqu'il eût terminé son travail, il resta au bureau.",
+          "answer": [
+            "Quoiqu'il ait terminé son travail, il resta au bureau."
+          ],
+          "explanation": "Le subjonctif passé remplace le subjonctif plus-que-parfait."
+        },
+        {
+          "id": "c1silc3",
+          "incorrect": "Elle souhaitait qu'il vînt la voir.",
+          "answer": [
+            "Elle souhaitait qu'il vienne la voir."
+          ],
+          "explanation": "Le subjonctif présent remplace le subjonctif imparfait."
+        }
+      ]
+    },
+    {
+      "id": "c1silx-reading",
+      "type": "reading-comprehension",
+      "title": "Lecture : Un Extrait Classique",
+      "passage": "<p>Il fallait qu'il partît avant que le jour ne se levât, car le voyage serait long. Bien qu'elle fût inquiète, sa mère ne dit rien. Il eût fallu davantage de temps pour tout préparer, mais le destin en décida autrement. Quoiqu'il eût pris toutes les précautions, un orage éclata sur la route.</p>",
+      "items": [
+        {
+          "id": "c1silxr1",
+          "prompt": "Pourquoi fallait-il qu'il parte avant le lever du jour ?",
+          "options": [
+            "Le voyage serait long",
+            "Il avait peur du soleil",
+            "Le jour était férié"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte le dit directement."
+        },
+        {
+          "id": "c1silxr2",
+          "prompt": "Comment se sentait la mère ?",
+          "options": [
+            "Inquiète, mais elle ne dit rien",
+            "Furieuse",
+            "Indifférente"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte le précise avec « bien qu'elle fût inquiète »."
+        },
+        {
+          "id": "c1silxr3",
+          "prompt": "Qu'est-ce qui aurait été nécessaire, selon le texte ?",
+          "options": [
+            "Davantage de temps pour tout préparer",
+            "Moins de bagages",
+            "Un autre chemin"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte le dit avec « il eût fallu davantage de temps »."
+        },
+        {
+          "id": "c1silxr4",
+          "prompt": "Que se passa-t-il malgré toutes les précautions prises ?",
+          "options": [
+            "Un orage éclata sur la route",
+            "Le voyage fut annulé",
+            "Ils arrivèrent en avance"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte se termine sur cet événement."
+        }
+      ]
+    },
+    {
+      "id": "c1silx-order",
+      "type": "ordering",
+      "title": "Remets la Phrase en Ordre",
+      "items": [
+        {
+          "id": "c1silxo1",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Il",
+            "fallait",
+            "qu'il",
+            "partît",
+            "avant",
+            "l'aube"
+          ],
+          "explanation": "Subjonctif imparfait littéraire après il fallait que."
+        },
+        {
+          "id": "c1silxo2",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Bien",
+            "qu'elle",
+            "fût",
+            "inquiète,",
+            "elle",
+            "se",
+            "tut"
+          ],
+          "explanation": "Bien que + subjonctif imparfait, accent circonflexe à fût."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Le subjonctif imparfait se forme sur le radical du passé simple ; sa 3e personne du singulier porte un accent circonflexe distinctif.",
+    "Le subjonctif plus-que-parfait (auxiliaire au subjonctif imparfait + participe passé) remplace parfois le conditionnel passé en style classique.",
+    "Ces deux temps ne survivent qu'à l'écrit littéraire très soutenu ; la langue courante emploie le subjonctif présent et passé à leur place."
+  ]
+}
