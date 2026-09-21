@@ -1,0 +1,447 @@
+{
+  "id": "pre-a1-alphabet-et-sons-du-francais",
+  "level": "Pre-A1",
+  "unit": "1",
+  "order": 1,
+  "skill": "pronunciation",
+  "strand": "alphabet",
+  "title": "L'Alphabet et les Sons du Français",
+  "subtitle": "Les lettres du français, les accents, la cédille, les voyelles nasales et pourquoi tant de lettres finales sont muettes.",
+  "objectives": [
+    "Reconnaître les 26 lettres de l'alphabet français et ses signes diacritiques.",
+    "Distinguer les voyelles nasales (an, in, on, un) des voyelles orales.",
+    "Repérer les consonnes finales muettes et un premier cas de liaison."
+  ],
+  "content": {
+    "intro": "Le français utilise le même alphabet que l'anglais, mais ses accents et ses sons changent tout — apprendre ces bases est le premier pas pour lire, écrire et prononcer avec confiance.",
+    "explanation": "<p>L'alphabet français a <strong>26 lettres</strong>, comme l'anglais, mais plusieurs voyelles portent un <strong>accent</strong> qui change leur prononciation, et parfois le sens du mot : <em>a</em> (verbe avoir) et <em>à</em> (préposition) ne se prononcent pas pareil. La <strong>cédille</strong> (<em>ç</em>) transforme le son dur du c en son doux, comme dans <em>français</em> ou <em>garçon</em>.</p><p>Le français a aussi des <strong>voyelles nasales</strong> — des sons qui n'existent pas en anglais ni en portugais standard, où l'air passe par le nez : <em>an/en</em>, <em>in/im</em>, <em>on</em>, <em>un</em>. Autre trait essentiel : beaucoup de <strong>consonnes finales sont muettes</strong> (<em>petit</em> se prononce sans le t final), mais elles peuvent réapparaître devant une voyelle grâce à la <strong>liaison</strong> — <em>les amis</em> se prononce comme «&nbsp;lezami&nbsp;».</p>",
+    "rules": [
+      {
+        "heading": "a) Les accents",
+        "body": "<ul><li><strong>é</strong> (accent aigu) — un son fermé, comme dans <em>café</em>.</li><li><strong>è / ê</strong> (accent grave / circonflexe) — un son ouvert, comme dans <em>mère, fête</em>.</li><li><strong>à / ù</strong> — ne changent pas le son, mais distinguent des mots : <em>a</em> (il a) vs <em>à</em> (préposition), <em>ou</em> (ou bien) vs <em>où</em> (lieu).</li><li>Le <strong>tréma</strong> (ë, ï) sépare deux voyelles qu'on prononcerait sinon ensemble, comme dans <em>Noël</em>.</li></ul>"
+      },
+      {
+        "heading": "b) La cédille (ç)",
+        "body": "<ul><li>Se met uniquement sous un c suivi de a, o ou u : <em>ça, garçon, reçu</em>.</li><li>Elle transforme le son dur du c (comme dans <em>café</em>) en son doux, comme un s : <em>français</em> se prononce «&nbsp;fransé&nbsp;».</li><li>Devant e ou i, le c est déjà doux tout seul — pas besoin de cédille : <em>ceci, cinéma</em>.</li></ul>"
+      },
+      {
+        "heading": "c) Les voyelles nasales",
+        "body": "<ul><li><strong>an / en</strong> — comme dans <em>France, enfant</em>.</li><li><strong>in / im / ain</strong> — comme dans <em>vin, important, pain</em>.</li><li><strong>on</strong> — comme dans <em>bonjour, maison</em>.</li><li><strong>un</strong> — comme dans <em>un, lundi</em>.</li></ul>"
+      },
+      {
+        "heading": "d) Consonnes finales muettes et liaison",
+        "body": "<ul><li>Beaucoup de consonnes finales ne se prononcent pas : <em>petit, beaucoup, nez</em>.</li><li>Les consonnes <strong>c, r, f, l</strong> se prononcent souvent en fin de mot (astuce : le mot anglais «&nbsp;careful&nbsp;»).</li><li>La <strong>liaison</strong> : une consonne finale muette se prononce devant une voyelle qui suit — <em>les amis</em> («&nbsp;lezami&nbsp;»), <em>vous avez</em> («&nbsp;vouzavez&nbsp;»).</li></ul>"
+      }
+    ],
+    "examples": [
+      "Bonjour, je m'appelle Léa.",
+      "Le garçon mange un croissant.",
+      "Mon frère habite en France.",
+      "Un, deux, trois, quatre, cinq.",
+      "Les amis arrivent à midi.",
+      "Il fait beaucoup de bruit.",
+      "Où est la gare, s'il vous plaît ?"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Prononcer le t final de petit.",
+        "right": "Dire petit sans prononcer le t final.",
+        "why": "La plupart des consonnes finales sont muettes en français, sauf devant une voyelle (liaison) ou pour les lettres c, r, f, l."
+      },
+      {
+        "wrong": "Prononcer an/en comme le an anglais.",
+        "right": "Prononcer an/en comme une voyelle nasale, l'air passant par le nez.",
+        "why": "Les voyelles nasales françaises n'ont pas d'équivalent exact en anglais ; c'est un son entièrement nouveau à apprendre."
+      },
+      {
+        "wrong": "Ignorer la cédille et prononcer garçon avec un son dur.",
+        "right": "Prononcer garçon avec le son doux indiqué par la cédille.",
+        "why": "La cédille change la prononciation du c devant a, o, u ; l'oublier change le son du mot."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "pa1-mc",
+      "type": "multiple-choice",
+      "title": "Quelle Lettre ou Quel Son Est-ce ?",
+      "items": [
+        {
+          "id": "pa1mc1",
+          "prompt": "Quel signe transforme le son dur du c en son doux ?",
+          "options": [
+            "l'accent aigu",
+            "la cédille",
+            "le tréma"
+          ],
+          "answerIndex": 1,
+          "explanation": "La cédille (ç) adoucit le son du c devant a, o, u."
+        },
+        {
+          "id": "pa1mc2",
+          "prompt": "Comment se prononce le t final du mot petit ?",
+          "options": [
+            "Il ne se prononce pas",
+            "Il se prononce comme un d",
+            "Il se prononce fort"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le t final est muet en français, comme la plupart des consonnes finales."
+        },
+        {
+          "id": "pa1mc3",
+          "prompt": "Quel mot contient une voyelle nasale ?",
+          "options": [
+            "ami",
+            "bonjour",
+            "école"
+          ],
+          "answerIndex": 1,
+          "explanation": "Bonjour contient le son nasal on."
+        },
+        {
+          "id": "pa1mc4",
+          "prompt": "Que se passe-t-il dans les amis à l'oral ?",
+          "options": [
+            "Rien de spécial",
+            "Une liaison : le s final se prononce z",
+            "Le a disparaît"
+          ],
+          "answerIndex": 1,
+          "explanation": "Devant une voyelle, le s final de les se prononce comme un z : liaison."
+        }
+      ]
+    },
+    {
+      "id": "pa1-tf",
+      "type": "true-false",
+      "title": "Vrai ou Faux",
+      "items": [
+        {
+          "id": "pa1tf1",
+          "statement": "La cédille peut se mettre sous un c suivi de e ou de i.",
+          "answer": false,
+          "explanation": "Devant e ou i, le c est déjà doux sans cédille ; elle ne s'utilise que devant a, o, u."
+        },
+        {
+          "id": "pa1tf2",
+          "statement": "Les voyelles nasales du français n'existent pas en anglais.",
+          "answer": true,
+          "explanation": "Ce sont des sons propres au français (et à quelques autres langues), sans équivalent exact en anglais."
+        },
+        {
+          "id": "pa1tf3",
+          "statement": "Toutes les consonnes finales françaises sont toujours muettes.",
+          "answer": false,
+          "explanation": "Les lettres c, r, f, l se prononcent souvent en fin de mot ; et la liaison réactive une consonne muette devant une voyelle."
+        },
+        {
+          "id": "pa1tf4",
+          "statement": "à et a se prononcent exactement pareil.",
+          "answer": true,
+          "explanation": "L'accent grave sur à ne change pas le son ; il sert seulement à distinguer ce mot du verbe avoir (il a)."
+        }
+      ]
+    },
+    {
+      "id": "pa1-match",
+      "type": "matching",
+      "title": "Associe la Lettre ou le Son à sa Description",
+      "items": [
+        {
+          "id": "pa1match1",
+          "pairs": [
+            {
+              "left": "ç",
+              "right": "adoucit le son du c devant a, o, u"
+            },
+            {
+              "left": "an/on/in/un",
+              "right": "voyelles nasales"
+            },
+            {
+              "left": "t final de petit",
+              "right": "consonne muette"
+            },
+            {
+              "left": "s de les amis",
+              "right": "se prononce grâce à la liaison"
+            }
+          ],
+          "explanation": "Chacun de ces éléments a un comportement propre dans la prononciation du français."
+        }
+      ]
+    },
+    {
+      "id": "pa1-fill",
+      "type": "fill-blank",
+      "title": "Complète avec la Bonne Lettre",
+      "instructions": "Choisis le mot correctement écrit pour chaque espace.",
+      "items": [
+        {
+          "id": "pa1f1",
+          "prompt": "Le ___ mange un croissant.",
+          "answers": [
+            [
+              "garçon"
+            ]
+          ],
+          "options": [
+            "garçon",
+            "garcon",
+            "garson"
+          ],
+          "explanation": "Garçon s'écrit avec une cédille pour garder le son doux du c."
+        },
+        {
+          "id": "pa1f2",
+          "prompt": "___, comment ça va ?",
+          "answers": [
+            [
+              "Bonjour"
+            ]
+          ],
+          "options": [
+            "Bonjour",
+            "Bonjor",
+            "Bomjour"
+          ],
+          "explanation": "Bonjour s'écrit avec on, la voyelle nasale, pas avec m."
+        },
+        {
+          "id": "pa1f3",
+          "prompt": "___ est la gare, s'il vous plaît ?",
+          "answers": [
+            [
+              "Où"
+            ]
+          ],
+          "options": [
+            "Où",
+            "Ou",
+            "Oú"
+          ],
+          "explanation": "Où (lieu) prend un accent grave pour se distinguer de ou (ou bien)."
+        },
+        {
+          "id": "pa1f4",
+          "prompt": "Mon frère habite en ___.",
+          "answers": [
+            [
+              "France"
+            ]
+          ],
+          "options": [
+            "France",
+            "Frence",
+            "Fronce"
+          ],
+          "explanation": "France s'écrit avec an, la voyelle nasale correspondante."
+        }
+      ]
+    },
+    {
+      "id": "pa1x-reading",
+      "type": "reading-comprehension",
+      "title": "Lecture : Un Message de Léa",
+      "passage": "<p>Salut ! Je m'appelle Léa. Mon prénom a un accent : L-É-A, avec un accent aigu sur le é. Mon nom de famille aussi a un accent : François, avec une cédille sous le c. Mon chat s'appelle Mimi et il vit avec moi en France. J'habite dans une rue avec beaucoup de sons nasaux : rue des Champs.</p>",
+      "items": [
+        {
+          "id": "pa1xr1",
+          "prompt": "Quel signe a le prénom de Léa ?",
+          "options": [
+            "un accent aigu",
+            "une cédille",
+            "un tréma"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit : « Mon prénom a un accent : L-É-A, avec un accent aigu sur le é »."
+        },
+        {
+          "id": "pa1xr2",
+          "prompt": "Comment s'appelle le chat de Léa ?",
+          "options": [
+            "Léa",
+            "Mimi",
+            "François"
+          ],
+          "answerIndex": 1,
+          "explanation": "Le texte dit : « Mon chat s'appelle Mimi »."
+        },
+        {
+          "id": "pa1xr3",
+          "prompt": "Quel signe a le nom de famille de Léa ?",
+          "options": [
+            "un accent aigu",
+            "une cédille",
+            "aucun signe"
+          ],
+          "answerIndex": 1,
+          "explanation": "François a une cédille sous le c, mentionnée explicitement dans le texte."
+        },
+        {
+          "id": "pa1xr4",
+          "prompt": "Le mot \"Champs\" contient-il un son nasal ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answerIndex": 0,
+          "explanation": "Champs contient le son nasal an, comme le mentionne le texte."
+        }
+      ]
+    },
+    {
+      "id": "pa1x-order",
+      "type": "ordering",
+      "title": "Remets la Phrase en Ordre",
+      "items": [
+        {
+          "id": "pa1xo1",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "La",
+            "cédille",
+            "adoucit",
+            "le",
+            "son",
+            "du",
+            "c"
+          ],
+          "explanation": "Sujet (La cédille), verbe (adoucit), et le reste décrit ce qu'elle fait."
+        },
+        {
+          "id": "pa1xo2",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Le",
+            "chat",
+            "s'appelle",
+            "Mimi"
+          ],
+          "explanation": "Structure typique pour nommer un animal : sujet + s'appelle + nom."
+        }
+      ]
+    },
+    {
+      "id": "pa1y-correction",
+      "type": "correction",
+      "title": "Corrige les Erreurs",
+      "items": [
+        {
+          "id": "pa1yc1",
+          "incorrect": "Le son du h dans \"hôtel\" est fort.",
+          "answer": [
+            "Le son du h dans \"hôtel\" n'existe pas. / Le h dans \"hôtel\" est muet."
+          ],
+          "explanation": "Le h ne se prononce jamais en français, dans aucun mot."
+        },
+        {
+          "id": "pa1yc2",
+          "incorrect": "Le mot \"garçon\" se prononce avec un son de c dur.",
+          "answer": [
+            "Le mot \"garçon\" se prononce avec un son doux, grâce à la cédille."
+          ],
+          "explanation": "La cédille adoucit toujours le son du c devant a, o, u."
+        }
+      ]
+    },
+    {
+      "id": "pa1y-typing",
+      "type": "typing",
+      "title": "Pratique",
+      "items": [
+        {
+          "id": "pa1yt1",
+          "prompt": "Écris un mot français qui contient une voyelle nasale (an, en, in, on ou un).",
+          "answer": [
+            [
+              "bonjour",
+              "maison",
+              "enfant",
+              "pain",
+              "lundi",
+              "français"
+            ]
+          ],
+          "explanation": "N'importe quel mot avec une voyelle nasale est correct ; bonjour, maison et enfant sont des exemples très courants."
+        }
+      ]
+    },
+    {
+      "id": "pa1z-match",
+      "type": "matching",
+      "title": "Associe",
+      "items": [
+        {
+          "id": "pa1zm1",
+          "prompt": "Associe la lettre ou le signe à un mot qui le contient.",
+          "pairs": [
+            {
+              "left": "ç",
+              "right": "garçon"
+            },
+            {
+              "left": "an/en",
+              "right": "enfant"
+            },
+            {
+              "left": "h",
+              "right": "hôtel"
+            },
+            {
+              "left": "on",
+              "right": "bonjour"
+            }
+          ],
+          "explanation": "Chaque signe ou son spécial apparaît dans un mot très courant du français."
+        }
+      ]
+    },
+    {
+      "id": "pa1z-vocab",
+      "type": "vocabulary",
+      "title": "Vocabulaire",
+      "items": [
+        {
+          "id": "pa1zv1",
+          "prompt": "Comment s'appelle le signe au-dessus de certaines voyelles ?",
+          "options": [
+            "Un accent",
+            "Un point",
+            "Une virgule"
+          ],
+          "answerIndex": 0,
+          "explanation": "Un accent change la prononciation ou distingue des mots identiques par ailleurs."
+        },
+        {
+          "id": "pa1zv2",
+          "prompt": "Combien de lettres a l'alphabet français ?",
+          "options": [
+            "24",
+            "26",
+            "28"
+          ],
+          "answerIndex": 1,
+          "explanation": "L'alphabet français a 26 lettres, comme l'alphabet anglais."
+        },
+        {
+          "id": "pa1zv3",
+          "prompt": "Quel phénomène fait réapparaître une consonne finale muette devant une voyelle ?",
+          "options": [
+            "La cédille",
+            "La liaison",
+            "Le tréma"
+          ],
+          "answerIndex": 1,
+          "explanation": "La liaison relie une consonne finale muette à la voyelle qui suit."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "L'alphabet français a 26 lettres, mais les accents (é, è, ê, à) et la cédille (ç) changent la prononciation et parfois le sens.",
+    "Les voyelles nasales (an/en, in, on, un) sont des sons propres au français, sans équivalent exact en anglais.",
+    "Beaucoup de consonnes finales sont muettes, sauf c, r, f, l, et sauf en cas de liaison devant une voyelle."
+  ]
+}

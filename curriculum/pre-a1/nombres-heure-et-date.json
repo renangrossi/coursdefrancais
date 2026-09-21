@@ -1,0 +1,453 @@
+{
+  "id": "pre-a1-nombres-heure-et-date",
+  "level": "Pre-A1",
+  "unit": "1",
+  "order": 3,
+  "skill": "vocabulary",
+  "strand": "nombres-temps",
+  "title": "Les Nombres, l'Heure et la Date",
+  "subtitle": "Les nombres de 0 à 100 (avec leurs curiosités !), comment demander et dire l'heure, les jours de la semaine et les mois.",
+  "objectives": [
+    "Compter et utiliser les nombres de 0 à 100 dans des situations quotidiennes.",
+    "Demander et dire l'heure en français.",
+    "Nommer les jours de la semaine et les mois de l'année."
+  ],
+  "content": {
+    "intro": "Les nombres, l'heure et la date apparaissent tous les jours — dans un magasin, à un rendez-vous, dans une conversation — c'est donc du vocabulaire de toute première priorité.",
+    "explanation": "<p>Les nombres de 0 à 69 suivent une logique assez régulière, mais à partir de <strong>70</strong>, le français devient célèbre pour ses curiosités : <em>soixante-dix</em> (70) est littéralement «&nbsp;soixante-dix&nbsp;», <em>quatre-vingts</em> (80) est «&nbsp;quatre fois vingt&nbsp;», et <em>quatre-vingt-dix</em> (90) combine les deux. Ce système, hérité d'un ancien comptage en base vingt, demande un peu de pratique.</p><p>Pour demander l'heure, on dit <strong>Quelle heure est-il ?</strong>, et pour répondre on utilise <em>il est</em> pour toutes les heures : <em>Il est une heure</em> (singulier, sans s) mais <em>Il est deux heures, il est trois heures...</em> (avec s). La date s'organise avec le jour d'abord, puis le mois : <em>le 15 mars</em>.</p>",
+    "rules": [
+      {
+        "heading": "a) Nombres de 0 à 30",
+        "body": "<ul><li>0 zéro, 1 un, 2 deux, 3 trois, 4 quatre, 5 cinq</li><li>6 six, 7 sept, 8 huit, 9 neuf, 10 dix</li><li>11 onze, 12 douze, 13 treize, 14 quatorze, 15 quinze</li><li>16 seize... 19 dix-neuf, 20 vingt</li><li>21 vingt et un... 29 vingt-neuf, 30 trente</li></ul>"
+      },
+      {
+        "heading": "b) Nombres de 31 à 100 (les curiosités)",
+        "body": "<ul><li>De 31 à 69 : trente et un, trente-deux... soixante-neuf (logique régulière).</li><li><strong>70 soixante-dix</strong> (60+10), <strong>80 quatre-vingts</strong> (4×20), <strong>90 quatre-vingt-dix</strong> (4×20+10).</li><li>71 soixante et onze, 81 quatre-vingt-un, 91 quatre-vingt-onze.</li><li>100 cent (mais <em>cent un, cent deux...</em> à partir de 101, sans et).</li></ul>"
+      },
+      {
+        "heading": "c) Dire l'heure",
+        "body": "<ul><li><strong>Quelle heure est-il ?</strong> — question générale pour savoir l'heure.</li><li><em>Il est une heure</em> — seulement pour 1h00 (singulier).</li><li><em>Il est deux heures, il est dix heures...</em> — pour toutes les autres heures (pluriel).</li><li><em>Il est quatre heures et demie</em> (4h30) ; <em>il est cinq heures moins le quart</em> (4h45).</li></ul>"
+      },
+      {
+        "heading": "d) Jours et mois",
+        "body": "<ul><li>Jours : lundi, mardi, mercredi, jeudi, vendredi, samedi, dimanche.</li><li>Mois : janvier, février, mars, avril, mai, juin, juillet, août, septembre, octobre, novembre, décembre.</li><li>Les jours et les mois s'écrivent en minuscule en français.</li></ul>"
+      }
+    ],
+    "examples": [
+      "J'ai vingt-cinq ans.",
+      "Il est trois heures et demie de l'après-midi.",
+      "Aujourd'hui, c'est lundi 3 mars.",
+      "Mon anniversaire est le 20 juillet.",
+      "Il est une heure pile.",
+      "J'ai besoin de quatre-vingt-dix-neuf euros.",
+      "Le dimanche, je ne travaille pas.",
+      "Décembre est le dernier mois de l'année."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Il est une heures de l'après-midi.",
+        "right": "Il est une heure de l'après-midi.",
+        "why": "Seule une heure reste au singulier ; toutes les autres heures prennent un s (deux heures, trois heures...)."
+      },
+      {
+        "wrong": "Aujourd'hui, c'est Lundi, 3 Mars.",
+        "right": "Aujourd'hui, c'est lundi, 3 mars.",
+        "why": "En français, les jours de la semaine et les mois s'écrivent toujours avec une minuscule initiale."
+      },
+      {
+        "wrong": "quatre-vingt-dix se dit \"neuf-dix\"",
+        "right": "quatre-vingt-dix",
+        "why": "Le français compte 90 comme 4×20+10, pas comme un mot indépendant ; c'est une des difficultés classiques du système numérique français."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "pa3-mc",
+      "type": "multiple-choice",
+      "title": "Nombres, Heure et Date",
+      "items": [
+        {
+          "id": "pa3mc1",
+          "prompt": "Comment dit-on 80 en français ?",
+          "options": [
+            "huit-dix",
+            "quatre-vingts",
+            "octante"
+          ],
+          "answerIndex": 1,
+          "explanation": "Quatre-vingts signifie littéralement « quatre fois vingt »."
+        },
+        {
+          "id": "pa3mc2",
+          "prompt": "Que dit-on pour 1h00 ?",
+          "options": [
+            "Il est une heures",
+            "Il est une heure",
+            "Il est un heure"
+          ],
+          "answerIndex": 1,
+          "explanation": "Seule une heure reste au singulier ; toutes les autres heures utilisent le pluriel."
+        },
+        {
+          "id": "pa3mc3",
+          "prompt": "Quel est le premier jour de la semaine dans le calendrier français ?",
+          "options": [
+            "dimanche",
+            "lundi",
+            "samedi"
+          ],
+          "answerIndex": 1,
+          "explanation": "En France, la semaine commence traditionnellement le lundi."
+        },
+        {
+          "id": "pa3mc4",
+          "prompt": "Quel mois vient après juin ?",
+          "options": [
+            "mai",
+            "juillet",
+            "août"
+          ],
+          "answerIndex": 1,
+          "explanation": "L'ordre des mois est ...mai, juin, juillet, août..."
+        },
+        {
+          "id": "pa3mc5",
+          "prompt": "Comment s'écrit 70 ?",
+          "options": [
+            "septante",
+            "soixante-dix",
+            "sept-dix"
+          ],
+          "answerIndex": 1,
+          "explanation": "Soixante-dix est la forme standard en français de France (septante s'utilise en Belgique et en Suisse)."
+        }
+      ]
+    },
+    {
+      "id": "pa3-tf",
+      "type": "true-false",
+      "title": "Vrai ou Faux",
+      "items": [
+        {
+          "id": "pa3tf1",
+          "statement": "Les jours de la semaine s'écrivent avec une majuscule en français.",
+          "answer": false,
+          "explanation": "Ils s'écrivent en minuscule : lundi, mardi, mercredi..."
+        },
+        {
+          "id": "pa3tf2",
+          "statement": "Il est deux heures s'utilise pour 2h00.",
+          "answer": true,
+          "explanation": "À partir de deux heures, on utilise toujours le pluriel."
+        },
+        {
+          "id": "pa3tf3",
+          "statement": "90 se dit quatre-vingt-dix, littéralement 4×20+10.",
+          "answer": true,
+          "explanation": "Oui — c'est l'une des curiosités les plus connues du système numérique français."
+        },
+        {
+          "id": "pa3tf4",
+          "statement": "Vingt et un s'écrit tout attaché, sans espace : vingtetun.",
+          "answer": false,
+          "explanation": "Il s'écrit en trois mots séparés (avec des traits d'union à l'écrit courant) : vingt et un."
+        }
+      ]
+    },
+    {
+      "id": "pa3-match",
+      "type": "matching",
+      "title": "Associe le Nombre à sa Forme Écrite",
+      "items": [
+        {
+          "id": "pa3match1",
+          "pairs": [
+            {
+              "left": "15",
+              "right": "quinze"
+            },
+            {
+              "left": "21",
+              "right": "vingt et un"
+            },
+            {
+              "left": "70",
+              "right": "soixante-dix"
+            },
+            {
+              "left": "80",
+              "right": "quatre-vingts"
+            },
+            {
+              "left": "99",
+              "right": "quatre-vingt-dix-neuf"
+            }
+          ],
+          "explanation": "À partir de 70, le français compte par blocs de vingt hérités d'un ancien système vigésimal."
+        }
+      ]
+    },
+    {
+      "id": "pa3-fill",
+      "type": "fill-blank",
+      "title": "Complète l'Heure et la Date",
+      "items": [
+        {
+          "id": "pa3f1",
+          "prompt": "— Quelle heure est-il ? — Il ___ cinq heures.",
+          "answers": [
+            [
+              "est"
+            ]
+          ],
+          "options": [
+            "est",
+            "sont",
+            "a"
+          ],
+          "explanation": "On utilise toujours il est pour donner l'heure, jamais ils sont."
+        },
+        {
+          "id": "pa3f2",
+          "prompt": "Le premier mois de l'année est ___.",
+          "answers": [
+            [
+              "janvier"
+            ]
+          ],
+          "options": [
+            "janvier",
+            "décembre",
+            "mars"
+          ],
+          "explanation": "Janvier est le premier mois du calendrier, suivi de février."
+        },
+        {
+          "id": "pa3f3",
+          "prompt": "Le dernier jour de la semaine (dans le calendrier français) est ___.",
+          "answers": [
+            [
+              "dimanche"
+            ]
+          ],
+          "options": [
+            "dimanche",
+            "samedi",
+            "lundi"
+          ],
+          "explanation": "La semaine se termine le dimanche."
+        },
+        {
+          "id": "pa3f4",
+          "prompt": "J'ai trente-___ ans (35).",
+          "answers": [
+            [
+              "cinq"
+            ]
+          ],
+          "options": [
+            "cinq",
+            "six",
+            "quatre"
+          ],
+          "explanation": "Trente-cinq, c'est 35."
+        }
+      ]
+    },
+    {
+      "id": "pa3x-reading",
+      "type": "reading-comprehension",
+      "title": "Lecture : L'Emploi du Temps de Marion",
+      "passage": "<p>Marion se lève à sept heures du matin. Elle prend son petit-déjeuner à sept heures et demie. Ses cours commencent à neuf heures et finissent à une heure de l'après-midi. Aujourd'hui, c'est mardi trois mars. L'anniversaire de Marion est le vingt mai.</p>",
+      "items": [
+        {
+          "id": "pa3xr1",
+          "prompt": "À quelle heure Marion se lève-t-elle ?",
+          "options": [
+            "À sept heures",
+            "À sept heures et demie",
+            "À neuf heures"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit : « Marion se lève à sept heures du matin »."
+        },
+        {
+          "id": "pa3xr2",
+          "prompt": "À quelle heure finissent les cours de Marion ?",
+          "options": [
+            "À une heure de l'après-midi",
+            "À neuf heures",
+            "À sept heures et demie"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit : « finissent à une heure de l'après-midi »."
+        },
+        {
+          "id": "pa3xr3",
+          "prompt": "Quel jour sommes-nous dans le texte ?",
+          "options": [
+            "Lundi",
+            "Mardi",
+            "Mercredi"
+          ],
+          "answerIndex": 1,
+          "explanation": "Le texte dit : « Aujourd'hui, c'est mardi trois mars »."
+        },
+        {
+          "id": "pa3xr4",
+          "prompt": "En quel mois est l'anniversaire de Marion ?",
+          "options": [
+            "Mars",
+            "Avril",
+            "Mai"
+          ],
+          "answerIndex": 2,
+          "explanation": "Le texte dit : « L'anniversaire de Marion est le vingt mai »."
+        }
+      ]
+    },
+    {
+      "id": "pa3x-order",
+      "type": "ordering",
+      "title": "Remets la Phrase en Ordre",
+      "items": [
+        {
+          "id": "pa3xo1",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Il",
+            "est",
+            "neuf",
+            "heures",
+            "du",
+            "matin"
+          ],
+          "explanation": "Pour donner l'heure au pluriel on utilise il est + nombre + heures."
+        },
+        {
+          "id": "pa3xo2",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Aujourd'hui",
+            "c'est",
+            "le",
+            "trois",
+            "mars"
+          ],
+          "explanation": "Pour la date : aujourd'hui c'est le + nombre + mois."
+        }
+      ]
+    },
+    {
+      "id": "pa3y-correction",
+      "type": "correction",
+      "title": "Corrige les Erreurs",
+      "items": [
+        {
+          "id": "pa3yc1",
+          "incorrect": "Il est trois heure de l'après-midi.",
+          "answer": [
+            "Il est trois heures de l'après-midi."
+          ],
+          "explanation": "À partir de deux, heure prend toujours un s au pluriel."
+        },
+        {
+          "id": "pa3yc2",
+          "incorrect": "Aujourd'hui c'est en mardi.",
+          "answer": [
+            "Aujourd'hui c'est mardi."
+          ],
+          "explanation": "Pour dire le jour de la semaine, on n'utilise pas la préposition en avec le verbe être."
+        }
+      ]
+    },
+    {
+      "id": "pa3y-typing",
+      "type": "typing",
+      "title": "Pratique",
+      "items": [
+        {
+          "id": "pa3yt1",
+          "prompt": "Écris la date d'aujourd'hui en français (jour, mois).",
+          "explanation": "Gardé pour ta propre révision — souviens-toi du format : aujourd'hui c'est le [nombre] [mois]."
+        }
+      ]
+    },
+    {
+      "id": "pa3z-match",
+      "type": "matching",
+      "title": "Associe",
+      "items": [
+        {
+          "id": "pa3zm1",
+          "prompt": "Associe le nombre à sa forme écrite.",
+          "pairs": [
+            {
+              "left": "5",
+              "right": "cinq"
+            },
+            {
+              "left": "10",
+              "right": "dix"
+            },
+            {
+              "left": "20",
+              "right": "vingt"
+            },
+            {
+              "left": "100",
+              "right": "cent"
+            }
+          ],
+          "explanation": "Chaque nombre correspond à sa forme écrite en français."
+        }
+      ]
+    },
+    {
+      "id": "pa3z-vocab",
+      "type": "vocabulary",
+      "title": "Vocabulaire",
+      "items": [
+        {
+          "id": "pa3zv1",
+          "prompt": "Quel mot signifie « day » (unité de temps) ?",
+          "options": [
+            "semaine",
+            "jour",
+            "mois"
+          ],
+          "answerIndex": 1,
+          "explanation": "Jour est l'unité de temps de base de 24 heures."
+        },
+        {
+          "id": "pa3zv2",
+          "prompt": "Combien de jours a une semaine ?",
+          "options": [
+            "Cinq",
+            "Sept",
+            "Dix"
+          ],
+          "answerIndex": 1,
+          "explanation": "Une semaine a sept jours."
+        },
+        {
+          "id": "pa3zv3",
+          "prompt": "Quel mot signifie « month » ?",
+          "options": [
+            "Année",
+            "Mois",
+            "Heure"
+          ],
+          "answerIndex": 1,
+          "explanation": "Mois est l'unité de temps d'environ trente jours."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Les nombres de 0 à 69 suivent une logique régulière ; à partir de 70, le français compte par blocs de vingt (soixante-dix, quatre-vingts, quatre-vingt-dix).",
+    "Il est une heure est la seule heure au singulier ; toutes les autres utilisent le pluriel (il est deux heures, il est trois heures...).",
+    "Les jours de la semaine et les mois de l'année s'écrivent en minuscule et la semaine commence le lundi."
+  ]
+}

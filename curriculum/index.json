@@ -1,0 +1,107 @@
+{
+  "levels": {
+    "PRE-A1": {
+      "overview": "Pre-A1 est le point de départ absolu : l'alphabet et les sons du français, les salutations et les présentations, les nombres, l'heure et la date, le vocabulaire essentiel pour survivre en classe, les mots les plus courants pour les personnes et les objets du quotidien, et les premiers verbes et pronoms pour construire tes premières phrases. À la fin de ce niveau, tu pourras te présenter, demander des choses simples et comprendre de très courts dialogues de la vie quotidienne, sans avoir besoin d'aucune connaissance préalable du français.",
+      "units": [
+        {
+          "id": "1",
+          "title": "Grammaire PRE-A1",
+          "lessons": [
+            {
+              "id": "pre-a1-alphabet-et-sons-du-francais",
+              "status": "published"
+            },
+            {
+              "id": "pre-a1-salutations-et-presentations",
+              "status": "published"
+            },
+            {
+              "id": "pre-a1-nombres-heure-et-date",
+              "status": "published"
+            },
+            {
+              "id": "pre-a1-vocabulaire-de-classe-et-etude",
+              "status": "published"
+            },
+            {
+              "id": "pre-a1-personnes-et-objets-du-quotidien",
+              "status": "published"
+            },
+            {
+              "id": "pre-a1-verbes-de-base-etre-avoir-vouloir-aimer",
+              "status": "published"
+            },
+            {
+              "id": "pre-a1-pronoms-sujets-et-etre-avoir",
+              "status": "published"
+            },
+            {
+              "id": "pre-a1-lecture-et-ecoute-de-survie",
+              "status": "published"
+            }
+          ]
+        }
+      ]
+    },
+    "A1": {
+      "overview": "Le niveau A1 construira les vraies bases du français dès le premier jour : l'alphabet et la prononciation, le genre et le nombre des noms, les articles, les pronoms personnels, et la conjugaison du présent de l'indicatif — aussi bien les verbes réguliers que les irréguliers les plus fréquents. Tu apprendras aussi à décrire des personnes et des choses avec des adjectifs, des possessifs et des démonstratifs. À la fin de ce niveau, tu pourras te présenter, décrire ton entourage proche, poser des questions simples et exprimer tes goûts — la base sur laquelle se construit tout le reste de ce cours. Ce niveau arrive bientôt ; en attendant, commence par le niveau Pre-A1, déjà disponible.",
+      "units": [
+        {
+          "id": "1",
+          "title": "Grammaire A1",
+          "lessons": []
+        }
+      ]
+    },
+    "A2": {
+      "overview": "Le niveau A2 te donnera les outils pour parler du passé, du futur et faire des comparaisons, en plus de remplacer des noms par des pronoms pour sonner plus naturel. Tu apprendras le passé composé et l'imparfait — et surtout quand utiliser chacun —, ainsi que le futur proche et le futur simple, les comparatifs et les superlatifs, les verbes pronominaux, les pronoms compléments d'objet direct et indirect, et l'impératif pour donner des ordres et des instructions. À la fin de ce niveau, tu pourras raconter ce que tu as fait hier, décrire comment était quelque chose dans le passé, faire des projets et donner des instructions simples. Ce niveau arrive bientôt ; en attendant, commence par le niveau Pre-A1, déjà disponible.",
+      "units": [
+        {
+          "id": "1",
+          "title": "Grammaire A2",
+          "lessons": []
+        }
+      ]
+    },
+    "B1": {
+      "overview": "Le niveau B1 approfondira les nuances du passé (passé composé face à imparfait, et le plus-que-parfait pour ce qui précède un autre passé), ajoutera le futur antérieur et le conditionnel, et fera le grand saut vers le mode subjonctif — le mode du doute, du souhait et de l'émotion, qui dominera une grande partie des niveaux suivants. Tu verras aussi l'impératif négatif, les pronoms combinés, la différence entre pour et par, les propositions relatives, et les principaux connecteurs du discours. À la fin de ce niveau, tu pourras utiliser le français de façon autonome pour le travail, les études et les voyages, et tu commenceras à sonner beaucoup plus naturel et moins « traduit ». Ce niveau arrive bientôt ; en attendant, commence par le niveau Pre-A1, déjà disponible.",
+      "units": [
+        {
+          "id": "1",
+          "title": "Grammaire B1",
+          "lessons": []
+        }
+      ]
+    },
+    "B2": {
+      "overview": "Le niveau B2 complétera le système du subjonctif avec le subjonctif passé et les phrases conditionnelles, et approfondira les cas où l'indicatif cède la place au subjonctif dans les propositions complétives, relatives et circonstancielles. Tu verras aussi les périphrases verbales, la voix passive et les constructions pronominales à sens passif, le discours indirect à tous les temps, des connecteurs argumentatifs plus sophistiqués, des expressions idiomatiques, et la différence entre registre formel et informel. À la fin de ce niveau, tu pourras interagir avec aisance et spontanéité, et argumenter tes idées avec clarté et nuance. Ce niveau arrive bientôt ; en attendant, commence par le niveau Pre-A1, déjà disponible.",
+      "units": [
+        {
+          "id": "1",
+          "title": "Grammaire B2",
+          "lessons": []
+        }
+      ]
+    },
+    "C1": {
+      "overview": "Au niveau C1, l'étudiant maîtrise déjà le subjonctif de base et les structures principales du français ; il affinera ici les nuances fines du mode subjonctif, découvrira des connecteurs avancés et la nominalisation propre au registre académique et professionnel pour construire un discours cohérent, et explorera avec respect la richesse dialectale de la francophonie — du français de Belgique et de Suisse au français québécois et aux français d'Afrique — ainsi que les procédés d'atténuation, de politesse et d'ironie qui distinguent un locuteur vraiment aisé. Ce niveau arrive bientôt ; en attendant, commence par le niveau Pre-A1, déjà disponible.",
+      "units": [
+        {
+          "id": "1",
+          "title": "Grammaire C1",
+          "lessons": []
+        }
+      ]
+    },
+    "C2": {
+      "overview": "Le niveau C2 sera le sommet de ce cours : il ne s'agira plus d'apprendre une nouvelle grammaire, mais d'affiner une maîtrise déjà quasi complète. Tu travailleras la syntaxe complexe et la subordination multiple, le registre littéraire et ses procédés stylistiques, les nuances lexicales et les faux amis les plus subtils, la richesse de la variation régionale du français dans toute la francophonie, la cohésion d'un discours étendu, la modalité et l'atténuation en registre formel, quelques structures archaïques ou littéraires que tout lecteur cultivé reconnaît, et la capacité à transformer délibérément ton registre selon la situation. À la fin de ce niveau, tu auras une maîtrise du français pratiquement indissociable de celle d'un locuteur natif cultivé, dans presque tous les contextes imaginables. Ce niveau arrive bientôt ; en attendant, commence par le niveau Pre-A1, déjà disponible.",
+      "units": [
+        {
+          "id": "1",
+          "title": "Grammaire C2",
+          "lessons": []
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "pre-a1": [
+    {
+      "slug": "alphabet-et-sons-du-francais",
+      "title": "L'Alphabet et les Sons du Français"
+    },
+    {
+      "slug": "salutations-et-presentations",
+      "title": "Salutations et Présentations"
+    },
+    {
+      "slug": "nombres-heure-et-date",
+      "title": "Les Nombres, l'Heure et la Date"
+    },
+    {
+      "slug": "vocabulaire-de-classe-et-etude",
+      "title": "Vocabulaire de Classe et d'Étude"
+    },
+    {
+      "slug": "personnes-et-objets-du-quotidien",
+      "title": "Personnes et Objets du Quotidien — le Genre"
+    },
+    {
+      "slug": "verbes-de-base-etre-avoir-vouloir-aimer",
+      "title": "Verbes de Base : Être, Avoir, Vouloir, Aimer"
+    },
+    {
+      "slug": "pronoms-sujets-et-etre-avoir",
+      "title": "Pronoms Sujets et un Premier Aperçu de Être et Avoir"
+    },
+    {
+      "slug": "lecture-et-ecoute-de-survie",
+      "title": "Lecture et Écoute de Survie"
+    }
+  ],
+  "a1": [],
+  "a2": [],
+  "b1": [],
+  "b2": [],
+  "c1": [],
+  "c2": []
+}

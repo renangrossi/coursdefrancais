@@ -1,0 +1,446 @@
+{
+  "id": "pre-a1-vocabulaire-de-classe-et-etude",
+  "level": "Pre-A1",
+  "unit": "1",
+  "order": 4,
+  "skill": "vocabulary",
+  "strand": "classe",
+  "title": "Vocabulaire de Classe et d'Étude",
+  "subtitle": "Les mots et phrases essentiels pour survivre — et apprendre — dans un cours de français.",
+  "objectives": [
+    "Utiliser des phrases de base pour demander de l'aide ou une répétition en classe.",
+    "Nommer les objets les plus courants d'un étudiant.",
+    "Comprendre des consignes simples données par un professeur de français."
+  ],
+  "content": {
+    "intro": "Avant de parler du monde, il faut survivre dans la salle de classe : demander de répéter, dire que tu ne comprends pas, et nommer ce que tu as sur ta table.",
+    "explanation": "<p>Dans un cours de français, tu vas entendre et avoir besoin des mêmes phrases très souvent : <strong>répétez, s'il vous plaît</strong> 🔁, <strong>je ne comprends pas</strong>, <strong>comment dit-on... ?</strong> Ces phrases sont ton outil le plus utile en tant que débutant — elles te permettent de suivre le cours sans frustration.</p><p>Il te faut aussi les noms des objets que tu utilises chaque jour pour étudier : le <strong>cahier</strong> 📓, le <strong>crayon</strong> ✏️, le <strong>livre</strong> 📖, le <strong>stylo</strong>. Les apprendre maintenant t'aide à comprendre des consignes simples comme <em>ouvrez le livre</em> ou <em>écrivez dans le cahier</em>.</p>",
+    "rules": [
+      {
+        "heading": "a) Phrases pour demander de l'aide",
+        "body": "<ul><li><strong>Répétez, s'il vous plaît</strong> — quand tu n'as pas bien entendu.</li><li><strong>Je ne comprends pas</strong> — quand tu ne comprends pas quelque chose.</li><li><strong>Comment dit-on... en français ?</strong> — pour demander un mot nouveau.</li><li><strong>Pouvez-vous parler plus lentement, s'il vous plaît ?</strong> — quand la personne parle trop vite.</li></ul>"
+      },
+      {
+        "heading": "b) Objets de l'étudiant",
+        "body": "<ul><li>le cahier 📓, le crayon ✏️, le stylo, la gomme</li><li>le livre 📖, le sac à dos, la feuille de papier</li><li>la table, la chaise, le tableau</li></ul>"
+      },
+      {
+        "heading": "c) Consignes typiques du professeur",
+        "body": "<ul><li><strong>Ouvrez le livre</strong> — ouvre ton livre.</li><li><strong>Écrivez dans le cahier</strong> — utilise le cahier pour écrire.</li><li><strong>Écoutez attentivement</strong> — fais attention à l'audio ou à la voix.</li><li><strong>Travaillez avec votre camarade</strong> — fais l'exercice avec une autre personne.</li></ul>"
+      }
+    ],
+    "examples": [
+      "Pardon, je ne comprends pas. Pouvez-vous répéter, s'il vous plaît ?",
+      "Comment dit-on ce mot encore une fois, s'il vous plaît ?",
+      "J'ai besoin d'un crayon et d'une feuille de papier.",
+      "Ouvrez le livre à la page dix.",
+      "Écrivez votre nom dans le cahier.",
+      "Pouvez-vous parler plus lentement, s'il vous plaît ?",
+      "Mon sac à dos contient deux cahiers et un stylo.",
+      "Écoutez attentivement le dialogue."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Rester silencieux quand tu ne comprends pas quelque chose.",
+        "right": "Je ne comprends pas. Pouvez-vous répéter, s'il vous plaît ?",
+        "why": "Demander de l'aide avec une phrase simple est normal et attendu en classe — c'est mieux que de rester muet."
+      },
+      {
+        "wrong": "Je comprends pas non.",
+        "right": "Je ne comprends pas.",
+        "why": "La négation française se construit avec ne...pas autour du verbe, pas avec non après."
+      },
+      {
+        "wrong": "Comment dit-on en français ce mot ?",
+        "right": "Comment dit-on ce mot en français ?",
+        "why": "L'ordre naturel place le mot en question avant en français."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "pa4-mc",
+      "type": "multiple-choice",
+      "title": "Phrases et Objets de Classe",
+      "items": [
+        {
+          "id": "pa4mc1",
+          "prompt": "Tu n'as pas bien entendu ce qu'a dit le professeur. Que dis-tu ?",
+          "options": [
+            "Je ne comprends pas",
+            "Répétez, s'il vous plaît",
+            "Enchanté"
+          ],
+          "answerIndex": 1,
+          "explanation": "Répétez, s'il vous plaît sert à demander de redire quelque chose."
+        },
+        {
+          "id": "pa4mc2",
+          "prompt": "Tu ne comprends pas un mot. Que dis-tu ?",
+          "options": [
+            "Je ne comprends pas",
+            "Bonjour",
+            "Au revoir"
+          ],
+          "answerIndex": 0,
+          "explanation": "Je ne comprends pas exprime que tu ne comprends pas quelque chose."
+        },
+        {
+          "id": "pa4mc3",
+          "prompt": "Quel objet utilises-tu pour écrire à l'encre ?",
+          "options": [
+            "le crayon",
+            "le stylo",
+            "la gomme"
+          ],
+          "answerIndex": 1,
+          "explanation": "Le stylo écrit à l'encre ; le crayon utilise du graphite et s'efface avec la gomme."
+        },
+        {
+          "id": "pa4mc4",
+          "prompt": "Le professeur parle très vite. Que lui demandes-tu ?",
+          "options": [
+            "Pouvez-vous parler plus lentement, s'il vous plaît ?",
+            "Comment vous appelez-vous ?",
+            "Enchanté"
+          ],
+          "answerIndex": 0,
+          "explanation": "Cette phrase demande spécifiquement de parler plus lentement."
+        },
+        {
+          "id": "pa4mc5",
+          "prompt": "Où ranges-tu tes cahiers et tes livres pour aller en cours ?",
+          "options": [
+            "dans le tableau",
+            "dans le sac à dos",
+            "dans la chaise"
+          ],
+          "answerIndex": 1,
+          "explanation": "Le sac à dos est l'endroit où tu transportes tes affaires de classe."
+        }
+      ]
+    },
+    {
+      "id": "pa4-tf",
+      "type": "true-false",
+      "title": "Vrai ou Faux",
+      "items": [
+        {
+          "id": "pa4tf1",
+          "statement": "Je ne comprends pas est une phrase utile quand tu ne comprends pas quelque chose en classe.",
+          "answer": true,
+          "explanation": "C'est exactement la phrase correcte pour exprimer un manque de compréhension."
+        },
+        {
+          "id": "pa4tf2",
+          "statement": "La gomme sert à écrire à l'encre.",
+          "answer": false,
+          "explanation": "La gomme sert à effacer ce qui est écrit au crayon ; le stylo écrit à l'encre."
+        },
+        {
+          "id": "pa4tf3",
+          "statement": "Répétez, s'il vous plaît s'utilise quand tu veux réentendre quelque chose.",
+          "answer": true,
+          "explanation": "Exactement — tu demandes à l'autre personne de redire la même chose."
+        },
+        {
+          "id": "pa4tf4",
+          "statement": "Le tableau est un objet qu'un étudiant transporte dans son sac à dos.",
+          "answer": false,
+          "explanation": "Le tableau est fixé dans la salle de classe ; les étudiants ne le transportent pas dans leur sac."
+        }
+      ]
+    },
+    {
+      "id": "pa4-match",
+      "type": "matching",
+      "title": "Associe l'Objet à sa Description",
+      "items": [
+        {
+          "id": "pa4match1",
+          "pairs": [
+            {
+              "left": "le cahier",
+              "right": "où tu écris tes notes de cours"
+            },
+            {
+              "left": "le crayon",
+              "right": "peut s'effacer avec la gomme"
+            },
+            {
+              "left": "le sac à dos",
+              "right": "où tu transportes tes affaires"
+            },
+            {
+              "left": "le tableau",
+              "right": "où le professeur écrit pour toute la classe"
+            }
+          ],
+          "explanation": "Reconnaître ces objets t'aide à suivre des consignes simples dès le premier jour de cours."
+        }
+      ]
+    },
+    {
+      "id": "pa4-fill",
+      "type": "fill-blank",
+      "title": "Complète la Phrase de Survie",
+      "items": [
+        {
+          "id": "pa4f1",
+          "prompt": "Pardon, je ne ___ pas. Pouvez-vous répéter ?",
+          "answers": [
+            [
+              "comprends"
+            ]
+          ],
+          "options": [
+            "comprends",
+            "comprend",
+            "comprenez"
+          ],
+          "explanation": "Comprends est la forme je, la personne qui parle."
+        },
+        {
+          "id": "pa4f2",
+          "prompt": "Comment ___-on ce mot en français ?",
+          "answers": [
+            [
+              "dit"
+            ]
+          ],
+          "options": [
+            "dit",
+            "dites",
+            "dis"
+          ],
+          "explanation": "Dit-on est la forme impersonnelle utilisée pour demander le nom de quelque chose."
+        },
+        {
+          "id": "pa4f3",
+          "prompt": "___ le livre à la page dix, s'il vous plaît.",
+          "answers": [
+            [
+              "Ouvrez"
+            ]
+          ],
+          "options": [
+            "Ouvrez",
+            "Ouvre",
+            "Ouvrir"
+          ],
+          "explanation": "Ouvrez est la forme de consigne (impératif avec vous) que donne le professeur."
+        },
+        {
+          "id": "pa4f4",
+          "prompt": "J'ai besoin d'un ___ pour écrire à l'encre.",
+          "answers": [
+            [
+              "stylo"
+            ]
+          ],
+          "options": [
+            "stylo",
+            "crayon",
+            "gomme"
+          ],
+          "explanation": "Le stylo est l'objet qui écrit à l'encre."
+        }
+      ]
+    },
+    {
+      "id": "pa4x-reading",
+      "type": "reading-comprehension",
+      "title": "Lecture : Le Sac à Dos de Paul",
+      "passage": "<p>Paul apporte son sac à dos en cours tous les jours. À l'intérieur, il a deux cahiers, trois crayons, un livre et une gomme. Sa professeure écrit au tableau et les élèves écoutent attentivement. Après le cours, Paul range tout dans son sac à dos à nouveau.</p>",
+      "items": [
+        {
+          "id": "pa4xr1",
+          "prompt": "Combien de cahiers Paul a-t-il dans son sac à dos ?",
+          "options": [
+            "Un",
+            "Deux",
+            "Trois"
+          ],
+          "answerIndex": 1,
+          "explanation": "Le texte dit : « il a deux cahiers »."
+        },
+        {
+          "id": "pa4xr2",
+          "prompt": "Où écrit la professeure ?",
+          "options": [
+            "Dans un cahier",
+            "Au tableau",
+            "Dans un livre"
+          ],
+          "answerIndex": 1,
+          "explanation": "Le texte dit : « Sa professeure écrit au tableau »."
+        },
+        {
+          "id": "pa4xr3",
+          "prompt": "Que font les élèves pendant le cours ?",
+          "options": [
+            "Ils dorment",
+            "Ils écoutent attentivement",
+            "Ils mangent"
+          ],
+          "answerIndex": 1,
+          "explanation": "Le texte dit : « les élèves écoutent attentivement »."
+        },
+        {
+          "id": "pa4xr4",
+          "prompt": "Paul apporte-t-il son sac à dos seulement certains jours ?",
+          "options": [
+            "Oui, seulement le lundi",
+            "Non, tous les jours",
+            "Ce n'est pas précisé"
+          ],
+          "answerIndex": 1,
+          "explanation": "Le texte dit que Paul apporte son sac à dos « tous les jours »."
+        }
+      ]
+    },
+    {
+      "id": "pa4x-order",
+      "type": "ordering",
+      "title": "Remets la Phrase en Ordre",
+      "items": [
+        {
+          "id": "pa4xo1",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "J'ai",
+            "besoin",
+            "d'un",
+            "crayon",
+            "et",
+            "d'une",
+            "gomme"
+          ],
+          "explanation": "J'ai besoin de + objet + et + de + autre objet, avec les articles corrects selon le genre."
+        },
+        {
+          "id": "pa4xo2",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "La",
+            "professeure",
+            "écrit",
+            "au",
+            "tableau"
+          ],
+          "explanation": "Sujet + verbe + complément de lieu."
+        }
+      ]
+    },
+    {
+      "id": "pa4y-correction",
+      "type": "correction",
+      "title": "Corrige les Erreurs",
+      "items": [
+        {
+          "id": "pa4yc1",
+          "incorrect": "J'ai besoin d'un gomme pour effacer.",
+          "answer": [
+            "J'ai besoin d'une gomme pour effacer."
+          ],
+          "explanation": "Gomme est féminin : une gomme, pas un gomme."
+        },
+        {
+          "id": "pa4yc2",
+          "incorrect": "La professeure écrit dans le tableau.",
+          "answer": [
+            "La professeure écrit au tableau."
+          ],
+          "explanation": "On écrit au tableau (à + le tableau), pas dans le tableau."
+        }
+      ]
+    },
+    {
+      "id": "pa4y-typing",
+      "type": "typing",
+      "title": "Pratique",
+      "items": [
+        {
+          "id": "pa4yt1",
+          "prompt": "Écris trois objets que tu as dans ton sac à dos.",
+          "explanation": "Gardé pour ta propre révision — utilise le vocabulaire de cette leçon : cahier, crayon, livre, gomme..."
+        }
+      ]
+    },
+    {
+      "id": "pa4z-match",
+      "type": "matching",
+      "title": "Associe",
+      "items": [
+        {
+          "id": "pa4zm1",
+          "prompt": "Associe l'objet à son usage.",
+          "pairs": [
+            {
+              "left": "crayon",
+              "right": "écrire"
+            },
+            {
+              "left": "gomme",
+              "right": "effacer"
+            },
+            {
+              "left": "livre",
+              "right": "lire"
+            },
+            {
+              "left": "sac à dos",
+              "right": "transporter des affaires"
+            }
+          ],
+          "explanation": "Chaque objet de classe a une fonction précise."
+        }
+      ]
+    },
+    {
+      "id": "pa4z-vocab",
+      "type": "vocabulary",
+      "title": "Vocabulaire",
+      "items": [
+        {
+          "id": "pa4zv1",
+          "prompt": "Qu'utilises-tu pour écrire au tableau ?",
+          "options": [
+            "Un crayon",
+            "Un marqueur/de la craie",
+            "Une gomme"
+          ],
+          "answerIndex": 1,
+          "explanation": "On écrit au tableau avec un marqueur ou de la craie, pas avec un crayon."
+        },
+        {
+          "id": "pa4zv2",
+          "prompt": "Où transportes-tu tes livres pour aller en cours ?",
+          "options": [
+            "Dans le sac à dos",
+            "Dans le cahier",
+            "Dans la gomme"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le sac à dos est l'endroit où l'on transporte le matériel scolaire."
+        },
+        {
+          "id": "pa4zv3",
+          "prompt": "Que signifie « effacer » ?",
+          "options": [
+            "Écrire",
+            "Supprimer ce qui est écrit",
+            "Lire"
+          ],
+          "answerIndex": 1,
+          "explanation": "Effacer signifie supprimer quelque chose d'écrit, normalement avec une gomme."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Répétez, s'il vous plaît ; je ne comprends pas ; et comment dit-on... ? sont les trois phrases les plus utiles pour survivre dans un cours de français.",
+    "Le cahier, le crayon, le stylo et le livre sont les objets de base de tout étudiant.",
+    "Reconnaître des consignes simples comme ouvrez le livre ou écoutez attentivement te permet de suivre le cours sans dépendre de traductions."
+  ]
+}

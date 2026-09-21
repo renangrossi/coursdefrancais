@@ -1,0 +1,450 @@
+{
+  "id": "pre-a1-verbes-de-base-etre-avoir-vouloir-aimer",
+  "level": "Pre-A1",
+  "unit": "1",
+  "order": 6,
+  "skill": "grammar",
+  "strand": "verbes-de-base",
+  "title": "Verbes de Base : Être, Avoir, Vouloir, Aimer",
+  "subtitle": "Un premier contact avec quatre verbes essentiels, dans des phrases très simples avec je, tu et il/elle.",
+  "objectives": [
+    "Utiliser le verbe être pour dire qui tu es et comment tu es.",
+    "Utiliser le verbe avoir pour dire ce que tu as ou quel âge tu as.",
+    "Utiliser vouloir et aimer dans des phrases simples pour exprimer des souhaits et des préférences."
+  ],
+  "content": {
+    "intro": "Avec seulement quatre verbes — être, avoir, vouloir et aimer — tu peux déjà former des dizaines de phrases utiles sur toi-même et sur les personnes que tu connais.",
+    "explanation": "<p>Le verbe <strong>être</strong> sert à dire qui tu es, d'où tu viens ou comment tu es : <em>Je suis Anna. Je suis française. Je suis grande.</em> Le verbe <strong>avoir</strong> sert à parler de possession et aussi de l'âge : <em>J'ai un chien. J'ai vingt ans.</em> (Jamais <em>je suis vingt ans</em> — c'est une des erreurs les plus fréquentes des débutants.)</p><p>Le verbe <strong>vouloir</strong> exprime un souhait : <em>Je veux un café.</em> Le verbe <strong>aimer</strong> exprime une préférence ou un sentiment : <em>J'aime la musique.</em> Ces quatre verbes sont tous irréguliers, donc leurs formes doivent simplement être mémorisées.</p>",
+    "rules": [
+      {
+        "heading": "a) Être (je/tu/il-elle)",
+        "body": "<ul><li>je <strong>suis</strong> — <em>Je suis professeur.</em></li><li>tu <strong>es</strong> — <em>Tu es très gentil.</em></li><li>il/elle <strong>est</strong> — <em>Elle est du Pérou.</em></li></ul>"
+      },
+      {
+        "heading": "b) Avoir (je/tu/il-elle)",
+        "body": "<ul><li>j'<strong>ai</strong> — <em>J'ai deux frères.</em></li><li>tu <strong>as</strong> — <em>Tu as le temps ?</em></li><li>il/elle <strong>a</strong> — <em>Il a trente ans.</em></li></ul>"
+      },
+      {
+        "heading": "c) Vouloir (je/tu/il-elle)",
+        "body": "<ul><li>je <strong>veux</strong> — <em>Je veux de l'eau, s'il vous plaît.</em></li><li>tu <strong>veux</strong> — <em>Qu'est-ce que tu veux manger ?</em></li><li>il/elle <strong>veut</strong> — <em>Elle veut se reposer.</em></li></ul>"
+      },
+      {
+        "heading": "d) Aimer (je/tu/il-elle)",
+        "body": "<ul><li>j'<strong>aime</strong> le café. (goût, préférence)</li><li>tu <strong>aimes</strong> la musique ?</li><li>il/elle <strong>aime</strong> le chocolat.</li><li>Le sujet est toujours la personne, pas la chose — contrairement à l'espagnol gustar.</li></ul>"
+      }
+    ],
+    "examples": [
+      "Je suis Marc et je suis du Canada.",
+      "J'ai vingt-huit ans.",
+      "Tu as des frères et sœurs ?",
+      "Je veux un café au lait, s'il vous plaît.",
+      "J'aime beaucoup la musique.",
+      "Tu aimes le chocolat ?",
+      "Elle est très sympathique.",
+      "Il a un petit chien."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Je suis vingt ans.",
+        "right": "J'ai vingt ans.",
+        "why": "L'âge se dit toujours avec avoir en français, jamais avec être."
+      },
+      {
+        "wrong": "Elle a sympathique.",
+        "right": "Elle est sympathique.",
+        "why": "Les qualités et les caractéristiques s'expriment avec être, pas avec avoir."
+      },
+      {
+        "wrong": "Je aime le café.",
+        "right": "J'aime le café.",
+        "why": "Je s'élide en j' devant une voyelle ; on ne dit jamais je aime."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "pa6-mc",
+      "type": "multiple-choice",
+      "title": "Choisis le Bon Verbe",
+      "items": [
+        {
+          "id": "pa6mc1",
+          "prompt": "Comment dit-on ton âge en français ?",
+          "options": [
+            "Je suis vingt ans",
+            "J'ai vingt ans",
+            "Je veux vingt ans"
+          ],
+          "answerIndex": 1,
+          "explanation": "L'âge s'exprime avec avoir, pas avec être."
+        },
+        {
+          "id": "pa6mc2",
+          "prompt": "Comment dis-tu que tu aimes le café ?",
+          "options": [
+            "Je suis le café",
+            "J'aime le café",
+            "J'ai le café"
+          ],
+          "answerIndex": 1,
+          "explanation": "Aimer exprime une préférence, avec la personne comme sujet."
+        },
+        {
+          "id": "pa6mc3",
+          "prompt": "Tu veux dire d'où tu viens. Quel verbe utilises-tu ?",
+          "options": [
+            "avoir",
+            "être",
+            "vouloir"
+          ],
+          "answerIndex": 1,
+          "explanation": "L'origine s'exprime avec être : je suis de..."
+        },
+        {
+          "id": "pa6mc4",
+          "prompt": "Comment demandes-tu quelque chose que tu désires dans un café ?",
+          "options": [
+            "Je suis un café, s'il vous plaît",
+            "Je veux un café, s'il vous plaît",
+            "J'ai un café, s'il vous plaît"
+          ],
+          "answerIndex": 1,
+          "explanation": "Vouloir exprime un souhait direct : je veux un café."
+        },
+        {
+          "id": "pa6mc5",
+          "prompt": "Quelle est la forme tu du verbe avoir ?",
+          "options": [
+            "as",
+            "ai",
+            "a"
+          ],
+          "answerIndex": 0,
+          "explanation": "As est la forme tu : tu as des frères et sœurs ?"
+        }
+      ]
+    },
+    {
+      "id": "pa6-tf",
+      "type": "true-false",
+      "title": "Vrai ou Faux",
+      "items": [
+        {
+          "id": "pa6tf1",
+          "statement": "En français, l'âge s'exprime avec le verbe être.",
+          "answer": false,
+          "explanation": "L'âge s'exprime avec avoir : j'ai vingt ans."
+        },
+        {
+          "id": "pa6tf2",
+          "statement": "J'aime le café est correct pour dire que tu aimes le café.",
+          "answer": true,
+          "explanation": "C'est exactement la forme correcte avec le verbe aimer."
+        },
+        {
+          "id": "pa6tf3",
+          "statement": "Es est la forme correcte de je avec le verbe être.",
+          "answer": false,
+          "explanation": "La forme correcte de je est suis ; es est la forme de tu."
+        },
+        {
+          "id": "pa6tf4",
+          "statement": "Veux sert à exprimer un souhait.",
+          "answer": true,
+          "explanation": "Veux exprime un souhait ou une demande directe."
+        }
+      ]
+    },
+    {
+      "id": "pa6-match",
+      "type": "matching",
+      "title": "Associe le Pronom à la Forme du Verbe",
+      "items": [
+        {
+          "id": "pa6match1",
+          "pairs": [
+            {
+              "left": "je (être)",
+              "right": "suis"
+            },
+            {
+              "left": "tu (avoir)",
+              "right": "as"
+            },
+            {
+              "left": "il/elle (vouloir)",
+              "right": "veut"
+            },
+            {
+              "left": "j' (aimer)",
+              "right": "aime"
+            },
+            {
+              "left": "j' (avoir)",
+              "right": "ai"
+            }
+          ],
+          "explanation": "Chaque pronom a sa propre forme du verbe ; je s'élide en j' devant une voyelle."
+        }
+      ]
+    },
+    {
+      "id": "pa6-fill",
+      "type": "fill-blank",
+      "title": "Complète avec le Bon Verbe",
+      "items": [
+        {
+          "id": "pa6f1",
+          "prompt": "Je ___ professeur de français.",
+          "answers": [
+            [
+              "suis"
+            ]
+          ],
+          "options": [
+            "suis",
+            "es",
+            "est"
+          ],
+          "explanation": "Suis est la forme je du verbe être."
+        },
+        {
+          "id": "pa6f2",
+          "prompt": "Quel âge ___-tu ?",
+          "answers": [
+            [
+              "as"
+            ]
+          ],
+          "options": [
+            "as",
+            "ai",
+            "a"
+          ],
+          "explanation": "As est la forme tu du verbe avoir."
+        },
+        {
+          "id": "pa6f3",
+          "prompt": "Elle ___ se reposer un peu.",
+          "answers": [
+            [
+              "veut"
+            ]
+          ],
+          "options": [
+            "veut",
+            "veux",
+            "voulons"
+          ],
+          "explanation": "Veut est la forme il/elle du verbe vouloir."
+        },
+        {
+          "id": "pa6f4",
+          "prompt": "J'___ beaucoup la musique.",
+          "answers": [
+            [
+              "aime"
+            ]
+          ],
+          "options": [
+            "aime",
+            "aimes",
+            "aiment"
+          ],
+          "explanation": "Aime est la forme j' du verbe aimer."
+        }
+      ]
+    },
+    {
+      "id": "pa6x-reading",
+      "type": "reading-comprehension",
+      "title": "Lecture : Sofia se Présente",
+      "passage": "<p>Je m'appelle Sofia et je suis étudiante. J'ai vingt ans et j'ai deux sœurs. Je veux très bien apprendre le français. J'aime la musique et j'aime aussi le café le matin. Je n'aime pas me lever tôt le dimanche.</p>",
+      "items": [
+        {
+          "id": "pa6xr1",
+          "prompt": "Quel âge a Sofia ?",
+          "options": [
+            "Dix-huit ans",
+            "Vingt ans",
+            "Vingt-cinq ans"
+          ],
+          "answerIndex": 1,
+          "explanation": "Le texte dit : « J'ai vingt ans »."
+        },
+        {
+          "id": "pa6xr2",
+          "prompt": "Que veut apprendre Sofia ?",
+          "options": [
+            "La musique",
+            "L'anglais",
+            "Le français"
+          ],
+          "answerIndex": 2,
+          "explanation": "Le texte dit : « Je veux très bien apprendre le français »."
+        },
+        {
+          "id": "pa6xr3",
+          "prompt": "Sofia aime-t-elle se lever tôt le dimanche ?",
+          "options": [
+            "Oui, beaucoup",
+            "Non, elle n'aime pas"
+          ],
+          "answerIndex": 1,
+          "explanation": "Le texte dit : « Je n'aime pas me lever tôt le dimanche »."
+        },
+        {
+          "id": "pa6xr4",
+          "prompt": "Combien de sœurs a Sofia ?",
+          "options": [
+            "Une",
+            "Deux",
+            "Trois"
+          ],
+          "answerIndex": 1,
+          "explanation": "Le texte dit : « j'ai deux sœurs »."
+        }
+      ]
+    },
+    {
+      "id": "pa6x-order",
+      "type": "ordering",
+      "title": "Remets la Phrase en Ordre",
+      "items": [
+        {
+          "id": "pa6xo1",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "J'aime",
+            "beaucoup",
+            "le",
+            "café"
+          ],
+          "explanation": "Sujet + aimer + adverbe + nom avec article."
+        },
+        {
+          "id": "pa6xo2",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Je",
+            "veux",
+            "apprendre",
+            "le",
+            "français"
+          ],
+          "explanation": "Je veux + infinitif + complément."
+        }
+      ]
+    },
+    {
+      "id": "pa6y-correction",
+      "type": "correction",
+      "title": "Corrige les Erreurs",
+      "items": [
+        {
+          "id": "pa6yc1",
+          "incorrect": "Je a vingt ans.",
+          "answer": [
+            "J'ai vingt ans."
+          ],
+          "explanation": "Je + avoir = j'ai, pas je a ; devant une voyelle, je s'élide toujours en j'."
+        },
+        {
+          "id": "pa6yc2",
+          "incorrect": "Je aime le café.",
+          "answer": [
+            "J'aime le café."
+          ],
+          "explanation": "Je s'élide en j' devant une voyelle ; on ne dit jamais je aime."
+        }
+      ]
+    },
+    {
+      "id": "pa6y-typing",
+      "type": "typing",
+      "title": "Pratique",
+      "items": [
+        {
+          "id": "pa6yt1",
+          "prompt": "Écris une phrase avec « j'aime » sur quelque chose que tu aimes.",
+          "explanation": "Gardé pour ta propre révision — souviens-toi de la structure : j'aime + nom (la chose aimée n'est jamais le sujet)."
+        }
+      ]
+    },
+    {
+      "id": "pa6z-match",
+      "type": "matching",
+      "title": "Associe",
+      "items": [
+        {
+          "id": "pa6zm1",
+          "prompt": "Associe le verbe à son sens.",
+          "pairs": [
+            {
+              "left": "être",
+              "right": "identité permanente"
+            },
+            {
+              "left": "avoir",
+              "right": "posséder"
+            },
+            {
+              "left": "vouloir",
+              "right": "désirer"
+            },
+            {
+              "left": "aimer",
+              "right": "apprécier"
+            }
+          ],
+          "explanation": "Chaque verbe de base a un sens distinct et essentiel."
+        }
+      ]
+    },
+    {
+      "id": "pa6z-vocab",
+      "type": "vocabulary",
+      "title": "Vocabulaire",
+      "items": [
+        {
+          "id": "pa6zv1",
+          "prompt": "Quel verbe utiliserais-tu pour dire ton âge ?",
+          "options": [
+            "Être",
+            "Avoir",
+            "Vouloir"
+          ],
+          "answerIndex": 1,
+          "explanation": "L'âge s'exprime avec avoir : j'ai vingt ans."
+        },
+        {
+          "id": "pa6zv2",
+          "prompt": "Quel verbe exprime un souhait ?",
+          "options": [
+            "Être",
+            "Vouloir",
+            "Aimer"
+          ],
+          "answerIndex": 1,
+          "explanation": "Vouloir exprime un souhait direct : je veux un café."
+        },
+        {
+          "id": "pa6zv3",
+          "prompt": "Quel verbe garde toujours la personne comme sujet pour exprimer une préférence ?",
+          "options": [
+            "Avoir",
+            "Être",
+            "Aimer"
+          ],
+          "answerIndex": 2,
+          "explanation": "Aimer garde la personne comme sujet : j'aime le café."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Être exprime l'identité, l'origine et les caractéristiques (je suis, tu es, il/elle est) ; avoir exprime la possession et l'âge (j'ai, tu as, il/elle a).",
+    "Vouloir exprime un souhait direct (je veux, tu veux, il/elle veut), utile pour demander des choses simplement et poliment.",
+    "Aimer garde la personne comme sujet (j'aime, tu aimes, il/elle aime) — contrairement au gustar espagnol, la chose aimée n'est jamais le sujet."
+  ]
+}

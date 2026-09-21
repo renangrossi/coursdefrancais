@@ -1,0 +1,30 @@
+{
+  "levels": [
+    { "code": "Pre-A1", "name": "Survie", "url": "levels/pre-a1.html" },
+    { "code": "A1", "name": "Débutant", "url": "levels/a1.html" },
+    { "code": "A2", "name": "Élémentaire", "url": "levels/a2.html" },
+    { "code": "B1", "name": "Intermédiaire", "url": "levels/b1.html" },
+    { "code": "B2", "name": "Intermédiaire Avancé", "url": "levels/b2.html" },
+    { "code": "C1", "name": "Avancé", "url": "levels/c1.html" },
+    { "code": "C2", "name": "Maîtrise", "url": "levels/c2.html" }
+  ],
+  "resources": [
+    { "level": "Pre-A1", "title": "L'Alphabet et les Sons du Français", "url": "levels/pre-a1/alphabet-et-sons-du-francais.html", "type": "lesson" },
+    { "level": "Pre-A1", "title": "Salutations et Présentations", "url": "levels/pre-a1/salutations-et-presentations.html", "type": "lesson" },
+    { "level": "Pre-A1", "title": "Les Nombres, l'Heure et la Date", "url": "levels/pre-a1/nombres-heure-et-date.html", "type": "lesson" },
+    { "level": "Pre-A1", "title": "Vocabulaire de Classe et d'Étude", "url": "levels/pre-a1/vocabulaire-de-classe-et-etude.html", "type": "lesson" },
+    { "level": "Pre-A1", "title": "Personnes et Objets du Quotidien — le Genre", "url": "levels/pre-a1/personnes-et-objets-du-quotidien.html", "type": "lesson" },
+    { "level": "Pre-A1", "title": "Verbes de Base : Être, Avoir, Vouloir, Aimer", "url": "levels/pre-a1/verbes-de-base-etre-avoir-vouloir-aimer.html", "type": "lesson" },
+    { "level": "Pre-A1", "title": "Pronoms Sujets et un Premier Aperçu de Être et Avoir", "url": "levels/pre-a1/pronoms-sujets-et-etre-avoir.html", "type": "lesson" },
+    { "level": "Pre-A1", "title": "Lecture et Écoute de Survie", "url": "levels/pre-a1/lecture-et-ecoute-de-survie.html", "type": "lesson" },
+    { "level": "Pre-A1", "title": "Teste-toi Pre-A1 (révision complète)", "url": "levels/pre-a1/test-yourself.html", "type": "test" },
+    { "level": null, "title": "Exercices", "url": "exercises.html", "type": "page" },
+    { "level": null, "title": "Extras", "url": "extras.html", "type": "page" },
+    { "level": null, "title": "Dictionnaire et Référence", "url": "dictionary.html", "type": "page" },
+    { "level": null, "title": "Test de Niveau", "url": "placement-test.html", "type": "page" },
+    { "level": null, "title": "Examens Blancs", "url": "simulated-exams.html", "type": "page" },
+    { "level": null, "title": "Verbes Irréguliers", "url": "irregular-verbs.html", "type": "page" },
+    { "level": null, "title": "Révision du Jour", "url": "today-review.html", "type": "page" },
+    { "level": null, "title": "Ma Progression", "url": "progress.html", "type": "page" }
+  ]
+}

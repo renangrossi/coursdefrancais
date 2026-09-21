@@ -1,0 +1,11 @@
+name = "ai-teacher-fr"
+main = "worker.js"
+compatibility_date = "2026-01-01"
+
+# After running `wrangler kv namespace create AI_TEACHER_KV`, paste the
+# printed id below (see README.md, Step 3). This is a placeholder — it
+# is NOT a real namespace id for this site and must be replaced before
+# `wrangler deploy` will work.
+[[kv_namespaces]]
+binding = "AI_TEACHER_KV"
+id = "REPLACE_WITH_YOUR_OWN_KV_NAMESPACE_ID"

@@ -1,0 +1,186 @@
+/* =======================================================================
+   TOKENS DE DISEÑO
+   Renan el Profesor — Academia de Español
+   Fuente única de verdad para color, tipografía, espaciado y movimiento.
+   El resto de las hojas de estilo deben leer estas variables en vez de
+   valores fijos, para que todo el sistema de diseño se pueda ajustar
+   desde aquí.
+
+   Esta es la hoja hermana de tokens.css del curso de inglés y del curso
+   de italiano: los *nombres* de los tokens (navy/burgundy/forest/gold/
+   parchment/ink) se mantienen como vocabulario interno estable — solo
+   cambia qué *rol* usa cada uno, para que components.css, layout.css,
+   dark-mode.css y search.css no necesiten cambios estructurales. Lee
+   cada variable por su rol (primary/accent/secondary-accent/ornament),
+   no por el nombre histórico de su familia de color.
+
+   Paleta actual: identidad de la selección española de fútbol — rojo
+   predominante, azul marino como color complementario, dorado en el
+   texto y los detalles que van sobre las áreas rojas. Esto es un cambio
+   deliberado de roles respecto a versiones anteriores de este archivo,
+   que tenían el azul como color principal y el rojo como acento: ahora
+   --color-primary/-strong usan la familia burgundy (antes navy), y
+   --color-accent/-strong usan la familia navy (antes burgundy). Los
+   valores hexadecimales de cada familia de color no cambiaron, solo su
+   rol — ver el bloque "Roles semánticos" más abajo.
+   ======================================================================= */
+
+:root {
+  /* ---- Paleta de marca --------------------------------------------------
+     Familias de color en bruto; ver el bloque de roles más abajo para
+     saber cuál desempeña cada papel en la paleta actual (rojo como
+     color principal, azul marino como acento, dorado como texto sobre
+     las áreas rojas y como detalle/ornamento). */
+  --navy-900: #123a5e;
+  --navy-800: #154c78;
+  --navy-700: #1c5c8f;
+  --navy-600: #2b74a9;
+
+  --burgundy-700: #841117;
+  --burgundy-600: #aa151b;
+  --burgundy-500: #c8323a;
+
+  --forest-700: #2f7fb8;
+  --forest-600: #4a9bd1;
+
+  --gold-600: #b8860e;
+  --gold-500: #d6a021;
+  --gold-300: #f0cb72;
+
+  /* Rojo de bandera vivo — para acentos estructurales (líneas de regla,
+     divisores, florituras de foco) distinto del rojo de marca usado en
+     botones/enlaces/eyebrows, igual que el "cotto" del curso de
+     italiano cumplía ese mismo rol. */
+  --cotto-red: #c1272d;
+  --cotto-red-dim: #931b20;
+
+  --walnut-800: #2a2118;
+  --walnut-600: #4a3a2c;
+
+  --parchment-100: #fbf8f1;
+  --parchment-200: #f3ecdc;
+  --parchment-300: #e6dcc0;
+  --ivory-50: #fffdf9;
+
+  --ink-900: #1c1a17;
+  --ink-700: #3a352e;
+  --ink-500: #6b6459;
+
+  /* ---- Roles semánticos de color (tema claro, por defecto) -------------
+     Los componentes deben leer estos roles, no la paleta cruda de
+     arriba, para que dark-mode.css pueda redirigirlos con seguridad. */
+  --color-bg: #ffffff;
+  --color-surface: var(--parchment-100);
+  --color-surface-raised: #ffffff;
+  --color-border: var(--parchment-300);
+  --color-border-strong: var(--cotto-red);
+
+  --color-text: var(--ink-900);
+  --color-text-muted: var(--ink-500);
+  /* Texto/detalles sobre las áreas de --color-primary(-strong) — ahora
+     rojas — pasan a dorado, en vez del blanco/marfil de antes. */
+  --color-text-on-dark: var(--gold-300);
+  --color-text-on-dark-muted: var(--gold-500);
+
+  /* Rojo como color principal (antes azul), azul marino como acento
+     (antes rojo) — identidad de la selección española de fútbol. */
+  --color-primary: var(--burgundy-600);
+  --color-primary-strong: var(--burgundy-700);
+  --color-accent: var(--navy-800);
+  --color-accent-strong: var(--navy-900);
+  --color-secondary-accent: var(--burgundy-500);
+  --color-gold: var(--gold-600);
+  --color-red: var(--cotto-red);
+  --color-red-dim: var(--cotto-red-dim);
+
+  --color-focus-ring: var(--gold-600);
+  --color-unavailable: var(--ink-500);
+
+  /* Indica al navegador que esta página tiene una interfaz clara
+     explícita, para que los controles nativos (barras de desplazamiento
+     y, junto con los colores explícitos de select/option en base.css,
+     los menús desplegables <select>) se rendericen con un tema claro en
+     vez de adivinar según el sistema operativo. El modo oscuro redirige
+     esto a "dark" en dark-mode.css. */
+  color-scheme: light;
+
+  /* Colores de retroalimentación dedicados para los ejercicios —
+     ajustados para visibilidad en tintes bajos, independientes de los
+     colores de acento de marca. */
+  --color-success: #1f7a4d;
+  --color-success-bg: #e2f4ea;
+  --color-danger: #b3222b;
+  --color-danger-bg: #fbe8e9;
+
+  /* ---- Tipografía ---------------------------------------------------- */
+  --font-display: "Fraunces", "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+  --font-body: "Source Sans 3", "Segoe UI", Helvetica, Arial, sans-serif;
+  --font-mono: "IBM Plex Mono", "Courier New", monospace;
+
+  --step--1: clamp(0.83rem, 0.8rem + 0.15vw, 0.9rem);
+  --step-0:  clamp(1rem, 0.96rem + 0.2vw, 1.08rem);
+  --step-1:  clamp(1.2rem, 1.12rem + 0.4vw, 1.35rem);
+  --step-2:  clamp(1.44rem, 1.3rem + 0.7vw, 1.75rem);
+  --step-3:  clamp(1.8rem, 1.55rem + 1.2vw, 2.4rem);
+  --step-4:  clamp(2.25rem, 1.85rem + 2vw, 3.2rem);
+  --step-5:  clamp(2.75rem, 2.1rem + 3.2vw, 4.4rem);
+
+  --leading-tight: 1.15;
+  --leading-snug: 1.35;
+  --leading-normal: 1.7;
+
+  --tracking-wide: 0.06em;
+  --tracking-wider: 0.14em;
+
+  /* ---- Escala de espaciado (ritmo de 8px) ---------------------------- */
+  --space-3xs: 0.25rem;
+  --space-2xs: 0.5rem;
+  --space-xs:  0.75rem;
+  --space-sm:  1rem;
+  --space-md:  1.5rem;
+  --space-lg:  2rem;
+  --space-xl:  2.75rem;
+  --space-2xl: 4rem;
+  --space-3xl: 8rem;
+
+  --content-max: 76rem;
+  --content-narrow: 46rem;
+
+  /* ---- Radios, bordes, sombra -----------------------------------------
+     Deliberadamente pequeños y algo cuadrados — sensación de placa
+     grabada en vez de una app de consumo suave. */
+  --radius-sm: 3px;
+  --radius-md: 6px;
+  --radius-lg: 10px;
+
+  --border-hairline: 1px solid var(--color-border);
+  --border-gold: 1px solid var(--color-border-strong);
+
+  --shadow-sm: 0 1px 2px rgba(20, 40, 70, 0.10);
+  --shadow-md: 0 6px 20px -8px rgba(20, 40, 70, 0.28);
+  --shadow-lg: 0 18px 45px -18px rgba(20, 40, 70, 0.38);
+  --shadow-inset-rule: inset 0 1px 0 rgba(255, 255, 255, 0.4);
+
+  /* ---- Movimiento -------------------------------------------------------
+     Corto y discreto por defecto; ver base.css para reduced-motion. */
+  --ease-standard: cubic-bezier(0.4, 0, 0.2, 1);
+  --duration-fast: 150ms;
+  --duration-base: 240ms;
+  --duration-slow: 420ms;
+
+  --header-height: 84px;
+  /* Altura de la barra .level-toc pegajosa (presente en páginas de
+     nivel, hub y "ponte a prueba"), usada junto con --header-height
+     para calcular el desplazamiento total de scroll de abajo. */
+  --toc-height: 72px;
+  --sticky-offset: calc(var(--header-height) + var(--toc-height) + var(--space-sm));
+}
+
+/* Cabecera más angosta en pantallas pequeñas mantiene correcta la
+   matemática del scroll-offset */
+@media (max-width: 640px) {
+  :root {
+    --header-height: 68px;
+    --toc-height: 70px;
+  }
+}

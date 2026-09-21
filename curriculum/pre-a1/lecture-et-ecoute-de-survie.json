@@ -1,0 +1,388 @@
+{
+  "id": "pre-a1-lecture-et-ecoute-de-survie",
+  "level": "Pre-A1",
+  "unit": "1",
+  "order": 8,
+  "skill": "reading",
+  "strand": "survie",
+  "title": "Lecture et Écoute de Survie",
+  "subtitle": "Lis et écoute de courts dialogues de situations de base : te présenter et demander quelque chose dans un magasin.",
+  "objectives": [
+    "Lire un court dialogue de présentation et comprendre l'information principale.",
+    "Lire un court dialogue dans un magasin et comprendre ce que chaque personne demande.",
+    "Reconnaître des mots et des phrases de survie dans un texte simple."
+  ],
+  "content": {
+    "intro": "Avec le vocabulaire et les phrases des leçons précédentes, tu peux déjà lire et comprendre de courts dialogues de la vie réelle — l'objectif final de tout débutant.",
+    "explanation": "<p>Lire de vrais dialogues, même très simples, est différent d'apprendre des mots isolés : il faut reconnaître le vocabulaire que tu connais déjà dans une conversation complète, avec des questions, des réponses et un peu de contexte.</p><p>Cette leçon rassemble tout ce que tu as appris — salutations, noms, nombres, objets — dans deux situations très courantes pour un débutant : <strong>se présenter</strong> à quelqu'un et <strong>demander quelque chose dans un magasin</strong>.</p>",
+    "rules": [
+      {
+        "heading": "a) Stratégie de lecture",
+        "body": "<ul><li>Tu n'as pas besoin de comprendre chaque mot — cherche les mots que tu connais déjà.</li><li>Utilise le contexte (qui parle, où ils sont) pour deviner les mots nouveaux.</li><li>Lis le dialogue deux fois : la première pour avoir une idée générale, la deuxième pour les détails.</li></ul>"
+      },
+      {
+        "heading": "b) Dialogue 1 — Se présenter",
+        "body": "<p><strong>Sara :</strong> Bonjour, comment tu t'appelles ?<br><strong>Léo :</strong> Je m'appelle Léo. Et toi ?<br><strong>Sara :</strong> Je m'appelle Sara. Enchantée.<br><strong>Léo :</strong> Enchanté, Sara. Tu es d'où ?<br><strong>Sara :</strong> Je suis du Portugal. Et toi ?<br><strong>Léo :</strong> Moi, je suis de Belgique.</p>"
+      },
+      {
+        "heading": "c) Dialogue 2 — Dans un magasin",
+        "body": "<p><strong>Vendeuse :</strong> Bonjour, qu'est-ce qu'il vous faut ?<br><strong>Client :</strong> Bonjour. Je voudrais un cahier et un crayon, s'il vous plaît.<br><strong>Vendeuse :</strong> Voilà. Autre chose ?<br><strong>Client :</strong> Non, merci. C'est combien ?<br><strong>Vendeuse :</strong> C'est cinq euros.<br><strong>Client :</strong> Voilà. Merci, au revoir.</p>"
+      }
+    ],
+    "examples": [
+      "Bonjour, comment tu t'appelles ?",
+      "Je m'appelle Léo. Enchanté.",
+      "Tu es d'où ?",
+      "Bonjour, qu'est-ce qu'il vous faut ?",
+      "Je voudrais un cahier et un crayon, s'il vous plaît.",
+      "C'est combien ? — C'est cinq euros."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Traduire chaque mot du dialogue avant de le comprendre.",
+        "right": "Chercher d'abord les mots et phrases que tu connais déjà.",
+        "why": "Chercher le sens général avec le vocabulaire connu est plus rapide et plus utile que traduire mot à mot."
+      },
+      {
+        "wrong": "Répondre à C'est combien ? par C'est cinq euros, s'il vous plaît.",
+        "right": "C'est combien ? — C'est cinq euros.",
+        "why": "La réponse au prix n'a pas besoin de s'il vous plaît ; cette formule s'utilise pour demander quelque chose, pas pour donner une information."
+      },
+      {
+        "wrong": "Ne rien comprendre et abandonner la lecture.",
+        "right": "Lire le dialogue deux fois : d'abord pour l'idée générale, ensuite pour les détails.",
+        "why": "Une deuxième lecture, avec l'idée générale déjà claire, aide à repérer plus de détails et de mots nouveaux."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "pa8-tf",
+      "type": "true-false",
+      "title": "Compréhension : Vrai ou Faux ?",
+      "items": [
+        {
+          "id": "pa8tf1",
+          "statement": "Dans le Dialogue 1, Sara est du Portugal.",
+          "answer": true,
+          "explanation": "Sara dit : Je suis du Portugal."
+        },
+        {
+          "id": "pa8tf2",
+          "statement": "Dans le Dialogue 1, Léo est du Portugal.",
+          "answer": false,
+          "explanation": "Léo dit qu'il est de Belgique, pas du Portugal."
+        },
+        {
+          "id": "pa8tf3",
+          "statement": "Dans le Dialogue 2, le client veut un cahier et un crayon.",
+          "answer": true,
+          "explanation": "Le client dit : Je voudrais un cahier et un crayon, s'il vous plaît."
+        },
+        {
+          "id": "pa8tf4",
+          "statement": "Dans le Dialogue 2, le prix total est cinq euros.",
+          "answer": true,
+          "explanation": "La vendeuse dit : C'est cinq euros."
+        },
+        {
+          "id": "pa8tf5",
+          "statement": "Dans le Dialogue 2, le client demande aussi un livre.",
+          "answer": false,
+          "explanation": "Le client demande seulement un cahier et un crayon ; quand on lui demande autre chose ?, il dit non."
+        }
+      ]
+    },
+    {
+      "id": "pa8-mc",
+      "type": "multiple-choice",
+      "title": "Questions sur les Dialogues",
+      "items": [
+        {
+          "id": "pa8mc1",
+          "prompt": "Qui parle en premier dans le Dialogue 1 ?",
+          "options": [
+            "Léo",
+            "Sara",
+            "La vendeuse"
+          ],
+          "answerIndex": 1,
+          "explanation": "Sara est celle qui salue en premier : Bonjour, comment tu t'appelles ?"
+        },
+        {
+          "id": "pa8mc2",
+          "prompt": "D'où est Léo ?",
+          "options": [
+            "Portugal",
+            "Espagne",
+            "Belgique"
+          ],
+          "answerIndex": 2,
+          "explanation": "Léo dit : Moi, je suis de Belgique."
+        },
+        {
+          "id": "pa8mc3",
+          "prompt": "Que demande le client dans le magasin ?",
+          "options": [
+            "Un cahier et un crayon",
+            "Un livre et une gomme",
+            "Un téléphone"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le client dit : Je voudrais un cahier et un crayon, s'il vous plaît."
+        },
+        {
+          "id": "pa8mc4",
+          "prompt": "Combien coûte l'achat du client ?",
+          "options": [
+            "Cinq euros",
+            "Dix euros",
+            "Deux euros"
+          ],
+          "answerIndex": 0,
+          "explanation": "La vendeuse répond : C'est cinq euros."
+        }
+      ]
+    },
+    {
+      "id": "pa8-order",
+      "type": "ordering",
+      "title": "Ordonne les Phrases du Dialogue",
+      "instructions": "Place les lignes ou les mots dans le bon ordre.",
+      "items": [
+        {
+          "id": "pa8order1",
+          "prompt": "Remets les lignes du Dialogue 1 dans le bon ordre.",
+          "words": [
+            "Bonjour, comment tu t'appelles ?",
+            "Je m'appelle Léo. Et toi ?",
+            "Je m'appelle Sara. Enchantée.",
+            "Enchanté, Sara. Tu es d'où ?",
+            "Je suis du Portugal. Et toi ?",
+            "Moi, je suis de Belgique."
+          ],
+          "explanation": "Le dialogue suit un ordre logique : d'abord la salutation et les noms, ensuite la question sur l'origine et les réponses."
+        },
+        {
+          "id": "pa8order2",
+          "prompt": "Remets les lignes du Dialogue 2 dans le bon ordre.",
+          "words": [
+            "Bonjour, qu'est-ce qu'il vous faut ?",
+            "Bonjour. Je voudrais un cahier et un crayon, s'il vous plaît.",
+            "Voilà. Autre chose ?",
+            "Non, merci. C'est combien ?",
+            "C'est cinq euros.",
+            "Voilà. Merci, au revoir."
+          ],
+          "explanation": "La conversation dans le magasin suit l'ordre : salutation, demande, remise, question sur le prix, paiement et au revoir."
+        },
+        {
+          "id": "pa8order3",
+          "prompt": "Remets les mots dans le bon ordre pour former une phrase correcte.",
+          "words": [
+            "Je",
+            "voudrais",
+            "un",
+            "cahier",
+            "et",
+            "un",
+            "crayon"
+          ],
+          "explanation": "L'ordre correct place je voudrais avant le premier objet, et, puis le second objet — voudrais commence toujours la demande."
+        }
+      ]
+    },
+    {
+      "id": "pa8x-reading",
+      "type": "reading-comprehension",
+      "title": "Lecture : Demander de l'Aide dans la Rue",
+      "passage": "<p>— Excusez-moi, où est la gare, s'il vous plaît ?<br>— C'est tout près, à deux rues d'ici, sur votre droite.<br>— Merci beaucoup. Une autre question : y a-t-il une banque près d'ici aussi ?<br>— Oui, il y en a une en face de la gare.<br>— Parfait, merci beaucoup pour votre aide.</p>",
+      "items": [
+        {
+          "id": "pa8xr1",
+          "prompt": "Que cherche la personne qui pose la question ?",
+          "options": [
+            "Une banque",
+            "La gare",
+            "Un restaurant"
+          ],
+          "answerIndex": 1,
+          "explanation": "La première question est : « où est la gare, s'il vous plaît ? »."
+        },
+        {
+          "id": "pa8xr2",
+          "prompt": "Dans quelle direction est la gare ?",
+          "options": [
+            "À gauche",
+            "À droite",
+            "Tout droit"
+          ],
+          "answerIndex": 1,
+          "explanation": "La réponse dit : « à deux rues d'ici, sur votre droite »."
+        },
+        {
+          "id": "pa8xr3",
+          "prompt": "Où est la banque ?",
+          "options": [
+            "En face de la gare",
+            "À l'intérieur de la gare",
+            "Loin de la gare"
+          ],
+          "answerIndex": 0,
+          "explanation": "La réponse dit : « il y en a une en face de la gare »."
+        },
+        {
+          "id": "pa8xr4",
+          "prompt": "La personne remercie-t-elle plus d'une fois ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answerIndex": 0,
+          "explanation": "Elle dit « Merci beaucoup » puis « merci beaucoup pour votre aide »."
+        }
+      ]
+    },
+    {
+      "id": "pa8x-order",
+      "type": "ordering",
+      "title": "Remets la Phrase en Ordre",
+      "items": [
+        {
+          "id": "pa8xo1",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Excusez-moi",
+            "où",
+            "est",
+            "la",
+            "gare"
+          ],
+          "explanation": "Formule de politesse + question de localisation."
+        },
+        {
+          "id": "pa8xo2",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "C'est",
+            "à",
+            "deux",
+            "rues",
+            "d'ici"
+          ],
+          "explanation": "Être (localisation) + distance + référence."
+        }
+      ]
+    },
+    {
+      "id": "pa8y-correction",
+      "type": "correction",
+      "title": "Corrige les Erreurs",
+      "items": [
+        {
+          "id": "pa8yc1",
+          "incorrect": "Où est-ce les toilettes ?",
+          "answer": [
+            "Où sont les toilettes ?"
+          ],
+          "explanation": "Toilettes est toujours pluriel en français ; le verbe s'accorde donc au pluriel : sont, pas est."
+        },
+        {
+          "id": "pa8yc2",
+          "incorrect": "Merci beaucoup pour ton aide à toi.",
+          "answer": [
+            "Merci beaucoup pour ton aide."
+          ],
+          "explanation": "À toi est inutile après ton, qui exprime déjà la possession."
+        }
+      ]
+    },
+    {
+      "id": "pa8y-typing",
+      "type": "typing",
+      "title": "Pratique",
+      "items": [
+        {
+          "id": "pa8yt1",
+          "prompt": "Écris comment tu demanderais de l'aide pour trouver les toilettes dans la rue.",
+          "explanation": "Gardé pour ta propre révision — compare avec : « Excusez-moi, où sont les toilettes ? »"
+        }
+      ]
+    },
+    {
+      "id": "pa8z-match",
+      "type": "matching",
+      "title": "Associe",
+      "items": [
+        {
+          "id": "pa8zm1",
+          "prompt": "Associe la question à sa réponse logique.",
+          "pairs": [
+            {
+              "left": "Où sont les toilettes ?",
+              "right": "Au fond à droite."
+            },
+            {
+              "left": "C'est combien ?",
+              "right": "C'est cinq euros."
+            },
+            {
+              "left": "Comment tu t'appelles ?",
+              "right": "Je m'appelle Anna."
+            },
+            {
+              "left": "Tu parles anglais ?",
+              "right": "Un peu."
+            }
+          ],
+          "explanation": "Chaque question de survie a une réponse naturelle typique."
+        }
+      ]
+    },
+    {
+      "id": "pa8z-vocab",
+      "type": "vocabulary",
+      "title": "Vocabulaire",
+      "items": [
+        {
+          "id": "pa8zv1",
+          "prompt": "Que dis-tu pour demander de l'aide poliment ?",
+          "options": [
+            "Excusez-moi",
+            "Au revoir",
+            "Merci"
+          ],
+          "answerIndex": 0,
+          "explanation": "Excusez-moi est une façon polie d'attirer l'attention de quelqu'un."
+        },
+        {
+          "id": "pa8zv2",
+          "prompt": "Que signifie « perdu(e) » ?",
+          "options": [
+            "Qui ne sait pas où il/elle est",
+            "Qui a faim",
+            "Qui est content(e)"
+          ],
+          "answerIndex": 0,
+          "explanation": "Être perdu(e) signifie ne pas savoir où l'on est ni comment arriver quelque part."
+        },
+        {
+          "id": "pa8zv3",
+          "prompt": "Quel mot utiliserais-tu pour demander le prix ?",
+          "options": [
+            "Combien ?",
+            "Quand ?",
+            "Où ?"
+          ],
+          "answerIndex": 0,
+          "explanation": "C'est combien ? s'utilise pour demander le prix."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Lire un dialogue simple est plus facile si tu cherches d'abord les mots que tu connais déjà, plutôt que de tout traduire.",
+    "Le Dialogue 1 (se présenter) combine salutations, noms et origine ; le Dialogue 2 (dans un magasin) combine salutations, objets et nombres.",
+    "Avec le vocabulaire des leçons précédentes, tu peux déjà suivre de courtes conversations de la vie réelle en français."
+  ]
+}

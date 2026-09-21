@@ -1,0 +1,434 @@
+{
+  "id": "pre-a1-salutations-et-presentations",
+  "level": "Pre-A1",
+  "unit": "1",
+  "order": 2,
+  "skill": "functional",
+  "strand": "salutations",
+  "title": "Salutations et Présentations",
+  "subtitle": "Comment saluer, prendre congé et te présenter en français — et quand utiliser tu ou vous.",
+  "objectives": [
+    "Saluer et prendre congé selon le moment de la journée.",
+    "Demander et dire le nom d'une personne.",
+    "Choisir entre tu et vous dans une première conversation."
+  ],
+  "content": {
+    "intro": "Toute conversation en français commence par une salutation, et cette salutation en dit déjà long sur le niveau de familiarité entre les deux personnes.",
+    "explanation": "<p>En français, <strong>bonjour</strong> fonctionne du matin jusqu'au soir, dans des situations formelles comme informelles. <strong>Bonsoir</strong> le remplace le soir, et <strong>salut</strong> est une salutation informelle qui sert aussi bien à dire bonjour qu'au revoir entre amis.</p><p>Le français a aussi deux façons de dire «&nbsp;tu&nbsp;» : <strong>tu</strong> (informel) et <strong>vous</strong> (formel, ou pluriel). On utilise <em>tu</em> avec les amis, la famille et les enfants ; on utilise <em>vous</em> avec des personnes inconnues, plus âgées, ou dans un contexte professionnel, jusqu'à ce que l'autre personne propose de se tutoyer.</p>",
+    "rules": [
+      {
+        "heading": "a) Salutations selon le moment de la journée",
+        "body": "<ul><li><strong>Bonjour</strong> — du matin jusqu'au soir, formel et informel.</li><li><strong>Bonsoir</strong> — le soir, pour saluer en arrivant.</li><li><strong>Bonne nuit</strong> — seulement au moment de se coucher, jamais pour saluer en arrivant.</li><li><strong>Salut</strong> 👋 — informel, entre amis, pour dire bonjour ou au revoir.</li></ul>"
+      },
+      {
+        "heading": "b) Demander et dire son nom",
+        "body": "<ul><li>Informel : <em>Comment tu t'appelles ?</em> → <em>Je m'appelle Marie.</em></li><li>Formel : <em>Comment vous appelez-vous ?</em> → <em>Je m'appelle Marie.</em> (la réponse ne change pas)</li><li><em>Enchanté(e)</em> — se dit en rencontrant quelqu'un pour la première fois.</li></ul>"
+      },
+      {
+        "heading": "c) Tu face à vous",
+        "body": "<ul><li><strong>Tu</strong> — amis, famille, enfants, personnes de ton âge. <em>Tu viens d'où ?</em></li><li><strong>Vous</strong> — inconnus, personnes plus âgées, contextes formels. <em>Vous venez d'où ?</em></li><li>En cas de doute, commence par <em>vous</em> : c'est l'option la plus sûre.</li></ul>"
+      },
+      {
+        "heading": "d) Prendre congé",
+        "body": "<ul><li><strong>Au revoir</strong> — façon générale de se quitter, à tout moment.</li><li><strong>À bientôt</strong> — quand tu vas revoir la personne prochainement.</li><li><strong>À demain</strong> — quand tu vas la revoir le lendemain.</li></ul>"
+      }
+    ],
+    "examples": [
+      "Bonjour, comment allez-vous ?",
+      "Salut ! Ça va ?",
+      "Je m'appelle Thomas. Et toi, comment tu t'appelles ?",
+      "Enchantée de faire votre connaissance.",
+      "Bonsoir, monsieur Dubois.",
+      "Je vais très bien, merci. Et vous ?",
+      "Au revoir, à bientôt !",
+      "Bonne nuit, dors bien."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Salut, comment allez-vous ?",
+        "right": "Salut, ça va ? / Bonjour, comment allez-vous ?",
+        "why": "Salut est informel, donc il se combine mieux avec ça va ; si tu utilises vous, il est plus naturel de commencer par une salutation formelle."
+      },
+      {
+        "wrong": "Bonne nuit (en arrivant le matin)",
+        "right": "Bonjour (en arrivant le matin)",
+        "why": "Bonne nuit ne s'utilise que pour se coucher, jamais comme salutation du matin."
+      },
+      {
+        "wrong": "Comment tu s'appelles ?",
+        "right": "Comment tu t'appelles ? / Comment vous appelez-vous ?",
+        "why": "Tu t'appelles est la forme correcte avec tu ; s'appelles mélange tu avec une forme de il/elle."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "pa2-mc",
+      "type": "multiple-choice",
+      "title": "Choisis la Bonne Salutation",
+      "items": [
+        {
+          "id": "pa2mc1",
+          "prompt": "Il est neuf heures du matin. Que dis-tu ?",
+          "options": [
+            "Bonne nuit",
+            "Bonjour",
+            "Bonsoir"
+          ],
+          "answerIndex": 1,
+          "explanation": "Bonjour s'utilise du matin jusqu'au soir."
+        },
+        {
+          "id": "pa2mc2",
+          "prompt": "Tu rencontres un professeur pour la première fois. Quel pronom utilises-tu ?",
+          "options": [
+            "tu",
+            "vous",
+            "on"
+          ],
+          "answerIndex": 1,
+          "explanation": "Avec une personne inconnue, dans un contexte formel, on utilise vous."
+        },
+        {
+          "id": "pa2mc3",
+          "prompt": "Tu dis au revoir à un ami que tu vas voir demain. Que dis-tu ?",
+          "options": [
+            "À demain",
+            "Bonne nuit",
+            "Enchanté"
+          ],
+          "answerIndex": 0,
+          "explanation": "À demain s'utilise quand tu vas revoir la personne le lendemain."
+        },
+        {
+          "id": "pa2mc4",
+          "prompt": "Quelle salutation informelle sert aussi à dire au revoir ?",
+          "options": [
+            "Bonsoir",
+            "Salut",
+            "Bonne nuit"
+          ],
+          "answerIndex": 1,
+          "explanation": "Salut est une salutation informelle qui fonctionne dans les deux sens."
+        }
+      ]
+    },
+    {
+      "id": "pa2-tf",
+      "type": "true-false",
+      "title": "Vrai ou Faux",
+      "items": [
+        {
+          "id": "pa2tf1",
+          "statement": "On utilise tu avec une personne inconnue lors d'un entretien d'embauche.",
+          "answer": false,
+          "explanation": "Lors d'un entretien d'embauche, l'usage normal est vous."
+        },
+        {
+          "id": "pa2tf2",
+          "statement": "Enchanté(e) se dit en rencontrant quelqu'un pour la première fois.",
+          "answer": true,
+          "explanation": "Enchanté(e) est l'expression typique en se présentant."
+        },
+        {
+          "id": "pa2tf3",
+          "statement": "La réponse à comment tu t'appelles ? et à comment vous appelez-vous ? est différente.",
+          "answer": false,
+          "explanation": "La réponse est toujours je m'appelle... ; la question change, mais pas la réponse."
+        },
+        {
+          "id": "pa2tf4",
+          "statement": "Bonne nuit ne s'utilise que pour se coucher.",
+          "answer": true,
+          "explanation": "Bonne nuit est réservée au moment de se coucher, jamais comme salutation d'arrivée."
+        }
+      ]
+    },
+    {
+      "id": "pa2-match",
+      "type": "matching",
+      "title": "Associe la Situation à la Salutation",
+      "items": [
+        {
+          "id": "pa2match1",
+          "pairs": [
+            {
+              "left": "Tu arrives au bureau à huit heures du matin",
+              "right": "Bonjour"
+            },
+            {
+              "left": "Tu te couches",
+              "right": "Bonne nuit"
+            },
+            {
+              "left": "Tu salues un ami dans la rue",
+              "right": "Salut !"
+            },
+            {
+              "left": "Tu rencontres quelqu'un pour la première fois",
+              "right": "Enchanté(e)"
+            }
+          ],
+          "explanation": "Chaque situation a une salutation naturelle en français ; choisir la bonne montre courtoisie et sens du contexte."
+        }
+      ]
+    },
+    {
+      "id": "pa2-fill",
+      "type": "fill-blank",
+      "title": "Complète le Dialogue",
+      "items": [
+        {
+          "id": "pa2f1",
+          "prompt": "— Comment ___-tu ? — Je m'appelle Julie.",
+          "answers": [
+            [
+              "t'appelles"
+            ]
+          ],
+          "options": [
+            "t'appelles",
+            "s'appelle",
+            "m'appelle"
+          ],
+          "explanation": "T'appelles est la forme informelle avec tu."
+        },
+        {
+          "id": "pa2f2",
+          "prompt": "— Bonsoir, comment ___-vous ? — Très bien, merci.",
+          "answers": [
+            [
+              "allez"
+            ]
+          ],
+          "options": [
+            "allez",
+            "vas",
+            "va"
+          ],
+          "explanation": "Avec vous, on utilise la forme allez, pas vas."
+        },
+        {
+          "id": "pa2f3",
+          "prompt": "— Bonjour, ___. — Enchanté également.",
+          "answers": [
+            [
+              "enchanté"
+            ]
+          ],
+          "options": [
+            "enchanté",
+            "beaucoup",
+            "merci"
+          ],
+          "explanation": "L'expression fixe pour se présenter est enchanté(e)."
+        },
+        {
+          "id": "pa2f4",
+          "prompt": "— Au revoir, à ___ ! — Au revoir !",
+          "answers": [
+            [
+              "bientôt"
+            ]
+          ],
+          "options": [
+            "bientôt",
+            "depuis",
+            "pour"
+          ],
+          "explanation": "À bientôt indique que tu vas revoir la personne prochainement."
+        }
+      ]
+    },
+    {
+      "id": "pa2x-reading",
+      "type": "reading-comprehension",
+      "title": "Lecture : À la Fête",
+      "passage": "<p>— Bonsoir ! Je m'appelle Marc. Comment tu t'appelles ?<br>— Bonsoir, Marc. Je m'appelle Élise. Enchantée.<br>— Enchanté, Élise. Tu es d'où ?<br>— Je suis du Sénégal. Et toi ?<br>— Moi, je suis de Suisse. Bienvenue à la fête !</p>",
+      "items": [
+        {
+          "id": "pa2xr1",
+          "prompt": "Comment s'appelle la personne qui vient du Sénégal ?",
+          "options": [
+            "Marc",
+            "Élise",
+            "Aucun des deux"
+          ],
+          "answerIndex": 1,
+          "explanation": "Élise dit : « Je suis du Sénégal »."
+        },
+        {
+          "id": "pa2xr2",
+          "prompt": "D'où est Marc ?",
+          "options": [
+            "Du Sénégal",
+            "De Suisse",
+            "Il ne le dit pas"
+          ],
+          "answerIndex": 1,
+          "explanation": "Marc dit : « Moi, je suis de Suisse »."
+        },
+        {
+          "id": "pa2xr3",
+          "prompt": "À quel moment de la journée a lieu cette rencontre ?",
+          "options": [
+            "Le matin",
+            "Le soir",
+            "L'après-midi"
+          ],
+          "answerIndex": 1,
+          "explanation": "Le dialogue commence par « Bonsoir »."
+        },
+        {
+          "id": "pa2xr4",
+          "prompt": "Le dialogue se termine-t-il par une bienvenue ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answerIndex": 0,
+          "explanation": "La dernière ligne est « Bienvenue à la fête ! »."
+        }
+      ]
+    },
+    {
+      "id": "pa2x-order",
+      "type": "ordering",
+      "title": "Remets le Dialogue en Ordre",
+      "items": [
+        {
+          "id": "pa2xo1",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Comment",
+            "tu",
+            "t'appelles"
+          ],
+          "explanation": "La question commence par le mot interrogatif Comment."
+        },
+        {
+          "id": "pa2xo2",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Enchanté",
+            "de",
+            "faire",
+            "ta",
+            "connaissance"
+          ],
+          "explanation": "Expression fixe de politesse en rencontrant quelqu'un."
+        }
+      ]
+    },
+    {
+      "id": "pa2y-correction",
+      "type": "correction",
+      "title": "Corrige les Erreurs",
+      "items": [
+        {
+          "id": "pa2yc1",
+          "incorrect": "Je appelle Marie.",
+          "answer": [
+            "Je m'appelle Marie."
+          ],
+          "explanation": "S'appeler est un verbe pronominal ; il a toujours besoin du pronom me/te/se."
+        },
+        {
+          "id": "pa2yc2",
+          "incorrect": "Enchanté de te rencontrer toi.",
+          "answer": [
+            "Enchanté de te rencontrer."
+          ],
+          "explanation": "Le pronom toi est inutile après te rencontrer, qui inclut déjà le pronom te."
+        }
+      ]
+    },
+    {
+      "id": "pa2y-typing",
+      "type": "typing",
+      "title": "Pratique",
+      "items": [
+        {
+          "id": "pa2yt1",
+          "prompt": "Écris comment tu te présentes à quelqu'un de nouveau, en utilisant « je m'appelle ».",
+          "explanation": "Gardé pour ta propre révision — compare ta phrase avec : « Bonjour, je m'appelle... Enchanté(e). »"
+        }
+      ]
+    },
+    {
+      "id": "pa2z-match",
+      "type": "matching",
+      "title": "Associe",
+      "items": [
+        {
+          "id": "pa2zm1",
+          "prompt": "Associe la salutation au moment de la journée.",
+          "pairs": [
+            {
+              "left": "bonjour",
+              "right": "toute la journée"
+            },
+            {
+              "left": "bonsoir",
+              "right": "le soir"
+            },
+            {
+              "left": "bonne nuit",
+              "right": "au coucher"
+            },
+            {
+              "left": "salut",
+              "right": "n'importe quel moment (informel)"
+            }
+          ],
+          "explanation": "Chaque salutation correspond à un moment précis, sauf bonjour qui fonctionne toute la journée."
+        }
+      ]
+    },
+    {
+      "id": "pa2z-vocab",
+      "type": "vocabulary",
+      "title": "Vocabulaire",
+      "items": [
+        {
+          "id": "pa2zv1",
+          "prompt": "Que signifie « enchanté(e) » ?",
+          "options": [
+            "Au revoir",
+            "En rencontrant quelqu'un",
+            "Bonne nuit"
+          ],
+          "answerIndex": 1,
+          "explanation": "Enchanté(e) se dit en rencontrant quelqu'un pour la première fois."
+        },
+        {
+          "id": "pa2zv2",
+          "prompt": "Que réponds-tu à « merci » ?",
+          "options": [
+            "De rien",
+            "Bonjour",
+            "Au revoir"
+          ],
+          "answerIndex": 0,
+          "explanation": "De rien est la réponse habituelle à un remerciement."
+        },
+        {
+          "id": "pa2zv3",
+          "prompt": "Comment quelqu'un prend-il congé ?",
+          "options": [
+            "Bonjour",
+            "Au revoir",
+            "Merci"
+          ],
+          "answerIndex": 1,
+          "explanation": "Au revoir est la formule de départ la plus courante."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Bonjour fonctionne toute la journée, bonsoir le remplace le soir, et bonne nuit sert uniquement à se coucher.",
+    "Comment tu t'appelles ? (informel) et Comment vous appelez-vous ? (formel) ont la même réponse : je m'appelle...",
+    "Utilise tu avec les proches et vous avec les inconnus ou en contexte formel ; en cas de doute, vous est l'option sûre."
+  ]
+}

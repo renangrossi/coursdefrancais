@@ -1,0 +1,447 @@
+{
+  "id": "pre-a1-pronoms-sujets-et-etre-avoir",
+  "level": "Pre-A1",
+  "unit": "1",
+  "order": 7,
+  "skill": "grammar",
+  "strand": "pronoms",
+  "title": "Pronoms Sujets et un Premier Aperçu de Être et Avoir",
+  "subtitle": "Je, tu, il/elle, nous, ils/elles ; et la différence simple entre je suis de... (origine) et je suis à... (lieu).",
+  "objectives": [
+    "Reconnaître et utiliser les pronoms sujets je, tu, il/elle, nous et ils/elles.",
+    "Utiliser je suis de... pour dire d'où tu viens.",
+    "Utiliser je suis à/en/au... pour dire où tu te trouves en ce moment."
+  ],
+  "content": {
+    "intro": "Les pronoms sujets identifient qui fait l'action, et une seule paire de prépositions — de pour l'origine, à/en/au pour le lieu — te permet de parler de ton origine et de ta position dès le premier jour.",
+    "explanation": "<p>Les pronoms sujets les plus utilisés sont <strong>je</strong>, <strong>tu</strong>, <strong>il</strong>/<strong>elle</strong>, <strong>nous</strong> et <strong>ils</strong>/<strong>elles</strong>. Contrairement à l'espagnol ou à l'italien, le français ne peut presque jamais omettre le pronom sujet : la terminaison du verbe seule ne suffit pas à identifier qui parle, donc le pronom est toujours présent.</p><p>Le français utilise <strong>être</strong> aussi bien pour l'origine que pour le lieu, mais avec des prépositions différentes : <em>Je suis de Lyon</em> (origine, avec <strong>de</strong>) contre <em>Je suis à Lyon</em> (lieu actuel, avec <strong>à</strong>). Pour les pays, la préposition de lieu change selon le genre : <strong>à</strong> + ville, <strong>en</strong> + pays féminin (<em>en France</em>), <strong>au</strong> + pays masculin (<em>au Canada</em>), <strong>aux</strong> + pays pluriel (<em>aux États-Unis</em>).</p>",
+    "rules": [
+      {
+        "heading": "a) Les pronoms sujets",
+        "body": "<ul><li><strong>je</strong> — la personne qui parle.</li><li><strong>tu</strong> — la personne à qui tu parles (informel).</li><li><strong>il / elle</strong> — une autre personne (masculin/féminin).</li><li><strong>nous</strong> — toi (qui parles) et d'autres personnes.</li><li><strong>ils / elles</strong> — plusieurs personnes dont tu parles.</li></ul>"
+      },
+      {
+        "heading": "b) Je suis de... pour l'origine",
+        "body": "<ul><li><em>Je suis de Marseille.</em></li><li><em>Tu es d'où ?</em></li><li><em>Elle est du Japon.</em> (de + le = du)</li></ul>"
+      },
+      {
+        "heading": "c) Je suis à/en/au... pour le lieu",
+        "body": "<ul><li><em>Je suis à la maison.</em></li><li><em>Où es-tu maintenant ?</em></li><li><em>Elle est au travail.</em> (à + le = au)</li></ul>"
+      },
+      {
+        "heading": "d) Un contraste simple",
+        "body": "<ul><li><strong>Je suis du Chili</strong> — d'où je viens (origine, avec de/du).</li><li><strong>Je suis au Chili</strong> — où je me trouve maintenant (lieu, avec à/au).</li><li>Une personne peut venir d'un pays et se trouver dans un autre en même temps.</li></ul>"
+      }
+    ],
+    "examples": [
+      "Je suis du Brésil.",
+      "Tu es à l'université maintenant.",
+      "Elle est du Portugal, mais elle est en France.",
+      "Nous sommes de la même ville.",
+      "Ils sont au parc.",
+      "Tu es d'où ?",
+      "Où es-tu en ce moment ?"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Je suis en Espagne (pour dire mon origine).",
+        "right": "Je suis d'Espagne.",
+        "why": "L'origine s'exprime avec de (je suis de/d'...), pas avec en, qui indique un lieu actuel."
+      },
+      {
+        "wrong": "Elle est de l'école (pour dire où elle est maintenant).",
+        "right": "Elle est à l'école.",
+        "why": "Le lieu où quelqu'un se trouve s'exprime avec à/en/au, pas avec de, qui indique l'origine."
+      },
+      {
+        "wrong": "Ils est du Pérou.",
+        "right": "Ils sont du Pérou.",
+        "why": "Avec le pronom ils, le verbe être prend la forme sont, pas est."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "pa7-mc",
+      "type": "multiple-choice",
+      "title": "Pronoms, Origine et Lieu",
+      "items": [
+        {
+          "id": "pa7mc1",
+          "prompt": "Quel pronom utilises-tu pour parler de toi-même ?",
+          "options": [
+            "tu",
+            "je",
+            "il"
+          ],
+          "answerIndex": 1,
+          "explanation": "Je est le pronom de la première personne, celle qui parle."
+        },
+        {
+          "id": "pa7mc2",
+          "prompt": "Comment dis-tu d'où tu viens ?",
+          "options": [
+            "Je suis à...",
+            "Je suis de...",
+            "J'ai de..."
+          ],
+          "answerIndex": 1,
+          "explanation": "L'origine s'exprime avec je suis de..."
+        },
+        {
+          "id": "pa7mc3",
+          "prompt": "Comment dis-tu où tu te trouves maintenant ?",
+          "options": [
+            "Je suis de...",
+            "Je suis à...",
+            "Je veux à..."
+          ],
+          "answerIndex": 1,
+          "explanation": "Le lieu actuel s'exprime avec je suis à..."
+        },
+        {
+          "id": "pa7mc4",
+          "prompt": "Quel pronom utilises-tu pour parler d'un groupe qui t'inclut ?",
+          "options": [
+            "ils",
+            "nous",
+            "tu"
+          ],
+          "answerIndex": 1,
+          "explanation": "Nous inclut la personne qui parle avec d'autres."
+        },
+        {
+          "id": "pa7mc5",
+          "prompt": "Anna et Léo sont à la plage. Quel pronom les représente ?",
+          "options": [
+            "nous",
+            "ils",
+            "elle"
+          ],
+          "answerIndex": 1,
+          "explanation": "Ils s'utilise pour parler de plusieurs personnes, ici Anna et Léo."
+        }
+      ]
+    },
+    {
+      "id": "pa7-tf",
+      "type": "true-false",
+      "title": "Vrai ou Faux",
+      "items": [
+        {
+          "id": "pa7tf1",
+          "statement": "Je suis de... s'utilise pour parler de l'origine d'une personne.",
+          "answer": true,
+          "explanation": "Exactement — je suis de indique d'où vient quelqu'un."
+        },
+        {
+          "id": "pa7tf2",
+          "statement": "Je suis à... s'utilise pour parler de l'origine d'une personne.",
+          "answer": false,
+          "explanation": "Je suis à... indique le lieu où quelqu'un se trouve maintenant, pas son origine."
+        },
+        {
+          "id": "pa7tf3",
+          "statement": "Une personne peut venir d'un pays et se trouver dans un autre en même temps.",
+          "answer": true,
+          "explanation": "Oui — l'origine (de) et le lieu actuel (à/en/au) sont deux choses distinctes."
+        },
+        {
+          "id": "pa7tf4",
+          "statement": "Nous et ils se réfèrent toujours à la même personne.",
+          "answer": false,
+          "explanation": "Nous inclut celui qui parle ; ils se réfère à d'autres personnes, sans inclure celui qui parle."
+        }
+      ]
+    },
+    {
+      "id": "pa7-match",
+      "type": "matching",
+      "title": "Associe le Pronom à la Situation",
+      "items": [
+        {
+          "id": "pa7match1",
+          "pairs": [
+            {
+              "left": "je",
+              "right": "la personne qui parle"
+            },
+            {
+              "left": "tu",
+              "right": "la personne à qui tu parles"
+            },
+            {
+              "left": "nous",
+              "right": "toi (qui parles) et d'autres personnes"
+            },
+            {
+              "left": "ils",
+              "right": "plusieurs personnes dont tu parles"
+            }
+          ],
+          "explanation": "Chaque pronom sujet identifie clairement qui réalise l'action dans la phrase."
+        }
+      ]
+    },
+    {
+      "id": "pa7-fill",
+      "type": "fill-blank",
+      "title": "Complète avec Suis... De ou Suis... À",
+      "items": [
+        {
+          "id": "pa7f1",
+          "prompt": "Je ___ de Colombie.",
+          "answers": [
+            [
+              "suis"
+            ]
+          ],
+          "options": [
+            "suis",
+            "es",
+            "est"
+          ],
+          "explanation": "Suis est la forme je du verbe être, utilisée ici avec de pour l'origine."
+        },
+        {
+          "id": "pa7f2",
+          "prompt": "Maintenant, je suis ___ travail.",
+          "answers": [
+            [
+              "au"
+            ]
+          ],
+          "options": [
+            "au",
+            "de",
+            "du"
+          ],
+          "explanation": "Au (à + le) introduit le lieu actuel."
+        },
+        {
+          "id": "pa7f3",
+          "prompt": "Tu ___ d'où ?",
+          "answers": [
+            [
+              "es"
+            ]
+          ],
+          "options": [
+            "es",
+            "êtes",
+            "suis"
+          ],
+          "explanation": "Es est la forme tu du verbe être, utilisée pour demander l'origine."
+        },
+        {
+          "id": "pa7f4",
+          "prompt": "Où ___-tu maintenant ?",
+          "answers": [
+            [
+              "es"
+            ]
+          ],
+          "options": [
+            "es",
+            "suis",
+            "est"
+          ],
+          "explanation": "Es est la forme tu du verbe être, utilisée pour demander le lieu."
+        }
+      ]
+    },
+    {
+      "id": "pa7x-reading",
+      "type": "reading-comprehension",
+      "title": "Lecture : Nous Sommes Étudiants",
+      "passage": "<p>Nous sommes étudiants de français. Je suis du Brésil et elle est de France. Il est fatigué aujourd'hui parce qu'il travaille beaucoup. Ils sont à la bibliothèque maintenant, en train d'étudier pour l'examen de la semaine prochaine.</p>",
+      "items": [
+        {
+          "id": "pa7xr1",
+          "prompt": "D'où est la personne qui parle (je) ?",
+          "options": [
+            "De France",
+            "Du Brésil",
+            "Ce n'est pas précisé"
+          ],
+          "answerIndex": 1,
+          "explanation": "Le texte dit : « Je suis du Brésil »."
+        },
+        {
+          "id": "pa7xr2",
+          "prompt": "Pourquoi il est fatigué ?",
+          "options": [
+            "Parce qu'il étudie beaucoup",
+            "Parce qu'il travaille beaucoup",
+            "Parce qu'il ne dort pas"
+          ],
+          "answerIndex": 1,
+          "explanation": "Le texte dit : « Il est fatigué aujourd'hui parce qu'il travaille beaucoup »."
+        },
+        {
+          "id": "pa7xr3",
+          "prompt": "Où sont-ils maintenant ?",
+          "options": [
+            "À la maison",
+            "À la bibliothèque",
+            "Au travail"
+          ],
+          "answerIndex": 1,
+          "explanation": "Le texte dit : « Ils sont à la bibliothèque maintenant »."
+        },
+        {
+          "id": "pa7xr4",
+          "prompt": "Pour quoi étudient-ils à la bibliothèque ?",
+          "options": [
+            "Pour un examen",
+            "Pour une fête",
+            "Pour un voyage"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le texte dit qu'ils étudient « pour l'examen de la semaine prochaine »."
+        }
+      ]
+    },
+    {
+      "id": "pa7x-order",
+      "type": "ordering",
+      "title": "Remets la Phrase en Ordre",
+      "items": [
+        {
+          "id": "pa7xo1",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Nous",
+            "sommes",
+            "étudiants",
+            "de",
+            "français"
+          ],
+          "explanation": "Pronom pluriel + être (nous) + nom + complément."
+        },
+        {
+          "id": "pa7xo2",
+          "prompt": "Remets les mots en ordre.",
+          "words": [
+            "Ils",
+            "sont",
+            "à",
+            "la",
+            "bibliothèque"
+          ],
+          "explanation": "Pronom + être (ils) + complément de lieu."
+        }
+      ]
+    },
+    {
+      "id": "pa7y-correction",
+      "type": "correction",
+      "title": "Corrige les Erreurs",
+      "items": [
+        {
+          "id": "pa7yc1",
+          "incorrect": "Nous est étudiants.",
+          "answer": [
+            "Nous sommes étudiants."
+          ],
+          "explanation": "Nous + être = sommes, pas est (qui est la forme de il/elle)."
+        },
+        {
+          "id": "pa7yc2",
+          "incorrect": "Elle a professeure.",
+          "answer": [
+            "Elle est professeure."
+          ],
+          "explanation": "La profession décrit une identité, pas une possession : on utilise être, pas avoir."
+        }
+      ]
+    },
+    {
+      "id": "pa7y-typing",
+      "type": "typing",
+      "title": "Pratique",
+      "items": [
+        {
+          "id": "pa7yt1",
+          "prompt": "Écris une phrase avec « je suis » sur comment tu te sens aujourd'hui.",
+          "explanation": "Gardé pour ta propre révision — je suis + adjectif décrit un état ou une caractéristique."
+        }
+      ]
+    },
+    {
+      "id": "pa7z-match",
+      "type": "matching",
+      "title": "Associe",
+      "items": [
+        {
+          "id": "pa7zm1",
+          "prompt": "Associe le pronom à sa forme du verbe être.",
+          "pairs": [
+            {
+              "left": "je",
+              "right": "suis"
+            },
+            {
+              "left": "tu",
+              "right": "es"
+            },
+            {
+              "left": "nous",
+              "right": "sommes"
+            },
+            {
+              "left": "ils",
+              "right": "sont"
+            }
+          ],
+          "explanation": "Chaque pronom a sa propre forme du verbe être au présent."
+        }
+      ]
+    },
+    {
+      "id": "pa7z-vocab",
+      "type": "vocabulary",
+      "title": "Vocabulaire",
+      "items": [
+        {
+          "id": "pa7zv1",
+          "prompt": "Quel pronom utiliserais-tu pour parler de toi-même ?",
+          "options": [
+            "Tu",
+            "Je",
+            "Il"
+          ],
+          "answerIndex": 1,
+          "explanation": "Je est le pronom de la première personne du singulier."
+        },
+        {
+          "id": "pa7zv2",
+          "prompt": "Quel pronom correspond à un groupe qui inclut celui qui parle ?",
+          "options": [
+            "Nous",
+            "Ils",
+            "Vous"
+          ],
+          "answerIndex": 0,
+          "explanation": "Nous inclut celui qui parle au sein d'un groupe."
+        },
+        {
+          "id": "pa7zv3",
+          "prompt": "Quelle forme de avoir correspond à « je » ?",
+          "options": [
+            "as",
+            "ai",
+            "a"
+          ],
+          "answerIndex": 1,
+          "explanation": "Je + avoir = j'ai."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Les pronoms sujets (je, tu, il/elle, nous, ils/elles) identifient qui réalise l'action, et sont toujours obligatoires en français.",
+    "Je suis de... exprime l'origine d'une personne ; je suis à/en/au... exprime où elle se trouve en ce moment.",
+    "Une personne peut venir d'un endroit et se trouver dans un autre au même moment — origine et lieu sont deux choses différentes."
+  ]
+}
