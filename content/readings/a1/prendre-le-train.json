@@ -1,0 +1,268 @@
+{
+  "id": "a1-reading-prendre-le-train",
+  "level": "A1",
+  "slug": "prendre-le-train",
+  "order": 4,
+  "topic": "travel",
+  "title": "Prendre le train",
+  "subtitle": "Un billet, un quai, et dix minutes de retard un vendredi soir.",
+  "description": "Un texte de lecture et d'écoute A1 sur un voyage en train en France : acheter un billet, trouver le quai, composter et monter dans le bon wagon.",
+  "source": "authored for this site; no source document",
+  "provenance": "new",
+  "narrator": "male",
+  "grammar": [
+    "present-simple",
+    "near-future"
+  ],
+  "passage": [
+    "C'est vendredi. Il est cinq heures et demie et je suis à la gare de Lyon, à Paris. Je vais à Dijon pour le week-end, chez mon oncle. Il y a beaucoup de monde, parce que le vendredi soir tout le monde part quelque part.",
+    "D'abord, j'achète mon billet. Il y a une longue queue devant le guichet, alors j'utilise une machine. Je choisis la ville, la date et l'heure, je paie avec ma carte, et la machine imprime le billet. Ça prend deux minutes.",
+    "Ensuite, je cherche mon train sur le grand tableau. Mon train part à six heures dix, voie douze. Mais il y a un petit mot à côté : « retard dix minutes ». Alors je vais acheter un sandwich et une bouteille d'eau.",
+    "À six heures, je descends sur le quai. Mon billet dit « voiture 7, place 42 ». La voiture 7 est tout au bout du quai, et je marche vite avec mon sac. Un homme en uniforme regarde mon billet et me dit que c'est le bon train.",
+    "Le train part à six heures vingt. Ma place est près de la fenêtre et il n'y a personne à côté de moi. Dehors, il pleut un peu. J'ouvre mon livre, mais je regarde surtout les champs et les petites gares qui passent.",
+    "J'arrive à Dijon à huit heures moins le quart. Mon oncle attend sur le quai avec son vieux chapeau. Il me dit toujours la même chose : « Alors, le train était à l'heure ? » Et je dis toujours non."
+  ],
+  "vocabulary": [
+    {
+      "term": "une queue",
+      "definition": "la ligne de personnes qui attendent",
+      "match": "queue"
+    },
+    {
+      "term": "le guichet",
+      "definition": "la petite fenêtre où un employé vend les billets"
+    },
+    {
+      "term": "imprimer",
+      "definition": "écrire sur du papier avec une machine",
+      "match": "imprime"
+    },
+    {
+      "term": "la voie",
+      "definition": "l'endroit, dans une gare, où le train s'arrête"
+    },
+    {
+      "term": "le retard",
+      "definition": "quand quelque chose arrive plus tard que l'heure prévue"
+    },
+    {
+      "term": "le quai",
+      "definition": "la plate-forme le long du train, où on attend"
+    },
+    {
+      "term": "au bout de",
+      "definition": "à la fin de, tout à l'extrémité de",
+      "match": "au bout"
+    },
+    {
+      "term": "à l'heure",
+      "definition": "ni en avance ni en retard ; à l'heure exacte"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "a1-train-comp",
+      "type": "reading-comprehension",
+      "title": "Comprendre le texte",
+      "instructions": "Relisez le texte et choisissez la meilleure réponse.",
+      "items": [
+        {
+          "id": "t1",
+          "prompt": "Où est-ce que le narrateur va ?",
+          "options": [
+            "À Dijon",
+            "À Paris",
+            "À Lyon"
+          ],
+          "answerIndex": 0,
+          "explanation": "« Je vais à Dijon pour le week-end, chez mon oncle. »"
+        },
+        {
+          "id": "t2",
+          "prompt": "Pourquoi n'achète-t-il pas son billet au guichet ?",
+          "options": [
+            "Il y a une longue queue",
+            "Le guichet est fermé",
+            "Il n'a pas de carte"
+          ],
+          "answerIndex": 0,
+          "explanation": "« Il y a une longue queue devant le guichet, alors j'utilise une machine. »"
+        },
+        {
+          "id": "t3",
+          "prompt": "À quelle heure le train part-il vraiment ?",
+          "options": [
+            "À six heures vingt",
+            "À six heures dix",
+            "À cinq heures et demie"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le train est prévu à 6 h 10 avec dix minutes de retard : « Le train part à six heures vingt. »"
+        },
+        {
+          "id": "t4",
+          "prompt": "Que fait-il pendant le retard ?",
+          "options": [
+            "Il achète un sandwich et de l'eau",
+            "Il téléphone à son oncle",
+            "Il change de train"
+          ],
+          "answerIndex": 0,
+          "explanation": "« Alors je vais acheter un sandwich et une bouteille d'eau. »"
+        },
+        {
+          "id": "t5",
+          "prompt": "Où est sa place dans le train ?",
+          "options": [
+            "Près de la fenêtre",
+            "Près de la porte",
+            "Au restaurant"
+          ],
+          "answerIndex": 0,
+          "explanation": "« Ma place est près de la fenêtre »"
+        },
+        {
+          "id": "t6",
+          "prompt": "Que demande son oncle à chaque fois ?",
+          "options": [
+            "Si le train était à l'heure",
+            "S'il a mangé",
+            "S'il a son chapeau"
+          ],
+          "answerIndex": 0,
+          "explanation": "« Alors, le train était à l'heure ? »"
+        }
+      ]
+    },
+    {
+      "id": "a1-train-order",
+      "type": "ordering",
+      "title": "Construire la phrase",
+      "instructions": "Remettez les mots dans le bon ordre.",
+      "items": [
+        {
+          "id": "to1",
+          "prompt": "Dites où vous allez.",
+          "words": [
+            "Je",
+            "vais",
+            "à",
+            "Dijon",
+            "pour",
+            "le",
+            "week-end"
+          ]
+        },
+        {
+          "id": "to2",
+          "prompt": "Dites de quelle voie part le train.",
+          "words": [
+            "Mon",
+            "train",
+            "part",
+            "voie",
+            "douze"
+          ]
+        },
+        {
+          "id": "to3",
+          "prompt": "Dites où est votre place.",
+          "words": [
+            "Ma",
+            "place",
+            "est",
+            "près",
+            "de",
+            "la",
+            "fenêtre"
+          ]
+        },
+        {
+          "id": "to4",
+          "prompt": "Demandez si le train est ponctuel.",
+          "words": [
+            "Est-ce",
+            "que",
+            "le",
+            "train",
+            "est",
+            "à",
+            "l'heure"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1-train-vocab",
+      "type": "vocabulary",
+      "title": "Les mots de la gare",
+      "instructions": "Choisissez le mot qui correspond au sens.",
+      "items": [
+        {
+          "id": "tv1",
+          "prompt": "Vingt personnes attendent devant vous : c'est une longue ___.",
+          "options": [
+            "queue",
+            "voie",
+            "place"
+          ],
+          "answerIndex": 0,
+          "explanation": "Une queue est la ligne de personnes qui attendent."
+        },
+        {
+          "id": "tv2",
+          "prompt": "Le train arrive à 18 h 20 au lieu de 18 h 10 : il a dix minutes de ___.",
+          "options": [
+            "retard",
+            "avance",
+            "voie"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le retard, c'est quand on arrive plus tard que prévu."
+        },
+        {
+          "id": "tv3",
+          "prompt": "Vous attendez le train sur le ___.",
+          "options": [
+            "quai",
+            "guichet",
+            "wagon"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le quai est la plate-forme le long du train."
+        },
+        {
+          "id": "tv4",
+          "prompt": "Un employé vend les billets au ___.",
+          "options": [
+            "guichet",
+            "quai",
+            "champ"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le guichet est la fenêtre où on achète les billets."
+        },
+        {
+          "id": "tv5",
+          "prompt": "Le train arrive exactement à l'heure prévue : il est ___.",
+          "options": [
+            "à l'heure",
+            "en retard",
+            "au bout"
+          ],
+          "answerIndex": 0,
+          "explanation": "À l'heure = ni en avance ni en retard."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "Est-ce que vous prenez souvent le train ? Pour aller où ?",
+    "Préférez-vous le train, le bus ou l'avion ? Pourquoi ?",
+    "Est-ce que les trains sont à l'heure dans votre pays ?",
+    "Racontez un voyage où vous êtes arrivé en retard."
+  ],
+  "audio": {
+    "duration_label": "1:30"
+  }
+}

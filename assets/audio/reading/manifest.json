@@ -1,0 +1,26 @@
+{
+ "a1/au-cafe": {
+  "bytes": 624384,
+  "fingerprint": "f23d52425ef1cc1f",
+  "rate": "-15%",
+  "voice": "fr-FR-DeniseNeural"
+ },
+ "a1/ma-famille": {
+  "bytes": 472464,
+  "fingerprint": "192dceca16551161",
+  "rate": "-15%",
+  "voice": "fr-FR-VivienneMultilingualNeural"
+ },
+ "a1/ma-journee": {
+  "bytes": 382896,
+  "fingerprint": "bf0d3590b1753ffa",
+  "rate": "-15%",
+  "voice": "fr-FR-VivienneMultilingualNeural"
+ },
+ "a1/prendre-le-train": {
+  "bytes": 542160,
+  "fingerprint": "2631900b053d493b",
+  "rate": "-15%",
+  "voice": "fr-FR-RemyMultilingualNeural"
+ }
+}

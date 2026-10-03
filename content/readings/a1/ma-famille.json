@@ -1,0 +1,264 @@
+{
+  "id": "a1-reading-ma-famille",
+  "level": "A1",
+  "slug": "ma-famille",
+  "order": 3,
+  "topic": "everyday",
+  "title": "Ma famille",
+  "subtitle": "Quatre personnes, deux villes et un chien qui s'appelle Pilou.",
+  "description": "Un texte de lecture et d'écoute A1 pour présenter sa famille : les personnes, les âges, les métiers et où chacun habite.",
+  "source": "authored for this site; no source document",
+  "provenance": "new",
+  "narrator": "female",
+  "grammar": [
+    "present-simple",
+    "possessives"
+  ],
+  "passage": [
+    "Je m'appelle Léa et j'ai vingt-trois ans. Je suis étudiante à Bordeaux, mais ma famille habite à Nantes. Nous sommes quatre : mon père, ma mère, mon frère et moi. Il y a aussi Pilou, le chien, et tout le monde dit que Pilou est le cinquième.",
+    "Mon père s'appelle Marc. Il a cinquante-deux ans et il est infirmier à l'hôpital. Il travaille souvent la nuit, alors il dort l'après-midi. Il est calme et il parle lentement.",
+    "Ma mère s'appelle Sylvie. Elle a quarante-neuf ans et elle est professeure de mathématiques dans un lycée. Elle adore son travail. Le dimanche, elle fait un gâteau au chocolat, toujours le même, et il est toujours très bon.",
+    "Mon frère Hugo a seize ans. Il est au lycée, lui aussi, mais il n'aime pas les mathématiques. Il joue au football le samedi et il écoute de la musique très fort dans sa chambre. Quand je rentre à Nantes, nous regardons des films ensemble jusqu'à deux heures du matin.",
+    "Je ne vois ma famille qu'une fois par mois, parce que le train coûte cher. Mais nous nous téléphonons le dimanche soir. Ma mère parle dix minutes, mon père parle deux minutes, et Hugo dit « salut » et puis il part.",
+    "Pilou, lui, ne dit rien au téléphone. Mais ma mère met le téléphone près de son oreille, et moi je dis son nom, et elle me dit qu'il remue la queue. Je ne sais pas si c'est vrai."
+  ],
+  "vocabulary": [
+    {
+      "term": "tout le monde",
+      "definition": "toutes les personnes"
+    },
+    {
+      "term": "un infirmier",
+      "definition": "la personne qui soigne les malades à l'hôpital",
+      "match": "infirmier"
+    },
+    {
+      "term": "le lycée",
+      "definition": "l'école des élèves de quinze à dix-huit ans"
+    },
+    {
+      "term": "fort",
+      "definition": "avec beaucoup de bruit"
+    },
+    {
+      "term": "rentrer",
+      "definition": "retourner chez soi — attention : ce n'est pas « entrer »",
+      "match": "rentre"
+    },
+    {
+      "term": "coûter cher",
+      "definition": "demander beaucoup d'argent",
+      "match": "coûte cher"
+    },
+    {
+      "term": "une fois par mois",
+      "definition": "un seul jour dans le mois"
+    },
+    {
+      "term": "remuer la queue",
+      "definition": "bouger la queue — ce que fait un chien content",
+      "match": "remue la queue"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "a1-famille-comp",
+      "type": "reading-comprehension",
+      "title": "Comprendre le texte",
+      "instructions": "Relisez le texte et choisissez la meilleure réponse.",
+      "items": [
+        {
+          "id": "f1",
+          "prompt": "Où est-ce que Léa habite ?",
+          "options": [
+            "À Bordeaux",
+            "À Nantes",
+            "À Paris"
+          ],
+          "answerIndex": 0,
+          "explanation": "« Je suis étudiante à Bordeaux, mais ma famille habite à Nantes. »"
+        },
+        {
+          "id": "f2",
+          "prompt": "Quel est le métier de son père ?",
+          "options": [
+            "Il est infirmier",
+            "Il est professeur",
+            "Il est étudiant"
+          ],
+          "answerIndex": 0,
+          "explanation": "« il est infirmier à l'hôpital »"
+        },
+        {
+          "id": "f3",
+          "prompt": "Pourquoi est-ce que Marc dort l'après-midi ?",
+          "options": [
+            "Parce qu'il travaille la nuit",
+            "Parce qu'il est malade",
+            "Parce qu'il est fatigué du football"
+          ],
+          "answerIndex": 0,
+          "explanation": "« Il travaille souvent la nuit, alors il dort l'après-midi. »"
+        },
+        {
+          "id": "f4",
+          "prompt": "Qu'est-ce que Sylvie fait le dimanche ?",
+          "options": [
+            "Un gâteau au chocolat",
+            "Du football",
+            "Un long voyage"
+          ],
+          "answerIndex": 0,
+          "explanation": "« Le dimanche, elle fait un gâteau au chocolat »"
+        },
+        {
+          "id": "f5",
+          "prompt": "Pourquoi est-ce que Léa ne rentre pas souvent ?",
+          "options": [
+            "Parce que le train coûte cher",
+            "Parce qu'elle travaille le week-end",
+            "Parce qu'elle n'aime pas Nantes"
+          ],
+          "answerIndex": 0,
+          "explanation": "« parce que le train coûte cher »"
+        },
+        {
+          "id": "f6",
+          "prompt": "Qui parle le moins au téléphone ?",
+          "options": [
+            "Hugo",
+            "Sylvie",
+            "Marc"
+          ],
+          "answerIndex": 0,
+          "explanation": "Hugo dit seulement « salut » et puis il part."
+        }
+      ]
+    },
+    {
+      "id": "a1-famille-order",
+      "type": "ordering",
+      "title": "Construire la phrase",
+      "instructions": "Remettez les mots dans le bon ordre.",
+      "items": [
+        {
+          "id": "fo1",
+          "prompt": "Dites votre âge.",
+          "words": [
+            "J'ai",
+            "vingt-trois",
+            "ans"
+          ]
+        },
+        {
+          "id": "fo2",
+          "prompt": "Dites combien vous êtes dans la famille.",
+          "words": [
+            "Nous",
+            "sommes",
+            "quatre",
+            "dans",
+            "ma",
+            "famille"
+          ]
+        },
+        {
+          "id": "fo3",
+          "prompt": "Dites le métier de votre mère.",
+          "words": [
+            "Ma",
+            "mère",
+            "est",
+            "professeure",
+            "de",
+            "mathématiques"
+          ]
+        },
+        {
+          "id": "fo4",
+          "prompt": "Dites quand vous téléphonez.",
+          "words": [
+            "Nous",
+            "nous",
+            "téléphonons",
+            "le",
+            "dimanche",
+            "soir"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1-famille-vocab",
+      "type": "vocabulary",
+      "title": "Les mots de la famille",
+      "instructions": "Choisissez le mot qui correspond au sens.",
+      "items": [
+        {
+          "id": "fv1",
+          "prompt": "La personne qui soigne les malades à l'hôpital est un ___.",
+          "options": [
+            "infirmier",
+            "professeur",
+            "étudiant"
+          ],
+          "answerIndex": 0,
+          "explanation": "Un infirmier soigne les malades."
+        },
+        {
+          "id": "fv2",
+          "prompt": "Le billet est à cent euros : il ___.",
+          "options": [
+            "coûte cher",
+            "est gratuit",
+            "est libre"
+          ],
+          "answerIndex": 0,
+          "explanation": "Coûter cher = demander beaucoup d'argent."
+        },
+        {
+          "id": "fv3",
+          "prompt": "Hugo écoute la musique très ___.",
+          "options": [
+            "fort",
+            "lentement",
+            "tard"
+          ],
+          "answerIndex": 0,
+          "explanation": "Fort = avec beaucoup de bruit."
+        },
+        {
+          "id": "fv4",
+          "prompt": "À six heures, je ___ chez moi.",
+          "options": [
+            "rentre",
+            "sors",
+            "attends"
+          ],
+          "answerIndex": 0,
+          "explanation": "Rentrer = retourner chez soi. Attention : « rentrer » n'est pas « entrer »."
+        },
+        {
+          "id": "fv5",
+          "prompt": "Le chien est content : il ___.",
+          "options": [
+            "remue la queue",
+            "dort l'après-midi",
+            "parle au téléphone"
+          ],
+          "answerIndex": 0,
+          "explanation": "Un chien content remue la queue."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "Combien de personnes est-ce qu'il y a dans votre famille ?",
+    "Quel est le métier de vos parents ?",
+    "Est-ce que vous avez un animal ? Comment s'appelle-t-il ?",
+    "Est-ce que vous téléphonez souvent à votre famille ? Quel jour ?"
+  ],
+  "audio": {
+    "duration_label": "1:19"
+  }
+}

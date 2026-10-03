@@ -11,6 +11,7 @@ Usage:
 """
 import json
 import glob
+import sys
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
@@ -72,6 +73,14 @@ def main():
             "url": f"levels/{slug}/{file_slug}.html",
             "keywords": [lesson.get("strand", ""), lesson.get("skill", "")],
         })
+
+    # The reading library's texts, from the shared course-engine reading
+    # engine. It returns an empty list when no texts are authored yet, so this
+    # is safe regardless of what is in content/readings/.
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    from reading_engine.engine import common as reading_common
+    from reading_engine.engine import search as reading_search
+    entries.extend(reading_search.entries(reading_common.Site()))
 
     entries.extend(STATIC_ENTRIES)
 

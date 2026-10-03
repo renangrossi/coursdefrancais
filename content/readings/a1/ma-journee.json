@@ -1,0 +1,269 @@
+{
+  "id": "a1-reading-ma-journee",
+  "level": "A1",
+  "slug": "ma-journee",
+  "order": 1,
+  "topic": "everyday",
+  "title": "Une journée ordinaire",
+  "subtitle": "Un mardi comme les autres, de cinq heures du matin à dix heures du soir.",
+  "description": "Un texte de lecture et d'écoute A1 qui réunit les heures, les pièces de la maison, les repas et les personnes dans une seule journée ordinaire.",
+  "source": "authored for this site; no source document",
+  "provenance": "new",
+  "narrator": "female",
+  "grammar": [
+    "present-simple"
+  ],
+  "passage": [
+    "Je me lève à cinq heures. Je prends une douche, je fais du café, et je quitte l'appartement à cinq heures et demie. Thomas dort encore : il travaille plus tard que moi. Dehors, la rue est vide et il fait froid, même au mois de mai.",
+    "Je commence le travail à six heures. La première heure est calme. Après, la boulangerie est pleine de monde jusqu'à dix heures. J'aime bien les heures occupées, parce que le temps passe vite.",
+    "À midi et demi, je déjeune. Je mange un sandwich et je m'assieds pendant trente minutes dans la petite cour derrière la boutique.",
+    "Je finis à deux heures et je suis à la maison à trois heures. Je suis fatiguée, mais l'appartement est calme. Je lis sur le canapé vert, ou j'appelle ma mère à Lyon.",
+    "Thomas finit à six heures. Aujourd'hui, c'est mon tour de faire la cuisine, alors nous mangeons du poulet et du riz. Nous dînons ensemble et nous parlons de la journée.",
+    "Après le dîner, nous regardons un film. À dix heures, je vais au lit. Demain, c'est la même chose, et ça me va très bien."
+  ],
+  "vocabulary": [
+    {
+      "term": "se lever",
+      "definition": "sortir du lit le matin",
+      "match": "me lève"
+    },
+    {
+      "term": "quitter",
+      "definition": "partir d'un endroit — attention : ce n'est pas « enlever »"
+    },
+    {
+      "term": "encore",
+      "definition": "toujours maintenant ; pas fini"
+    },
+    {
+      "term": "plein de monde",
+      "definition": "avec beaucoup de personnes"
+    },
+    {
+      "term": "s'asseoir",
+      "definition": "mettre son corps sur une chaise",
+      "match": "m'assieds"
+    },
+    {
+      "term": "fatigué",
+      "definition": "quand on a besoin de repos ou de sommeil",
+      "match": "fatiguée"
+    },
+    {
+      "term": "c'est mon tour",
+      "definition": "c'est le moment où ce travail est pour moi"
+    },
+    {
+      "term": "ça me va",
+      "definition": "ce n'est pas un problème pour moi"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "a1-journee-comp",
+      "type": "reading-comprehension",
+      "title": "Comprendre le texte",
+      "instructions": "Relisez le texte et choisissez la meilleure réponse.",
+      "items": [
+        {
+          "id": "j1",
+          "prompt": "Que fait la narratrice avant de partir ?",
+          "options": [
+            "Elle se lave et fait du café",
+            "Elle prend un grand petit-déjeuner",
+            "Elle regarde un film"
+          ],
+          "answerIndex": 0,
+          "explanation": "« Je prends une douche, je fais du café… »"
+        },
+        {
+          "id": "j2",
+          "prompt": "Pourquoi aime-t-elle les heures occupées ?",
+          "options": [
+            "Parce que le temps passe vite",
+            "Parce qu'elle peut s'asseoir",
+            "Parce que la boulangerie est calme"
+          ],
+          "answerIndex": 0,
+          "explanation": "« J'aime bien les heures occupées, parce que le temps passe vite. »"
+        },
+        {
+          "id": "j3",
+          "prompt": "Combien de temps dure sa pause de midi ?",
+          "options": [
+            "Trente minutes",
+            "Deux heures",
+            "Elle ne s'arrête pas"
+          ],
+          "answerIndex": 0,
+          "explanation": "« je m'assieds pendant trente minutes »"
+        },
+        {
+          "id": "j4",
+          "prompt": "Que fait-elle en rentrant à la maison ?",
+          "options": [
+            "Elle lit ou elle téléphone à sa mère",
+            "Elle nettoie l'appartement",
+            "Elle va au lit"
+          ],
+          "answerIndex": 0,
+          "explanation": "« Je lis sur le canapé vert, ou j'appelle ma mère à Lyon. »"
+        },
+        {
+          "id": "j5",
+          "prompt": "Qui fait la cuisine aujourd'hui ?",
+          "options": [
+            "La narratrice",
+            "Thomas",
+            "Personne — ils sortent"
+          ],
+          "answerIndex": 0,
+          "explanation": "« c'est mon tour de faire la cuisine »"
+        },
+        {
+          "id": "j6",
+          "prompt": "Comment trouve-t-elle ses journées ?",
+          "options": [
+            "Elles lui conviennent",
+            "Elle veut changer de travail",
+            "Elle est triste et s'ennuie"
+          ],
+          "answerIndex": 0,
+          "explanation": "« Demain, c'est la même chose, et ça me va très bien. »"
+        }
+      ]
+    },
+    {
+      "id": "a1-journee-order",
+      "type": "ordering",
+      "title": "Construire la phrase",
+      "instructions": "Remettez les mots dans le bon ordre.",
+      "items": [
+        {
+          "id": "jo1",
+          "prompt": "Dites à quelle heure vous vous levez.",
+          "words": [
+            "Je",
+            "me",
+            "lève",
+            "à",
+            "cinq",
+            "heures"
+          ]
+        },
+        {
+          "id": "jo2",
+          "prompt": "Dites quand vous finissez.",
+          "words": [
+            "Je",
+            "finis",
+            "le",
+            "travail",
+            "à",
+            "deux",
+            "heures"
+          ]
+        },
+        {
+          "id": "jo3",
+          "prompt": "Dites ce que vous faites après le dîner.",
+          "words": [
+            "Après",
+            "le",
+            "dîner",
+            "nous",
+            "regardons",
+            "un",
+            "film"
+          ]
+        },
+        {
+          "id": "jo4",
+          "prompt": "Dites à qui c'est le tour.",
+          "words": [
+            "Aujourd'hui",
+            "c'est",
+            "mon",
+            "tour",
+            "de",
+            "faire",
+            "la",
+            "cuisine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1-journee-vocab",
+      "type": "vocabulary",
+      "title": "Les mots du texte",
+      "instructions": "Choisissez le mot qui correspond au sens.",
+      "items": [
+        {
+          "id": "jv1",
+          "prompt": "Vous avez besoin de dormir. Vous êtes ___.",
+          "options": [
+            "fatigué",
+            "occupé",
+            "calme"
+          ],
+          "answerIndex": 0,
+          "explanation": "On est fatigué quand on a besoin de repos."
+        },
+        {
+          "id": "jv2",
+          "prompt": "Il est neuf heures et Thomas dort ___.",
+          "options": [
+            "encore",
+            "déjà",
+            "tôt"
+          ],
+          "answerIndex": 0,
+          "explanation": "« Encore » veut dire que ça continue maintenant."
+        },
+        {
+          "id": "jv3",
+          "prompt": "Téléphoner à quelqu'un, c'est l'___.",
+          "options": [
+            "appeler",
+            "regarder",
+            "commander"
+          ],
+          "answerIndex": 0,
+          "explanation": "Appeler quelqu'un, c'est lui téléphoner."
+        },
+        {
+          "id": "jv4",
+          "prompt": "La boulangerie est ___ : il y a vingt personnes.",
+          "options": [
+            "pleine de monde",
+            "vide",
+            "fermée"
+          ],
+          "answerIndex": 0,
+          "explanation": "Plein de monde = avec beaucoup de personnes."
+        },
+        {
+          "id": "jv5",
+          "prompt": "Hier, Thomas a fait la cuisine. Aujourd'hui, ___.",
+          "options": [
+            "c'est mon tour",
+            "c'est mon étage",
+            "c'est ma monnaie"
+          ],
+          "answerIndex": 0,
+          "explanation": "C'est mon tour = c'est le moment où ce travail est pour moi."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "À quelle heure vous levez-vous, et à quelle heure allez-vous au lit ?",
+    "Que faites-vous après le travail ?",
+    "Qui fait la cuisine chez vous ?",
+    "Est-ce que toutes vos journées sont les mêmes ? Est-ce que ça vous va ?"
+  ],
+  "audio": {
+    "duration_label": "1:04"
+  }
+}
