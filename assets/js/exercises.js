@@ -242,7 +242,7 @@
         // heading text under the overarching "Test Yourself" label.
         var heading = sectionEl.querySelector("h2, h3");
         var topicTitle = heading ? heading.textContent.trim() : "";
-        parts.push("Ponte a Prueba");
+        parts.push("Teste-toi");
         if (topicTitle) parts.push(topicTitle);
       }
     }
@@ -255,7 +255,7 @@
     if (data.type && data.type !== "writing" && TYPE_LABELS[data.type]) {
       last += TYPE_LABELS[data.type] + " ";
     }
-    last += data.title || "Exercise";
+    last += data.title || "Exercice";
     parts.push(last.trim());
 
     return sanitizeFilename(parts.join(" - "));
@@ -275,7 +275,7 @@
     var parts = buildSavePathParts(container);
     var typeLabel = TYPE_LABELS_TITLE[data.type];
     if (typeLabel) parts.push(typeLabel);
-    parts.push(data.title || "Exercise");
+    parts.push(data.title || "Exercice");
     return parts.join(" - ");
   }
 
@@ -918,7 +918,7 @@
   function buildBlock(container, data) {
     var head = el("div", { class: "exercise-block__head" });
     head.appendChild(el("span", { class: "exercise-block__type", text: TYPE_LABELS_TITLE[data.type] || data.type.replace(/-/g, " ") }));
-    head.appendChild(el("h3", { class: "exercise-block__title", text: data.title || "Ejercicio" }));
+    head.appendChild(el("h3", { class: "exercise-block__title", text: data.title || "Exercice" }));
     if (data.instructions) head.appendChild(el("p", { class: "exercise-block__instructions", text: data.instructions }));
     container.appendChild(head);
 
@@ -1284,7 +1284,7 @@
       }
       return extractor(itemEl, item);
     });
-    return { id: data.id, type: data.type, title: data.title || "Exercise", instructions: data.instructions || "", items: items };
+    return { id: data.id, type: data.type, title: data.title || "Exercice", instructions: data.instructions || "", items: items };
   }
 
   function collectTopicAnswers(topicSection) {
@@ -1344,7 +1344,7 @@
   function buildExerciseSummaryNode(ex) {
     var block = el("div", { class: "exercise-block saved-summary-block" });
     var typeLabel = TYPE_LABELS[ex.type] ? TYPE_LABELS[ex.type] + " — " : "";
-    block.appendChild(el("h3", { class: "exercise-block__title", text: typeLabel + (ex.title || "Exercise") }));
+    block.appendChild(el("h3", { class: "exercise-block__title", text: typeLabel + (ex.title || "Exercice") }));
     if (ex.instructions) block.appendChild(el("p", { class: "exercise-block__instructions", text: ex.instructions }));
     var list = el("div", { class: "saved-summary-list" });
     ex.items.forEach(function (entry) { list.appendChild(buildResultItemNode(entry)); });
