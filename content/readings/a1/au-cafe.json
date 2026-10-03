@@ -1,0 +1,271 @@
+{
+  "id": "a1-reading-au-cafe",
+  "level": "A1",
+  "slug": "au-cafe",
+  "order": 2,
+  "topic": "food",
+  "title": "Au café",
+  "subtitle": "Commander un petit-déjeuner, demander l'addition, et payer sans se tromper.",
+  "description": "Un dialogue de lecture et d'écoute A1 dans un café français : commander, demander le prix, payer et laisser un pourboire.",
+  "source": "authored for this site; no source document",
+  "provenance": "new",
+  "narrator": "female",
+  "grammar": [
+    "present-simple",
+    "questions"
+  ],
+  "passage": [
+    "Il est huit heures du matin. Claire entre dans un café près de la gare. Il y a trois personnes au comptoir et une table libre près de la fenêtre. Elle s'assoit et elle attend. Le serveur arrive avec un carnet et un crayon.",
+    "Le serveur : Bonjour madame. Qu'est-ce que vous prenez ?",
+    "Claire : Bonjour. Un café au lait, s'il vous plaît.",
+    "Le serveur : Très bien. Et avec ça ?",
+    "Claire : Est-ce que vous avez des croissants ?",
+    "Le serveur : Oui, ils sortent du four. Un croissant ?",
+    "Claire : Deux, s'il vous plaît. J'ai très faim.",
+    "Le serveur : Deux croissants et un café au lait. C'est tout ?",
+    "Claire : C'est tout, merci.",
+    "Dix minutes plus tard, le serveur apporte le café et les croissants. Claire mange lentement et elle regarde la rue. Les gens vont au travail. À huit heures et demie, elle appelle le serveur.",
+    "Claire : L'addition, s'il vous plaît.",
+    "Le serveur : Bien sûr. Alors… six euros quarante.",
+    "Claire : Voilà sept euros. Gardez la monnaie.",
+    "Le serveur : Merci beaucoup, madame. Bonne journée !",
+    "Claire sort du café à neuf heures moins vingt. Son train part à neuf heures, et la gare est juste en face."
+  ],
+  "vocabulary": [
+    {
+      "term": "attendre",
+      "definition": "rester quelque part jusqu'à l'arrivée de quelqu'un — attention : ce n'est pas « servir un client »",
+      "match": "attend"
+    },
+    {
+      "term": "le comptoir",
+      "definition": "la longue table où on boit debout, dans un café"
+    },
+    {
+      "term": "avec ça",
+      "definition": "formule du serveur pour demander si vous voulez autre chose"
+    },
+    {
+      "term": "avoir faim",
+      "definition": "avoir besoin de manger",
+      "match": "faim"
+    },
+    {
+      "term": "apporter",
+      "definition": "venir avec quelque chose et le donner",
+      "match": "apporte"
+    },
+    {
+      "term": "l'addition",
+      "definition": "le papier qui dit combien vous devez payer"
+    },
+    {
+      "term": "la monnaie",
+      "definition": "l'argent qu'on vous rend — attention : ce n'est pas la pièce elle-même"
+    },
+    {
+      "term": "en face",
+      "definition": "de l'autre côté de la rue, devant vous"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "a1-cafe-comp",
+      "type": "reading-comprehension",
+      "title": "Comprendre le texte",
+      "instructions": "Relisez le dialogue et choisissez la meilleure réponse.",
+      "items": [
+        {
+          "id": "c1",
+          "prompt": "Où est-ce que Claire s'assoit ?",
+          "options": [
+            "À une table près de la fenêtre",
+            "Au comptoir",
+            "Dehors, sur la terrasse"
+          ],
+          "answerIndex": 0,
+          "explanation": "« une table libre près de la fenêtre. Elle s'assoit »"
+        },
+        {
+          "id": "c2",
+          "prompt": "Combien de croissants est-ce qu'elle commande ?",
+          "options": [
+            "Deux",
+            "Un",
+            "Trois"
+          ],
+          "answerIndex": 0,
+          "explanation": "« Deux, s'il vous plaît. J'ai très faim. »"
+        },
+        {
+          "id": "c3",
+          "prompt": "Pourquoi le serveur dit-il que les croissants sont bons ?",
+          "options": [
+            "Ils sortent du four",
+            "Ils sont gratuits",
+            "Ils sont les derniers"
+          ],
+          "answerIndex": 0,
+          "explanation": "« Oui, ils sortent du four. »"
+        },
+        {
+          "id": "c4",
+          "prompt": "Combien coûte le petit-déjeuner ?",
+          "options": [
+            "Six euros quarante",
+            "Sept euros",
+            "Neuf euros"
+          ],
+          "answerIndex": 0,
+          "explanation": "« Alors… six euros quarante. »"
+        },
+        {
+          "id": "c5",
+          "prompt": "Que veut dire « Gardez la monnaie » ?",
+          "options": [
+            "Le serveur garde la différence",
+            "Claire veut son argent",
+            "Claire paie plus tard"
+          ],
+          "answerIndex": 0,
+          "explanation": "Elle donne sept euros pour six euros quarante et laisse la différence au serveur."
+        },
+        {
+          "id": "c6",
+          "prompt": "Pourquoi est-ce que Claire n'est pas pressée ?",
+          "options": [
+            "La gare est juste en face",
+            "Son train est annulé",
+            "Elle ne travaille pas"
+          ],
+          "answerIndex": 0,
+          "explanation": "« la gare est juste en face. »"
+        }
+      ]
+    },
+    {
+      "id": "a1-cafe-order",
+      "type": "ordering",
+      "title": "Construire la phrase",
+      "instructions": "Remettez les mots dans le bon ordre.",
+      "items": [
+        {
+          "id": "co1",
+          "prompt": "Commandez un café.",
+          "words": [
+            "Un",
+            "café",
+            "au",
+            "lait",
+            "s'il",
+            "vous",
+            "plaît"
+          ]
+        },
+        {
+          "id": "co2",
+          "prompt": "Demandez si le café a des croissants.",
+          "words": [
+            "Est-ce",
+            "que",
+            "vous",
+            "avez",
+            "des",
+            "croissants"
+          ]
+        },
+        {
+          "id": "co3",
+          "prompt": "Demandez à payer.",
+          "words": [
+            "L'addition",
+            "s'il",
+            "vous",
+            "plaît"
+          ]
+        },
+        {
+          "id": "co4",
+          "prompt": "Dites au serveur de garder la différence.",
+          "words": [
+            "Gardez",
+            "la",
+            "monnaie"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1-cafe-vocab",
+      "type": "vocabulary",
+      "title": "Les mots du café",
+      "instructions": "Choisissez le mot qui correspond au sens.",
+      "items": [
+        {
+          "id": "cv1",
+          "prompt": "Vous voulez payer. Vous demandez ___.",
+          "options": [
+            "l'addition",
+            "la monnaie",
+            "le comptoir"
+          ],
+          "answerIndex": 0,
+          "explanation": "L'addition dit combien vous devez payer."
+        },
+        {
+          "id": "cv2",
+          "prompt": "Vous avez besoin de manger. Vous avez ___.",
+          "options": [
+            "faim",
+            "soif",
+            "froid"
+          ],
+          "answerIndex": 0,
+          "explanation": "Avoir faim = avoir besoin de manger."
+        },
+        {
+          "id": "cv3",
+          "prompt": "La gare est ___ du café : vous traversez la rue.",
+          "options": [
+            "en face",
+            "loin",
+            "derrière"
+          ],
+          "answerIndex": 0,
+          "explanation": "En face = de l'autre côté de la rue."
+        },
+        {
+          "id": "cv4",
+          "prompt": "Le serveur ___ le café à votre table.",
+          "options": [
+            "apporte",
+            "attend",
+            "garde"
+          ],
+          "answerIndex": 0,
+          "explanation": "Apporter = venir avec quelque chose et le donner."
+        },
+        {
+          "id": "cv5",
+          "prompt": "Votre ami n'est pas encore là. Vous ___.",
+          "options": [
+            "attendez",
+            "servez",
+            "sortez"
+          ],
+          "answerIndex": 0,
+          "explanation": "Attendre = rester jusqu'à l'arrivée de quelqu'un. Attention : ce n'est pas « atender »."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "Qu'est-ce que vous prenez au petit-déjeuner ?",
+    "Est-ce que vous allez souvent au café ? Avec qui ?",
+    "Dans votre pays, est-ce qu'on laisse un pourboire ?",
+    "Préférez-vous manger au comptoir ou à une table ? Pourquoi ?"
+  ],
+  "audio": {
+    "duration_label": "1:44"
+  }
+}

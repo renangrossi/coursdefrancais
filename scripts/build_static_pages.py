@@ -145,7 +145,7 @@ def build_index():
         ("Grammaire", "index.html#grammaire", "M3 8 4 8v13a1 1 0 0 0 1 1h6", "Temps, formes et règles structurées, organisées par niveau du CECR et reliées à des exercices de pratique.", '<path d="M3 5.5C3 4.7 3.7 4 4.5 4H10a2 2 0 0 1 2 2v14a1.5 1.5 0 0 0-1.5-1.5H4.5A1.5 1.5 0 0 1 3 17V5.5Z"/><path d="M21 5.5c0-.8-.7-1.5-1.5-1.5H14a2 2 0 0 0-2 2v14a1.5 1.5 0 0 1 1.5-1.5h5.5a1.5 1.5 0 0 0 1.5-1.5V5.5Z"/>'),
         ("Vocabulaire", None, None, "Des listes de mots par thème qui grandissent avec la grammaire de chaque niveau, des premiers noms aux collocations plus précises.", '<path d="M4 19V6.5A2.5 2.5 0 0 1 6.5 4H8"/><path d="M4 13h4"/><path d="M14 19V6.5A2.5 2.5 0 0 1 16.5 4H20"/><path d="M14 13h4"/>'),
         ("Exercices", "exercises.html", None, "Pratique supplémentaire de lecture et de vocabulaire, indépendante du niveau, pour n'importe quel moment.", '<path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4Z"/>'),
-        ("Lecture", "exercises.html", None, "Des textes et dialogues de style authentique en français qui mettent en jeu la grammaire et le vocabulaire en contexte.", '<path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2Z"/>'),
+        ("Lecture", "reading/index.html", None, "Des textes et dialogues de style authentique en français, avec l'audio, un glossaire au survol et des exercices.", '<path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2Z"/>'),
         ("Écoute", "exercises.html", None, "Des transcriptions de dialogues et de monologues pour entraîner l'oreille au français parlé de façon naturelle.", '<path d="M3 18v-6a9 9 0 0 1 18 0v6"/><path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3Z"/><path d="M3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3Z"/>'),
         ("Écriture", None, None, "Des activités d'écriture guidée qui grandissent, de phrases isolées à des paragraphes argumentatifs bien structurés.", '<path d="M2 22c4-1 8-3 10-5"/><path d="M22 2c-8 0-16 4-16 14 0 2 2 4 4 4C20 20 22 10 22 2Z"/>'),
         ("Conversation", None, None, "Des sujets de conversation pour pratiquer et débattre à chaque niveau.", '<path d="M12 15a3 3 0 0 0 3-3V6a3 3 0 0 0-6 0v6a3 3 0 0 0 3 3Z"/><path d="M19 11a7 7 0 0 1-14 0"/><path d="M12 18v3"/><path d="M9 21h6"/>'),
@@ -256,10 +256,14 @@ def build_exercises():
             </div>
         </section>""")
 
+    # The reading library builds its own index (scripts/build_reading_index.py,
+    # from the shared course-engine reading engine), so this section only has
+    # to be the way in to it.
     sections.append(f"""<section class="section section--tight" aria-labelledby="ex-more-heading">
         <div class="section__inner">
-            <h2 id="ex-more-heading" class="visually-hidden">Plus à venir</h2>
-            <p style="max-width:56ch;color:var(--color-text-muted);">D'autres textes de lecture, pour A1 et au-delà, arrivent au fur et à mesure que ces niveaux sont publiés. En attendant, retrouve tout le contenu déjà disponible sur la page <a href="levels/pre-a1.html">Pre-A1</a>.</p>
+            <p class="eyebrow">Lecture &amp; écoute</p>
+            <h2 id="ex-more-heading">La bibliothèque de lectures</h2>
+            <p style="max-width:56ch;color:var(--color-text-muted);">Des textes plus longs, chacun avec son enregistrement, un glossaire au survol et ses propres exercices. <a href="reading/index.html">Voir la bibliothèque</a>.</p>
         </div>
     </section>""")
 

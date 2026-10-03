@@ -1,0 +1,81 @@
+{
+  "_site": "coursdefrancais (coursdefrancais)",
+  "_lang": "fr",
+  "LANG": "fr",
+  "SITE_URL": "https://renangrossi.github.io/coursdefrancais",
+  "READING_DIR": "reading",
+  "EXERCISES_PAGE": "exercises.html",
+  "LEVELS_DIR": "levels",
+  "PRINT_BUTTON": "Imprimer / Enregistrer en PDF",
+  "TOC_READING": "Lecture",
+  "TOC_PRACTICE": "Exercices",
+  "TOC_DISCUSSION": "Discussion",
+  "READING_INTRO": "Écoutez l'enregistrement en suivant le texte, puis relisez-le seul. Touchez ou survolez un {TERM} pour en voir le sens.",
+  "READING_INTRO_TERM": "mot surligné",
+  "READING_INTRO_TOOLTIP": "Comme celui-ci — les mots surlignés portent une définition.",
+  "KEY_VOCABULARY": "Vocabulaire essentiel",
+  "PRACTICE_EYEBROW": "Exercices interactifs",
+  "PRACTICE_HEADING": "Exercices",
+  "PRACTICE_BLURB": "Faites chaque exercice, puis cliquez sur <strong>Vérifier</strong> pour voir votre score et l'explication de chaque réponse.",
+  "DISCUSSION_EYEBROW": "Expression orale &amp; écrite",
+  "DISCUSSION_HEADING": "Discussion",
+  "DISCUSSION_BLURB": "Il n'y a pas de bonne réponse ici &mdash; servez-vous en pour parler, ou rédigez une courte réponse à chacune.",
+  "AUDIO_FALLBACK": "Votre navigateur ne peut pas lire cet enregistrement.",
+  "AUDIO_DOWNLOAD": "Télécharger le MP3",
+  "BREADCRUMB_HOME": "Accueil",
+  "BREADCRUMB_READING": "Lectures",
+  "PAGE_TITLE_SUFFIX": "Lecture et écoute {level} — Renan le Professeur",
+  "PRINT_BRAND": "Renan le Professeur, Académie de Français",
+  "VOICES_F": [
+    "fr-FR-DeniseNeural",
+    "fr-FR-VivienneMultilingualNeural"
+  ],
+  "VOICES_M": [
+    "fr-FR-HenriNeural",
+    "fr-FR-RemyMultilingualNeural"
+  ],
+  "LEVEL_RATE": {
+    "pre-a1": "-15%",
+    "a1": "-15%",
+    "a2": "-8%",
+    "b1": "-8%",
+    "b2": "+0%",
+    "c1": "+0%",
+    "c2": "+0%"
+  },
+  "TOPIC_LABELS": {
+    "work": "Travail & carrière",
+    "interviews": "Entretiens d'embauche",
+    "business": "Français des affaires",
+    "travel": "Voyages & lieux",
+    "everyday": "Vie quotidienne",
+    "food": "Cuisine & restaurant",
+    "sports": "Sport",
+    "culture": "Culture & traditions",
+    "tech": "Technologie",
+    "science": "Sciences",
+    "society": "Société",
+    "literature": "Récits & littérature",
+    "review": "Révision",
+    "french-history": "Histoire de France",
+    "world-history": "Histoire du monde"
+  },
+  "LICENCE_LABEL": {
+    "Attribution": "licence libre avec attribution",
+    "OGL 3": "Open Government Licence v3.0"
+  },
+  "_voices": "edge-tts offers only five fr-FR voices, one of which (Eloise) is a child voice -- so the roster is 2+2 adult metropolitan voices rather than the 4+4 the English site uses. fr-CA, fr-BE and fr-CH voices are deliberately excluded: this site teaches metropolitan French and a narrator should not drift dialect between one text and the next.",
+  "INDEX_EYEBROW": "Lecture & écoute",
+  "INDEX_TITLE": "Bibliothèque de lectures",
+  "INDEX_LEDE": "{n} textes avec l'audio, un glossaire au survol et des exercices — du Pre-A1 au C2.",
+  "INDEX_COUNT": "{n} textes",
+  "LEVEL_ORDER": [
+    "pre-a1",
+    "a1",
+    "a2",
+    "b1",
+    "b2",
+    "c1",
+    "c2"
+  ]
+}
